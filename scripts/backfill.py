@@ -40,15 +40,26 @@ def main():
     ap.add_argument("--frozen", default=os.path.join(ROOT, "data", "frozen.json"))
     ap.add_argument("--force", action="store_true",
                     help="recompute a release that already has figures")
-    ap.add_argument("releases", nargs="+", help="release keys, e.g. 9.04 9.05")
+    ap.add_argument("releases", nargs="*",
+                    help="release keys, e.g. 9.04 9.05. With none given, every "
+                         "closed release that has never been measured.")
     a = ap.parse_args()
 
     D = json.load(open(a.frozen))
     REL = D.get("RELEASES") or {}
+
+    # No list given means: whatever is still unmeasured. The job knows which those
+    # are -- it prints them on every run -- so making a person type them in was
+    # asking for a step that gets skipped, mistyped, or lost in a re-run.
+    targets = a.releases or [k for k, v in sorted(REL.items())
+                             if v.get("closed") is None and not v.get("open")]
+    if not targets:
+        print("backfill: every closed release is already measured")
+        return
     mine = [s for s in fj.sprints(a.board) if s.get("startDate")
             and s["name"].upper().startswith(a.team.upper())]
 
-    for rk in a.releases:
+    for rk in targets:
         r = REL.get(rk)
         if not r:
             sys.exit(f"{rk} is not in RELEASES: add its window and sprints first")

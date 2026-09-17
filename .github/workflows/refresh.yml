@@ -12,7 +12,7 @@ on:
         required: false
         default: ''
       backfill:
-        description: 'Compute closed releases from Jira, once (e.g. 9.04 9.05 9.06 9.07)'
+        description: 'Recompute these releases even if already measured (rarely needed)'
         required: false
         default: ''
 
@@ -92,12 +92,13 @@ jobs:
           # A release that closed before this repository existed has never been
           # measured. This reads it back out of Jira, once, and after that it is
           # history like any other frozen period.
-          if [ -n "$BACKFILL" ]; then
-            python3 scripts/backfill.py \
-              --team "$TEAM_KEY" --board "$BOARD_ID" --project "$PROJECT_KEY" \
-              $BACKFILL 2>&1 | tee -a /tmp/run.log
-            [ "${PIPESTATUS[0]}" = "0" ] || { echo "backfill failed"; exit 1; }
-          fi
+          # Runs every time and does nothing once there is nothing left to do:
+          # it measures the closed releases that have never been measured, and
+          # skips the ones that have. No input to remember, no button to press.
+          python3 scripts/backfill.py \
+            --team "$TEAM_KEY" --board "$BOARD_ID" --project "$PROJECT_KEY" \
+            $BACKFILL 2>&1 | tee -a /tmp/run.log
+          [ "${PIPESTATUS[0]}" = "0" ] || { echo "backfill failed"; exit 1; }
           python3 scripts/fetch_jira.py \
             --team "$TEAM_KEY" --board "$BOARD_ID" --project "$PROJECT_KEY" \
             --out data/live.json --month-out data/current.json \
