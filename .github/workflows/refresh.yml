@@ -76,6 +76,8 @@ jobs:
             echo "--- config check -------------------------------------"
             echo "  JIRA_BASE   $JIRA_BASE"
             echo "  board $BOARD_ID / project $PROJECT_KEY / team $TEAM_KEY"
+            echo "  backfill input: ${BACKFILL:-(empty)}"
+            echo "  selfcheck input: ${SELFCHECK:-(empty)}"
             echo "  capacity page $CAPACITY_PAGE / sign-off page $SIGNOFF_PAGE"
             echo "  JIRA_EMAIL  ${#JIRA_EMAIL} characters, after the @: ${JIRA_EMAIL#*@}"
             echo "  JIRA_TOKEN  ${#JIRA_TOKEN} characters"
@@ -120,11 +122,20 @@ jobs:
           git config user.email "actions@github.com"
           # anything other than data/live.json is a real change
           other=$(git status --porcelain -- . ':(exclude)data/live.json' | wc -l)
+          # Another run may have pushed between this one's checkout and here --
+          # the schedule, the external trigger and a manual run all write the same
+          # branch. That is a race to retry, not a failure to report.
+          push_retry () {
+            git push && return 0
+            echo "push rejected, rebasing on the newer commit and retrying"
+            git pull --rebase --autostash origin main || return 1
+            git push
+          }
           if [ "$other" -gt 0 ]; then
             git add -A
             git commit -m "reports: $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
-            exit 0
+            push_retry
+            exit $?
           fi
           # only live.json moved: skip when it is just the timestamp line
           if git diff --quiet -- data/live.json; then
@@ -136,4 +147,4 @@ jobs:
           fi
           git add data/live.json
           git commit -m "live data: $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          push_retry
