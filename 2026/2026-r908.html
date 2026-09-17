@@ -744,16 +744,16 @@ document.querySelectorAll('.repnav a.rp:not(.live)').forEach(a=>{a.addEventListe
  const t=currentTab(); if(t){e.preventDefault();location.href=a.getAttribute('href')+'#t='+t;}});});
 (function(){var h=(location.hash||'').replace(/^#/,'').replace(/^t=/,'');if(h&&!showTab(h,false)){var f=document.querySelector('.tab');if(f)showTab(f.dataset.tab,false);}window.scrollTo(0,0);})();
 Chart.defaults.font.family="'DM Sans', sans-serif";Chart.defaults.font.size=11;
-Chart.defaults.color=__tok('--wf-muted','var(--wf-muted)');
+Chart.defaults.color=__tok('--wf-muted','#626c84');
 Chart.defaults.maintainAspectRatio=false;
 const BLUE='#007CBC',BLUED='#005f91',BLUEL='#65B2D5',GREEN='#4FA800',AMBER='#ED7D31',RED='#d64550',GREY='#c3cdda';
-let gridc=__tok('--grid','var(--grid)');
+let gridc=__tok('--grid','#eef2f8');
 /* A chart is drawn once with the colours it read. When the theme changes it has to
    read them again, so every instance is re-tinted and redrawn in place rather than
    rebuilt -- rebuilding would lose the zoom state and the tooltips. */
 window.__themeRedraw=function(){
   if(!window.Chart||!Chart.instances)return;
-  const mut=__tok('--wf-muted','var(--wf-muted)'), grd=__tok('--grid','var(--grid)');
+  const mut=__tok('--wf-muted','#626c84'), grd=__tok('--grid','#eef2f8');
   Chart.defaults.color=mut; gridc=grd;
   Object.values(Chart.instances).forEach(c=>{
     const sc=(c.options&&c.options.scales)||{};
@@ -821,7 +821,7 @@ const bandRef={id:'bandRef',afterDraw(c){const{ctx,chartArea:{left,right},scales
  ctx.setLineDash([]);ctx.fillStyle='#4FA800';ctx.font='600 10px DM Sans';ctx.textAlign='right';
  ctx.fillText('expected 16-29',right-4,yh-4);ctx.restore();}};
 new Chart(document.getElementById('cBand'),{type:'bar',
- data:{labels:["R9.04", "R9.05", "R9.06", "R9.07"],datasets:[{label:'Items closed',data:[19.0, 23.5, 24.333333333333332, 20.0],backgroundColor:["var(--edge)", "var(--edge)", "var(--edge)", "var(--edge)"],borderRadius:6}]},
+ data:{labels:["R9.04", "R9.05", "R9.06", "R9.07"],datasets:[{label:'Items closed',data:[19.0, 23.5, 24.333333333333332, 20.0],backgroundColor:["#c3cdda", "#c3cdda", "#c3cdda", "#c3cdda"],borderRadius:6}]},
  options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Items closed'}},x:{grid:{display:false}}}},
  plugins:[bandRef]});
 const spillRef={id:'spillRef',afterDraw(c){const{ctx,chartArea:{left,right},scales:{y}}=c;
@@ -844,13 +844,13 @@ new Chart(document.getElementById('bd0'),{type:'line',
  data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "d11", "d12", "d13", "d14", "d15"],datasets:[
   {label:'Total scope',data:[51.0, 51.0, 55.0, 55.0, 55.0, 55.0, 55.0, 55.0, 59.0, 59.0, 59.0, 59.0, 59.0, 59.0, 59.0, 59.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
   {label:'Work still open',data:[51.0, 51.0, 51.0, 48.0, 43.0, 38.0, 38.0, 38.0, 40.0, 40.0, 34.0, 34.0, 34.0, 34.0, 34.0, 25.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[51.0, 47.6, 44.2, 40.8, 37.4, 34.0, 30.6, 27.2, 23.8, 20.4, 17.0, 13.6, 10.2, 6.8, 3.4, 0.0],borderColor:'var(--edge)',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
+  {label:'Ideal from day-1 commitment',data:[51.0, 47.6, 44.2, 40.8, 37.4, 34.0, 30.6, 27.2, 23.8, 20.4, 17.0, 13.6, 10.2, 6.8, 3.4, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
  options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
 new Chart(document.getElementById('bd1'),{type:'line',
  data:{labels:["d0", "d1", "d2"],datasets:[
   {label:'Total scope',data:[30.0, 31.0, 31.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
   {label:'Work still open',data:[25.0, 26.0, 26.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[30.0, 15.0, 0.0],borderColor:'var(--edge)',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
+  {label:'Ideal from day-1 commitment',data:[30.0, 15.0, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
  options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
 /* Sprints tab: newest first, collapsible cards */
 (function(){
