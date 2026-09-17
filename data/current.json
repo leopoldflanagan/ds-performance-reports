@@ -1,1 +1,403 @@
-{}
+{
+ "ym": "9.08",
+ "month": {
+  "slug": "2026-r908",
+  "label": "Release 9.08",
+  "short": "9.08",
+  "n_sprints": 2,
+  "start": "2026-08-31",
+  "end": "2026-09-25",
+  "prev": "",
+  "prev_closed": null,
+  "closed": 20,
+  "discarded": 0,
+  "resolved": 20,
+  "unplanned": 2,
+  "unp_pct": 10.0,
+  "types": [
+   [
+    "Story",
+    20
+   ]
+  ],
+  "sprints": [
+   "DS-Sprint 21-26",
+   "DS-Sprint 22-26"
+  ],
+  "unp_items": [
+   [
+    "DS-733",
+    "[DB Access Request] Grant Deployment SP Control Schema for PaymentArragements Database"
+   ],
+   [
+    "DS-727",
+    "Disable activities in pl_Vantiv_PostIngestion_prod"
+   ]
+  ],
+  "open": true,
+  "day": 17,
+  "days": 26,
+  "status": "risk",
+  "headline": "20 items closed in the first 17 days. Unplanned work at 10.0%.",
+  "notes": [
+   "unplanned work at 10.0%",
+   "cycle time median 13.0d and average 21.5d, both past the healthy band"
+  ]
+ },
+ "SPRINTS": [
+  [
+   "DS-Sprint 21-26",
+   "Aug 31",
+   "Sep 15",
+   30,
+   17,
+   51,
+   59,
+   33,
+   16,
+   [
+    51.0,
+    51.0,
+    51.0,
+    48.0,
+    43.0,
+    38.0,
+    38.0,
+    38.0,
+    40.0,
+    40.0,
+    34.0,
+    34.0,
+    34.0,
+    34.0,
+    34.0,
+    25.0
+   ],
+   [
+    51.0,
+    51.0,
+    55.0,
+    55.0,
+    55.0,
+    55.0,
+    55.0,
+    55.0,
+    59.0,
+    59.0,
+    59.0,
+    59.0,
+    59.0,
+    59.0,
+    59.0,
+    59.0
+   ]
+  ],
+  [
+   "DS-Sprint 22-26",
+   "Sep 16",
+   "Sep 25",
+   21,
+   3,
+   31,
+   31,
+   5,
+   0,
+   [
+    25.0,
+    26.0,
+    26.0
+   ],
+   [
+    30.0,
+    31.0,
+    31.0
+   ]
+  ]
+ ],
+ "SPILL": {
+  "DS-Sprint 21-26": {
+   "done": [
+    17,
+    33
+   ],
+   "open": [
+    12,
+    21
+   ],
+   "out": [
+    1,
+    5
+   ],
+   "in": [
+    0,
+    0
+   ],
+   "in_pct": 0,
+   "in_from": "DS-Sprint 20-26"
+  },
+  "DS-Sprint 22-26": {
+   "done": [
+    3,
+    0
+   ],
+   "open": [
+    18,
+    26
+   ],
+   "out": [
+    0,
+    0
+   ],
+   "in": [
+    9,
+    16
+   ],
+   "in_pct": 52,
+   "in_from": "DS-Sprint 21-26"
+  }
+ },
+ "SPLIT": {
+  "DS-Sprint 21-26": {
+   "react": 1,
+   "plan": 4,
+   "pct": 20
+  },
+  "DS-Sprint 22-26": null
+ },
+ "TIS": {
+  "DS-Sprint 21-26": {
+   "tis": {
+    "Backlog": {
+     "n": 7,
+     "med": 0.0
+    },
+    "Ready for Development": {
+     "n": 20,
+     "med": 13.42
+    },
+    "Closed": {
+     "n": 17,
+     "med": 10.9
+    },
+    "In Development": {
+     "n": 14,
+     "med": 3.6
+    },
+    "Awaiting Review": {
+     "n": 4,
+     "med": 3.99
+    }
+   },
+   "dist": {
+    "Closed": 20,
+    "Ready for Development": 8,
+    "In Development": 2
+   },
+   "stalled": 13,
+   "worst": 13.42,
+   "worstSt": "Ready for Development",
+   "items": 30
+  },
+  "DS-Sprint 22-26": {
+   "tis": {
+    "Ready for Development": {
+     "n": 12,
+     "med": 8.71
+    },
+    "Backlog": {
+     "n": 7,
+     "med": 8.71
+    },
+    "In Development": {
+     "n": 4,
+     "med": 8.68
+    },
+    "Closed": {
+     "n": 3,
+     "med": 8.71
+    }
+   },
+   "dist": {
+    "Ready for Development": 9,
+    "Backlog": 6,
+    "In Development": 3,
+    "Closed": 3
+   },
+   "stalled": 18,
+   "worst": 8.71,
+   "worstSt": "Ready for Development",
+   "items": 21
+  }
+ },
+ "GHOST": {
+  "DS-Sprint 21-26": [
+   51.0,
+   51.0,
+   51.0,
+   48.0,
+   43.0,
+   38.0,
+   38.0,
+   38.0,
+   40.0,
+   40.0,
+   34.0,
+   34.0,
+   34.0,
+   34.0,
+   34.0,
+   25.0
+  ],
+  "DS-Sprint 22-26": [
+   25.0,
+   26.0,
+   26.0
+  ]
+ },
+ "CAP": {
+  "9.08": [
+   20,
+   19,
+   40,
+   3
+  ]
+ },
+ "CYC": {
+  "9.08": {
+   "med": 12.96,
+   "avg": 21.53,
+   "n": 13,
+   "mx": 72.78,
+   "nodev": 7,
+   "base": 20
+  }
+ },
+ "complete": false,
+ "kind": "release",
+ "n_sprints": 2,
+ "CAPACITY": {
+  "DS-Sprint 13-26": {
+   "release": "9.04",
+   "start": "2026-05-11",
+   "end": "2026-05-25",
+   "members": null,
+   "holidays": null,
+   "pto": null,
+   "eff_days": null,
+   "pct": null,
+   "risk": null,
+   "planned": false
+  },
+  "DS-Sprint 15-26": {
+   "release": "9.05",
+   "start": "2026-06-08",
+   "end": "2026-06-22",
+   "members": null,
+   "holidays": null,
+   "pto": null,
+   "eff_days": null,
+   "pct": null,
+   "risk": null,
+   "planned": false
+  },
+  "DS-Sprint 16-26": {
+   "release": "9.06",
+   "start": "2026-06-22",
+   "end": "2026-07-03",
+   "members": null,
+   "holidays": null,
+   "pto": null,
+   "eff_days": null,
+   "pct": null,
+   "risk": null,
+   "planned": false
+  },
+  "DS-Sprint 16-27": {
+   "release": "9.06",
+   "start": "2026-07-06",
+   "end": "2026-07-18",
+   "members": null,
+   "holidays": null,
+   "pto": null,
+   "eff_days": null,
+   "pct": null,
+   "risk": null,
+   "planned": false
+  },
+  "DS-Sprint 18-26": {
+   "release": "9.06",
+   "start": "2026-07-20",
+   "end": "2026-08-02",
+   "members": null,
+   "holidays": null,
+   "pto": null,
+   "eff_days": null,
+   "pct": null,
+   "risk": null,
+   "planned": false
+  },
+  "DS-Sprint 19-26": {
+   "release": "9.07",
+   "start": "2026-08-03",
+   "end": "2026-08-14",
+   "members": null,
+   "holidays": null,
+   "pto": null,
+   "eff_days": null,
+   "pct": null,
+   "risk": null,
+   "planned": false
+  },
+  "DS-Sprint 20-26": {
+   "release": "9.07",
+   "start": "2026-08-27",
+   "end": "2026-08-28",
+   "members": null,
+   "holidays": null,
+   "pto": null,
+   "eff_days": null,
+   "pct": null,
+   "risk": null,
+   "planned": false
+  },
+  "DS-Sprint 21-26": {
+   "release": "9.08",
+   "start": "2026-08-31",
+   "end": "2026-09-11",
+   "members": null,
+   "holidays": null,
+   "pto": null,
+   "eff_days": null,
+   "pct": null,
+   "risk": null,
+   "planned": false
+  },
+  "DS-Sprint 22-26": {
+   "release": "9.08",
+   "start": "2026-09-16",
+   "end": "2026-09-25",
+   "members": null,
+   "holidays": null,
+   "pto": null,
+   "eff_days": null,
+   "pct": null,
+   "risk": null,
+   "planned": false
+  }
+ },
+ "GOALS": {},
+ "ROSTER": [
+  {
+   "name": "Carlos Parra",
+   "role": "Team lead",
+   "status": "Active"
+  },
+  {
+   "name": "Tharika",
+   "role": "Developer",
+   "status": "Active"
+  }
+ ],
+ "CHANGES": [],
+ "CAP_URL": "https://wellfit.atlassian.net/wiki/spaces/EDW/pages/3755671557"
+}

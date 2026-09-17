@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DS Performance Reports</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap');
+:root{
+    --wf-blue:#007CBC; --wf-blue-d:#005f91; --wf-blue-l:#65B2D5; --wf-blue-bg:#e5f2f8;
+    --wf-green:#4FA800; --wf-ink:#32373c; --wf-muted:#626c84; --wf-muted2:#69727d;
+    --line:#e2e8f0; --bg:#f5f8fb; --card:#ffffff;
+    --shadow:0 1px 3px rgba(0,124,188,.05),0 6px 22px rgba(50,55,60,.06);
+    --healthy:#4FA800; --warning:#ED7D31; --risk:#d64550;
+    --healthy-bg:var(--healthy-bg); --warning-bg:var(--warning-bg); --risk-bg:var(--risk-bg);
+    /* surfaces and rules that used to be literals */
+    --card2:#f6f9fd;      /* tiles, table stripes, the inset panels */
+    --card3:#f4f6fa;      /* the flat "no data" blocks */
+    --tint:#fbfcfe;       /* goal boxes, dashed insets */
+    --line2:#f0f3f8;      /* the faint row rule inside tables */
+    --edge:#c3cdda;       /* chart axes, disabled chips, dashed guides */
+    --grid:#eef2f8;       /* chart gridlines and the palest chips */
+    --muted3:#8b95a8;     /* the third level of grey */
+    --muted4:#9aa6b8;     /* and the fourth */
+    --onbrand:#ffffff;    /* text that sits on the brand blue, both themes */
+    --hdr-sub:#cfe7f3;    /* the header's own subdued text */
+    --pillbg:#eef1f6; --pillfg:#5a6577;
+    color-scheme: light;
+  }
+  /* Dark is the same report with the surfaces inverted and the brand kept. The
+     status colours are lifted, not changed: the same green, amber and red read
+     darker on a dark ground, so each gets a touch more light and its tint goes
+     from a pale wash to a deep one. */
+  :root[data-theme="dark"]{
+    --wf-blue:#3aa3dd; --wf-blue-d:#8fd0f2; --wf-blue-l:#4f8db0; --wf-blue-bg:#16394e;
+    --wf-green:#6cc32a; --wf-ink:#e6ebf2; --wf-muted:#a3aec2; --wf-muted2:#939eb2;
+    --line:#2b3546; --bg:#121722; --card:#1a2130;
+    --shadow:0 1px 3px rgba(0,0,0,.35),0 6px 22px rgba(0,0,0,.30);
+    --healthy:#6cc32a; --warning:#f39c3d; --risk:#f0636f;
+    --healthy-bg:#1d3318; --warning-bg:#3a2a17; --risk-bg:#3a1f22;
+    --healthy-fg:#9ade5e; --warning-fg:#f0ab5e; --risk-fg:#ff9aa4;
+    --card2:#212a3b; --card3:#222b3d; --tint:#1e2636;
+    --line2:#252e40; --edge:#3c4759; --grid:#242d3e;
+    --muted3:#8792a6; --muted4:#7b8698;
+    --onbrand:#0d1420; --hdr-sub:#bcd9ea;
+    --pillbg:#26303f; --pillfg:#a3aec2;
+    color-scheme: dark;
+  }
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--wf-ink);line-height:1.55}
+.wrap{max-width:880px;margin:0 auto;padding:0 24px}
+header{background:linear-gradient(135deg,#005f91,#007CBC);color:#fff;padding:46px 0 40px;position:relative;overflow:hidden}
+header::after{content:"";position:absolute;right:-90px;top:-90px;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle,rgba(101,178,213,.35),transparent 70%)}
+.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--wf-blue-l);font-weight:700}
+header h1{font-weight:800;font-size:38px;margin:8px 0 6px;letter-spacing:-.02em}
+header .sub{color:var(--hdr-sub);font-size:15px;max-width:560px}
+main{padding:40px 0 70px}
+.yeartag{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--wf-muted);margin:8px 0 14px}
+.rcard{display:flex;align-items:center;gap:18px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 22px;box-shadow:var(--shadow);margin-bottom:14px;text-decoration:none;color:inherit;transition:.15s}
+.rcard:hover{border-color:var(--wf-blue-l);transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,124,188,.12)}
+.rcard .mo{width:64px;height:64px;border-radius:12px;background:var(--wf-blue-bg);display:flex;flex-direction:column;align-items:center;justify-content:center;flex-shrink:0}
+.rcard .mo .m{font-size:18px;font-weight:800;color:var(--wf-blue-d);line-height:1}
+.rcard .mo .y{font-size:11px;color:var(--wf-muted);font-weight:600;margin-top:2px}
+.rcard .body{flex:1}.rcard .body h3{font-size:18px;font-weight:700;color:var(--wf-blue-d)}
+.rcard .body p{font-size:13.5px;color:var(--wf-muted);margin-top:3px}
+.rcard .arrow{color:var(--wf-blue);font-size:22px;font-weight:700}
+.badge{display:inline-block;font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;margin-left:8px;vertical-align:middle;background:var(--warning-bg);color:var(--warning-fg)}
+footer{border-top:1px solid var(--line);padding:22px 0;color:var(--wf-muted);font-size:12px;text-align:center}
+
+.sprintsec{margin:14px 0 0;padding-top:12px;border-top:1px solid var(--line)}
+.sprintsec>.sk{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--wf-muted);font-weight:700;margin-bottom:7px}
+.tisbar{display:flex;height:26px;border-radius:7px;overflow:hidden;background:var(--grid);margin:4px 0 8px}
+.tisbar span{display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;min-width:2px;
+ border-right:2px solid var(--card);white-space:nowrap;overflow:hidden}
+.tisbar span:last-child{border-right:0}
+.tiskey{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:11.5px;color:var(--wf-muted)}
+.tiskey b{color:var(--wf-text)}
+.tisdot{display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.goalbox{border:1px dashed var(--line);border-radius:10px;padding:11px 13px;background:var(--tint);font-size:13px;color:var(--wf-muted)}
+.goalbox b{color:var(--wf-text)}
+.healthrow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:8px 0 14px}
+.hcell{background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.hcell .hk{font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--wf-muted);font-weight:700}
+.hcell .hv{font-size:23px;font-weight:800;line-height:1.25;color:var(--wf-blue-d)}
+.hcell .hn{font-size:11.5px;color:var(--wf-muted)}
+.activewrap{border:2px solid var(--wf-blue);border-radius:16px;padding:16px;background:linear-gradient(180deg,var(--card2),var(--card) 90px);margin-bottom:22px}
+.activetag{display:inline-flex;align-items:center;gap:6px;font-size:10.5px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;
+ color:#fff;background:var(--wf-blue);padding:4px 10px;border-radius:999px;margin-bottom:10px}
+.bdzoom{position:relative;cursor:zoom-in;border-radius:10px;transition:background .15s;display:block}
+.bdzoom:hover{background:var(--card2)}
+.bdzoom::after{content:"Expand";position:absolute;top:4px;right:6px;font-size:10.5px;font-weight:700;
+ color:var(--wf-blue-d);background:#e5f2f8;border:1px solid #bcdcec;padding:2px 7px;border-radius:999px;opacity:0;transition:opacity .15s}
+.bdzoom:hover::after,.bdzoom:focus-visible::after{opacity:1}
+.lvmodal{position:fixed;inset:0;z-index:200;background:rgba(20,32,44,.68);display:none;align-items:center;justify-content:center;padding:24px}
+.lvmodal.open{display:flex}
+.lvbox{background:var(--card);border-radius:16px;width:min(1000px,96vw);padding:16px 18px 20px;box-shadow:0 18px 60px rgba(0,0,0,.3)}
+.lvhead{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.lvhead h4{font-size:16px;font-weight:700;color:var(--wf-blue-d)}
+.lvclose{border:0;background:var(--grid);color:var(--wf-muted);font-size:20px;line-height:1;width:30px;height:30px;border-radius:9px;cursor:pointer}
+.lvclose:hover{background:var(--line)}
+@media(max-width:760px){.lvmodal{padding:12px}.bdzoom::after{display:none}}
+.agwrap{overflow-x:auto}
+.agtab{width:100%;border-collapse:collapse;font-size:12.5px}
+.agtab th{text-align:left;font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--wf-muted);
+ font-weight:700;padding:0 10px 6px 0;border-bottom:1px solid var(--line);white-space:nowrap}
+.agtab td{padding:7px 10px 7px 0;border-bottom:1px solid var(--grid);vertical-align:middle}
+.agtab tr:last-child td{border-bottom:0}
+.agst{font-weight:600;white-space:nowrap}
+.agnum{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.agsm{color:var(--wf-muted);white-space:nowrap;font-size:11.5px}
+.agbar{min-width:130px;position:relative;white-space:nowrap}
+.agbar i{display:inline-block;height:9px;border-radius:5px;vertical-align:middle;min-width:3px}
+.agbar b{margin-left:7px;font-variant-numeric:tabular-nums}
+@media(max-width:640px){.agsm{display:none}}
+.bh{display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap;margin:6px 0 10px}
+.bh .hero{min-width:150px}
+.bh .hv{font-size:34px;font-weight:800;line-height:1.05;color:var(--wf-blue-d)}
+.bh .hs{font-size:12px;color:var(--wf-muted);margin-top:2px}
+.bhstate{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:800;letter-spacing:.06em;
+ text-transform:uppercase;padding:3px 10px;border-radius:999px;margin-bottom:6px}
+.bhstate .ic{font-size:12px;line-height:1}
+.bh-skinny{background:var(--risk-bg);color:var(--risk-fg)}
+.bh-shape{background:var(--healthy-bg);color:var(--healthy-fg)}
+.bh-fat{background:var(--warning-bg);color:var(--warning-fg)}
+.bhband{flex:1;min-width:240px}
+.bhzones{display:flex;height:12px;border-radius:7px;overflow:hidden;background:var(--grid)}
+.bhzones i{display:block;height:100%;border-right:2px solid var(--card)}
+.bhzones i:last-child{border-right:0}
+.bhmark{position:relative;height:16px;margin-top:-14px}
+.bhmark b{position:absolute;top:0;transform:translateX(-50%);width:3px;height:16px;border-radius:2px;
+ background:var(--wf-ink);box-shadow:0 0 0 2px var(--card)}
+.bhticks{display:flex;justify-content:space-between;font-size:10.5px;color:var(--wf-muted);margin-top:6px}
+.dor{border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-top:10px}
+.dor .drow{display:flex;gap:10px;align-items:baseline;padding:8px 12px;border-bottom:1px solid var(--grid);font-size:12.5px}
+.dor .drow:last-child{border-bottom:0}
+.dor .dn{font-weight:800;min-width:74px;font-variant-numeric:tabular-nums}
+.dor .dwhy{color:var(--wf-muted);font-size:11.5px}
+.dor .ok{color:var(--healthy)}
+.ck{display:flex;gap:14px;align-items:flex-start;padding:11px 14px;border:1px solid var(--line);
+ border-radius:11px;margin-bottom:8px;background:var(--card)}
+.ck .cn{font-size:20px;font-weight:800;min-width:34px;text-align:right;font-variant-numeric:tabular-nums;line-height:1.3}
+.ck .cr{font-weight:700;font-size:14px}
+.ck .cw{font-size:12.5px;color:var(--wf-muted);margin-top:2px}
+.ck .ci{font-size:12px;margin-top:6px}
+.ck .ci a{color:var(--wf-blue-d);text-decoration:none;border-bottom:1px solid #bcdcec}
+.ck-blocking{border-left:4px solid var(--risk)}
+.ck-blocking .cn{color:var(--risk)}
+.ck-debt{border-left:4px solid var(--warning)}
+.ck-debt .cn{color:var(--warning)}
+/* Not a nav item: a status line. It carries its own count, so you can tell from
+   here whether it is worth opening, and it goes green and quiet when it is empty. */
+.adminlink{display:flex;align-items:center;gap:12px;font-size:13.5px;color:var(--wf-muted);
+ text-decoration:none;border:1px solid var(--line);background:var(--card);
+ padding:13px 18px;border-radius:12px;margin-top:22px;transition:.15s;box-shadow:var(--shadow)}
+.adminlink:hover{border-color:var(--wf-blue-l);box-shadow:0 3px 12px rgba(0,124,188,.12)}
+.adminlink b{color:var(--wf-blue-d);font-weight:700;white-space:nowrap}
+.adminlink .fixdot{width:9px;height:9px;border-radius:50%;background:var(--edge);flex:0 0 auto}
+.adminlink.has-risk .fixdot{background:var(--risk)}
+.adminlink.has-warn .fixdot{background:var(--warning)}
+.adminlink.has-none .fixdot{background:var(--healthy)}
+.adminlink .fixn{flex:1;min-width:0}
+.adminlink .fixtop{color:var(--muted3);font-size:12.5px;margin-left:10px}
+.adminlink .fixn .fixb{color:var(--risk);font-weight:700}
+.adminlink .fixar{color:var(--wf-blue);font-size:18px;font-weight:700;flex:0 0 auto}
+@media(max-width:560px){
+ .adminlink{align-items:flex-start;flex-wrap:wrap;gap:8px;font-size:12.5px}
+ .adminlink .fixn{flex:1 0 100%}
+ .adminlink .fixtop{display:block;margin:4px 0 0}
+ .adminlink .fixar{margin-left:auto}
+}
+
+/* The index had no layout for a phone. Four stat tiles at 1fr each cannot fit in
+   390px, so the page grew a horizontal scrollbar and the header ran off the edge. */
+@media(max-width:700px){
+ .wrap{padding:0 16px}
+ header{padding:34px 0 30px}
+ header h1{font-size:28px}
+ header .sub{font-size:14px}
+ .healthrow{grid-template-columns:repeat(2,1fr)}
+ .rcard{gap:13px;padding:15px 16px}
+ .rcard .mo{width:52px;height:52px}
+ .rcard .body h3{font-size:16px}
+ .bh{gap:12px}
+ .bh .hero{min-width:0}
+ .bhband{min-width:100%}
+ .ck{gap:10px;padding:10px 12px}
+ .ck .cn{min-width:28px;font-size:17px}
+}
+@media(max-width:430px){
+ .healthrow{grid-template-columns:1fr}
+ .hcell .hv{font-size:20px}
+ .rcard .body p{font-size:12.5px}
+}
+
+.liverow{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:4px}
+.fresh{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:600;padding:5px 11px;
+ border-radius:999px;white-space:nowrap}
+.fresh i{width:7px;height:7px;border-radius:50%;display:block}
+.fresh b{font-weight:700}
+.fresh-ok{background:var(--healthy-bg);color:var(--healthy-fg)}      .fresh-ok i{background:var(--healthy)}
+.fresh-warn{background:var(--warning-bg);color:var(--warning-fg)}    .fresh-warn i{background:var(--warning)}
+.fresh-bad{background:var(--risk-bg);color:var(--risk-fg)}     .fresh-bad i{background:var(--risk)}
+.fresh-wait{background:var(--grid);color:var(--pillfg)}    .fresh-wait i{background:var(--muted4)}
+/* This was a 13px underlined link at the foot of the card, and it was the only way
+   into the sprint page. It is the most-used destination on the site, so it looks
+   like a destination now. */
+.fulllink{display:inline-flex;align-items:center;gap:9px;margin-top:16px;font-size:14.5px;
+ font-weight:700;color:#fff;background:var(--wf-blue);text-decoration:none;
+ padding:11px 20px;border-radius:11px;box-shadow:0 1px 3px rgba(0,124,188,.28);transition:.15s}
+.fulllink:hover{background:var(--wf-blue-d);box-shadow:0 3px 10px rgba(0,124,188,.28)}
+.fulllink .ar{font-size:16px;line-height:1}
+@media(max-width:430px){.fresh{font-size:11px;padding:4px 9px}}
+.projline{margin:2px 0 6px;font-size:14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.projpill{font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;
+ padding:3px 9px;border-radius:999px}
+
+ /* Theme + language switch. Sits in the header, top right, on every page. */
+ .prefs{position:absolute;top:18px;right:24px;display:flex;gap:8px;z-index:5}
+ .prefbtn{appearance:none;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.12);
+   color:#fff;font-family:'DM Sans';font-size:12px;font-weight:700;letter-spacing:.04em;
+   padding:6px 12px;border-radius:999px;cursor:pointer;transition:.15s;display:inline-flex;
+   align-items:center;gap:6px;backdrop-filter:blur(6px)}
+ .prefbtn:hover{background:rgba(255,255,255,.24);border-color:rgba(255,255,255,.6)}
+ @media(max-width:700px){.prefs{top:12px;right:16px}.prefbtn{padding:5px 10px;font-size:11px}}
+</style></head>
+<body>
+<script>
+/* Theme switch. The report is one token set; dark is those tokens redefined, so the
+   only thing this does is set an attribute and remember the choice. It follows the
+   operating system until somebody chooses, and then it stops following it -- a person
+   who picked light at 9pm meant it. */
+(function () {
+  var KEY = 'edwTheme';
+  var root = document.documentElement;
+  function stored() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function sysDark() {
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+  function apply(t, save) {
+    root.setAttribute('data-theme', t);
+    if (save) { try { localStorage.setItem(KEY, t); } catch (e) {} }
+    var b = document.getElementById('themebtn');
+    if (b) {
+      b.innerHTML = (t === 'dark' ? '\u2600\ufe0e Light' : '\u263D\ufe0e Dark');
+      b.setAttribute('aria-label', t === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
+    }
+    // charts and hand-drawn SVG read the tokens once, so they are told to redraw
+    if (window.__themeRedraw) { try { window.__themeRedraw(); } catch (e) {} }
+  }
+  apply(stored() || (sysDark() ? 'dark' : 'light'), false);
+  if (window.matchMedia) {
+    var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    var onSys = function (e) { if (!stored()) apply(e.matches ? 'dark' : 'light', false); };
+    if (mq.addEventListener) mq.addEventListener('change', onSys);
+  }
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('#themebtn');
+    if (!b) return;
+    apply(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark', true);
+  });
+  // tokens, for anything that draws rather than styles
+  window.__tok = function (name, fallback) {
+    var v = getComputedStyle(root).getPropertyValue(name);
+    return (v && v.trim()) || fallback;
+  };
+})();
+</script>
+<header><div class="wrap"><div class="prefs"><button class="prefbtn" id="themebtn" type="button">&#9789;&#65038; Dark</button></div><div class="eyebrow">Database Services</div><h1>DS Performance Reports</h1>
+<div class="sub">Delivery flow health per release — Cycle Time, Throughput, WIP and Planned vs Unplanned — plus the sprint metrics behind each one, rebuilt from Jira: day-1 commitment, scope change, what was delivered and what left the sprint. Monthly reports are the closed series from before reporting moved to the release calendar. Quarter reports carry the baselines.</div></div></header>
+<main><div class="wrap">
+<div id="livepanel"></div>
+<div class="yeartag">2026 · Release Reports</div>
+<p style="font-size:13px;color:var(--wf-muted);margin:-6px 0 14px">One report per release, covering the sprints that fed it. This is the current series.</p>
+<a class="rcard" href="2026/2026-r908.html">
+<div class="mo"><span class="m">9.08</span><span class="y">2026</span></div>
+<div class="body"><h3>Release 9.08 Performance Report <span class="badge" style="background:var(--grid);color:var(--pillfg)">In progress</span><span class="badge" style="background:var(--grid);color:var(--pillfg)">Pending sign-off</span></h3>
+<p>Sprints 21 and 22 · 2026-08-31 to 2026-09-25 · 20 closed, 10.0 per sprint</p></div>
+<div class="arrow">&rarr;</div></a>
+<a class="adminlink" id="fixlink" href="admin.html"><i class="fixdot"></i><b>What to fix in Jira</b><span class="fixn">Counting&hellip;</span><span class="fixar">&rarr;</span></a>
+</div></main>
+<footer>DS Performance Reports · Database Services · Wellfit</footer>
+<script>window.__LIVE_MODE__="compact";</script>
+<script>
+/* Live panel — reads data/live.json, written by the scheduled Action.
+   Everything else on the site stays static. If the file is missing or stale,
+   the panel says so instead of showing nothing.
+
+   Two rules this file exists to keep:
+     1. one number for "how far in are we" — day N of M, everywhere;
+     2. nothing that is not knowable yet gets a value. A sprint on day 2 has
+        no spillover and no verdict, so it shows neither. */
+(function () {
+  var host = document.getElementById('livepanel');
+  if (!host) return;
+  // One script, two pages. The index shows a card you can read in five seconds;
+  // sprint.html shows everything. Duplicating the rendering would guarantee the
+  // two drift apart, which is exactly what a summary must never do.
+  var FULL = (window.__LIVE_MODE__ === 'full');
+
+  var STCOL = {
+    'Ready for Development': '#65B2D5', 'In Development': '#007CBC',
+    'Awaiting Review': '#ED7D31', 'Backlog': '#c3cdda', 'To Do': '#c3cdda',
+    'Closed': '#4FA800', "Won't Do": '#9aa6b8'
+  };
+  var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+  var esc = function (s) {
+    return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  };
+  var day = function (iso) {                    // "2026-09-14" -> "Sep 14"
+    if (!iso) return '';
+    var p = String(iso).slice(0, 10).split('-');
+    return p.length === 3 ? MON[+p[1] - 1] + ' ' + (+p[2]) : esc(iso);
+  };
+  var ago = function (iso) {
+    var m = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+    if (!isFinite(m)) return '';
+    if (m < 2) return 'less than a minute ago';
+    if (m < 60) return m + ' min ago';
+    var h = Math.round(m / 60);
+    return h < 24 ? h + 'h ago' : Math.round(h / 24) + 'd ago';
+  };
+  var clock = function (iso) {                  // "22:32 UTC" from the ISO stamp
+    var t = String(iso || '').slice(11, 16);
+    return t ? t + ' UTC' : '';
+  };
+
+  /* The old line at the foot said "updated 18 min ago" in body text, which is easy
+     to miss and says nothing about whether that is fine. This states the verdict
+     first and the time second. */
+  function freshness(iso) {
+    if (!iso || iso.slice(0, 4) === '1970') {
+      return '<span class="fresh fresh-wait"><i></i>Waiting for the first refresh</span>';
+    }
+    var mins = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+    var d = new Date(iso);
+    var when = d.toLocaleString(undefined, { month: 'short', day: 'numeric',
+                                             hour: 'numeric', minute: '2-digit' });
+    var cls = mins > 90 ? 'fresh-bad' : (mins > 45 ? 'fresh-warn' : 'fresh-ok');
+    var say = mins > 90 ? 'Data may be stale' : (mins > 45 ? 'Refresh running late' : 'Data up to date');
+    return '<span class="fresh ' + cls + '" title="Last refresh ' + esc(iso) + '"><i></i>' +
+      say + ' <b>&middot; ' + esc(when) + '</b></span>';
+  }
+
+  function tile(k, v, n, col) {
+    return '<div class="hcell"><div class="hk">' + k + '</div>' +
+      '<div class="hv"' + (col ? ' style="color:' + col + '"' : '') + '>' + v + '</div>' +
+      '<div class="hn">' + n + '</div></div>';
+  }
+
+  function bar(dist, nohead) {
+    var tot = 0, k;
+    for (k in dist) tot += dist[k];
+    if (!tot) return '';
+    var pairs = Object.keys(dist).map(function (s) { return [s, dist[s]]; })
+      .sort(function (a, b) { return b[1] - a[1]; });
+    var bars = '', keys = '';
+    pairs.forEach(function (p) {
+      var pct = 100 * p[1] / tot, col = STCOL[p[0]] || '#c3cdda';
+      bars += '<span style="width:' + pct.toFixed(1) + '%;background:' + col + '">' +
+        (pct > 7 ? p[1] : '') + '</span>';
+      keys += '<span><i class="tisdot" style="background:' + col + '"></i>' +
+        esc(p[0]) + ' <b>' + p[1] + '</b></span>';
+    });
+    return '<div class="sprintsec">' +
+      (nohead ? '' : '<div class="sk">Work distribution &middot; ' + tot + ' items</div>') +
+      '<div class="tisbar">' + bars + '</div>' +
+      '<div class="tiskey">' + keys + '</div></div>';
+  }
+
+  /* The burndown is drawn across the WHOLE sprint, not across the days that have
+     happened. Stretching three days over the full width is what made it look like
+     a broken chart: the line ended at the right edge as if the sprint were over. */
+  function burndown(s, big, nohead) {
+    var burn = s.burn, scope = s.scope;
+    if (!burn || burn.length < 2) return '';
+    var days  = s.days || (burn.length - 1);
+    var slots = days;                                  // day 0 .. day `days`
+    // on the page the chart scales with the width, so on a phone a 640x210 box
+    // would draw a 100px-tall chart. A taller box keeps it readable there.
+    var narrow = (window.innerWidth || 1000) < 640;
+    var W = 640, H = big ? 360 : (nohead && narrow ? 330 : 210), L = 34, R = 12, T = 14, B = 34;
+    var hi = Math.max.apply(null, (scope || []).concat(burn)) || 1;
+    hi = Math.ceil(hi / 10) * 10 || 10;
+    // pick a tick count that divides the top of the scale, so the axis reads
+    // 0-10-20-30-40-50 instead of 0-13-25-38-50
+    var ticks = 4, tk;
+    for (tk = 0; tk < 4; tk++) { var c = [5, 4, 6, 3][tk]; if (hi % c === 0) { ticks = c; break; } }
+    var step = (W - L - R) / slots;
+    var X = function (i) { return L + i * step; };
+    var Y = function (v) { return T + (H - T - B) * (1 - v / hi); };
+    var path = function (arr) {
+      return arr.map(function (v, i) {
+        return (i ? 'L' : 'M') + X(i).toFixed(1) + ',' + Y(v).toFixed(1);
+      }).join(' ');
+    };
+    var grid = '', lab = '', g;
+    for (g = 0; g <= ticks; g++) {
+      var v = hi * g / ticks, y = Y(v).toFixed(1);
+      grid += '<line x1="' + L + '" y1="' + y + '" x2="' + (W - R) + '" y2="' + y +
+        '" style="stroke:var(--line)" stroke-width="1"/>';
+      lab += '<text x="' + (L - 6) + '" y="' + (+y + 3.5) +
+        '" text-anchor="end" font-size="10" style="fill:var(--wf-muted)">' + Math.round(v) + '</text>';
+    }
+    var todayX = X(burn.length - 1);
+    var area = (scope && scope.length)
+      ? '<path d="' + path(scope) + ' L' + todayX.toFixed(1) + ',' + Y(0) +
+        ' L' + X(0).toFixed(1) + ',' + Y(0) + ' Z" style="fill:color-mix(in srgb, var(--edge) 28%, transparent)"/>' : '';
+    var ideal = 'M' + X(0).toFixed(1) + ',' + Y(burn[0]).toFixed(1) +
+                ' L' + X(slots).toFixed(1) + ',' + Y(0).toFixed(1);
+
+    return (big ? '<div>' : '<div class="sprintsec">') +
+      (big || nohead ? '' : '<div class="sk">Burndown &middot; story points remaining ' +
+        '&middot; day ' + (s.day || burn.length) + ' of ' + days + '</div>') +
+      (big ? '' : '<div class="bdzoom" role="button" tabindex="0" ' +
+        'aria-label="Open the burndown full size">') +
+      '<svg viewBox="0 0 ' + W + ' ' + H + '" style="width:100%;height:' +
+      (big ? 'min(62vh,420px)' : (nohead ? 'auto' : '210px')) + '" ' +
+      'role="img" aria-label="Sprint burndown, story points remaining by day">' +
+      grid + lab + area +
+      '<path d="' + ideal + '" style="stroke:var(--edge)" stroke-dasharray="5 4" stroke-width="2" fill="none"/>' +
+      (scope && scope.length ? '<path d="' + path(scope) +
+        '" style="stroke:var(--muted4)" stroke-width="2" fill="none"/>' : '') +
+      '<path d="' + path(burn) + '" stroke="#007CBC" stroke-width="3" fill="none" stroke-linejoin="round"/>' +
+      '<line x1="' + todayX.toFixed(1) + '" y1="' + T + '" x2="' + todayX.toFixed(1) +
+      '" y2="' + Y(0) + '" stroke="#ED7D31" stroke-width="1" stroke-dasharray="3 3"/>' +
+      '<text x="' + (todayX + 4).toFixed(1) + '" y="' + (T + 9) +
+      '" font-size="10" fill="#ED7D31" font-weight="700">today</text>' +
+      '<line x1="' + L + '" y1="' + Y(0) + '" x2="' + (W - R) + '" y2="' + Y(0) +
+      '" style="stroke:var(--edge)" stroke-width="1"/>' +
+      '<text x="' + L + '" y="' + (H - 12) + '" font-size="10" style="fill:var(--wf-muted)">' + day(s.start) + '</text>' +
+      '<text x="' + (W - R) + '" y="' + (H - 12) +
+      '" text-anchor="end" font-size="10" style="fill:var(--wf-muted)">' + day(s.end) + '</text>' +
+      '</svg>' + (big ? '' : '</div>') +
+      '<div class="tiskey" style="margin-top:2px">' +
+      '<span><i class="tisdot" style="background:#007CBC"></i>Remaining</span>' +
+      '<span><i class="tisdot" style="background:var(--muted4)"></i>Total scope</span>' +
+      '<span><i class="tisdot" style="background:var(--edge)"></i>Ideal burn</span>' +
+      '</div></div>';
+  }
+
+  /* Same chart, full size, in the same modal shape the release reports use. */
+  function wireZoom(s) {
+    var hook = host.querySelector('.bdzoom');
+    if (!hook) return;
+    var m = document.createElement('div');
+    m.className = 'lvmodal';
+    m.innerHTML = '<div class="lvbox"><div class="lvhead"><h4></h4>' +
+      '<button class="lvclose" aria-label="Close">&times;</button></div>' +
+      '<div class="lvbody"></div></div>';
+    document.body.appendChild(m);
+    m.querySelector('h4').textContent = s.name + ' — burndown, day ' +
+      (s.day || '?') + ' of ' + (s.days || '?');
+    m.querySelector('.lvbody').innerHTML = burndown(s, true);
+    function close() { m.classList.remove('open'); }
+    function open()  { m.classList.add('open'); }
+    hook.addEventListener('click', open);
+    hook.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+    });
+    m.addEventListener('click', function (e) { if (e.target === m) close(); });
+    m.querySelector('.lvclose').addEventListener('click', close);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+  }
+
+  /* Where work is piling up, and how fast each step clears.
+     Two different numbers on purpose: a status can clear in a day and still be
+     the bottleneck if fifteen items are queued behind it. */
+  function agingBlock(a) {
+    if (!a || !a.rows || !a.rows.length) return '';
+    var top = Math.max.apply(null, a.rows.map(function (r) { return r.open; })) || 1;
+    var rows = a.rows.map(function (r) {
+      var stuck = r.over > 0;
+      if (!r.open) {
+        return '<tr style="opacity:.6"><td class="agst">' + esc(r.status) + '</td>' +
+          '<td class="agbar"><b>0</b></td><td class="agnum">&mdash;</td>' +
+          '<td class="agnum">&mdash;</td><td class="agsm">nothing waiting</td>' +
+          '<td class="agnum">' + (r.clear_med == null ? '&mdash;' : r.clear_med + 'd') + '</td></tr>';
+      }
+      var col   = STCOL[r.status] || '#65B2D5';
+      return '<tr>' +
+        '<td class="agst">' + esc(r.status) + '</td>' +
+        '<td class="agbar"><i style="width:' + (72 * r.open / top).toFixed(1) +
+          '%;background:' + col + '"></i><b>' + r.open + '</b></td>' +
+        '<td class="agnum"' + (stuck ? ' style="color:#c0392b;font-weight:800"' : '') + '>' +
+          r.med_age + 'd</td>' +
+        '<td class="agnum">' + (r.over || '&mdash;') + '</td>' +
+        '<td class="agsm">' + esc(r.worst_key) + ' &middot; ' + r.max_age + 'd</td>' +
+        '<td class="agnum">' + (r.clear_med == null ? '&mdash;' : r.clear_med + 'd') + '</td>' +
+      '</tr>';
+    }).join('');
+
+    var lead = a.worst
+      ? 'Most of the waiting is in <b>' + esc(a.worst) + '</b>.'
+      : 'Nothing is queued in the workflow right now.';
+
+    return '<div class="sprintsec"><div class="sk">Workflow aging &middot; ' +
+      a.open_total + ' items open' +
+      (a.stale ? ' &middot; ' + a.stale + ' sitting ' + a.stale_days + '+ days' : '') +
+      '</div>' +
+      '<div class="secsub" style="font-size:12.5px;margin:-2px 0 8px">' + lead +
+      ' <b>Waiting</b> is how long the items sitting there now have been there; ' +
+      '<b>clears in</b> is how long items took to get through that step over the ' +
+      'last ' + a.window_days + ' days. A short clear time with a tall bar is a ' +
+      'queue, not a slow step.' +
+      (a.parked && Object.keys(a.parked).length
+        ? ' Not counted here: ' + Object.keys(a.parked).map(function (k) {
+            return a.parked[k] + ' in ' + esc(k);
+          }).join(', ') + ' — those are backlog layers, not steps in the flow.'
+        : '') +
+      '</div>' +
+      '<div class="agwrap"><table class="agtab"><thead><tr>' +
+      '<th>Status</th><th>Open</th><th>Waiting (median)</th><th>' + a.stale_days +
+      'd+</th><th>Oldest</th><th>Clears in</th>' +
+      '</tr></thead><tbody>' + rows + '</tbody></table></div></div>';
+  }
+
+
+  /* Where the sprint lands. A range, because the spread between past sprints is the
+     uncertainty and a single number would hide it. */
+  function projBlock(pr, compact) {
+    if (!pr) return '';
+    if (pr.too_early) {
+      return compact ? '' :
+        '<div class="goalbox" style="margin-top:12px"><b>Too early to project.</b> ' +
+        esc(pr.why) + '.</div>';
+    }
+    var cls = pr.pct >= 95 ? 'bh-shape' : (pr.pct >= 80 ? 'bh-fat' : 'bh-skinny');
+    if (compact) {
+      return '<div class="projline"><b>Projected close ' + pr.lo + '&ndash;' + pr.hi +
+        ' pts</b> <span class="projpill ' + cls + '">' + pr.pct + '% of the ' +
+        pr.committed + ' committed</span></div>';
+    }
+    return '<div class="sprintsec"><div class="sk">Projected close</div>' +
+      '<div class="bh"><div class="hero">' +
+        '<div class="bhstate ' + cls + '">' + esc(pr.verdict || '') + '</div>' +
+        '<div class="hv">' + pr.lo + ' &ndash; ' + pr.hi +
+          ' <span style="font-size:15px;font-weight:600">pts</span></div>' +
+        '<div class="hs">most likely <b>' + pr.mid + '</b>' +
+          (pr.pct != null ? ' &middot; ' + pr.pct + '% of the ' + pr.committed + ' committed' : '') +
+        '</div></div>' +
+        '<div class="bhband"><div class="hs">Built from where the team&rsquo;s last ' + pr.n +
+        ' sprints stood at this same point of the way through &mdash; day ' + pr.day + ' of ' +
+        pr.days + '. At that point they had finished a median of ' +
+        Math.round(pr.share_mid * 100) + '% of what they would finish in total, and ' +
+        pr.done_now + ' pts are done here.</div>' +
+        '<div class="hs" style="margin-top:6px">The range is the spread between those ' +
+        'sprints, not a margin of error: it is how differently this team has finished ' +
+        'from the same position before.</div></div>' +
+      '</div></div>';
+  }
+
+  // A card on the index, a report page on sprint.html. Same numbers, same code;
+  // only the arrangement differs, so the two can never disagree.
+  function card(title, note, body) {
+    if (!body) return '';
+    return '<div class="cmpcard"><div class="sectit" style="font-size:19px">' + title + '</div>' +
+      (note ? '<div class="secsub" style="margin-bottom:14px">' + note + '</div>'
+            : '<div style="height:8px"></div>') +
+      '<div class="cardbody">' + body + '</div></div>';
+  }
+
+  function headline(d, s, live) {
+    var tag = live
+      ? '<span class="activetag">&#9679; Active sprint</span>'
+      : (d.kind === 'recent'
+        ? '<span class="activetag" style="background:var(--wf-muted)">Most recent sprint</span>'
+        : '<span class="activetag" style="background:var(--wf-muted)">No sprint open</span>');
+    return tag + freshness(d.generated);
+  }
+
+  function sprintTitle(s, live, big) {
+    // the sprint being reported on is the headline, not the one after it
+    return '<div style="font-size:' + (big ? 26 : 22) + 'px;font-weight:800;color:' +
+      (big ? '#fff' : 'var(--wf-blue-d)') + ';line-height:1.2">' + esc(s.name) + '</div>' +
+      '<div class="secsub" style="margin:2px 0 0;font-size:13px;color:' +
+      (big ? '#cfe7f3' : 'var(--wf-muted)') + '">' +
+      day(s.start) + ' &rarr; ' + day(s.end) +
+      (s.day ? ' &middot; <b>day ' + s.day + ' of ' + s.days + '</b>' : '') +
+      // planned capacity, from the page the Scrum Master fills at planning
+      (s.capacity && s.capacity.members
+        ? ' &middot; ' + s.capacity.members + ' people' +
+          (s.capacity.pct != null ? ' &middot; capacity ' + s.capacity.pct + '%' : '') +
+          (s.capacity.pto ? ' (' + s.capacity.pto + 'd PTO)' : '') +
+          (s.capacity.holidays ? ' (' + s.capacity.holidays + ' holiday' +
+            (s.capacity.holidays > 1 ? 's' : '') + ')' : '')
+        : '') +
+      (live ? '' : ' &middot; closed') + '</div>';
+  }
+
+  function tiles(s, live) {
+    var pace = (s.day && s.days) ? Math.round(100 * s.day / s.days) : null;
+    var openPts = Math.round((s.spill ? s.spill.open_pts + s.spill.out_pts : 0));
+    var openIt  = s.spill ? s.spill.open_items + s.spill.out_items : 0;
+    return '<div class="healthrow">' +
+      tile('Work complete', (s.vs_commitment == null ? '&mdash;' : s.vs_commitment + '%'),
+        s.completed + ' of ' + s.committed + ' pts committed') +
+      tile('Sprint elapsed', (s.day ? 'Day ' + s.day : '&mdash;'),
+        (s.days ? 'of ' + s.days + (pace == null ? '' : ' &middot; ' + pace + '% of the sprint') : '')) +
+      tile('Scope change', (s.scope_change == null ? '&mdash;' : '+' + s.scope_change + '%'),
+        s.committed + ' &rarr; ' + s.final + ' pts',
+        s.scope_change ? 'var(--warning)' : null) +
+      (live
+        // during a sprint nothing has spilled over yet: it is still open work
+        ? tile('Still open', openPts + ' pts',
+            openIt + ' items &middot; spillover is known when the sprint closes ' + day(s.end))
+        : tile('Spillover', (s.spill_rate == null ? '&mdash;' : s.spill_rate + '%'),
+            openPts + ' pts carried out of the sprint', 'var(--risk)')) +
+      '</div>';
+  }
+
+  function goalBlock(s, d, live) {
+    // The card is titled "Sprint goal"; repeating the words inside it made the
+    // sentence read as a label rather than as the goal. And the line saying where
+    // it lives was set in the same type as the goal itself, so the two looked
+    // equally important. It is a footnote, so it is set like one -- and it points
+    // at the page instead of naming it.
+    var capUrl = d.capacity && d.capacity.url;
+    var out = '<div class="goalbox">';
+    if (!s.goal) {
+      out += '<b>No sprint goal recorded</b>, in Jira or on the capacity page. Without one ' +
+        'there is nothing to measure delivery against beyond the point count.</div>';
+      return out;
+    }
+    out += '<div style="font-size:15px;color:var(--wf-ink);line-height:1.45">' +
+      esc(s.goal) + '</div>' +
+      '<div class="gsrc">Kept on the ' +
+      (capUrl ? '<a href="' + esc(capUrl) + '" target="_blank" rel="noopener">sprint capacity ' +
+        'page</a>' : 'sprint capacity page') +
+      ' in Confluence. The sprint in Jira carries no goal field, so this is the only ' +
+      'place it is written down.</div></div>';
+
+    // A sentence is not a number and Jira does not score it. Saying so out loud is
+    // better than implying the point count is the goal, or leaving the reader to
+    // guess whether anyone is tracking it.
+    var pr = d.projection;
+    out += '<div class="goalbox" style="margin-top:8px"><b>How it is tracking.</b> ' +
+      'Nothing in Jira scores a sentence, so the board can only report the position ' +
+      'behind it: ' +
+      (live
+        ? 'on day ' + (s.day || 1) + ' of ' + (s.days || '?') + ', ' + s.completed + ' of the ' +
+          s.committed + ' committed points are done' +
+          (pr && !pr.too_early ? ', and the sprint is on course to close at ' + pr.lo +
+            '&ndash;' + pr.hi + ' pts' : '') + '. ' +
+          'Whether the goal itself was met is a call for the sprint review.'
+        : s.completed + ' of the ' + s.committed + ' committed points closed. ' +
+          'Whether the goal itself was met is the review\'s call, and the verdict on the ' +
+          'sprint is in the release report.') +
+      '</div>';
+
+    // Two commitments only deserve a paragraph when they actually disagree. A point
+    // or two apart is rounding, and explaining it every sprint teaches people to
+    // skip the box.
+    var gap = (s.committed_planned != null && s.committed != null)
+      ? Math.abs(s.committed_planned - s.committed) : 0;
+    if (gap >= 5 || (s.committed && gap / s.committed >= 0.1)) {
+      out += '<div class="goalbox" style="margin-top:8px">' +
+        '<b>The commitment moved after planning.</b> Planning recorded <b>' +
+        s.committed_planned + ' pts</b>; rebuilt from Jira, what was in the sprint on day 1 ' +
+        'comes to <b>' + s.committed + '</b>. The difference is work that joined or left ' +
+        'between the planning meeting and the first day.</div>';
+    }
+    return out;
+  }
+
+  function releaseBlock(d, m) {
+    var isRel = m.kind === 'release';
+    // a release is counted in sprints; only the calendar-month fallback counts days
+    var head = isRel
+      ? esc(m.label) + ' so far &middot; ' + (m.sprints_done == null ? '' :
+          m.sprints_done + ' of ' + m.n_sprints + ' sprints closed &middot; ') +
+        'ends ' + day(m.end)
+      : esc(m.label) + ' so far &middot; day ' + m.day +
+        (m.days ? ' of ' + m.days : '') + ' &middot; calendar month';
+    return '<div class="sprintsec"><div class="sk">' + head + '</div>' +
+      '<div class="healthrow" style="margin-bottom:0">' +
+      tile('Closed', m.closed, 'items ' + (isRel ? 'this release' : 'this month')) +
+      tile('Story points', m.points, 'delivered so far') +
+      tile('Unplanned', (m.unplanned_pct == null ? '&mdash;' : m.unplanned_pct + '%'),
+        (m.unplanned_pct == null
+          ? 'no item carries the Unplanned label or the Urgent Task type'
+          : m.unplanned + ' of ' + m.closed + ' items')) +
+      tile('Team', (d.capacity && d.capacity.team ? d.capacity.team.length : '—'),
+        // the roster and who actually closed work are different questions, and the
+        // gap between them is the interesting part
+        (d.capacity && d.capacity.team
+          ? 'on the roster &middot; ' + m.people_active + ' closed work'
+          : m.people_active + ' closed 2+ items')) +
+      '</div>' +
+      (isRel && m.sprints ? '<div class="secsub" style="margin-top:8px;font-size:12px">' +
+        'Sprints in this release: ' + m.sprints.map(esc).join(', ') + '</div>' : '') +
+      '</div>';
+  }
+
+  function noSprintNote(d) {
+    return '<div class="secsub" style="margin-bottom:10px">No sprint is open on this board right now.' +
+      (d.next ? ' <b>' + esc(d.next.name) + '</b> is created with a start date of ' +
+        esc(day(d.next.start)) + ' and has not been started.' : '') + '</div>';
+  }
+
+  // --------------------------------------------------------------- the card
+  function renderCard(d) {
+    var s = d.sprint, live = d.kind === 'active', out = '';
+    out += '<div class="activewrap"><div class="liverow">' + headline(d, s, live) + '</div>';
+    if (s) out += sprintTitle(s, live, false) + '<div style="height:12px"></div>';
+    else   out += noSprintNote(d);
+    if (s) {
+      out += tiles(s, live);
+      if (live) out += projBlock(d.projection, true);
+    }
+    out += '<a class="fulllink" href="sprint.html">' +
+      (s ? 'Open the active sprint' : 'Open the sprint page') +
+      ' <span class="ar">&rarr;</span></a></div>';
+    host.innerHTML = out;
+  }
+
+  // --------------------------------------------------------- the full page
+  function renderPage(d) {
+    var s = d.sprint, m = d.month, live = d.kind === 'active';
+
+    var hd = document.getElementById('livehead');
+    if (hd) {
+      hd.innerHTML = (s ? sprintTitle(s, live, true) : '') +
+        '<div class="liverow" style="margin-top:14px">' + headline(d, s, live) + '</div>';
+    }
+
+    var prog = '', flow = '', rel = '';
+
+    if (!s) {
+      prog += '<div class="cmpcard">' + noSprintNote(d) + '</div>';
+    } else {
+      var note = live
+        ? 'A position on day ' + (s.day || 1) + ' of ' + (s.days || '?') + ', not a result. ' +
+          'The sprint gets a verdict in the release report once it closes, not before.'
+        : 'This sprint is closed. The release report it belongs to carries the verdict.';
+      prog += card('Where the sprint stands', note,
+        tiles(s, live) + (live ? projBlock(d.projection, false) : ''));
+      prog += card('Burndown', 'Story points remaining, against the ideal line and the scope ' +
+        'as it moved. The grey band is total scope; the gap between the two lines is work ' +
+        'added after day 1.', burndown(s, false, true));
+      prog += card('Sprint goal', 'What this sprint set out to achieve, and how far the ' +
+        'numbers behind it have got.', goalBlock(s, d, live));
+
+      var nItems = 0, _k;
+      for (_k in (s.dist || {})) nItems += s.dist[_k];
+      flow += card('Work distribution',
+        'Where the ' + nItems + ' item' + (nItems === 1 ? '' : 's') +
+        ' in this sprint are sitting right now.', bar(s.dist, true));
+    }
+
+    flow += card('How long work waits, by status',
+      'Two readings per status: how long what is open now has been waiting, and how long ' +
+      'work historically takes to clear it. A queue that clears fast but is deep today is ' +
+      'a different problem from one that is always slow.', agingBlock(d.aging));
+
+    if (m) {
+      rel += card(m.kind === 'release' ? 'The release so far' : 'The month so far',
+        'The period this sprint belongs to, counted from work already closed.',
+        releaseBlock(d, m));
+    }
+    if (d.next) {
+      rel += '<div class="cmpcard"><b>Next up:</b> ' + esc(d.next.name) +
+        ', starting ' + day(d.next.start) + '.</div>';
+    }
+    if (!rel) rel = '<div class="cmpcard"><div class="secsub" style="margin:0">No release or ' +
+      'month period is in progress for this board.</div></div>';
+
+    host.innerHTML =
+      '<section class="panel" id="prog">' + prog + '</section>' +
+      '<section class="panel" id="flow">' + flow + '</section>' +
+      '<section class="panel" id="rel">'  + rel  + '</section>';
+
+    wireTabs();
+    if (s) wireZoom(s);
+  }
+
+  // Tabs are in the static page, panels arrive with the data. Wiring them here
+  // keeps the page from showing an empty tab strip while the fetch is in flight.
+  function wireTabs() {
+    var tabs = [].slice.call(document.querySelectorAll('.tab'));
+    if (!tabs.length) return;
+    function show(id, scroll) {
+      var t = document.querySelector('.tab[data-tab="' + id + '"]'),
+          p = document.getElementById(id);
+      if (!t || !p) return false;
+      tabs.forEach(function (x) { x.classList.remove('active'); });
+      [].slice.call(document.querySelectorAll('.panel')).forEach(function (x) {
+        x.classList.remove('active');
+      });
+      t.classList.add('active'); p.classList.add('active');
+      try { history.replaceState(null, '', '#t=' + id); } catch (e) {}
+      if (scroll) window.scrollTo({ top: 0, behavior: 'smooth' });
+      return true;
+    }
+    tabs.forEach(function (t) {
+      t.addEventListener('click', function () { show(t.dataset.tab, true); });
+    });
+    var h = (location.hash || '').replace(/^#/, '').replace(/^t=/, '');
+    if (!h || !show(h, false)) show(tabs[0].dataset.tab, false);
+  }
+
+  // The fix-list link is a status line, so every word after the page's own name
+  // comes out of the data. The version before this one ended with a hand-written
+  // list -- "Definition of Ready, backlog health and the fields the reports depend
+  // on" -- which is a description of the checks written in a second place. The day
+  // a check is added, renamed or dropped, that sentence is wrong and nothing tells
+  // anyone. A status element renders its state; it does not describe it from memory.
+  function fixLink(a) {
+    var el = document.getElementById('fixlink');
+    if (!el || !a) return;                 // no data: the static text still links
+    var body = el.querySelector('.fixn');
+    if (!body) return;
+
+    // Buckets come from the payload, not from a list kept here. `debt` is the one
+    // that does not stop anything; anything else the collector starts reporting is
+    // counted as blocking, because a status line that quietly drops a new category
+    // is worse than one that over-reports it.
+    var SOFT = { debt: 1 }, hard = [], soft = [];
+    Object.keys(a).forEach(function (k) {
+      if (!Array.isArray(a[k])) return;
+      (SOFT[k] ? soft : hard).push.apply(SOFT[k] ? soft : hard, a[k]);
+    });
+    var sum = function (l) {
+      return l.reduce(function (s, c) { return s + (c.n || 0); }, 0);
+    };
+    var top = function (l) {
+      return l.reduce(function (b, c) {
+        return (c.n || 0) > ((b && b.n) || 0) ? c : b;
+      }, null);
+    };
+    var nh = sum(hard), ns = sum(soft);
+    var lead = nh ? top(hard) : top(soft);
+
+    el.classList.remove('has-risk', 'has-warn', 'has-none');
+    if (!nh && !ns) {
+      el.classList.add('has-none');
+      body.innerHTML = 'Nothing to fix.';
+      return;
+    }
+    el.classList.add(nh ? 'has-risk' : 'has-warn');
+    body.innerHTML =
+      (nh ? '<span class="fixb">' + nh + ' blocking</span>'
+          : '<b style="color:var(--wf-ink)">Nothing blocking</b>') +
+      (ns ? ' &middot; ' + ns + ' administrative' : '') +
+      (lead && lead.rule
+        ? '<span class="fixtop">Biggest: ' + esc(lead.rule) +
+          ' (' + (lead.n || 0) + ')</span>'
+        : '');
+  }
+
+  function render(d) {
+    if (FULL) renderPage(d); else renderCard(d);
+    fixLink(d.admin);
+  }
+
+  fetch('data/live.json?t=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(function () {
+      host.innerHTML = '<div class="activewrap"><span class="activetag" ' +
+        'style="background:var(--wf-muted)">Live panel</span>' +
+        '<div class="goalbox">Live data is not available yet. Once the refresh job has run ' +
+        'at least once, the current sprint and the release in progress appear here.</div></div>';
+    });
+})();
+
+</script>
+</body></html>

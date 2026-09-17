@@ -1,1 +1,502 @@
-{}
+{
+ "generated": "2026-09-17T22:16:35Z",
+ "team": "DS",
+ "board": 257,
+ "kind": "active",
+ "capacity": {
+  "page": "3755671557",
+  "url": "https://wellfit.atlassian.net/wiki/spaces/EDW/pages/3755671557",
+  "sprints": {
+   "DS-Sprint 13-26": {
+    "release": "9.04",
+    "start": "2026-05-11",
+    "end": "2026-05-25",
+    "members": null,
+    "holidays": null,
+    "pto": null,
+    "eff_days": null,
+    "pct": null,
+    "risk": null,
+    "planned": false
+   },
+   "DS-Sprint 15-26": {
+    "release": "9.05",
+    "start": "2026-06-08",
+    "end": "2026-06-22",
+    "members": null,
+    "holidays": null,
+    "pto": null,
+    "eff_days": null,
+    "pct": null,
+    "risk": null,
+    "planned": false
+   },
+   "DS-Sprint 16-26": {
+    "release": "9.06",
+    "start": "2026-06-22",
+    "end": "2026-07-03",
+    "members": null,
+    "holidays": null,
+    "pto": null,
+    "eff_days": null,
+    "pct": null,
+    "risk": null,
+    "planned": false
+   },
+   "DS-Sprint 16-27": {
+    "release": "9.06",
+    "start": "2026-07-06",
+    "end": "2026-07-18",
+    "members": null,
+    "holidays": null,
+    "pto": null,
+    "eff_days": null,
+    "pct": null,
+    "risk": null,
+    "planned": false
+   },
+   "DS-Sprint 18-26": {
+    "release": "9.06",
+    "start": "2026-07-20",
+    "end": "2026-08-02",
+    "members": null,
+    "holidays": null,
+    "pto": null,
+    "eff_days": null,
+    "pct": null,
+    "risk": null,
+    "planned": false
+   },
+   "DS-Sprint 19-26": {
+    "release": "9.07",
+    "start": "2026-08-03",
+    "end": "2026-08-14",
+    "members": null,
+    "holidays": null,
+    "pto": null,
+    "eff_days": null,
+    "pct": null,
+    "risk": null,
+    "planned": false
+   },
+   "DS-Sprint 20-26": {
+    "release": "9.07",
+    "start": "2026-08-27",
+    "end": "2026-08-28",
+    "members": null,
+    "holidays": null,
+    "pto": null,
+    "eff_days": null,
+    "pct": null,
+    "risk": null,
+    "planned": false
+   },
+   "DS-Sprint 21-26": {
+    "release": "9.08",
+    "start": "2026-08-31",
+    "end": "2026-09-11",
+    "members": null,
+    "holidays": null,
+    "pto": null,
+    "eff_days": null,
+    "pct": null,
+    "risk": null,
+    "planned": false
+   },
+   "DS-Sprint 22-26": {
+    "release": "9.08",
+    "start": "2026-09-16",
+    "end": "2026-09-25",
+    "members": null,
+    "holidays": null,
+    "pto": null,
+    "eff_days": null,
+    "pct": null,
+    "risk": null,
+    "planned": false
+   }
+  },
+  "goals": {},
+  "roster": [
+   {
+    "name": "Carlos Parra",
+    "role": "Team lead",
+    "status": "Active"
+   },
+   {
+    "name": "Tharika",
+    "role": "Developer",
+    "status": "Active"
+   }
+  ],
+  "config": {
+   "Sprint duration": "to confirm",
+   "Working hours per day": "8",
+   "Focus factor": "75%",
+   "Productive hours per day": "6",
+   "Team members (current)": "",
+   "Team effective days per sprint": ""
+  },
+  "changes": [],
+  "team": [
+   {
+    "name": "Carlos Parra",
+    "role": "Team lead",
+    "status": "Active"
+   },
+   {
+    "name": "Tharika",
+    "role": "Developer",
+    "status": "Active"
+   }
+  ]
+ },
+ "backlog": {
+  "per_sprint_pts": null,
+  "bands": {
+   "skinny": "< 1.5 sprints",
+   "in_shape": "1.5 to 2.5 sprints",
+   "fat": "> 2.5 sprints"
+  },
+  "ready": {
+   "items": 12,
+   "points": 24
+  },
+  "misfiled": {
+   "items": 13,
+   "points": 49
+  },
+  "runway": null,
+  "runway_if_fixed": null,
+  "state": null,
+  "state_if_fixed": null,
+  "violations": [
+   {
+    "rule": "Groomed but still in Backlog",
+    "n": 13,
+    "points": 49,
+    "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
+   },
+   {
+    "rule": "Idea/Draft sitting in Ready for Development",
+    "n": 2,
+    "points": 4,
+    "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
+   },
+   {
+    "rule": "Groomed items with no estimate",
+    "n": 0,
+    "points": 0,
+    "why": "the guide: a Groomed item must be estimated."
+   },
+   {
+    "rule": "Groomed work archived as Deferred",
+    "n": 0,
+    "points": 0,
+    "why": "work that met Definition of Ready and was then parked."
+   }
+  ]
+ },
+ "projection": {
+  "too_early": true,
+  "why": "not enough closed sprints to compare against yet"
+ },
+ "admin": {
+  "scope": {
+   "ready": 14,
+   "sprint": 21,
+   "sprint_name": "DS-Sprint 22-26"
+  },
+  "blocking": [
+   {
+    "rule": "No estimate",
+    "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
+    "n": 2,
+    "items": [
+     {
+      "key": "DS-743",
+      "summary": "Production Support"
+     },
+     {
+      "key": "DS-742",
+      "summary": "Production Support"
+     }
+    ]
+   },
+   {
+    "rule": "Idea/Draft in Ready for Development",
+    "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
+    "n": 2,
+    "items": [
+     {
+      "key": "DS-725",
+      "summary": "Refresh Platform in Preprod"
+     },
+     {
+      "key": "DS-724",
+      "summary": "Plan alternative solution for long running SPs in platform"
+     }
+    ]
+   },
+   {
+    "rule": "Still in Backlog inside the sprint",
+    "why": "in the sprint but never pulled into the flow.",
+    "n": 6,
+    "items": [
+     {
+      "key": "DS-743",
+      "summary": "Production Support"
+     },
+     {
+      "key": "DS-742",
+      "summary": "Production Support"
+     },
+     {
+      "key": "DS-740",
+      "summary": "Smile Brands SFTP - Essential Smiles Plan"
+     },
+     {
+      "key": "DS-739",
+      "summary": "Smile Brands SFTP - One Smile NV"
+     },
+     {
+      "key": "DS-738",
+      "summary": "Smile Brands SFTP - One Smile WA"
+     },
+     {
+      "key": "DS-735",
+      "summary": "Story 3 and Story 2 Prod pipelines"
+     }
+    ]
+   }
+  ],
+  "debt": [
+   {
+    "rule": "Fix version is not in use",
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
+    "items": []
+   },
+   {
+    "rule": "Original estimate is not in use",
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
+    "items": []
+   },
+   {
+    "rule": "Target end date is not in use",
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
+    "items": []
+   },
+   {
+    "rule": "Assignee is not on the roster",
+    "why": "the capacity page lists the team; this work is assigned outside it.",
+    "n": 7,
+    "items": [
+     {
+      "key": "DS-742",
+      "summary": "Production Support"
+     },
+     {
+      "key": "DS-735",
+      "summary": "Story 3 and Story 2 Prod pipelines"
+     },
+     {
+      "key": "DS-734",
+      "summary": "ACH and Credit Card pipelines"
+     },
+     {
+      "key": "DS-714",
+      "summary": "Production Support - Srininvas"
+     },
+     {
+      "key": "DS-711",
+      "summary": "Wellfit Cedar Gate Coordination for Upcoming SFTP Change"
+     },
+     {
+      "key": "DS-709",
+      "summary": "Production ETL for CreditCardPaymentAccount with logging"
+     },
+     {
+      "key": "DS-708",
+      "summary": "Production ETL for ACH AchAuthorizationHoldingArea"
+     }
+    ]
+   },
+   {
+    "rule": "Riding 4+ sprints",
+    "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
+    "n": 3,
+    "items": [
+     {
+      "key": "DS-683",
+      "summary": "Expand prod database alerts to new databases"
+     },
+     {
+      "key": "DS-682",
+      "summary": "Troubleshoot and finish ETL for EDW in preprod"
+     },
+     {
+      "key": "DS-576",
+      "summary": "Mirror all databases in Fabric"
+     }
+    ]
+   }
+  ],
+  "setup": [
+   {
+    "rule": "The active sprint has no goal",
+    "why": "neither Jira nor the capacity page records one, so delivery can only be measured in points.",
+    "n": 1,
+    "items": []
+   }
+  ]
+ },
+ "sprint": {
+  "name": "DS-Sprint 22-26",
+  "state": "active",
+  "start": "2026-09-16",
+  "end": "2026-09-25",
+  "goal": "",
+  "items": 21,
+  "items_done": 3,
+  "committed": 31,
+  "final": 31,
+  "completed": 5,
+  "scope_change": 0,
+  "vs_commitment": 16,
+  "time_elapsed": 15,
+  "spill": {
+   "open_items": 18,
+   "open_pts": 26.0,
+   "out_items": 0,
+   "out_pts": 0,
+   "done_pts": 0
+  },
+  "recv": {
+   "items": 9,
+   "pts": 16,
+   "pct": 52,
+   "from": "DS-Sprint 21-26"
+  },
+  "spill_rate": null,
+  "dist": {
+   "Ready for Development": 9,
+   "Backlog": 6,
+   "In Development": 3,
+   "Closed": 3
+  },
+  "burn": [
+   25.0,
+   26.0,
+   26.0
+  ],
+  "scope": [
+   30.0,
+   31.0,
+   31.0
+  ],
+  "ghost": [
+   25.0,
+   26.0,
+   26.0
+  ],
+  "days": 9,
+  "day": 2,
+  "capacity": {
+   "release": "9.08",
+   "start": "2026-09-16",
+   "end": "2026-09-25",
+   "members": null,
+   "holidays": null,
+   "pto": null,
+   "eff_days": null,
+   "pct": null,
+   "risk": null,
+   "planned": false
+  }
+ },
+ "next": null,
+ "month": {
+  "month": "9.08",
+  "label": "Release 9.08",
+  "kind": "release",
+  "start": "2026-08-31",
+  "end": "2026-09-25",
+  "day": 18,
+  "days": 26,
+  "closed": 20,
+  "points": 40,
+  "unplanned": 2,
+  "unplanned_pct": 10.0,
+  "access_requests": 1,
+  "people_active": 3,
+  "sprints": [
+   "DS-Sprint 21-26",
+   "DS-Sprint 22-26"
+  ],
+  "n_sprints": 2,
+  "sprints_done": 1
+ },
+ "aging": {
+  "window_days": 90,
+  "stale_days": 7,
+  "rows": [
+   {
+    "status": "Ready for Development",
+    "open": 14,
+    "med_age": 22.2,
+    "max_age": 136.1,
+    "worst_key": "DS-495",
+    "worst_sum": "Inventory ETLs everywhere",
+    "worst_who": "Carlos Parra",
+    "over": 13,
+    "clear_med": 2.3,
+    "clear_n": 128
+   },
+   {
+    "status": "In Development",
+    "open": 5,
+    "med_age": 1.3,
+    "max_age": 15.1,
+    "worst_key": "DS-729",
+    "worst_sum": "Add CORS configs in Preprod",
+    "worst_who": "Carlos Parra",
+    "over": 2,
+    "clear_med": 3.8,
+    "clear_n": 77
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 5.2,
+    "clear_n": 10
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 9
+   }
+  ],
+  "parked": {
+   "Backlog": 42
+  },
+  "open_total": 19,
+  "stale": 15,
+  "worst": "Ready for Development"
+ }
+}
