@@ -1,0 +1,587 @@
+<script>
+/* Live panel — reads data/live.json, written by the scheduled Action.
+   Everything else on the site stays static. If the file is missing or stale,
+   the panel says so instead of showing nothing.
+
+   Two rules this file exists to keep:
+     1. one number for "how far in are we" — day N of M, everywhere;
+     2. nothing that is not knowable yet gets a value. A sprint on day 2 has
+        no spillover and no verdict, so it shows neither. */
+(function () {
+  var host = document.getElementById('livepanel');
+  if (!host) return;
+  // One script, two pages. The index shows a card you can read in five seconds;
+  // sprint.html shows everything. Duplicating the rendering would guarantee the
+  // two drift apart, which is exactly what a summary must never do.
+  var FULL = (window.__LIVE_MODE__ === 'full');
+
+  var STCOL = {
+    'Ready for Development': '#65B2D5', 'In Development': '#007CBC',
+    'Awaiting Review': '#ED7D31', 'Backlog': '#c3cdda', 'To Do': '#c3cdda',
+    'Closed': '#4FA800', "Won't Do": '#9aa6b8'
+  };
+  var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+  var esc = function (s) {
+    return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+    });
+  };
+  var day = function (iso) {                    // "2026-09-14" -> "Sep 14"
+    if (!iso) return '';
+    var p = String(iso).slice(0, 10).split('-');
+    return p.length === 3 ? MON[+p[1] - 1] + ' ' + (+p[2]) : esc(iso);
+  };
+  var ago = function (iso) {
+    var m = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+    if (!isFinite(m)) return '';
+    if (m < 2) return 'less than a minute ago';
+    if (m < 60) return m + ' min ago';
+    var h = Math.round(m / 60);
+    return h < 24 ? h + 'h ago' : Math.round(h / 24) + 'd ago';
+  };
+  var clock = function (iso) {                  // "22:32 UTC" from the ISO stamp
+    var t = String(iso || '').slice(11, 16);
+    return t ? t + ' UTC' : '';
+  };
+
+  /* The old line at the foot said "updated 18 min ago" in body text, which is easy
+     to miss and says nothing about whether that is fine. This states the verdict
+     first and the time second. */
+  function freshness(iso) {
+    if (!iso || iso.slice(0, 4) === '1970') {
+      return '<span class="fresh fresh-wait"><i></i>Waiting for the first refresh</span>';
+    }
+    var mins = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+    var d = new Date(iso);
+    var when = d.toLocaleString(undefined, { month: 'short', day: 'numeric',
+                                             hour: 'numeric', minute: '2-digit' });
+    var cls = mins > 90 ? 'fresh-bad' : (mins > 45 ? 'fresh-warn' : 'fresh-ok');
+    var say = mins > 90 ? 'Data may be stale' : (mins > 45 ? 'Refresh running late' : 'Data up to date');
+    return '<span class="fresh ' + cls + '" title="Last refresh ' + esc(iso) + '"><i></i>' +
+      say + ' <b>&middot; ' + esc(when) + '</b></span>';
+  }
+
+  function tile(k, v, n, col) {
+    return '<div class="hcell"><div class="hk">' + k + '</div>' +
+      '<div class="hv"' + (col ? ' style="color:' + col + '"' : '') + '>' + v + '</div>' +
+      '<div class="hn">' + n + '</div></div>';
+  }
+
+  function bar(dist, nohead) {
+    var tot = 0, k;
+    for (k in dist) tot += dist[k];
+    if (!tot) return '';
+    var pairs = Object.keys(dist).map(function (s) { return [s, dist[s]]; })
+      .sort(function (a, b) { return b[1] - a[1]; });
+    var bars = '', keys = '';
+    pairs.forEach(function (p) {
+      var pct = 100 * p[1] / tot, col = STCOL[p[0]] || '#c3cdda';
+      bars += '<span style="width:' + pct.toFixed(1) + '%;background:' + col + '">' +
+        (pct > 7 ? p[1] : '') + '</span>';
+      keys += '<span><i class="tisdot" style="background:' + col + '"></i>' +
+        esc(p[0]) + ' <b>' + p[1] + '</b></span>';
+    });
+    return '<div class="sprintsec">' +
+      (nohead ? '' : '<div class="sk">Work distribution &middot; ' + tot + ' items</div>') +
+      '<div class="tisbar">' + bars + '</div>' +
+      '<div class="tiskey">' + keys + '</div></div>';
+  }
+
+  /* The burndown is drawn across the WHOLE sprint, not across the days that have
+     happened. Stretching three days over the full width is what made it look like
+     a broken chart: the line ended at the right edge as if the sprint were over. */
+  function burndown(s, big, nohead) {
+    var burn = s.burn, scope = s.scope;
+    if (!burn || burn.length < 2) return '';
+    var days  = s.days || (burn.length - 1);
+    var slots = days;                                  // day 0 .. day `days`
+    // on the page the chart scales with the width, so on a phone a 640x210 box
+    // would draw a 100px-tall chart. A taller box keeps it readable there.
+    var narrow = (window.innerWidth || 1000) < 640;
+    var W = 640, H = big ? 360 : (nohead && narrow ? 330 : 210), L = 34, R = 12, T = 14, B = 34;
+    var hi = Math.max.apply(null, (scope || []).concat(burn)) || 1;
+    hi = Math.ceil(hi / 10) * 10 || 10;
+    // pick a tick count that divides the top of the scale, so the axis reads
+    // 0-10-20-30-40-50 instead of 0-13-25-38-50
+    var ticks = 4, tk;
+    for (tk = 0; tk < 4; tk++) { var c = [5, 4, 6, 3][tk]; if (hi % c === 0) { ticks = c; break; } }
+    var step = (W - L - R) / slots;
+    var X = function (i) { return L + i * step; };
+    var Y = function (v) { return T + (H - T - B) * (1 - v / hi); };
+    var path = function (arr) {
+      return arr.map(function (v, i) {
+        return (i ? 'L' : 'M') + X(i).toFixed(1) + ',' + Y(v).toFixed(1);
+      }).join(' ');
+    };
+    var grid = '', lab = '', g;
+    for (g = 0; g <= ticks; g++) {
+      var v = hi * g / ticks, y = Y(v).toFixed(1);
+      grid += '<line x1="' + L + '" y1="' + y + '" x2="' + (W - R) + '" y2="' + y +
+        '" style="stroke:var(--line)" stroke-width="1"/>';
+      lab += '<text x="' + (L - 6) + '" y="' + (+y + 3.5) +
+        '" text-anchor="end" font-size="10" style="fill:var(--wf-muted)">' + Math.round(v) + '</text>';
+    }
+    var todayX = X(burn.length - 1);
+    var area = (scope && scope.length)
+      ? '<path d="' + path(scope) + ' L' + todayX.toFixed(1) + ',' + Y(0) +
+        ' L' + X(0).toFixed(1) + ',' + Y(0) + ' Z" style="fill:color-mix(in srgb, var(--edge) 28%, transparent)"/>' : '';
+    var ideal = 'M' + X(0).toFixed(1) + ',' + Y(burn[0]).toFixed(1) +
+                ' L' + X(slots).toFixed(1) + ',' + Y(0).toFixed(1);
+
+    return (big ? '<div>' : '<div class="sprintsec">') +
+      (big || nohead ? '' : '<div class="sk">Burndown &middot; story points remaining ' +
+        '&middot; day ' + (s.day || burn.length) + ' of ' + days + '</div>') +
+      (big ? '' : '<div class="bdzoom" role="button" tabindex="0" ' +
+        'aria-label="Open the burndown full size">') +
+      '<svg viewBox="0 0 ' + W + ' ' + H + '" style="width:100%;height:' +
+      (big ? 'min(62vh,420px)' : (nohead ? 'auto' : '210px')) + '" ' +
+      'role="img" aria-label="Sprint burndown, story points remaining by day">' +
+      grid + lab + area +
+      '<path d="' + ideal + '" style="stroke:var(--edge)" stroke-dasharray="5 4" stroke-width="2" fill="none"/>' +
+      (scope && scope.length ? '<path d="' + path(scope) +
+        '" style="stroke:var(--muted4)" stroke-width="2" fill="none"/>' : '') +
+      '<path d="' + path(burn) + '" stroke="#007CBC" stroke-width="3" fill="none" stroke-linejoin="round"/>' +
+      '<line x1="' + todayX.toFixed(1) + '" y1="' + T + '" x2="' + todayX.toFixed(1) +
+      '" y2="' + Y(0) + '" stroke="#ED7D31" stroke-width="1" stroke-dasharray="3 3"/>' +
+      '<text x="' + (todayX + 4).toFixed(1) + '" y="' + (T + 9) +
+      '" font-size="10" fill="#ED7D31" font-weight="700">today</text>' +
+      '<line x1="' + L + '" y1="' + Y(0) + '" x2="' + (W - R) + '" y2="' + Y(0) +
+      '" style="stroke:var(--edge)" stroke-width="1"/>' +
+      '<text x="' + L + '" y="' + (H - 12) + '" font-size="10" style="fill:var(--wf-muted)">' + day(s.start) + '</text>' +
+      '<text x="' + (W - R) + '" y="' + (H - 12) +
+      '" text-anchor="end" font-size="10" style="fill:var(--wf-muted)">' + day(s.end) + '</text>' +
+      '</svg>' + (big ? '' : '</div>') +
+      '<div class="tiskey" style="margin-top:2px">' +
+      '<span><i class="tisdot" style="background:#007CBC"></i>Remaining</span>' +
+      '<span><i class="tisdot" style="background:var(--muted4)"></i>Total scope</span>' +
+      '<span><i class="tisdot" style="background:var(--edge)"></i>Ideal burn</span>' +
+      '</div></div>';
+  }
+
+  /* Same chart, full size, in the same modal shape the release reports use. */
+  function wireZoom(s) {
+    var hook = host.querySelector('.bdzoom');
+    if (!hook) return;
+    var m = document.createElement('div');
+    m.className = 'lvmodal';
+    m.innerHTML = '<div class="lvbox"><div class="lvhead"><h4></h4>' +
+      '<button class="lvclose" aria-label="Close">&times;</button></div>' +
+      '<div class="lvbody"></div></div>';
+    document.body.appendChild(m);
+    m.querySelector('h4').textContent = s.name + ' — burndown, day ' +
+      (s.day || '?') + ' of ' + (s.days || '?');
+    m.querySelector('.lvbody').innerHTML = burndown(s, true);
+    function close() { m.classList.remove('open'); }
+    function open()  { m.classList.add('open'); }
+    hook.addEventListener('click', open);
+    hook.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+    });
+    m.addEventListener('click', function (e) { if (e.target === m) close(); });
+    m.querySelector('.lvclose').addEventListener('click', close);
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+  }
+
+  /* Where work is piling up, and how fast each step clears.
+     Two different numbers on purpose: a status can clear in a day and still be
+     the bottleneck if fifteen items are queued behind it. */
+  function agingBlock(a) {
+    if (!a || !a.rows || !a.rows.length) return '';
+    var top = Math.max.apply(null, a.rows.map(function (r) { return r.open; })) || 1;
+    var rows = a.rows.map(function (r) {
+      var stuck = r.over > 0;
+      if (!r.open) {
+        return '<tr style="opacity:.6"><td class="agst">' + esc(r.status) + '</td>' +
+          '<td class="agbar"><b>0</b></td><td class="agnum">&mdash;</td>' +
+          '<td class="agnum">&mdash;</td><td class="agsm">nothing waiting</td>' +
+          '<td class="agnum">' + (r.clear_med == null ? '&mdash;' : r.clear_med + 'd') + '</td></tr>';
+      }
+      var col   = STCOL[r.status] || '#65B2D5';
+      return '<tr>' +
+        '<td class="agst">' + esc(r.status) + '</td>' +
+        '<td class="agbar"><i style="width:' + (72 * r.open / top).toFixed(1) +
+          '%;background:' + col + '"></i><b>' + r.open + '</b></td>' +
+        '<td class="agnum"' + (stuck ? ' style="color:#c0392b;font-weight:800"' : '') + '>' +
+          r.med_age + 'd</td>' +
+        '<td class="agnum">' + (r.over || '&mdash;') + '</td>' +
+        '<td class="agsm">' + esc(r.worst_key) + ' &middot; ' + r.max_age + 'd</td>' +
+        '<td class="agnum">' + (r.clear_med == null ? '&mdash;' : r.clear_med + 'd') + '</td>' +
+      '</tr>';
+    }).join('');
+
+    var lead = a.worst
+      ? 'Most of the waiting is in <b>' + esc(a.worst) + '</b>.'
+      : 'Nothing is queued in the workflow right now.';
+
+    return '<div class="sprintsec"><div class="sk">Workflow aging &middot; ' +
+      a.open_total + ' items open' +
+      (a.stale ? ' &middot; ' + a.stale + ' sitting ' + a.stale_days + '+ days' : '') +
+      '</div>' +
+      '<div class="secsub" style="font-size:12.5px;margin:-2px 0 8px">' + lead +
+      ' <b>Waiting</b> is how long the items sitting there now have been there; ' +
+      '<b>clears in</b> is how long items took to get through that step over the ' +
+      'last ' + a.window_days + ' days. A short clear time with a tall bar is a ' +
+      'queue, not a slow step.' +
+      (a.parked && Object.keys(a.parked).length
+        ? ' Not counted here: ' + Object.keys(a.parked).map(function (k) {
+            return a.parked[k] + ' in ' + esc(k);
+          }).join(', ') + ' — those are backlog layers, not steps in the flow.'
+        : '') +
+      '</div>' +
+      '<div class="agwrap"><table class="agtab"><thead><tr>' +
+      '<th>Status</th><th>Open</th><th>Waiting (median)</th><th>' + a.stale_days +
+      'd+</th><th>Oldest</th><th>Clears in</th>' +
+      '</tr></thead><tbody>' + rows + '</tbody></table></div></div>';
+  }
+
+
+  /* Where the sprint lands. A range, because the spread between past sprints is the
+     uncertainty and a single number would hide it. */
+  function projBlock(pr, compact) {
+    if (!pr) return '';
+    if (pr.too_early) {
+      return compact ? '' :
+        '<div class="goalbox" style="margin-top:12px"><b>Too early to project.</b> ' +
+        esc(pr.why) + '.</div>';
+    }
+    var cls = pr.pct >= 95 ? 'bh-shape' : (pr.pct >= 80 ? 'bh-fat' : 'bh-skinny');
+    if (compact) {
+      return '<div class="projline"><b>Projected close ' + pr.lo + '&ndash;' + pr.hi +
+        ' pts</b> <span class="projpill ' + cls + '">' + pr.pct + '% of the ' +
+        pr.committed + ' committed</span></div>';
+    }
+    return '<div class="sprintsec"><div class="sk">Projected close</div>' +
+      '<div class="bh"><div class="hero">' +
+        '<div class="bhstate ' + cls + '">' + esc(pr.verdict || '') + '</div>' +
+        '<div class="hv">' + pr.lo + ' &ndash; ' + pr.hi +
+          ' <span style="font-size:15px;font-weight:600">pts</span></div>' +
+        '<div class="hs">most likely <b>' + pr.mid + '</b>' +
+          (pr.pct != null ? ' &middot; ' + pr.pct + '% of the ' + pr.committed + ' committed' : '') +
+        '</div></div>' +
+        '<div class="bhband"><div class="hs">Built from where the team&rsquo;s last ' + pr.n +
+        ' sprints stood at this same point of the way through &mdash; day ' + pr.day + ' of ' +
+        pr.days + '. At that point they had finished a median of ' +
+        Math.round(pr.share_mid * 100) + '% of what they would finish in total, and ' +
+        pr.done_now + ' pts are done here.</div>' +
+        '<div class="hs" style="margin-top:6px">The range is the spread between those ' +
+        'sprints, not a margin of error: it is how differently this team has finished ' +
+        'from the same position before.</div></div>' +
+      '</div></div>';
+  }
+
+  // A card on the index, a report page on sprint.html. Same numbers, same code;
+  // only the arrangement differs, so the two can never disagree.
+  function card(title, note, body) {
+    if (!body) return '';
+    return '<div class="cmpcard"><div class="sectit" style="font-size:19px">' + title + '</div>' +
+      (note ? '<div class="secsub" style="margin-bottom:14px">' + note + '</div>'
+            : '<div style="height:8px"></div>') +
+      '<div class="cardbody">' + body + '</div></div>';
+  }
+
+  function headline(d, s, live) {
+    var tag = live
+      ? '<span class="activetag">&#9679; Active sprint</span>'
+      : (d.kind === 'recent'
+        ? '<span class="activetag" style="background:var(--wf-muted)">Most recent sprint</span>'
+        : '<span class="activetag" style="background:var(--wf-muted)">No sprint open</span>');
+    return tag + freshness(d.generated);
+  }
+
+  function sprintTitle(s, live, big) {
+    // the sprint being reported on is the headline, not the one after it
+    return '<div style="font-size:' + (big ? 26 : 22) + 'px;font-weight:800;color:' +
+      (big ? '#fff' : 'var(--wf-blue-d)') + ';line-height:1.2">' + esc(s.name) + '</div>' +
+      '<div class="secsub" style="margin:2px 0 0;font-size:13px;color:' +
+      (big ? '#cfe7f3' : 'var(--wf-muted)') + '">' +
+      day(s.start) + ' &rarr; ' + day(s.end) +
+      (s.day ? ' &middot; <b>day ' + s.day + ' of ' + s.days + '</b>' : '') +
+      // planned capacity, from the page the Scrum Master fills at planning
+      (s.capacity && s.capacity.members
+        ? ' &middot; ' + s.capacity.members + ' people' +
+          (s.capacity.pct != null ? ' &middot; capacity ' + s.capacity.pct + '%' : '') +
+          (s.capacity.pto ? ' (' + s.capacity.pto + 'd PTO)' : '') +
+          (s.capacity.holidays ? ' (' + s.capacity.holidays + ' holiday' +
+            (s.capacity.holidays > 1 ? 's' : '') + ')' : '')
+        : '') +
+      (live ? '' : ' &middot; closed') + '</div>';
+  }
+
+  function tiles(s, live) {
+    var pace = (s.day && s.days) ? Math.round(100 * s.day / s.days) : null;
+    var openPts = Math.round((s.spill ? s.spill.open_pts + s.spill.out_pts : 0));
+    var openIt  = s.spill ? s.spill.open_items + s.spill.out_items : 0;
+    return '<div class="healthrow">' +
+      tile('Work complete', (s.vs_commitment == null ? '&mdash;' : s.vs_commitment + '%'),
+        s.completed + ' of ' + s.committed + ' pts committed') +
+      tile('Sprint elapsed', (s.day ? 'Day ' + s.day : '&mdash;'),
+        (s.days ? 'of ' + s.days + (pace == null ? '' : ' &middot; ' + pace + '% of the sprint') : '')) +
+      tile('Scope change', (s.scope_change == null ? '&mdash;' : '+' + s.scope_change + '%'),
+        s.committed + ' &rarr; ' + s.final + ' pts',
+        s.scope_change ? 'var(--warning)' : null) +
+      (live
+        // during a sprint nothing has spilled over yet: it is still open work
+        ? tile('Still open', openPts + ' pts',
+            openIt + ' items &middot; spillover is known when the sprint closes ' + day(s.end))
+        : tile('Spillover', (s.spill_rate == null ? '&mdash;' : s.spill_rate + '%'),
+            openPts + ' pts carried out of the sprint', 'var(--risk)')) +
+      '</div>';
+  }
+
+  function goalBlock(s, d, live) {
+    // The card is titled "Sprint goal"; repeating the words inside it made the
+    // sentence read as a label rather than as the goal. And the line saying where
+    // it lives was set in the same type as the goal itself, so the two looked
+    // equally important. It is a footnote, so it is set like one -- and it points
+    // at the page instead of naming it.
+    var capUrl = d.capacity && d.capacity.url;
+    var out = '<div class="goalbox">';
+    if (!s.goal) {
+      out += '<b>No sprint goal recorded</b>, in Jira or on the capacity page. Without one ' +
+        'there is nothing to measure delivery against beyond the point count.</div>';
+      return out;
+    }
+    out += '<div style="font-size:15px;color:var(--wf-ink);line-height:1.45">' +
+      esc(s.goal) + '</div>' +
+      '<div class="gsrc">Kept on the ' +
+      (capUrl ? '<a href="' + esc(capUrl) + '" target="_blank" rel="noopener">sprint capacity ' +
+        'page</a>' : 'sprint capacity page') +
+      ' in Confluence. The sprint in Jira carries no goal field, so this is the only ' +
+      'place it is written down.</div></div>';
+
+    // A sentence is not a number and Jira does not score it. Saying so out loud is
+    // better than implying the point count is the goal, or leaving the reader to
+    // guess whether anyone is tracking it.
+    var pr = d.projection;
+    out += '<div class="goalbox" style="margin-top:8px"><b>How it is tracking.</b> ' +
+      'Nothing in Jira scores a sentence, so the board can only report the position ' +
+      'behind it: ' +
+      (live
+        ? 'on day ' + (s.day || 1) + ' of ' + (s.days || '?') + ', ' + s.completed + ' of the ' +
+          s.committed + ' committed points are done' +
+          (pr && !pr.too_early ? ', and the sprint is on course to close at ' + pr.lo +
+            '&ndash;' + pr.hi + ' pts' : '') + '. ' +
+          'Whether the goal itself was met is a call for the sprint review.'
+        : s.completed + ' of the ' + s.committed + ' committed points closed. ' +
+          'Whether the goal itself was met is the review\'s call, and the verdict on the ' +
+          'sprint is in the release report.') +
+      '</div>';
+
+    // Two commitments only deserve a paragraph when they actually disagree. A point
+    // or two apart is rounding, and explaining it every sprint teaches people to
+    // skip the box.
+    var gap = (s.committed_planned != null && s.committed != null)
+      ? Math.abs(s.committed_planned - s.committed) : 0;
+    if (gap >= 5 || (s.committed && gap / s.committed >= 0.1)) {
+      out += '<div class="goalbox" style="margin-top:8px">' +
+        '<b>The commitment moved after planning.</b> Planning recorded <b>' +
+        s.committed_planned + ' pts</b>; rebuilt from Jira, what was in the sprint on day 1 ' +
+        'comes to <b>' + s.committed + '</b>. The difference is work that joined or left ' +
+        'between the planning meeting and the first day.</div>';
+    }
+    return out;
+  }
+
+  function releaseBlock(d, m) {
+    var isRel = m.kind === 'release';
+    // a release is counted in sprints; only the calendar-month fallback counts days
+    var head = isRel
+      ? esc(m.label) + ' so far &middot; ' + (m.sprints_done == null ? '' :
+          m.sprints_done + ' of ' + m.n_sprints + ' sprints closed &middot; ') +
+        'ends ' + day(m.end)
+      : esc(m.label) + ' so far &middot; day ' + m.day +
+        (m.days ? ' of ' + m.days : '') + ' &middot; calendar month';
+    return '<div class="sprintsec"><div class="sk">' + head + '</div>' +
+      '<div class="healthrow" style="margin-bottom:0">' +
+      tile('Closed', m.closed, 'items ' + (isRel ? 'this release' : 'this month')) +
+      tile('Story points', m.points, 'delivered so far') +
+      tile('Unplanned', (m.unplanned_pct == null ? '&mdash;' : m.unplanned_pct + '%'),
+        (m.unplanned_pct == null
+          ? 'no item carries the Unplanned label or the Urgent Task type'
+          : m.unplanned + ' of ' + m.closed + ' items')) +
+      tile('Team', (d.capacity && d.capacity.team ? d.capacity.team.length : '—'),
+        // the roster and who actually closed work are different questions, and the
+        // gap between them is the interesting part
+        (d.capacity && d.capacity.team
+          ? 'on the roster &middot; ' + m.people_active + ' closed work'
+          : m.people_active + ' closed 2+ items')) +
+      '</div>' +
+      (isRel && m.sprints ? '<div class="secsub" style="margin-top:8px;font-size:12px">' +
+        'Sprints in this release: ' + m.sprints.map(esc).join(', ') + '</div>' : '') +
+      '</div>';
+  }
+
+  function noSprintNote(d) {
+    return '<div class="secsub" style="margin-bottom:10px">No sprint is open on this board right now.' +
+      (d.next ? ' <b>' + esc(d.next.name) + '</b> is created with a start date of ' +
+        esc(day(d.next.start)) + ' and has not been started.' : '') + '</div>';
+  }
+
+  // --------------------------------------------------------------- the card
+  function renderCard(d) {
+    var s = d.sprint, live = d.kind === 'active', out = '';
+    out += '<div class="activewrap"><div class="liverow">' + headline(d, s, live) + '</div>';
+    if (s) out += sprintTitle(s, live, false) + '<div style="height:12px"></div>';
+    else   out += noSprintNote(d);
+    if (s) {
+      out += tiles(s, live);
+      if (live) out += projBlock(d.projection, true);
+    }
+    out += '<a class="fulllink" href="sprint.html">' +
+      (s ? 'Open the active sprint' : 'Open the sprint page') +
+      ' <span class="ar">&rarr;</span></a></div>';
+    host.innerHTML = out;
+  }
+
+  // --------------------------------------------------------- the full page
+  function renderPage(d) {
+    var s = d.sprint, m = d.month, live = d.kind === 'active';
+
+    var hd = document.getElementById('livehead');
+    if (hd) {
+      hd.innerHTML = (s ? sprintTitle(s, live, true) : '') +
+        '<div class="liverow" style="margin-top:14px">' + headline(d, s, live) + '</div>';
+    }
+
+    var prog = '', flow = '', rel = '';
+
+    if (!s) {
+      prog += '<div class="cmpcard">' + noSprintNote(d) + '</div>';
+    } else {
+      var note = live
+        ? 'A position on day ' + (s.day || 1) + ' of ' + (s.days || '?') + ', not a result. ' +
+          'The sprint gets a verdict in the release report once it closes, not before.'
+        : 'This sprint is closed. The release report it belongs to carries the verdict.';
+      prog += card('Where the sprint stands', note,
+        tiles(s, live) + (live ? projBlock(d.projection, false) : ''));
+      prog += card('Burndown', 'Story points remaining, against the ideal line and the scope ' +
+        'as it moved. The grey band is total scope; the gap between the two lines is work ' +
+        'added after day 1.', burndown(s, false, true));
+      prog += card('Sprint goal', 'What this sprint set out to achieve, and how far the ' +
+        'numbers behind it have got.', goalBlock(s, d, live));
+
+      var nItems = 0, _k;
+      for (_k in (s.dist || {})) nItems += s.dist[_k];
+      flow += card('Work distribution',
+        'Where the ' + nItems + ' item' + (nItems === 1 ? '' : 's') +
+        ' in this sprint are sitting right now.', bar(s.dist, true));
+    }
+
+    flow += card('How long work waits, by status',
+      'Two readings per status: how long what is open now has been waiting, and how long ' +
+      'work historically takes to clear it. A queue that clears fast but is deep today is ' +
+      'a different problem from one that is always slow.', agingBlock(d.aging));
+
+    if (m) {
+      rel += card(m.kind === 'release' ? 'The release so far' : 'The month so far',
+        'The period this sprint belongs to, counted from work already closed.',
+        releaseBlock(d, m));
+    }
+    if (d.next) {
+      rel += '<div class="cmpcard"><b>Next up:</b> ' + esc(d.next.name) +
+        ', starting ' + day(d.next.start) + '.</div>';
+    }
+    if (!rel) rel = '<div class="cmpcard"><div class="secsub" style="margin:0">No release or ' +
+      'month period is in progress for this board.</div></div>';
+
+    host.innerHTML =
+      '<section class="panel" id="prog">' + prog + '</section>' +
+      '<section class="panel" id="flow">' + flow + '</section>' +
+      '<section class="panel" id="rel">'  + rel  + '</section>';
+
+    wireTabs();
+    if (s) wireZoom(s);
+  }
+
+  // Tabs are in the static page, panels arrive with the data. Wiring them here
+  // keeps the page from showing an empty tab strip while the fetch is in flight.
+  function wireTabs() {
+    var tabs = [].slice.call(document.querySelectorAll('.tab'));
+    if (!tabs.length) return;
+    function show(id, scroll) {
+      var t = document.querySelector('.tab[data-tab="' + id + '"]'),
+          p = document.getElementById(id);
+      if (!t || !p) return false;
+      tabs.forEach(function (x) { x.classList.remove('active'); });
+      [].slice.call(document.querySelectorAll('.panel')).forEach(function (x) {
+        x.classList.remove('active');
+      });
+      t.classList.add('active'); p.classList.add('active');
+      try { history.replaceState(null, '', '#t=' + id); } catch (e) {}
+      if (scroll) window.scrollTo({ top: 0, behavior: 'smooth' });
+      return true;
+    }
+    tabs.forEach(function (t) {
+      t.addEventListener('click', function () { show(t.dataset.tab, true); });
+    });
+    var h = (location.hash || '').replace(/^#/, '').replace(/^t=/, '');
+    if (!h || !show(h, false)) show(tabs[0].dataset.tab, false);
+  }
+
+  // The fix-list link is a status line, so every word after the page's own name
+  // comes out of the data. The version before this one ended with a hand-written
+  // list -- "Definition of Ready, backlog health and the fields the reports depend
+  // on" -- which is a description of the checks written in a second place. The day
+  // a check is added, renamed or dropped, that sentence is wrong and nothing tells
+  // anyone. A status element renders its state; it does not describe it from memory.
+  function fixLink(a) {
+    var el = document.getElementById('fixlink');
+    if (!el || !a) return;                 // no data: the static text still links
+    var body = el.querySelector('.fixn');
+    if (!body) return;
+
+    // Buckets come from the payload, not from a list kept here. `debt` is the one
+    // that does not stop anything; anything else the collector starts reporting is
+    // counted as blocking, because a status line that quietly drops a new category
+    // is worse than one that over-reports it.
+    var SOFT = { debt: 1 }, hard = [], soft = [];
+    Object.keys(a).forEach(function (k) {
+      if (!Array.isArray(a[k])) return;
+      (SOFT[k] ? soft : hard).push.apply(SOFT[k] ? soft : hard, a[k]);
+    });
+    var sum = function (l) {
+      return l.reduce(function (s, c) { return s + (c.n || 0); }, 0);
+    };
+    var top = function (l) {
+      return l.reduce(function (b, c) {
+        return (c.n || 0) > ((b && b.n) || 0) ? c : b;
+      }, null);
+    };
+    var nh = sum(hard), ns = sum(soft);
+    var lead = nh ? top(hard) : top(soft);
+
+    el.classList.remove('has-risk', 'has-warn', 'has-none');
+    if (!nh && !ns) {
+      el.classList.add('has-none');
+      body.innerHTML = 'Nothing to fix.';
+      return;
+    }
+    el.classList.add(nh ? 'has-risk' : 'has-warn');
+    body.innerHTML =
+      (nh ? '<span class="fixb">' + nh + ' blocking</span>'
+          : '<b style="color:var(--wf-ink)">Nothing blocking</b>') +
+      (ns ? ' &middot; ' + ns + ' administrative' : '') +
+      (lead && lead.rule
+        ? '<span class="fixtop">Biggest: ' + esc(lead.rule) +
+          ' (' + (lead.n || 0) + ')</span>'
+        : '');
+  }
+
+  function render(d) {
+    if (FULL) renderPage(d); else renderCard(d);
+    fixLink(d.admin);
+  }
+
+  fetch('data/live.json?t=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(function () {
+      host.innerHTML = '<div class="activewrap"><span class="activetag" ' +
+        'style="background:var(--wf-muted)">Live panel</span>' +
+        '<div class="goalbox">Live data is not available yet. Once the refresh job has run ' +
+        'at least once, the current sprint and the release in progress appear here.</div></div>';
+    });
+})();
+
+</script>

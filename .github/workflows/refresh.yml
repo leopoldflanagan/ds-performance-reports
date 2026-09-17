@@ -1,0 +1,125 @@
+name: Refresh live data
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'      # GitHub's own timer: best effort, often late
+  repository_dispatch:
+    types: [refresh]            # for an external 15-minute trigger, as EDW uses
+  workflow_dispatch:            # the "Run workflow" button, for testing
+    inputs:
+      selfcheck:
+        description: 'Recompute one frozen sprint and print the delta (e.g. DS-Sprint 21-26)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: true
+
+env:
+  # Not secret, so they live here instead of in repository variables.
+  # This is the EDW file with the team lines changed, plus the two page ids:
+  # since September the scripts refuse to fall back to EDW's Confluence pages,
+  # so these are not optional for DS.
+  JIRA_BASE:     https://wellfit.atlassian.net
+  TEAM_KEY:      DS
+  BOARD_ID:      "257"          # Scrum board: where the sprints are. Board 39 is
+                                #   the Kanban board and has no sprints to read.
+  PROJECT_KEY:   DS
+  CAPACITY_PAGE: "3755671557"
+  SIGNOFF_PAGE:  "3756425218"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Pull from Jira and rebuild the pages
+        env:
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_TOKEN: ${{ secrets.JIRA_TOKEN }}
+          SELFCHECK:  ${{ github.event.inputs.selfcheck }}
+        run: |
+          # two seconds here beats a six-minute round trip through CI for a typo
+          python3 -m py_compile scripts/fetch_jira.py scripts/build_reports.py || {
+            echo "### Refresh - the scripts do not compile" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+            python3 -m py_compile scripts/fetch_jira.py scripts/build_reports.py 2>&1 \
+              | tail -n 20 >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          }
+          # a placeholder left in the env block is a configuration error, not a
+          # value: it would either crash deep inside the fetch or, worse, read
+          # someone else's board. Caught here, by name, before anything runs.
+          for v in BOARD_ID CAPACITY_PAGE SIGNOFF_PAGE; do
+            case "${!v}" in ""|__FILL_IN__)
+              echo "CONFIG ERROR: $v is still a placeholder in .github/workflows/refresh.yml" \
+                | tee -a "$GITHUB_STEP_SUMMARY"
+              exit 1 ;;
+            esac
+          done
+          {
+            echo "--- config check -------------------------------------"
+            echo "  JIRA_BASE   $JIRA_BASE"
+            echo "  board $BOARD_ID / project $PROJECT_KEY / team $TEAM_KEY"
+            echo "  capacity page $CAPACITY_PAGE / sign-off page $SIGNOFF_PAGE"
+            echo "  JIRA_EMAIL  ${#JIRA_EMAIL} characters, after the @: ${JIRA_EMAIL#*@}"
+            echo "  JIRA_TOKEN  ${#JIRA_TOKEN} characters"
+            echo "------------------------------------------------------"
+            if [ -z "$JIRA_EMAIL" ] || [ -z "$JIRA_TOKEN" ]; then
+              echo "CONFIG ERROR: a secret arrived empty."
+              echo "Settings -> Secrets and variables -> Actions -> tab 'Secrets'."
+              echo "The names must be exactly JIRA_EMAIL and JIRA_TOKEN."
+            fi
+          } | tee /tmp/run.log
+          set +e
+          python3 scripts/fetch_jira.py \
+            --team "$TEAM_KEY" --board "$BOARD_ID" --project "$PROJECT_KEY" \
+            --out data/live.json --month-out data/current.json \
+            ${SELFCHECK:+--selfcheck "$SELFCHECK"} 2>&1 | tee -a /tmp/run.log
+          code=${PIPESTATUS[0]}
+          if [ "$code" = "0" ] && [ -z "$SELFCHECK" ]; then
+            python3 scripts/build_reports.py --all 2>&1 | tee -a /tmp/run.log
+            code=${PIPESTATUS[0]}
+          fi
+          {
+            echo "### Refresh - exit code $code"
+            echo ''
+            echo '```'
+            tail -n 60 /tmp/run.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit $code
+
+      - name: Commit only what actually changed
+        run: |
+          git config user.name  "live-data bot"
+          git config user.email "actions@github.com"
+          # anything other than data/live.json is a real change
+          other=$(git status --porcelain -- . ':(exclude)data/live.json' | wc -l)
+          if [ "$other" -gt 0 ]; then
+            git add -A
+            git commit -m "reports: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+            exit 0
+          fi
+          # only live.json moved: skip when it is just the timestamp line
+          if git diff --quiet -- data/live.json; then
+            echo "no change"; exit 0
+          fi
+          if [ "$(git diff -- data/live.json | grep -c '^[+-][^+-]')" -le 2 ]; then
+            echo "only the timestamp moved - skipping commit"
+            git checkout -- data/live.json; exit 0
+          fi
+          git add data/live.json
+          git commit -m "live data: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
