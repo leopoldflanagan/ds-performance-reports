@@ -8,7 +8,7 @@
   "start": "2026-08-31",
   "end": "2026-09-25",
   "prev": "",
-  "prev_closed": null,
+  "prev_closed": 39,
   "closed": 20,
   "discarded": 0,
   "resolved": 20,
@@ -38,7 +38,7 @@
   "day": 17,
   "days": 26,
   "status": "risk",
-  "headline": "20 items closed in the first 17 days. Unplanned work at 10.0%.",
+  "headline": "20 items closed in the first 17 days, a pace of about 31 for the month against 39 last month. Unplanned work at 10.0%.",
   "notes": [
    "unplanned work at 10.0%",
    "cycle time median 13.0d and average 21.5d, both past the healthy band"

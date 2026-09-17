@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T22:49:22Z",
+ "generated": "2026-09-17T22:56:13Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -198,8 +198,18 @@
   ]
  },
  "projection": {
-  "too_early": true,
-  "why": "not enough closed sprints to compare against yet"
+  "too_early": false,
+  "day": 2,
+  "days": 9,
+  "n": 7,
+  "done_now": 5,
+  "committed": 31,
+  "lo": 22,
+  "mid": 24,
+  "hi": 37,
+  "pct": 77,
+  "verdict": "well short of the commitment",
+  "share_mid": 0.212
  },
  "admin": {
   "scope": {
@@ -468,18 +478,6 @@
     "clear_n": 77
    },
    {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 9
-   },
-   {
     "status": "Awaiting Review",
     "open": 0,
     "med_age": 0,
@@ -490,6 +488,18 @@
     "over": 0,
     "clear_med": 5.2,
     "clear_n": 10
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 9
    }
   ],
   "parked": {

@@ -8,16 +8,751 @@
  "CAP": {},
  "CAP_Q1": [],
  "CAP_Q2": [],
- "SPILL": {},
+ "SPILL": {
+  "DS-Sprint 13-26": {
+   "done": [
+    29,
+    44
+   ],
+   "open": [
+    9,
+    25
+   ],
+   "out": [
+    4,
+    11
+   ],
+   "in": [
+    7,
+    22
+   ],
+   "in_pct": 42,
+   "in_from": "DS-Sprint 12-26"
+  },
+  "DS-Sprint 15-26": {
+   "done": [
+    18,
+    34
+   ],
+   "open": [
+    10,
+    34
+   ],
+   "out": [
+    1,
+    5
+   ],
+   "in": [
+    6,
+    22
+   ],
+   "in_pct": 35,
+   "in_from": "DS-Sprint 14-26"
+  },
+  "DS-Sprint 16-26": {
+   "done": [
+    14,
+    33
+   ],
+   "open": [
+    11,
+    29
+   ],
+   "out": [
+    2,
+    7
+   ],
+   "in": [
+    8,
+    26
+   ],
+   "in_pct": 37,
+   "in_from": "DS-Sprint 15-26"
+  },
+  "DS-Sprint 16-27": {
+   "done": [
+    30,
+    66
+   ],
+   "open": [
+    15,
+    36
+   ],
+   "out": [
+    0,
+    0
+   ],
+   "in": [
+    0,
+    0
+   ],
+   "in_pct": 0,
+   "in_from": "DS-Sprint 16-26"
+  },
+  "DS-Sprint 18-26": {
+   "done": [
+    25,
+    42
+   ],
+   "open": [
+    6,
+    13
+   ],
+   "out": [
+    1,
+    5
+   ],
+   "in": [
+    13,
+    35
+   ],
+   "in_pct": 60,
+   "in_from": "DS-Sprint 16-27"
+  },
+  "DS-Sprint 19-26": {
+   "done": [
+    22,
+    29
+   ],
+   "open": [
+    14,
+    33
+   ],
+   "out": [
+    2,
+    4
+   ],
+   "in": [
+    0,
+    0
+   ],
+   "in_pct": 0,
+   "in_from": "DS-Sprint 18-26"
+  },
+  "DS-Sprint 20-26": {
+   "done": [
+    7,
+    5
+   ],
+   "open": [
+    13,
+    32
+   ],
+   "out": [
+    1,
+    2
+   ],
+   "in": [
+    6,
+    15
+   ],
+   "in_pct": 33,
+   "in_from": "DS-Sprint 19-26"
+  }
+ },
  "SPILL_Q1": {},
- "SPLIT": {},
+ "SPLIT": {
+  "DS-Sprint 13-26": {
+   "react": 5,
+   "plan": 16,
+   "pct": 24
+  },
+  "DS-Sprint 15-26": {
+   "react": 2,
+   "plan": 5,
+   "pct": 29
+  },
+  "DS-Sprint 16-26": {
+   "react": 1,
+   "plan": 1,
+   "pct": 50
+  },
+  "DS-Sprint 16-27": {
+   "react": 4,
+   "plan": 8,
+   "pct": 33
+  },
+  "DS-Sprint 18-26": {
+   "react": 1,
+   "plan": 6,
+   "pct": 14
+  },
+  "DS-Sprint 19-26": {
+   "react": 2,
+   "plan": 12,
+   "pct": 14
+  },
+  "DS-Sprint 20-26": {
+   "react": 1,
+   "plan": 0,
+   "pct": 100
+  }
+ },
  "SPLIT_Q1": {},
- "SPRINTS": [],
+ "SPRINTS": [
+  [
+   "DS-Sprint 13-26",
+   "May 11",
+   "May 26",
+   45,
+   29,
+   52,
+   85,
+   44,
+   63,
+   [
+    52.0,
+    52.0,
+    53.0,
+    49.0,
+    52.0,
+    52.0,
+    52.0,
+    52.0,
+    52.0,
+    52.0,
+    56.0,
+    59.0,
+    59.0,
+    59.0,
+    59.0,
+    38.0
+   ],
+   [
+    52.0,
+    52.0,
+    56.0,
+    57.0,
+    63.0,
+    64.0,
+    64.0,
+    64.0,
+    65.0,
+    68.0,
+    77.0,
+    85.0,
+    85.0,
+    85.0,
+    85.0,
+    82.0
+   ]
+  ],
+  [
+   "DS-Sprint 15-26",
+   "Jun 8",
+   "Jun 22",
+   35,
+   18,
+   63,
+   76,
+   34,
+   21,
+   [
+    63.0,
+    63.0,
+    63.0,
+    64.0,
+    66.0,
+    61.0,
+    61.0,
+    58.0,
+    53.0,
+    50.0,
+    50.0,
+    50.0,
+    50.0,
+    50.0,
+    37.0
+   ],
+   [
+    63.0,
+    63.0,
+    65.0,
+    66.0,
+    70.0,
+    70.0,
+    70.0,
+    70.0,
+    65.0,
+    69.0,
+    69.0,
+    71.0,
+    71.0,
+    71.0,
+    71.0
+   ]
+  ],
+  [
+   "DS-Sprint 16-26",
+   "Jun 22",
+   "Jul 6",
+   33,
+   14,
+   71,
+   73,
+   33,
+   3,
+   [
+    71.0,
+    68.0,
+    64.0,
+    64.0,
+    64.0,
+    64.0,
+    64.0,
+    61.0,
+    56.0,
+    49.0,
+    46.0,
+    46.0,
+    46.0,
+    46.0,
+    33.0
+   ],
+   [
+    71.0,
+    71.0,
+    71.0,
+    71.0,
+    71.0,
+    71.0,
+    71.0,
+    68.0,
+    68.0,
+    68.0,
+    68.0,
+    68.0,
+    68.0,
+    68.0,
+    66.0
+   ]
+  ],
+  [
+   "DS-Sprint 16-27",
+   "Jul 6",
+   "Jul 20",
+   51,
+   30,
+   84,
+   110,
+   67,
+   31,
+   [
+    83.0,
+    84.0,
+    84.0,
+    89.0,
+    84.0,
+    62.0,
+    62.0,
+    62.0,
+    57.0,
+    48.0,
+    45.0,
+    48.0,
+    48.0,
+    48.0,
+    43.0
+   ],
+   [
+    83.0,
+    84.0,
+    84.0,
+    92.0,
+    94.0,
+    95.0,
+    95.0,
+    95.0,
+    97.0,
+    100.0,
+    100.0,
+    110.0,
+    110.0,
+    110.0,
+    110.0
+   ]
+  ],
+  [
+   "DS-Sprint 18-26",
+   "Jul 20",
+   "Aug 3",
+   32,
+   25,
+   58,
+   71,
+   52,
+   22,
+   [
+    58.0,
+    58.0,
+    54.0,
+    51.0,
+    51.0,
+    50.0,
+    50.0,
+    50.0,
+    42.0,
+    32.0,
+    32.0,
+    32.0,
+    32.0,
+    32.0,
+    14.0
+   ],
+   [
+    58.0,
+    58.0,
+    63.0,
+    63.0,
+    63.0,
+    68.0,
+    68.0,
+    68.0,
+    69.0,
+    64.0,
+    64.0,
+    66.0,
+    66.0,
+    66.0,
+    66.0
+   ]
+  ],
+  [
+   "DS-Sprint 19-26",
+   "Aug 3",
+   "Aug 26",
+   41,
+   22,
+   50,
+   67,
+   29,
+   34,
+   [
+    50.0,
+    50.0,
+    47.0,
+    50.0,
+    45.0,
+    45.0,
+    45.0,
+    43.0,
+    44.0,
+    44.0,
+    42.0,
+    42.0,
+    42.0,
+    42.0,
+    42.0,
+    42.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    43.0,
+    30.0
+   ],
+   [
+    50.0,
+    50.0,
+    50.0,
+    53.0,
+    53.0,
+    53.0,
+    53.0,
+    53.0,
+    57.0,
+    57.0,
+    57.0,
+    57.0,
+    59.0,
+    59.0,
+    59.0,
+    61.0,
+    61.0,
+    61.0,
+    61.0,
+    61.0,
+    61.0,
+    61.0,
+    67.0,
+    67.0
+   ]
+  ],
+  [
+   "DS-Sprint 20-26",
+   "Aug 27",
+   "Aug 31",
+   24,
+   7,
+   46,
+   47,
+   13,
+   2,
+   [
+    36.0,
+    36.0,
+    34.0,
+    34.0,
+    32.0,
+    30.0
+   ],
+   [
+    44.0,
+    44.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0
+   ]
+  ]
+ ],
  "SPRINTS_Q1": [],
  "SPRINT_GOALS": {},
  "SPRINT_NOTE_Q1": {},
  "SP_BY_MONTH": {},
- "TIS": {},
+ "TIS": {
+  "DS-Sprint 13-26": {
+   "tis": {
+    "In Development": {
+     "n": 22,
+     "med": 1.36
+    },
+    "Closed": {
+     "n": 29,
+     "med": 5.85
+    },
+    "Ready for Development": {
+     "n": 21,
+     "med": 5.01
+    },
+    "Backlog": {
+     "n": 12,
+     "med": 0.0
+    },
+    "Awaiting Review": {
+     "n": 3,
+     "med": 4.99
+    }
+   },
+   "dist": {
+    "Closed": 38,
+    "Ready for Development": 3,
+    "In Development": 2,
+    "Backlog": 2
+   },
+   "stalled": 13,
+   "worst": 5.01,
+   "worstSt": "Ready for Development",
+   "items": 45
+  },
+  "DS-Sprint 15-26": {
+   "tis": {
+    "Backlog": {
+     "n": 8,
+     "med": 5.46
+    },
+    "Ready for Development": {
+     "n": 25,
+     "med": 13.92
+    },
+    "Closed": {
+     "n": 18,
+     "med": 4.38
+    },
+    "In Development": {
+     "n": 13,
+     "med": 4.73
+    },
+    "Awaiting Review": {
+     "n": 1,
+     "med": 12.88
+    }
+   },
+   "dist": {
+    "Closed": 28,
+    "In Development": 3,
+    "Ready for Development": 4
+   },
+   "stalled": 17,
+   "worst": 13.92,
+   "worstSt": "Ready for Development",
+   "items": 35
+  },
+  "DS-Sprint 16-26": {
+   "tis": {
+    "Backlog": {
+     "n": 4,
+     "med": 5.67
+    },
+    "Ready for Development": {
+     "n": 27,
+     "med": 13.98
+    },
+    "In Development": {
+     "n": 15,
+     "med": 5.71
+    },
+    "Closed": {
+     "n": 14,
+     "med": 5.86
+    },
+    "Awaiting Review": {
+     "n": 3,
+     "med": 0.22
+    }
+   },
+   "dist": {
+    "Closed": 27,
+    "In Development": 3,
+    "Ready for Development": 3
+   },
+   "stalled": 19,
+   "worst": 13.98,
+   "worstSt": "Ready for Development",
+   "items": 33
+  },
+  "DS-Sprint 16-27": {
+   "tis": {
+    "Ready for Development": {
+     "n": 39,
+     "med": 1.01
+    },
+    "In Development": {
+     "n": 17,
+     "med": 3.83
+    },
+    "Closed": {
+     "n": 31,
+     "med": 9.76
+    },
+    "Backlog": {
+     "n": 25,
+     "med": 3.14
+    },
+    "Awaiting Review": {
+     "n": 4,
+     "med": 7.8
+    }
+   },
+   "dist": {
+    "Closed": 46,
+    "In Development": 3,
+    "Ready for Development": 2
+   },
+   "stalled": 20,
+   "worst": 7.8,
+   "worstSt": "Awaiting Review",
+   "items": 51
+  },
+  "DS-Sprint 18-26": {
+   "tis": {
+    "In Development": {
+     "n": 17,
+     "med": 4.02
+    },
+    "Closed": {
+     "n": 25,
+     "med": 6.9
+    },
+    "Ready for Development": {
+     "n": 19,
+     "med": 2.1
+    },
+    "Backlog": {
+     "n": 9,
+     "med": 1.3
+    },
+    "Awaiting Review": {
+     "n": 4,
+     "med": 7.95
+    }
+   },
+   "dist": {
+    "Closed": 30,
+    "In Development": 2
+   },
+   "stalled": 6,
+   "worst": 7.95,
+   "worstSt": "Awaiting Review",
+   "items": 32
+  },
+  "DS-Sprint 19-26": {
+   "tis": {
+    "Backlog": {
+     "n": 20,
+     "med": 4.45
+    },
+    "Ready for Development": {
+     "n": 14,
+     "med": 1.93
+    },
+    "Closed": {
+     "n": 23,
+     "med": 14.96
+    },
+    "Deferred": {
+     "n": 1,
+     "med": 0.0
+    },
+    "To Do": {
+     "n": 1,
+     "med": 14.2
+    },
+    "Done": {
+     "n": 1,
+     "med": 0.0
+    },
+    "In Development": {
+     "n": 16,
+     "med": 6.94
+    },
+    "Awaiting Review": {
+     "n": 2,
+     "med": 22.96
+    }
+   },
+   "dist": {
+    "Closed": 32,
+    "Ready for Development": 6,
+    "In Development": 3
+   },
+   "stalled": 16,
+   "worst": 22.96,
+   "worstSt": "Awaiting Review",
+   "items": 41
+  },
+  "DS-Sprint 20-26": {
+   "tis": {
+    "Ready for Development": {
+     "n": 12,
+     "med": 4.04
+    },
+    "Closed": {
+     "n": 7,
+     "med": 4.04
+    },
+    "In Development": {
+     "n": 10,
+     "med": 4.04
+    },
+    "Awaiting Review": {
+     "n": 2,
+     "med": 4.04
+    }
+   },
+   "dist": {
+    "Closed": 17,
+    "Ready for Development": 4,
+    "In Development": 3
+   },
+   "stalled": 17,
+   "worst": 4.04,
+   "worstSt": "Ready for Development",
+   "items": 24
+  }
+ },
  "WIP": {},
  "VEL_BASE": 0,
  "VEL_LO": 0,
@@ -27,7 +762,24 @@
  "Q1_WONTDO": 0,
  "Q1_CYC_RECALC": {},
  "GUIDES": {},
- "REPORTS": [],
+ "REPORTS": [
+  [
+   "9.07",
+   "2026-r907.html"
+  ],
+  [
+   "9.06",
+   "2026-r906.html"
+  ],
+  [
+   "9.05",
+   "2026-r905.html"
+  ],
+  [
+   "9.04",
+   "2026-r904.html"
+  ]
+ ],
  "MONTHS": {},
  "MONTH_LABEL": {},
  "QUARTERS_CLOSED": [],
@@ -35,64 +787,592 @@
  "FLOW_ST": [],
  "STCOL": {},
  "TIPS": {},
- "INDEX": {},
+ "INDEX": {
+  "2026-r904.html": {
+   "short": "9.04",
+   "title": "Release 9.04 Performance Report",
+   "badge": "Pending review",
+   "blurb": "20 items closed. Unplanned work at 30.0% of everything closed."
+  },
+  "2026-r905.html": {
+   "short": "9.05",
+   "title": "Release 9.05 Performance Report",
+   "badge": "Pending review",
+   "blurb": "26 items closed. Unplanned work at 30.8% of everything closed."
+  },
+  "2026-r906.html": {
+   "short": "9.06",
+   "title": "Release 9.06 Performance Report",
+   "badge": "Pending review",
+   "blurb": "73 items closed. Unplanned work at 57.5% of everything closed."
+  },
+  "2026-r907.html": {
+   "short": "9.07",
+   "title": "Release 9.07 Performance Report",
+   "badge": "Pending review",
+   "blurb": "39 items closed. Unplanned work at 33.3% of everything closed."
+  }
+ },
  "INTRO": "",
- "GHOST": {},
+ "GHOST": {
+  "DS-Sprint 13-26": [
+   52.0,
+   52.0,
+   53.0,
+   49.0,
+   52.0,
+   52.0,
+   52.0,
+   52.0,
+   52.0,
+   52.0,
+   56.0,
+   59.0,
+   59.0,
+   59.0,
+   59.0,
+   41.0
+  ],
+  "DS-Sprint 15-26": [
+   63.0,
+   63.0,
+   63.0,
+   64.0,
+   66.0,
+   61.0,
+   61.0,
+   58.0,
+   58.0,
+   55.0,
+   55.0,
+   55.0,
+   55.0,
+   55.0,
+   42.0
+  ],
+  "DS-Sprint 16-26": [
+   71.0,
+   68.0,
+   64.0,
+   64.0,
+   64.0,
+   64.0,
+   64.0,
+   66.0,
+   61.0,
+   54.0,
+   51.0,
+   51.0,
+   51.0,
+   51.0,
+   40.0
+  ],
+  "DS-Sprint 16-27": [
+   83.0,
+   84.0,
+   84.0,
+   89.0,
+   84.0,
+   62.0,
+   62.0,
+   62.0,
+   57.0,
+   48.0,
+   45.0,
+   48.0,
+   48.0,
+   48.0,
+   43.0
+  ],
+  "DS-Sprint 18-26": [
+   58.0,
+   58.0,
+   54.0,
+   51.0,
+   51.0,
+   50.0,
+   50.0,
+   50.0,
+   42.0,
+   37.0,
+   37.0,
+   37.0,
+   37.0,
+   37.0,
+   19.0
+  ],
+  "DS-Sprint 19-26": [
+   50.0,
+   50.0,
+   47.0,
+   50.0,
+   45.0,
+   45.0,
+   45.0,
+   43.0,
+   44.0,
+   44.0,
+   42.0,
+   42.0,
+   42.0,
+   42.0,
+   42.0,
+   42.0,
+   40.0,
+   40.0,
+   40.0,
+   40.0,
+   40.0,
+   40.0,
+   43.0,
+   30.0
+  ],
+  "DS-Sprint 20-26": [
+   36.0,
+   38.0,
+   36.0,
+   36.0,
+   34.0,
+   32.0
+  ]
+ },
  "RELEASES": {
   "9.04": {
    "slug": "2026-r904",
    "label": "Release 9.04",
    "short": "9.04",
+   "n_sprints": 1,
    "start": "2026-05-11",
    "end": "2026-05-25",
+   "prev": "",
+   "prev_closed": null,
+   "closed": 20,
+   "discarded": 0,
+   "resolved": 20,
+   "unplanned": 6,
+   "unp_pct": 30.0,
+   "types": [
+    [
+     "Story",
+     18
+    ],
+    [
+     "Urgent Task",
+     2
+    ]
+   ],
    "sprints": [
     "DS-Sprint 13-26"
    ],
-   "n_sprints": 1,
+   "unp_items": [
+    [
+     "DS-519",
+     "Redo alerts for Azure Data Factories"
+    ],
+    [
+     "DS-515",
+     "need connection for Wallet database in stage "
+    ],
+    [
+     "DS-514",
+     "Load Pay Fac Merchant Fee Report manually for 202605 data"
+    ],
+    [
+     "DS-513",
+     "Trailing spaces on settlements proc"
+    ],
+    [
+     "DS-503",
+     "Increase eDTUs on the failover server"
+    ],
+    [
+     "DS-494",
+     "Database project standards"
+    ]
+   ],
+   "open": false,
+   "day": 17,
+   "days": 15,
+   "status": "risk",
+   "headline": "20 items closed. Unplanned work at 30.0% of everything closed.",
+   "notes": [
+    "unplanned work at 30.0% of everything closed"
+   ],
    "weeks": 2,
-   "open": false
+   "per_sprint": 20.0
   },
   "9.05": {
    "slug": "2026-r905",
    "label": "Release 9.05",
    "short": "9.05",
+   "n_sprints": 1,
    "start": "2026-06-08",
    "end": "2026-06-22",
+   "prev": "",
+   "prev_closed": null,
+   "closed": 26,
+   "discarded": 0,
+   "resolved": 26,
+   "unplanned": 8,
+   "unp_pct": 30.8,
+   "types": [
+    [
+     "Story",
+     24
+    ],
+    [
+     "Bug",
+     2
+    ]
+   ],
    "sprints": [
     "DS-Sprint 15-26"
    ],
-   "n_sprints": 1,
+   "unp_items": [
+    [
+     "DS-608",
+     "Review ETL for Lookup Supplemental Display Content for LL"
+    ],
+    [
+     "DS-604",
+     "[DB Access Request] Grant Function App managed identity DB access on Payments DB (all environments)"
+    ],
+    [
+     "DS-595",
+     "[DB Access Request] Bulk User Creation | Database access request to pull practice names for DCA, D365, etc"
+    ],
+    [
+     "DS-590",
+     "[DB Access Request] Write permission to stage server platform"
+    ],
+    [
+     "DS-589",
+     "[DB Access Request] Require read access to Wellfitreporting db on QA and Sbox servers"
+    ],
+    [
+     "DS-588",
+     "Process PayFacMerchantFee files for this Month"
+    ],
+    [
+     "DS-584",
+     "[DB Access Request] Read-only access to Platform-Dialexa database for billing descriptor investigation"
+    ],
+    [
+     "DS-582",
+     "Add 'Order Source' new field from Financial_Detail_NssByTxnBySettlementDate0NegativeRefund_231000_20260610.CSV"
+    ]
+   ],
+   "open": false,
+   "day": 17,
+   "days": 15,
+   "status": "risk",
+   "headline": "26 items closed. Unplanned work at 30.8% of everything closed.",
+   "notes": [
+    "unplanned work at 30.8% of everything closed",
+    "cycle time average 9.8d against a 3.0d median - a long tail"
+   ],
    "weeks": 2,
-   "open": false
+   "per_sprint": 26.0
   },
   "9.06": {
    "slug": "2026-r906",
    "label": "Release 9.06",
    "short": "9.06",
+   "n_sprints": 3,
    "start": "2026-06-22",
    "end": "2026-08-02",
+   "prev": "",
+   "prev_closed": null,
+   "closed": 73,
+   "discarded": 1,
+   "resolved": 74,
+   "unplanned": 42,
+   "unp_pct": 57.5,
+   "types": [
+    [
+     "Story",
+     72
+    ],
+    [
+     "Bug",
+     1
+    ]
+   ],
    "sprints": [
     "DS-Sprint 16-26",
     "DS-Sprint 16-27",
     "DS-Sprint 18-26"
    ],
-   "n_sprints": 3,
+   "unp_items": [
+    [
+     "DS-672",
+     "[DB Access Request] Need access for \"PracticeManagement\" DB"
+    ],
+    [
+     "DS-669",
+     "[DB Access Request] Need insert, update and delete ability for Platform and WellfitPay databases in Stage environment"
+    ],
+    [
+     "DS-668",
+     "[DB Access Request] Access to DB tables"
+    ],
+    [
+     "DS-667",
+     "[DB Access Request] Request to provide access to Wellfit Bill Pay database in QA, Stage and Preprod environments for Alan Rodriguez "
+    ],
+    [
+     "DS-666",
+     "[DB Access Request] Grant Deployment SP Alter Schema for Wellfitreporting Database"
+    ],
+    [
+     "DS-665",
+     "[DB Access Request] Grant Deployment SP Alter Schema for WellfitFeatureFlags Database"
+    ],
+    [
+     "DS-663",
+     "[DB Access Request] Create External Identity for WellfitSystemSettings in Non-Production Databases"
+    ],
+    [
+     "DS-660",
+     "Fix Platform Incremental ETL timestamp filter"
+    ],
+    [
+     "DS-656",
+     " Implement stored procedure orchestration chain for seed data processing across Platform, ACH Authorization, and Communication Service databases"
+    ],
+    [
+     "DS-655",
+     "[DB Access Request] Create External Identity for AchAuthorization in Non-Production Databases"
+    ],
+    [
+     "DS-654",
+     "[DB Access Request] Read/Write- Access to the databases in analytics Database - QA"
+    ],
+    [
+     "DS-653",
+     "[DB Access Request] Read only - Access to the databases in analytics Database - PROD"
+    ],
+    [
+     "DS-652",
+     "[DB Access Request] Read only - Access to the databases in analytics Database - Stage"
+    ],
+    [
+     "DS-651",
+     "[DB Access Request] Read only - Access to the databases in analytics Database - Pre prod"
+    ],
+    [
+     "DS-650",
+     "[DB Access Request] Create External Identity for PaymentArragements in Non-Production Databases"
+    ],
+    [
+     "DS-649",
+     "Manager reviews"
+    ],
+    [
+     "DS-648",
+     "[DB Access Request] API  requires read/write permissions on db"
+    ],
+    [
+     "DS-647",
+     "[DB Access Request] Create External Identity for Wellfitreporting in PreProduction Database"
+    ],
+    [
+     "DS-646",
+     "[DB Access Request] PaymentArrangements database access to All FMP team memebers"
+    ],
+    [
+     "DS-643",
+     "[DB Access Request] Function app requires read/write permissions on db"
+    ],
+    [
+     "DS-642",
+     "[DB Access Request] Need access for platform-dialexa db in stage"
+    ],
+    [
+     "DS-641",
+     "End-to-end testing for file transfer"
+    ],
+    [
+     "DS-640",
+     "[DB Access Request] Create External Identity for WellfitFeatureFlags in PreProduction Database"
+    ],
+    [
+     "DS-639",
+     "[DB Access Request] Create External Identity for WellfitLegalLanguage in PreProduction Database"
+    ],
+    [
+     "DS-638",
+     "[DB Access Request] Add permission for new wellfitreporting app to access these dbs"
+    ],
+    [
+     "DS-637",
+     "PDS Daily settlements missing files - 06/09 & 06/15"
+    ],
+    [
+     "DS-636",
+     "[DB Access Request] Create External Identity for WellfitLegalLanguage in PreProduction Database"
+    ],
+    [
+     "DS-630",
+     "Refresh platform on preprod"
+    ],
+    [
+     "DS-629",
+     "[DB Access Request] Permission to database"
+    ],
+    [
+     "DS-625",
+     "Patterson Plan Rev Share ETL Fix"
+    ],
+    [
+     "DS-619",
+     "[DB Access Request] Request to provide R/W access to Practice Management DB in QA, stage and Preprod to Alan Rodriguez"
+    ],
+    [
+     "DS-616",
+     "[DB Access Request] Create TokenVault Database User"
+    ],
+    [
+     "DS-615",
+     "Create Cedargate data file for 10/25, 11/25, 12/25 & 01/26"
+    ],
+    [
+     "DS-613",
+     "[DB Access Request] Request read/write access to QA, stage and Preprod DB for  Azepeda@arkusnexus.com (QA Arkus resource)"
+    ],
+    [
+     "DS-610",
+     "[DB Access Request] Request for permission to access pre prod database"
+    ],
+    [
+     "DS-608",
+     "Review ETL for Lookup Supplemental Display Content for LL"
+    ],
+    [
+     "DS-604",
+     "[DB Access Request] Grant Function App managed identity DB access on Payments DB (all environments)"
+    ],
+    [
+     "DS-595",
+     "[DB Access Request] Bulk User Creation | Database access request to pull practice names for DCA, D365, etc"
+    ],
+    [
+     "DS-593",
+     "Incremental test pipeline"
+    ],
+    [
+     "DS-590",
+     "[DB Access Request] Write permission to stage server platform"
+    ],
+    [
+     "DS-589",
+     "[DB Access Request] Require read access to Wellfitreporting db on QA and Sbox servers"
+    ],
+    [
+     "DS-533",
+     "ETL for WellfitPay"
+    ]
+   ],
+   "open": false,
+   "day": 17,
+   "days": 42,
+   "status": "risk",
+   "headline": "73 items closed. Unplanned work at 57.5% of everything closed.",
+   "notes": [
+    "unplanned work at 57.5% of everything closed",
+    "cycle time median 3.4d and average 16.8d, both past the healthy band"
+   ],
    "weeks": 6,
-   "open": false
+   "per_sprint": 24.3
   },
   "9.07": {
    "slug": "2026-r907",
    "label": "Release 9.07",
    "short": "9.07",
+   "n_sprints": 2,
    "start": "2026-08-03",
    "end": "2026-08-28",
+   "prev": "",
+   "prev_closed": null,
+   "closed": 39,
+   "discarded": 2,
+   "resolved": 41,
+   "unplanned": 13,
+   "unp_pct": 33.3,
+   "types": [
+    [
+     "Story",
+     39
+    ]
+   ],
    "sprints": [
     "DS-Sprint 19-26",
     "DS-Sprint 20-26"
    ],
-   "n_sprints": 2,
+   "unp_items": [
+    [
+     "DS-720",
+     "Refresh tables in preprod"
+    ],
+    [
+     "DS-717",
+     "ETL for Onboarding.Practices"
+    ],
+    [
+     "DS-712",
+     "[DB Access Request] Need Read/Write access to QA - PracticeManagement database"
+    ],
+    [
+     "DS-707",
+     "[DB Access Request] Access to read PracticeManagement DB in QA/DEV env"
+    ],
+    [
+     "DS-706",
+     "[DB Access Request] Grant Deployment SP Alter Schema for PaymentArragements Database"
+    ],
+    [
+     "DS-704",
+     "[DB Access Request] Request read and write access for AchAuthorization database in QA and stage environments"
+    ],
+    [
+     "DS-698",
+     "Database access request for payments and AchAuthorization for stage"
+    ],
+    [
+     "DS-697",
+     "few database access requests for AchAuthorization and platform databases on dev environment"
+    ],
+    [
+     "DS-696",
+     "Wellfitpay access request from developer on stage"
+    ],
+    [
+     "DS-694",
+     "[DB Access Request] Create External Identity for epicpaymentgateway-is in non-production Databases"
+    ],
+    [
+     "DS-689",
+     "[DB Access Request] Requesting Read Access to TokenVault DB"
+    ],
+    [
+     "DS-680",
+     "[DB Access Request] Grant Deployment SP Alter Schema for Wellfit Feature Flags Database"
+    ],
+    [
+     "DS-633",
+     "SharePoint to analytics permissions issues and add notifications"
+    ]
+   ],
+   "open": false,
+   "day": 17,
+   "days": 26,
+   "status": "risk",
+   "headline": "39 items closed. Unplanned work at 33.3% of everything closed.",
+   "notes": [
+    "unplanned work at 33.3% of everything closed"
+   ],
    "weeks": 4,
-   "open": false
+   "per_sprint": 19.5
   },
   "9.08": {
    "slug": "2026-r908",
@@ -122,6 +1402,21 @@
   "9.08": [
    "DS-Sprint 21-26",
    "DS-Sprint 22-26"
+  ],
+  "9.04": [
+   "DS-Sprint 13-26"
+  ],
+  "9.05": [
+   "DS-Sprint 15-26"
+  ],
+  "9.06": [
+   "DS-Sprint 16-26",
+   "DS-Sprint 16-27",
+   "DS-Sprint 18-26"
+  ],
+  "9.07": [
+   "DS-Sprint 19-26",
+   "DS-Sprint 20-26"
   ]
  },
  "CAP_R": {
@@ -130,6 +1425,30 @@
    0,
    0,
    0
+  ],
+  "9.04": [
+   20,
+   17,
+   35,
+   3
+  ],
+  "9.05": [
+   26,
+   24,
+   49,
+   3
+  ],
+  "9.06": [
+   73,
+   69,
+   152,
+   3
+  ],
+  "9.07": [
+   39,
+   25,
+   60,
+   3
   ]
  },
  "CYC_R": {
@@ -140,10 +1459,46 @@
    "mx": 0.0,
    "nodev": 0,
    "base": 0
+  },
+  "9.04": {
+   "med": 1.37,
+   "avg": 3.72,
+   "n": 12,
+   "mx": 16.88,
+   "nodev": 8,
+   "base": 20
+  },
+  "9.05": {
+   "med": 3.02,
+   "avg": 9.83,
+   "n": 11,
+   "mx": 68.02,
+   "nodev": 15,
+   "base": 26
+  },
+  "9.06": {
+   "med": 3.38,
+   "avg": 16.81,
+   "n": 28,
+   "mx": 215.24,
+   "nodev": 45,
+   "base": 73
+  },
+  "9.07": {
+   "med": 5.02,
+   "avg": 7.59,
+   "n": 11,
+   "mx": 28.14,
+   "nodev": 28,
+   "base": 39
   }
  },
  "RELEASE_LABEL": {
-  "9.08": "R9.08"
+  "9.08": "R9.08",
+  "9.04": "R9.04",
+  "9.05": "R9.05",
+  "9.06": "R9.06",
+  "9.07": "R9.07"
  },
  "HISTORICAL": [],
  "TEAM": {
