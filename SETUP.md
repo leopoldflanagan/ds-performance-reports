@@ -12,6 +12,12 @@ static site. Same codebase as EDW; what differs is data, not code.
 | Board, project, Confluence pages | `.github/workflows/refresh.yml` → `env` | see below |
 | Jira credentials | repository secrets | `JIRA_EMAIL`, `JIRA_TOKEN` |
 
+`JIRA_EMAIL` is the address of the **Atlassian account** the token belongs to,
+which is not necessarily a company address — an Atlassian login created under a
+vendor or personal domain stays that account's identity forever. A token always
+authenticates as the account that created it, and any other address with it gives
+a 401 that reads as a bad token when the token is fine.
+
 The two Confluence pages:
 
 * capacity — `3755671557`, *[2026] DS Team Capacity Schedule (PTO & Holidays)*
