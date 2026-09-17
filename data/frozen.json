@@ -995,18 +995,27 @@
    "weeks": 4
   },
   "9.08": {
-   "end": "2026-09-27",
-   "label": "Release 9.08",
-   "n_sprints": 2,
-   "open": true,
-   "short": "9.08",
    "slug": "2026-r908",
+   "label": "Release 9.08",
+   "short": "9.08",
+   "start": "2026-08-31",
+   "end": "2026-09-27",
    "sprints": [
     "DS-Sprint 21-26",
     "DS-Sprint 22-26"
    ],
-   "start": "2026-08-31",
-   "weeks": 4
+   "n_sprints": 2,
+   "weeks": 4,
+   "closed": 0,
+   "discarded": 0,
+   "resolved": 0,
+   "points": 0,
+   "per_sprint": 0,
+   "unplanned": null,
+   "unp_pct": null,
+   "types": [],
+   "unp_items": [],
+   "open": true
   }
  },
  "SP_BY_RELEASE": {
