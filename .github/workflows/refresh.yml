@@ -11,6 +11,10 @@ on:
         description: 'Recompute one frozen sprint and print the delta (e.g. DS-Sprint 21-26)'
         required: false
         default: ''
+      backfill:
+        description: 'Compute closed releases from Jira, once (e.g. 9.04 9.05 9.06 9.07)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -47,6 +51,7 @@ jobs:
           JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
           JIRA_TOKEN: ${{ secrets.JIRA_TOKEN }}
           SELFCHECK:  ${{ github.event.inputs.selfcheck }}
+          BACKFILL:   ${{ github.event.inputs.backfill }}
         run: |
           # two seconds here beats a six-minute round trip through CI for a typo
           python3 -m py_compile scripts/fetch_jira.py scripts/build_reports.py || {
@@ -82,6 +87,15 @@ jobs:
             fi
           } | tee /tmp/run.log
           set +e
+          # A release that closed before this repository existed has never been
+          # measured. This reads it back out of Jira, once, and after that it is
+          # history like any other frozen period.
+          if [ -n "$BACKFILL" ]; then
+            python3 scripts/backfill.py \
+              --team "$TEAM_KEY" --board "$BOARD_ID" --project "$PROJECT_KEY" \
+              $BACKFILL 2>&1 | tee -a /tmp/run.log
+            [ "${PIPESTATUS[0]}" = "0" ] || { echo "backfill failed"; exit 1; }
+          fi
           python3 scripts/fetch_jira.py \
             --team "$TEAM_KEY" --board "$BOARD_ID" --project "$PROJECT_KEY" \
             --out data/live.json --month-out data/current.json \
