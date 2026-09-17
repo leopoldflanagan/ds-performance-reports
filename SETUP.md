@@ -78,3 +78,40 @@ rather than a site full of invented figures.
 
 Step 6 is what creates the pages. Until it succeeds the site is a 404, which is the
 safe direction to fail in.
+
+## Refresh cadence
+
+Three things can start a run, and they are not equally reliable:
+
+| Trigger | What it is | How dependable |
+|---|---|---|
+| `schedule: */30` | GitHub's own timer | best effort; routinely late, sometimes skipped under load |
+| `repository_dispatch` | an external scheduler calling the API | fires when it says it will |
+| `workflow_dispatch` | the **Run workflow** button | on demand |
+
+GitHub throttles scheduled workflows, so `schedule:` is the fallback, not the plan.
+For an interval you can count on, have an external scheduler (cron-job.org, the same
+one EDW uses) call the dispatch endpoint:
+
+- **URL** `https://api.github.com/repos/leopoldflanagan/ds-performance-reports/dispatches`
+- **Method** `POST`
+- **Headers**
+  - `Accept: application/vnd.github+json`
+  - `Authorization: Bearer <GitHub token>`
+  - `Content-Type: application/json`
+- **Body** `{"event_type":"refresh"}`
+
+The GitHub token is a **fine-grained personal access token**, scoped to this one
+repository, with a single permission: **Contents: read and write**. Nothing else. Set
+it to expire and renew it — a token that lives in a third-party scheduler forever is
+the part of this setup most worth keeping short.
+
+A successful dispatch returns **204 No Content** with an empty body.
+
+### What interval is right
+
+Every run that finds a change commits it. A shorter interval means fresher numbers and
+more commits, and those commits are what make a local `git push` bounce while you are
+working on the repo. Fifteen minutes suits a board being watched during a sprint;
+thirty is plenty for DS today and halves the churn. The `schedule:` line and the
+external interval do not have to match — the external one is what actually governs.
