@@ -938,464 +938,75 @@
  },
  "RELEASES": {
   "9.04": {
-   "slug": "2026-r904",
+   "end": "2026-05-24",
    "label": "Release 9.04",
+   "n_sprints": 2,
+   "open": false,
    "short": "9.04",
-   "n_sprints": 1,
-   "start": "2026-05-11",
-   "end": "2026-05-25",
-   "prev": "",
-   "prev_closed": null,
-   "closed": 20,
-   "discarded": 0,
-   "resolved": 20,
-   "unplanned": 6,
-   "unp_pct": 30.0,
-   "types": [
-    [
-     "Story",
-     18
-    ],
-    [
-     "Urgent Task",
-     2
-    ]
-   ],
+   "slug": "2026-r904",
    "sprints": [
+    "DS-Sprint 12-26",
     "DS-Sprint 13-26"
    ],
-   "unp_items": [
-    [
-     "DS-519",
-     "Redo alerts for Azure Data Factories"
-    ],
-    [
-     "DS-515",
-     "need connection for Wallet database in stage "
-    ],
-    [
-     "DS-514",
-     "Load Pay Fac Merchant Fee Report manually for 202605 data"
-    ],
-    [
-     "DS-513",
-     "Trailing spaces on settlements proc"
-    ],
-    [
-     "DS-503",
-     "Increase eDTUs on the failover server"
-    ],
-    [
-     "DS-494",
-     "Database project standards"
-    ]
-   ],
-   "open": false,
-   "day": 17,
-   "days": 15,
-   "status": "risk",
-   "headline": "20 items closed. Unplanned work at 30.0% of everything closed.",
-   "notes": [
-    "unplanned work at 30.0% of everything closed"
-   ],
-   "weeks": 2,
-   "per_sprint": 20.0
+   "start": "2026-04-27",
+   "weeks": 4
   },
   "9.05": {
-   "slug": "2026-r905",
+   "end": "2026-06-21",
    "label": "Release 9.05",
+   "n_sprints": 2,
+   "open": false,
    "short": "9.05",
-   "n_sprints": 1,
-   "start": "2026-06-08",
-   "end": "2026-06-22",
-   "prev": "",
-   "prev_closed": null,
-   "closed": 26,
-   "discarded": 0,
-   "resolved": 26,
-   "unplanned": 8,
-   "unp_pct": 30.8,
-   "types": [
-    [
-     "Story",
-     24
-    ],
-    [
-     "Bug",
-     2
-    ]
-   ],
+   "slug": "2026-r905",
    "sprints": [
+    "DS-Sprint 14-26",
     "DS-Sprint 15-26"
    ],
-   "unp_items": [
-    [
-     "DS-608",
-     "Review ETL for Lookup Supplemental Display Content for LL"
-    ],
-    [
-     "DS-604",
-     "[DB Access Request] Grant Function App managed identity DB access on Payments DB (all environments)"
-    ],
-    [
-     "DS-595",
-     "[DB Access Request] Bulk User Creation | Database access request to pull practice names for DCA, D365, etc"
-    ],
-    [
-     "DS-590",
-     "[DB Access Request] Write permission to stage server platform"
-    ],
-    [
-     "DS-589",
-     "[DB Access Request] Require read access to Wellfitreporting db on QA and Sbox servers"
-    ],
-    [
-     "DS-588",
-     "Process PayFacMerchantFee files for this Month"
-    ],
-    [
-     "DS-584",
-     "[DB Access Request] Read-only access to Platform-Dialexa database for billing descriptor investigation"
-    ],
-    [
-     "DS-582",
-     "Add 'Order Source' new field from Financial_Detail_NssByTxnBySettlementDate0NegativeRefund_231000_20260610.CSV"
-    ]
-   ],
-   "open": false,
-   "day": 17,
-   "days": 15,
-   "status": "risk",
-   "headline": "26 items closed. Unplanned work at 30.8% of everything closed.",
-   "notes": [
-    "unplanned work at 30.8% of everything closed",
-    "cycle time average 9.8d against a 3.0d median - a long tail"
-   ],
-   "weeks": 2,
-   "per_sprint": 26.0
+   "start": "2026-05-25",
+   "weeks": 4
   },
   "9.06": {
-   "slug": "2026-r906",
-   "label": "Release 9.06",
-   "short": "9.06",
-   "n_sprints": 3,
-   "start": "2026-06-22",
    "end": "2026-08-02",
-   "prev": "",
-   "prev_closed": null,
-   "closed": 73,
-   "discarded": 1,
-   "resolved": 74,
-   "unplanned": 42,
-   "unp_pct": 57.5,
-   "types": [
-    [
-     "Story",
-     72
-    ],
-    [
-     "Bug",
-     1
-    ]
-   ],
+   "label": "Release 9.06",
+   "n_sprints": 3,
+   "open": false,
+   "short": "9.06",
+   "slug": "2026-r906",
    "sprints": [
     "DS-Sprint 16-26",
     "DS-Sprint 16-27",
     "DS-Sprint 18-26"
    ],
-   "unp_items": [
-    [
-     "DS-672",
-     "[DB Access Request] Need access for \"PracticeManagement\" DB"
-    ],
-    [
-     "DS-669",
-     "[DB Access Request] Need insert, update and delete ability for Platform and WellfitPay databases in Stage environment"
-    ],
-    [
-     "DS-668",
-     "[DB Access Request] Access to DB tables"
-    ],
-    [
-     "DS-667",
-     "[DB Access Request] Request to provide access to Wellfit Bill Pay database in QA, Stage and Preprod environments for Alan Rodriguez "
-    ],
-    [
-     "DS-666",
-     "[DB Access Request] Grant Deployment SP Alter Schema for Wellfitreporting Database"
-    ],
-    [
-     "DS-665",
-     "[DB Access Request] Grant Deployment SP Alter Schema for WellfitFeatureFlags Database"
-    ],
-    [
-     "DS-663",
-     "[DB Access Request] Create External Identity for WellfitSystemSettings in Non-Production Databases"
-    ],
-    [
-     "DS-660",
-     "Fix Platform Incremental ETL timestamp filter"
-    ],
-    [
-     "DS-656",
-     " Implement stored procedure orchestration chain for seed data processing across Platform, ACH Authorization, and Communication Service databases"
-    ],
-    [
-     "DS-655",
-     "[DB Access Request] Create External Identity for AchAuthorization in Non-Production Databases"
-    ],
-    [
-     "DS-654",
-     "[DB Access Request] Read/Write- Access to the databases in analytics Database - QA"
-    ],
-    [
-     "DS-653",
-     "[DB Access Request] Read only - Access to the databases in analytics Database - PROD"
-    ],
-    [
-     "DS-652",
-     "[DB Access Request] Read only - Access to the databases in analytics Database - Stage"
-    ],
-    [
-     "DS-651",
-     "[DB Access Request] Read only - Access to the databases in analytics Database - Pre prod"
-    ],
-    [
-     "DS-650",
-     "[DB Access Request] Create External Identity for PaymentArragements in Non-Production Databases"
-    ],
-    [
-     "DS-649",
-     "Manager reviews"
-    ],
-    [
-     "DS-648",
-     "[DB Access Request] API  requires read/write permissions on db"
-    ],
-    [
-     "DS-647",
-     "[DB Access Request] Create External Identity for Wellfitreporting in PreProduction Database"
-    ],
-    [
-     "DS-646",
-     "[DB Access Request] PaymentArrangements database access to All FMP team memebers"
-    ],
-    [
-     "DS-643",
-     "[DB Access Request] Function app requires read/write permissions on db"
-    ],
-    [
-     "DS-642",
-     "[DB Access Request] Need access for platform-dialexa db in stage"
-    ],
-    [
-     "DS-641",
-     "End-to-end testing for file transfer"
-    ],
-    [
-     "DS-640",
-     "[DB Access Request] Create External Identity for WellfitFeatureFlags in PreProduction Database"
-    ],
-    [
-     "DS-639",
-     "[DB Access Request] Create External Identity for WellfitLegalLanguage in PreProduction Database"
-    ],
-    [
-     "DS-638",
-     "[DB Access Request] Add permission for new wellfitreporting app to access these dbs"
-    ],
-    [
-     "DS-637",
-     "PDS Daily settlements missing files - 06/09 & 06/15"
-    ],
-    [
-     "DS-636",
-     "[DB Access Request] Create External Identity for WellfitLegalLanguage in PreProduction Database"
-    ],
-    [
-     "DS-630",
-     "Refresh platform on preprod"
-    ],
-    [
-     "DS-629",
-     "[DB Access Request] Permission to database"
-    ],
-    [
-     "DS-625",
-     "Patterson Plan Rev Share ETL Fix"
-    ],
-    [
-     "DS-619",
-     "[DB Access Request] Request to provide R/W access to Practice Management DB in QA, stage and Preprod to Alan Rodriguez"
-    ],
-    [
-     "DS-616",
-     "[DB Access Request] Create TokenVault Database User"
-    ],
-    [
-     "DS-615",
-     "Create Cedargate data file for 10/25, 11/25, 12/25 & 01/26"
-    ],
-    [
-     "DS-613",
-     "[DB Access Request] Request read/write access to QA, stage and Preprod DB for  Azepeda@arkusnexus.com (QA Arkus resource)"
-    ],
-    [
-     "DS-610",
-     "[DB Access Request] Request for permission to access pre prod database"
-    ],
-    [
-     "DS-608",
-     "Review ETL for Lookup Supplemental Display Content for LL"
-    ],
-    [
-     "DS-604",
-     "[DB Access Request] Grant Function App managed identity DB access on Payments DB (all environments)"
-    ],
-    [
-     "DS-595",
-     "[DB Access Request] Bulk User Creation | Database access request to pull practice names for DCA, D365, etc"
-    ],
-    [
-     "DS-593",
-     "Incremental test pipeline"
-    ],
-    [
-     "DS-590",
-     "[DB Access Request] Write permission to stage server platform"
-    ],
-    [
-     "DS-589",
-     "[DB Access Request] Require read access to Wellfitreporting db on QA and Sbox servers"
-    ],
-    [
-     "DS-533",
-     "ETL for WellfitPay"
-    ]
-   ],
-   "open": false,
-   "day": 17,
-   "days": 42,
-   "status": "risk",
-   "headline": "73 items closed. Unplanned work at 57.5% of everything closed.",
-   "notes": [
-    "unplanned work at 57.5% of everything closed",
-    "cycle time median 3.4d and average 16.8d, both past the healthy band"
-   ],
-   "weeks": 6,
-   "per_sprint": 24.3
+   "start": "2026-06-22",
+   "weeks": 6
   },
   "9.07": {
-   "slug": "2026-r907",
+   "end": "2026-08-30",
    "label": "Release 9.07",
-   "short": "9.07",
    "n_sprints": 2,
-   "start": "2026-08-03",
-   "end": "2026-08-28",
-   "prev": "",
-   "prev_closed": null,
-   "closed": 39,
-   "discarded": 2,
-   "resolved": 41,
-   "unplanned": 13,
-   "unp_pct": 33.3,
-   "types": [
-    [
-     "Story",
-     39
-    ]
-   ],
+   "open": false,
+   "short": "9.07",
+   "slug": "2026-r907",
    "sprints": [
     "DS-Sprint 19-26",
     "DS-Sprint 20-26"
    ],
-   "unp_items": [
-    [
-     "DS-720",
-     "Refresh tables in preprod"
-    ],
-    [
-     "DS-717",
-     "ETL for Onboarding.Practices"
-    ],
-    [
-     "DS-712",
-     "[DB Access Request] Need Read/Write access to QA - PracticeManagement database"
-    ],
-    [
-     "DS-707",
-     "[DB Access Request] Access to read PracticeManagement DB in QA/DEV env"
-    ],
-    [
-     "DS-706",
-     "[DB Access Request] Grant Deployment SP Alter Schema for PaymentArragements Database"
-    ],
-    [
-     "DS-704",
-     "[DB Access Request] Request read and write access for AchAuthorization database in QA and stage environments"
-    ],
-    [
-     "DS-698",
-     "Database access request for payments and AchAuthorization for stage"
-    ],
-    [
-     "DS-697",
-     "few database access requests for AchAuthorization and platform databases on dev environment"
-    ],
-    [
-     "DS-696",
-     "Wellfitpay access request from developer on stage"
-    ],
-    [
-     "DS-694",
-     "[DB Access Request] Create External Identity for epicpaymentgateway-is in non-production Databases"
-    ],
-    [
-     "DS-689",
-     "[DB Access Request] Requesting Read Access to TokenVault DB"
-    ],
-    [
-     "DS-680",
-     "[DB Access Request] Grant Deployment SP Alter Schema for Wellfit Feature Flags Database"
-    ],
-    [
-     "DS-633",
-     "SharePoint to analytics permissions issues and add notifications"
-    ]
-   ],
-   "open": false,
-   "day": 17,
-   "days": 26,
-   "status": "risk",
-   "headline": "39 items closed. Unplanned work at 33.3% of everything closed.",
-   "notes": [
-    "unplanned work at 33.3% of everything closed"
-   ],
-   "weeks": 4,
-   "per_sprint": 19.5
+   "start": "2026-08-03",
+   "weeks": 4
   },
   "9.08": {
-   "slug": "2026-r908",
+   "end": "2026-09-27",
    "label": "Release 9.08",
+   "n_sprints": 2,
+   "open": true,
    "short": "9.08",
-   "start": "2026-08-31",
-   "end": "2026-09-25",
+   "slug": "2026-r908",
    "sprints": [
     "DS-Sprint 21-26",
     "DS-Sprint 22-26"
    ],
-   "n_sprints": 2,
-   "weeks": 4,
-   "closed": 0,
-   "discarded": 0,
-   "resolved": 0,
-   "points": 0,
-   "per_sprint": 0,
-   "unplanned": null,
-   "unp_pct": null,
-   "types": [],
-   "unp_items": [],
-   "open": true
+   "start": "2026-08-31",
+   "weeks": 4
   }
  },
  "SP_BY_RELEASE": {
@@ -1425,30 +1036,6 @@
    0,
    0,
    0
-  ],
-  "9.04": [
-   20,
-   17,
-   35,
-   3
-  ],
-  "9.05": [
-   26,
-   24,
-   49,
-   3
-  ],
-  "9.06": [
-   73,
-   69,
-   152,
-   3
-  ],
-  "9.07": [
-   39,
-   25,
-   60,
-   3
   ]
  },
  "CYC_R": {
@@ -1459,38 +1046,6 @@
    "mx": 0.0,
    "nodev": 0,
    "base": 0
-  },
-  "9.04": {
-   "med": 1.37,
-   "avg": 3.72,
-   "n": 12,
-   "mx": 16.88,
-   "nodev": 8,
-   "base": 20
-  },
-  "9.05": {
-   "med": 3.02,
-   "avg": 9.83,
-   "n": 11,
-   "mx": 68.02,
-   "nodev": 15,
-   "base": 26
-  },
-  "9.06": {
-   "med": 3.38,
-   "avg": 16.81,
-   "n": 28,
-   "mx": 215.24,
-   "nodev": 45,
-   "base": 73
-  },
-  "9.07": {
-   "med": 5.02,
-   "avg": 7.59,
-   "n": 11,
-   "mx": 28.14,
-   "nodev": 28,
-   "base": 39
   }
  },
  "RELEASE_LABEL": {
