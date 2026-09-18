@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T23:38:05Z",
+ "generated": "2026-09-18T00:50:34Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 2,
+  "day": 3,
   "days": 9,
   "n": 9,
   "done_now": 5,
   "committed": 31,
-  "lo": 22,
-  "mid": 24,
-  "hi": 37,
-  "pct": 77,
+  "lo": 13,
+  "mid": 15,
+  "hi": 18,
+  "pct": 48,
   "verdict": "well short of the commitment",
-  "share_mid": 0.212
+  "share_mid": 0.324
  },
  "admin": {
   "scope": {
@@ -376,7 +376,7 @@
   "completed": 5,
   "scope_change": 0,
   "vs_commitment": 16,
-  "time_elapsed": 16,
+  "time_elapsed": 17,
   "spill": {
    "open_items": 18,
    "open_pts": 26.0,
@@ -413,7 +413,7 @@
    26.0
   ],
   "days": 9,
-  "day": 2,
+  "day": 3,
   "capacity": {
    "release": "9.08",
    "start": "2026-09-16",
@@ -434,7 +434,7 @@
   "kind": "release",
   "start": "2026-08-31",
   "end": "2026-09-27",
-  "day": 18,
+  "day": 19,
   "days": 28,
   "closed": 20,
   "points": 40,
@@ -457,13 +457,13 @@
     "status": "Ready for Development",
     "open": 14,
     "med_age": 22.4,
-    "max_age": 136.1,
+    "max_age": 136.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 13,
-    "clear_med": 2.3,
-    "clear_n": 128
+    "clear_med": 1.9,
+    "clear_n": 127
    },
    {
     "status": "In Development",
@@ -474,8 +474,8 @@
     "worst_sum": "Add CORS configs in Preprod",
     "worst_who": "Carlos Parra",
     "over": 2,
-    "clear_med": 3.8,
-    "clear_n": 77
+    "clear_med": 3.9,
+    "clear_n": 76
    },
    {
     "status": "Awaiting Review",
