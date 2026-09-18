@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T18:15:20Z",
+ "generated": "2026-09-18T18:21:47Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -478,7 +478,7 @@
     "status": "In Development",
     "open": 5,
     "med_age": 2.2,
-    "max_age": 15.9,
+    "max_age": 16.0,
     "worst_key": "DS-729",
     "worst_sum": "Add CORS configs in Preprod",
     "worst_who": "Carlos Parra",
