@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T17:00:24Z",
+ "generated": "2026-09-18T17:14:55Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -360,6 +360,12 @@
     "why": "neither Jira nor the capacity page records one, so delivery can only be measured in points.",
     "n": 1,
     "items": []
+   },
+   {
+    "rule": "The next sprint has not been created",
+    "why": "DS-Sprint 22-26 ends in 7 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
+    "n": 1,
+    "items": []
    }
   ]
  },
@@ -376,7 +382,7 @@
   "completed": 5,
   "scope_change": 0,
   "vs_commitment": 16,
-  "time_elapsed": 24,
+  "time_elapsed": 25,
   "spill": {
    "open_items": 18,
    "open_pts": 26.0,
