@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T03:21:55Z",
+ "generated": "2026-09-18T04:21:28Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -456,7 +456,7 @@
    {
     "status": "Ready for Development",
     "open": 14,
-    "med_age": 22.5,
+    "med_age": 22.6,
     "max_age": 136.3,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -468,26 +468,14 @@
    {
     "status": "In Development",
     "open": 5,
-    "med_age": 1.5,
-    "max_age": 15.3,
+    "med_age": 1.6,
+    "max_age": 15.4,
     "worst_key": "DS-729",
     "worst_sum": "Add CORS configs in Preprod",
     "worst_who": "Carlos Parra",
     "over": 2,
     "clear_med": 3.9,
     "clear_n": 76
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 9
    },
    {
     "status": "Awaiting Review",
@@ -500,6 +488,18 @@
     "over": 0,
     "clear_med": 5.2,
     "clear_n": 10
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 9
    }
   ],
   "parked": {
