@@ -10,8 +10,8 @@
   "prev": "",
   "prev_closed": 40,
   "closed": 20,
-  "discarded": 0,
-  "resolved": 20,
+  "discarded": 1,
+  "resolved": 21,
   "unplanned": 2,
   "unp_pct": 10.0,
   "types": [
