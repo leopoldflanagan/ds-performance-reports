@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T23:15:14Z",
+ "generated": "2026-09-20T00:00:22Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 4,
+  "day": 5,
   "days": 9,
   "n": 9,
   "done_now": 5,
   "committed": 33,
-  "lo": 12,
-  "mid": 13,
-  "hi": 18,
-  "pct": 39,
+  "lo": 9,
+  "mid": 11,
+  "hi": 14,
+  "pct": 33,
   "verdict": "well short of the commitment",
-  "share_mid": 0.393
+  "share_mid": 0.459
  },
  "admin": {
   "scope": {
@@ -374,7 +374,7 @@
    },
    {
     "rule": "The next sprint has not been created",
-    "why": "DS-Sprint 22-26 ends in 6 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
+    "why": "DS-Sprint 22-26 ends in 5 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
     "n": 1,
     "items": []
    }
@@ -436,7 +436,7 @@
    28.0
   ],
   "days": 9,
-  "day": 4,
+  "day": 5,
   "capacity": {
    "release": "9.08",
    "start": "2026-09-16",
@@ -457,7 +457,7 @@
   "kind": "release",
   "start": "2026-08-31",
   "end": "2026-09-27",
-  "day": 20,
+  "day": 21,
   "days": 28,
   "closed": 20,
   "points": 40,
@@ -480,7 +480,7 @@
     "status": "Ready for Development",
     "open": 15,
     "med_age": 24.3,
-    "max_age": 138.1,
+    "max_age": 138.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
@@ -501,18 +501,6 @@
     "clear_n": 76
    },
    {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 9
-   },
-   {
     "status": "Awaiting Review",
     "open": 0,
     "med_age": 0,
@@ -523,6 +511,18 @@
     "over": 0,
     "clear_med": 5.2,
     "clear_n": 10
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 9
    }
   ],
   "parked": {
