@@ -9,15 +9,15 @@
   "end": "2026-09-27",
   "prev": "",
   "prev_closed": 40,
-  "closed": 20,
+  "closed": 22,
   "discarded": 1,
-  "resolved": 21,
+  "resolved": 23,
   "unplanned": 2,
-  "unp_pct": 10.0,
+  "unp_pct": 9.1,
   "types": [
    [
     "Story",
-    20
+    22
    ]
   ],
   "sprints": [
@@ -38,11 +38,10 @@
   "day": 21,
   "days": 28,
   "status": "risk",
-  "headline": "20 items closed in the first 21 days, a pace of about 27 for the month against 40 last month. Running 33% behind last month's pace.",
+  "headline": "22 items closed in the first 21 days, a pace of about 29 for the month against 40 last month. Running 27% behind last month's pace.",
   "notes": [
-   "running 33% behind last month's pace",
-   "unplanned work at 10.0%",
-   "cycle time median 13.0d and average 21.5d, both past the healthy band"
+   "running 27% behind last month's pace",
+   "cycle time median 7.0d and average 18.7d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -98,10 +97,10 @@
    "Sep 16",
    "Sep 25",
    24,
-   3,
-   33,
-   33,
    5,
+   33,
+   33,
+   7,
    0,
    [
     27.0,
@@ -110,7 +109,7 @@
     28.0,
     28.0,
     28.0,
-    28.0
+    26.0
    ],
    [
     32.0,
@@ -146,12 +145,12 @@
   },
   "DS-Sprint 22-26": {
    "done": [
-    3,
-    0
+    5,
+    2
    ],
    "open": [
-    21,
-    28
+    19,
+    26
    ],
    "out": [
     0,
@@ -202,8 +201,8 @@
     }
    },
    "dist": {
-    "Closed": 20,
-    "Ready for Development": 8,
+    "Closed": 22,
+    "Ready for Development": 6,
     "In Development": 2
    },
    "stalled": 13,
@@ -214,7 +213,7 @@
   "DS-Sprint 22-26": {
    "tis": {
     "In Development": {
-     "n": 7,
+     "n": 9,
      "med": 3.71
     },
     "Backlog": {
@@ -222,22 +221,22 @@
      "med": 8.71
     },
     "Ready for Development": {
-     "n": 13,
-     "med": 8.71
+     "n": 14,
+     "med": 6.71
     },
     "Closed": {
-     "n": 3,
+     "n": 5,
      "med": 8.71
     }
    },
    "dist": {
     "In Development": 6,
-    "Ready for Development": 9,
-    "Backlog": 6,
-    "Closed": 3
+    "Ready for Development": 8,
+    "Backlog": 5,
+    "Closed": 5
    },
-   "stalled": 21,
-   "worst": 8.71,
+   "stalled": 19,
+   "worst": 6.71,
    "worstSt": "Ready for Development",
    "items": 24
   }
@@ -268,25 +267,25 @@
    28.0,
    28.0,
    28.0,
-   28.0
+   26.0
   ]
  },
  "CAP": {
   "9.08": [
-   20,
-   19,
-   40,
+   22,
+   21,
+   42,
    3
   ]
  },
  "CYC": {
   "9.08": {
-   "med": 12.96,
-   "avg": 21.53,
-   "n": 13,
+   "med": 7.0,
+   "avg": 18.66,
+   "n": 15,
    "mx": 72.78,
    "nodev": 7,
-   "base": 20
+   "base": 22
   }
  },
  "complete": false,
