@@ -572,7 +572,7 @@
   <p>Of everything added after day 1, <span class="stat">20%</span> carried a reactive marker — labeled <i>Unplanned</i> or typed <i>Urgent Task</i>. The rest came in as ordinary planned work. The series-wide view — velocity, scope-change trend and the full sprint table — lives in the
   <a href="#" class="ip-link" data-goto="cmp" style="color:#fff;border-bottom:1px solid rgba(255,255,255,.5)">Comparatives tab</a>.</p>
  </div>
- <div class="activewrap"><span class="activetag">Sprint open right now</span><div class="secsub" style="margin-bottom:10px"><b>DS-Sprint 22-26</b> is on <b>day 6 of 9</b>, with 3 days to go. It is shown here because it belongs to R9.08, but it is not in the totals above and gets no verdict until it closes.</div><div class="sprintsec"><div class="sk">Work distribution &middot; 22 items</div><div class="tisbar"><span style="width:45.5%;background:var(--edge)">10</span><span style="width:27.3%;background:var(--edge)">6</span><span style="width:13.6%;background:var(--edge)">3</span><span style="width:13.6%;background:var(--edge)">3</span></div><div class="tiskey"><span><i class="tisdot" style="background:var(--edge)"></i>Ready for Development <b>10</b></span><span><i class="tisdot" style="background:var(--edge)"></i>Backlog <b>6</b></span><span><i class="tisdot" style="background:var(--edge)"></i>In Development <b>3</b></span><span><i class="tisdot" style="background:var(--edge)"></i>Closed <b>3</b></span></div></div>
+ <div class="activewrap"><span class="activetag">Sprint open right now</span><div class="secsub" style="margin-bottom:10px"><b>DS-Sprint 22-26</b> is on <b>day 6 of 9</b>, with 3 days to go. It is shown here because it belongs to R9.08, but it is not in the totals above and gets no verdict until it closes.</div><div class="sprintsec"><div class="sk">Work distribution &middot; 22 items</div><div class="tisbar"><span style="width:40.9%;background:var(--edge)">9</span><span style="width:27.3%;background:var(--edge)">6</span><span style="width:18.2%;background:var(--edge)">4</span><span style="width:13.6%;background:var(--edge)">3</span></div><div class="tiskey"><span><i class="tisdot" style="background:var(--edge)"></i>Ready for Development <b>9</b></span><span><i class="tisdot" style="background:var(--edge)"></i>Backlog <b>6</b></span><span><i class="tisdot" style="background:var(--edge)"></i>In Development <b>4</b></span><span><i class="tisdot" style="background:var(--edge)"></i>Closed <b>3</b></span></div></div>
  <div class="cmpcard">
    <div class="cmphead sprinthead">
      <h3>DS-Sprint 22-26</h3>
@@ -847,10 +847,10 @@ new Chart(document.getElementById('bd0'),{type:'line',
   {label:'Ideal from day-1 commitment',data:[51.0, 47.6, 44.2, 40.8, 37.4, 34.0, 30.6, 27.2, 23.8, 20.4, 17.0, 13.6, 10.2, 6.8, 3.4, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
  options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
 new Chart(document.getElementById('bd1'),{type:'line',
- data:{labels:["d0", "d1", "d2", "d3", "d4", "d5"],datasets:[
-  {label:'Total scope',data:[32.0, 33.0, 33.0, 33.0, 33.0, 33.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[27.0, 28.0, 28.0, 28.0, 28.0, 28.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[32.0, 25.6, 19.2, 12.8, 6.4, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
+ data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6"],datasets:[
+  {label:'Total scope',data:[32.0, 33.0, 33.0, 33.0, 33.0, 33.0, 33.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
+  {label:'Work still open',data:[27.0, 28.0, 28.0, 28.0, 28.0, 28.0, 28.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
+  {label:'Ideal from day-1 commitment',data:[32.0, 26.7, 21.3, 16.0, 10.7, 5.3, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
  options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
 /* Sprints tab: newest first, collapsible cards */
 (function(){

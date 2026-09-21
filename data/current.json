@@ -109,10 +109,12 @@
     28.0,
     28.0,
     28.0,
+    28.0,
     28.0
    ],
    [
     32.0,
+    33.0,
     33.0,
     33.0,
     33.0,
@@ -216,7 +218,7 @@
      "med": 8.71
     },
     "In Development": {
-     "n": 4,
+     "n": 5,
      "med": 8.68
     },
     "Closed": {
@@ -225,9 +227,9 @@
     }
    },
    "dist": {
-    "Ready for Development": 10,
+    "In Development": 4,
+    "Ready for Development": 9,
     "Backlog": 6,
-    "In Development": 3,
     "Closed": 3
    },
    "stalled": 19,
@@ -257,6 +259,7 @@
   ],
   "DS-Sprint 22-26": [
    27.0,
+   28.0,
    28.0,
    28.0,
    28.0,

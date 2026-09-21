@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T13:40:58Z",
+ "generated": "2026-09-21T14:00:23Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 15,
+   "ready": 14,
    "sprint": 22,
    "sprint_name": "DS-Sprint 22-26"
   },
@@ -245,17 +245,6 @@
      {
       "key": "DS-724",
       "summary": "Plan alternative solution for long running SPs in platform"
-     }
-    ]
-   },
-   {
-    "rule": "No assignee in the active sprint",
-    "why": "work in the sprint that nobody owns.",
-    "n": 1,
-    "items": [
-     {
-      "key": "DS-745",
-      "summary": "[DB Access Request] Create External Identity for PaymentArragements in Non-Produ"
      }
     ]
    },
@@ -409,13 +398,14 @@
   },
   "spill_rate": null,
   "dist": {
-   "Ready for Development": 10,
+   "In Development": 4,
+   "Ready for Development": 9,
    "Backlog": 6,
-   "In Development": 3,
    "Closed": 3
   },
   "burn": [
    27.0,
+   28.0,
    28.0,
    28.0,
    28.0,
@@ -428,10 +418,12 @@
    33.0,
    33.0,
    33.0,
+   33.0,
    33.0
   ],
   "ghost": [
    27.0,
+   28.0,
    28.0,
    28.0,
    28.0,
@@ -481,7 +473,7 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 15,
+    "open": 14,
     "med_age": 25.9,
     "max_age": 139.7,
     "worst_key": "DS-495",
@@ -489,11 +481,11 @@
     "worst_who": "Carlos Parra",
     "over": 13,
     "clear_med": 1.0,
-    "clear_n": 117
+    "clear_n": 118
    },
    {
     "status": "In Development",
-    "open": 5,
+    "open": 6,
     "med_age": 5.0,
     "max_age": 18.8,
     "worst_key": "DS-729",
