@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T15:30:20Z",
+ "generated": "2026-09-21T15:45:19Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,12 +202,12 @@
   "day": 6,
   "days": 9,
   "n": 9,
-  "done_now": 7,
-  "committed": 33,
-  "lo": 11,
-  "mid": 12,
-  "hi": 13,
-  "pct": 36,
+  "done_now": 8,
+  "committed": 32,
+  "lo": 12,
+  "mid": 13,
+  "hi": 14,
+  "pct": 41,
   "verdict": "well short of the commitment",
   "share_mid": 0.606
  },
@@ -376,59 +376,59 @@
   "end": "2026-09-25",
   "goal": "",
   "items": 22,
-  "items_done": 5,
-  "committed": 33,
-  "final": 33,
-  "completed": 7,
+  "items_done": 6,
+  "committed": 32,
+  "final": 32,
+  "completed": 8,
   "scope_change": 0,
-  "vs_commitment": 21,
+  "vs_commitment": 25,
   "time_elapsed": 58,
   "spill": {
-   "open_items": 17,
-   "open_pts": 26.0,
+   "open_items": 16,
+   "open_pts": 24.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 2.0
+   "done_pts": 3.0
   },
   "recv": {
    "items": 9,
    "pts": 16,
-   "pct": 48,
+   "pct": 50,
    "from": "DS-Sprint 21-26"
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 4,
+   "Closed": 6,
    "Ready for Development": 10,
    "Backlog": 3,
-   "Closed": 5
+   "In Development": 3
   },
   "burn": [
+   26.0,
    27.0,
-   28.0,
-   28.0,
-   28.0,
-   28.0,
-   28.0,
-   26.0
+   27.0,
+   27.0,
+   27.0,
+   27.0,
+   24.0
   ],
   "scope": [
+   31.0,
    32.0,
-   33.0,
-   33.0,
-   33.0,
-   33.0,
-   33.0,
-   33.0
+   32.0,
+   32.0,
+   32.0,
+   32.0,
+   32.0
   ],
   "ghost": [
+   26.0,
    27.0,
-   28.0,
-   28.0,
-   28.0,
-   28.0,
-   28.0,
-   26.0
+   27.0,
+   27.0,
+   27.0,
+   27.0,
+   24.0
   ],
   "days": 9,
   "day": 6,
@@ -454,11 +454,11 @@
   "end": "2026-09-27",
   "day": 22,
   "days": 28,
-  "closed": 22,
-  "points": 42,
-  "unplanned": 2,
-  "unplanned_pct": 9.1,
-  "access_requests": 1,
+  "closed": 23,
+  "points": 43,
+  "unplanned": 3,
+  "unplanned_pct": 13.0,
+  "access_requests": 2,
   "people_active": 3,
   "sprints": [
    "DS-Sprint 21-26",
@@ -485,15 +485,15 @@
    },
    {
     "status": "In Development",
-    "open": 6,
+    "open": 5,
     "med_age": 5.0,
     "max_age": 18.8,
     "worst_key": "DS-729",
     "worst_sum": "Add CORS configs in Preprod",
     "worst_who": "Carlos Parra",
     "over": 2,
-    "clear_med": 3.6,
-    "clear_n": 78
+    "clear_med": 3.3,
+    "clear_n": 79
    },
    {
     "status": "Awaiting Review",
@@ -523,7 +523,7 @@
   "parked": {
    "Backlog": 39
   },
-  "open_total": 21,
+  "open_total": 20,
   "stale": 13,
   "worst": "Ready for Development"
  }
