@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T14:30:23Z",
+ "generated": "2026-09-21T14:42:23Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -179,7 +179,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 3,
+    "n": 5,
     "points": 7,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -213,24 +213,16 @@
  },
  "admin": {
   "scope": {
-   "ready": 13,
-   "sprint": 24,
+   "ready": 15,
+   "sprint": 22,
    "sprint_name": "DS-Sprint 22-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 4,
+    "n": 2,
     "items": [
-     {
-      "key": "DS-748",
-      "summary": "Production Support - Carlos"
-     },
-     {
-      "key": "DS-747",
-      "summary": "Production Support - Tharika"
-     },
      {
       "key": "DS-743",
       "summary": "Production Support"
@@ -244,8 +236,16 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 3,
+    "n": 5,
     "items": [
+     {
+      "key": "DS-743",
+      "summary": "Production Support"
+     },
+     {
+      "key": "DS-742",
+      "summary": "Production Support"
+     },
      {
       "key": "DS-735",
       "summary": "Story 3 and Story 2 Prod pipelines"
@@ -263,16 +263,8 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 5,
+    "n": 3,
     "items": [
-     {
-      "key": "DS-743",
-      "summary": "Production Support"
-     },
-     {
-      "key": "DS-742",
-      "summary": "Production Support"
-     },
      {
       "key": "DS-740",
       "summary": "Smile Brands SFTP - Essential Smiles Plan"
@@ -291,31 +283,27 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 29,
+    "why": "missing on 27 of 27 items. This reads as a field the team does not use rather than 27 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 27,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 29,
+    "why": "missing on 27 of 27 items. This reads as a field the team does not use rather than 27 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 27,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 29,
+    "why": "missing on 27 of 27 items. This reads as a field the team does not use rather than 27 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 27,
     "items": []
    },
    {
     "rule": "Assignee is not on the roster",
     "why": "the capacity page lists the team; this work is assigned outside it.",
-    "n": 8,
+    "n": 7,
     "items": [
-     {
-      "key": "DS-747",
-      "summary": "Production Support - Tharika"
-     },
      {
       "key": "DS-742",
       "summary": "Production Support"
@@ -326,7 +314,7 @@
      },
      {
       "key": "DS-734",
-      "summary": "Schedule Prod ACH and Credit Card pipelines"
+      "summary": "Schedule Prod and capture any changes ACH and Credit Card pipelines"
      },
      {
       "key": "DS-714",
@@ -387,7 +375,7 @@
   "start": "2026-09-16",
   "end": "2026-09-25",
   "goal": "",
-  "items": 24,
+  "items": 22,
   "items_done": 5,
   "committed": 33,
   "final": 33,
@@ -396,7 +384,7 @@
   "vs_commitment": 21,
   "time_elapsed": 58,
   "spill": {
-   "open_items": 19,
+   "open_items": 17,
    "open_pts": 26.0,
    "out_items": 0,
    "out_pts": 0,
@@ -410,9 +398,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 6,
-   "Ready for Development": 8,
-   "Backlog": 5,
+   "In Development": 4,
+   "Ready for Development": 10,
+   "Backlog": 3,
    "Closed": 5
   },
   "burn": [
@@ -485,27 +473,27 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 13,
-    "med_age": 25.0,
+    "open": 15,
+    "med_age": 21.0,
     "max_age": 139.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 11,
     "clear_med": 1.1,
-    "clear_n": 120
+    "clear_n": 121
    },
    {
     "status": "In Development",
-    "open": 8,
+    "open": 6,
     "med_age": 5.0,
     "max_age": 18.8,
     "worst_key": "DS-729",
     "worst_sum": "Add CORS configs in Preprod",
     "worst_who": "Carlos Parra",
     "over": 2,
-    "clear_med": 3.8,
-    "clear_n": 77
+    "clear_med": 3.6,
+    "clear_n": 78
    },
    {
     "status": "On Hold",
@@ -533,7 +521,7 @@
    }
   ],
   "parked": {
-   "Backlog": 41
+   "Backlog": 39
   },
   "open_total": 21,
   "stale": 13,
