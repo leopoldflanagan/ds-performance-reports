@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20T23:38:03Z",
+ "generated": "2026-09-21T00:00:22Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 5,
+  "day": 6,
   "days": 9,
   "n": 9,
   "done_now": 5,
   "committed": 33,
-  "lo": 9,
-  "mid": 11,
-  "hi": 14,
-  "pct": 33,
+  "lo": 8,
+  "mid": 8,
+  "hi": 9,
+  "pct": 24,
   "verdict": "well short of the commitment",
-  "share_mid": 0.459
+  "share_mid": 0.606
  },
  "admin": {
   "scope": {
@@ -374,7 +374,7 @@
    },
    {
     "rule": "The next sprint has not been created",
-    "why": "DS-Sprint 22-26 ends in 5 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
+    "why": "DS-Sprint 22-26 ends in 4 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
     "n": 1,
     "items": []
    }
@@ -439,7 +439,7 @@
    28.0
   ],
   "days": 9,
-  "day": 5,
+  "day": 6,
   "capacity": {
    "release": "9.08",
    "start": "2026-09-16",
@@ -460,7 +460,7 @@
   "kind": "release",
   "start": "2026-08-31",
   "end": "2026-09-27",
-  "day": 21,
+  "day": 22,
   "days": 28,
   "closed": 20,
   "points": 40,
@@ -483,13 +483,13 @@
     "status": "Ready for Development",
     "open": 15,
     "med_age": 25.3,
-    "max_age": 139.1,
+    "max_age": 139.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 13,
-    "clear_med": 1.9,
-    "clear_n": 127
+    "clear_med": 1.0,
+    "clear_n": 117
    },
    {
     "status": "In Development",
@@ -500,8 +500,8 @@
     "worst_sum": "Add CORS configs in Preprod",
     "worst_who": "Carlos Parra",
     "over": 2,
-    "clear_med": 3.9,
-    "clear_n": 76
+    "clear_med": 3.8,
+    "clear_n": 75
    },
    {
     "status": "On Hold",
