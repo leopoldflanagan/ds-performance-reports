@@ -97,7 +97,7 @@
    "DS-Sprint 22-26",
    "Sep 16",
    "Sep 25",
-   22,
+   24,
    3,
    33,
    33,
@@ -150,7 +150,7 @@
     0
    ],
    "open": [
-    19,
+    21,
     28
    ],
    "out": [
@@ -171,7 +171,11 @@
    "plan": 4,
    "pct": 20
   },
-  "DS-Sprint 22-26": null
+  "DS-Sprint 22-26": {
+   "react": 0,
+   "plan": 2,
+   "pct": 0
+  }
  },
  "TIS": {
   "DS-Sprint 21-26": {
@@ -209,6 +213,10 @@
   },
   "DS-Sprint 22-26": {
    "tis": {
+    "In Development": {
+     "n": 7,
+     "med": 3.71
+    },
     "Backlog": {
      "n": 8,
      "med": 8.71
@@ -217,25 +225,21 @@
      "n": 13,
      "med": 8.71
     },
-    "In Development": {
-     "n": 5,
-     "med": 8.68
-    },
     "Closed": {
      "n": 3,
      "med": 8.71
     }
    },
    "dist": {
-    "In Development": 4,
+    "In Development": 6,
     "Ready for Development": 9,
     "Backlog": 6,
     "Closed": 3
    },
-   "stalled": 19,
+   "stalled": 21,
    "worst": 8.71,
    "worstSt": "Ready for Development",
-   "items": 22
+   "items": 24
   }
  },
  "GHOST": {
