@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T23:45:17Z",
+ "generated": "2026-09-22T00:00:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 6,
+  "day": 7,
   "days": 9,
   "n": 9,
   "done_now": 8,
   "committed": 32,
-  "lo": 12,
-  "mid": 13,
-  "hi": 14,
-  "pct": 41,
+  "lo": 10,
+  "mid": 12,
+  "hi": 13,
+  "pct": 38,
   "verdict": "well short of the commitment",
-  "share_mid": 0.606
+  "share_mid": 0.667
  },
  "admin": {
   "scope": {
@@ -363,7 +363,7 @@
    },
    {
     "rule": "The next sprint has not been created",
-    "why": "DS-Sprint 22-26 ends in 4 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
+    "why": "DS-Sprint 22-26 ends in 3 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
     "n": 1,
     "items": []
    }
@@ -431,7 +431,7 @@
    24.0
   ],
   "days": 9,
-  "day": 6,
+  "day": 7,
   "capacity": {
    "release": "9.08",
    "start": "2026-09-16",
@@ -452,7 +452,7 @@
   "kind": "release",
   "start": "2026-08-31",
   "end": "2026-09-27",
-  "day": 22,
+  "day": 23,
   "days": 28,
   "closed": 23,
   "points": 43,
@@ -475,13 +475,13 @@
     "status": "Ready for Development",
     "open": 15,
     "med_age": 21.4,
-    "max_age": 140.1,
+    "max_age": 140.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 11,
     "clear_med": 1.1,
-    "clear_n": 121
+    "clear_n": 117
    },
    {
     "status": "In Development",
@@ -492,20 +492,8 @@
     "worst_sum": "Add CORS configs in Preprod",
     "worst_who": "Carlos Parra",
     "over": 2,
-    "clear_med": 3.3,
-    "clear_n": 79
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 9
+    "clear_med": 3.2,
+    "clear_n": 73
    },
    {
     "status": "Awaiting Review",
@@ -518,6 +506,18 @@
     "over": 0,
     "clear_med": 5.2,
     "clear_n": 10
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
