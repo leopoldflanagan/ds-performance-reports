@@ -693,7 +693,7 @@
    <div class="chartbox" style="height:280px"><canvas id="cSpill"></canvas></div>
    <div class="readout">
     <div class="line" style="border-color:var(--risk)"><span class="vs-tag">49% of everything committed</span><br><b>341 of 700 points</b> across the series did not finish in the sprint they were in. That is a third of the work, every sprint, and it is invisible in the burndown.</div>
-    <div class="line" style="border-color:var(--warning)"><span class="vs-tag">16% of it is removed, not carried</span><br>DS takes work <i>out</i> of the sprint before closing it rather than letting it show as incomplete. That is why every sprint reads 100% complete — the sprint empties before it closes.</div>
+    <div class="line" style="border-color:var(--warning)"><span class="vs-tag">17% of it is removed, not carried</span><br>DS takes work <i>out</i> of the sprint before closing it rather than letting it show as incomplete. That is why every sprint reads 100% complete — the sprint empties before it closes.</div>
     <div class="line" style="border-color:var(--wf-blue)"><span class="vs-tag">Read it against the commitment, not the burndown</span><br>A sprint that commits to 45 points, grows to 117, closes 69 and drops 48 has not delivered 100% of anything. The honest pair is day-1 commitment and spillover rate, side by side.</div>
    </div>
   </div>
@@ -848,9 +848,9 @@ new Chart(document.getElementById('bd0'),{type:'line',
  options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
 new Chart(document.getElementById('bd1'),{type:'line',
  data:{labels:["d0", "d1", "d2", "d3", "d4", "d5", "d6", "d7"],datasets:[
-  {label:'Total scope',data:[31.0, 32.0, 32.0, 32.0, 32.0, 32.0, 32.0, 32.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
-  {label:'Work still open',data:[26.0, 27.0, 27.0, 27.0, 27.0, 27.0, 24.0, 24.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
-  {label:'Ideal from day-1 commitment',data:[31.0, 26.6, 22.1, 17.7, 13.3, 8.9, 4.4, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false}]},
+  {label:'Total scope',data:[31.0, 32.0, 32.0, 32.0, 32.0, 32.0, 32.0, 28.0],borderColor:GREY,backgroundColor:'rgba(195,205,218,.25)',fill:true,tension:.2,pointRadius:0,borderWidth:2},
+  {label:'Work still open',data:[26.0, 27.0, 27.0, 27.0, 27.0, 27.0, 24.0, 20.0],borderColor:BLUE,backgroundColor:'rgba(0,124,188,.10)',fill:true,tension:.2,pointRadius:3,borderWidth:3},
+  {label:'Ideal from day-1 commitment',data:[31.0, 26.6, 22.1, 17.7, 13.3, 8.9, 4.4, 0.0],borderColor:'#c3cdda',borderDash:[5,4],pointRadius:0,borderWidth:2,fill:false},{label:'Open if nothing had been removed',data:[26.0, 27.0, 27.0, 27.0, 27.0, 27.0, 24.0, 24.0],borderColor:'#ED7D31',borderDash:[2,3],pointRadius:0,borderWidth:2,fill:false}]},
  options:{plugins:{legend:{position:'top'}},scales:{y:{beginAtZero:true,grid:{color:gridc},title:{display:true,text:'Story points'}},x:{grid:{display:false},title:{display:true,text:'Sprint day'}}}}});
 /* Sprints tab: newest first, collapsible cards */
 (function(){

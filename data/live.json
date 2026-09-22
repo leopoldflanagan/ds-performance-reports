@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T14:45:17Z",
+ "generated": "2026-09-22T15:15:19Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -214,7 +214,7 @@
  "admin": {
   "scope": {
    "ready": 15,
-   "sprint": 22,
+   "sprint": 20,
    "sprint_name": "DS-Sprint 22-26"
   },
   "blocking": [
@@ -302,7 +302,7 @@
    {
     "rule": "Assignee is not on the roster",
     "why": "the capacity page lists the team; this work is assigned outside it.",
-    "n": 7,
+    "n": 6,
     "items": [
      {
       "key": "DS-742",
@@ -319,10 +319,6 @@
      {
       "key": "DS-714",
       "summary": "Production Support - Srininvas"
-     },
-     {
-      "key": "DS-711",
-      "summary": "Wellfit Cedar Gate Coordination for Upcoming SFTP Change"
      },
      {
       "key": "DS-709",
@@ -349,7 +345,7 @@
      },
      {
       "key": "DS-576",
-      "summary": "Mirror all databases in Fabric"
+      "summary": "Mirror remaining tables for Platform"
      }
     ]
    }
@@ -358,12 +354,6 @@
    {
     "rule": "The active sprint has no goal",
     "why": "neither Jira nor the capacity page records one, so delivery can only be measured in points.",
-    "n": 1,
-    "items": []
-   },
-   {
-    "rule": "The next sprint has not been created",
-    "why": "DS-Sprint 22-26 ends in 3 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
     "n": 1,
     "items": []
    }
@@ -384,10 +374,10 @@
   "vs_commitment": 25,
   "time_elapsed": 69,
   "spill": {
-   "open_items": 16,
-   "open_pts": 24.0,
-   "out_items": 0,
-   "out_pts": 0,
+   "open_items": 14,
+   "open_pts": 20.0,
+   "out_items": 2,
+   "out_pts": 4.0,
    "done_pts": 3.0
   },
   "recv": {
@@ -399,7 +389,7 @@
   "spill_rate": null,
   "dist": {
    "Closed": 6,
-   "Ready for Development": 10,
+   "Ready for Development": 8,
    "Backlog": 3,
    "In Development": 3
   },
@@ -411,7 +401,7 @@
    27.0,
    27.0,
    24.0,
-   24.0
+   20.0
   ],
   "scope": [
    31.0,
@@ -421,7 +411,7 @@
    32.0,
    32.0,
    32.0,
-   32.0
+   28.0
   ],
   "ghost": [
    26.0,
@@ -448,7 +438,11 @@
    "planned": false
   }
  },
- "next": null,
+ "next": {
+  "name": "DS-Sprint 23-26",
+  "start": "2026-09-28",
+  "state": "not started"
+ },
  "month": {
   "month": "9.08",
   "label": "Release 9.08",
