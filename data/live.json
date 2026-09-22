@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T15:18:28Z",
+ "generated": "2026-09-22T15:30:20Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -179,8 +179,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 5,
-    "points": 7,
+    "n": 6,
+    "points": 8,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 15,
+   "ready": 16,
    "sprint": 20,
    "sprint_name": "DS-Sprint 22-26"
   },
@@ -236,8 +236,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 5,
+    "n": 6,
     "items": [
+     {
+      "key": "DS-746",
+      "summary": "SFTP Transfer - Solomon Dentistry"
+     },
      {
       "key": "DS-743",
       "summary": "Production Support"
@@ -283,20 +287,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 27 of 27 items. This reads as a field the team does not use rather than 27 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 27,
+    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 28,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 27 of 27 items. This reads as a field the team does not use rather than 27 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 27,
+    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 28,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 27 of 27 items. This reads as a field the team does not use rather than 27 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 27,
+    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 28,
     "items": []
    },
    {
@@ -333,7 +337,7 @@
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 3,
+    "n": 4,
     "items": [
      {
       "key": "DS-683",
@@ -342,6 +346,10 @@
      {
       "key": "DS-682",
       "summary": "Troubleshoot and finish ETL for EDW in preprod"
+     },
+     {
+      "key": "DS-526",
+      "summary": "Fabric POC for reporting table"
      },
      {
       "key": "DS-576",
@@ -470,7 +478,7 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 15,
+    "open": 16,
     "med_age": 22.0,
     "max_age": 140.8,
     "worst_key": "DS-495",
@@ -493,18 +501,6 @@
     "clear_n": 73
    },
    {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
-   },
-   {
     "status": "Awaiting Review",
     "open": 0,
     "med_age": 0,
@@ -515,12 +511,24 @@
     "over": 0,
     "clear_med": 5.2,
     "clear_n": 10
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
-   "Backlog": 39
+   "Backlog": 37
   },
-  "open_total": 20,
+  "open_total": 21,
   "stale": 13,
   "worst": "Ready for Development"
  }
