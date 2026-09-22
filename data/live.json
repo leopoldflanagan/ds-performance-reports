@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T15:30:20Z",
+ "generated": "2026-09-22T15:38:50Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -214,7 +214,7 @@
  "admin": {
   "scope": {
    "ready": 16,
-   "sprint": 20,
+   "sprint": 21,
    "sprint_name": "DS-Sprint 22-26"
   },
   "blocking": [
@@ -287,20 +287,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 28,
+    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 29,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 28,
+    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 29,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 28,
+    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 29,
     "items": []
    },
    {
@@ -373,17 +373,17 @@
   "start": "2026-09-16",
   "end": "2026-09-25",
   "goal": "",
-  "items": 22,
+  "items": 23,
   "items_done": 6,
   "committed": 32,
-  "final": 32,
+  "final": 35,
   "completed": 8,
-  "scope_change": 0,
+  "scope_change": 9,
   "vs_commitment": 25,
   "time_elapsed": 70,
   "spill": {
-   "open_items": 14,
-   "open_pts": 20.0,
+   "open_items": 15,
+   "open_pts": 23.0,
    "out_items": 2,
    "out_pts": 4.0,
    "done_pts": 3.0
@@ -396,10 +396,10 @@
   },
   "spill_rate": null,
   "dist": {
+   "In Development": 4,
    "Closed": 6,
    "Ready for Development": 8,
-   "Backlog": 3,
-   "In Development": 3
+   "Backlog": 3
   },
   "burn": [
    26.0,
@@ -409,7 +409,7 @@
    27.0,
    27.0,
    24.0,
-   20.0
+   23.0
   ],
   "scope": [
    31.0,
@@ -419,7 +419,7 @@
    32.0,
    32.0,
    32.0,
-   28.0
+   31.0
   ],
   "ghost": [
    26.0,
@@ -429,7 +429,7 @@
    27.0,
    27.0,
    24.0,
-   24.0
+   27.0
   ],
   "days": 9,
   "day": 7,
@@ -485,12 +485,12 @@
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 11,
-    "clear_med": 1.1,
-    "clear_n": 117
+    "clear_med": 1.0,
+    "clear_n": 118
    },
    {
     "status": "In Development",
-    "open": 5,
+    "open": 6,
     "med_age": 6.0,
     "max_age": 19.8,
     "worst_key": "DS-729",
@@ -528,7 +528,7 @@
   "parked": {
    "Backlog": 37
   },
-  "open_total": 21,
+  "open_total": 22,
   "stale": 13,
   "worst": "Ready for Development"
  }
