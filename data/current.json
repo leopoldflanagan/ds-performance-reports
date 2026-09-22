@@ -10,8 +10,8 @@
   "prev": "",
   "prev_closed": 40,
   "closed": 23,
-  "discarded": 1,
-  "resolved": 24,
+  "discarded": 2,
+  "resolved": 25,
   "unplanned": 3,
   "unp_pct": 13.0,
   "types": [
@@ -153,11 +153,11 @@
   "DS-Sprint 22-26": {
    "done": [
     6,
-    3
+    5
    ],
    "open": [
-    15,
-    23
+    14,
+    21
    ],
    "out": [
     2,
@@ -209,7 +209,8 @@
    },
    "dist": {
     "Closed": 22,
-    "Ready for Development": 6,
+    "Ready for Development": 5,
+    "Won't Do": 1,
     "In Development": 2
    },
    "stalled": 13,
@@ -234,15 +235,20 @@
     "Closed": {
      "n": 6,
      "med": 6.2
+    },
+    "Won't Do": {
+     "n": 1,
+     "med": 2.61
     }
    },
    "dist": {
     "In Development": 4,
     "Closed": 6,
-    "Ready for Development": 10,
-    "Backlog": 3
+    "Ready for Development": 9,
+    "Backlog": 3,
+    "Won't Do": 1
    },
-   "stalled": 16,
+   "stalled": 15,
    "worst": 4.35,
    "worstSt": "Ready for Development",
    "items": 23
