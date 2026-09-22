@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T19:00:23Z",
+ "generated": "2026-09-22T19:15:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -179,8 +179,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 6,
-    "points": 8,
+    "n": 5,
+    "points": 5,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 16,
+   "ready": 15,
    "sprint": 22,
    "sprint_name": "DS-Sprint 22-26"
   },
@@ -236,7 +236,7 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 6,
+    "n": 5,
     "items": [
      {
       "key": "DS-746",
@@ -249,10 +249,6 @@
      {
       "key": "DS-742",
       "summary": "Production Support"
-     },
-     {
-      "key": "DS-735",
-      "summary": "Story 3 and Story 2 Prod pipelines"
      },
      {
       "key": "DS-725",
@@ -407,8 +403,8 @@
   },
   "spill_rate": null,
   "dist": {
-   "Ready for Development": 8,
-   "In Development": 4,
+   "Ready for Development": 7,
+   "In Development": 5,
    "Closed": 6,
    "Backlog": 3,
    "Won't Do": 1
@@ -490,19 +486,19 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 16,
-    "med_age": 20.6,
-    "max_age": 140.9,
+    "open": 15,
+    "med_age": 22.2,
+    "max_age": 141.0,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 10,
     "clear_med": 1.1,
-    "clear_n": 119
+    "clear_n": 120
    },
    {
     "status": "In Development",
-    "open": 6,
+    "open": 7,
     "med_age": 6.2,
     "max_age": 20.0,
     "worst_key": "DS-729",
@@ -511,18 +507,6 @@
     "over": 2,
     "clear_med": 3.2,
     "clear_n": 73
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 5.2,
-    "clear_n": 10
    },
    {
     "status": "On Hold",
@@ -535,6 +519,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 5.2,
+    "clear_n": 10
    }
   ],
   "parked": {
