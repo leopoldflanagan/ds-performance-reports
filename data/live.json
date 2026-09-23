@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T12:00:25Z",
+ "generated": "2026-09-23T12:15:17Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -387,7 +387,7 @@
   "completed": 8,
   "scope_change": 9,
   "vs_commitment": 24,
-  "time_elapsed": 79,
+  "time_elapsed": 80,
   "spill": {
    "open_items": 15,
    "open_pts": 23.0,
@@ -401,7 +401,7 @@
    "pct": 47,
    "from": "DS-Sprint 21-26"
   },
-  "spill_rate": null,
+  "spill_rate": 84,
   "dist": {
    "Ready for Development": 7,
    "In Development": 5,
