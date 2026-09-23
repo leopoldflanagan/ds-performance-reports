@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T14:15:17Z",
+ "generated": "2026-09-23T14:42:08Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -261,17 +261,6 @@
     ]
    },
    {
-    "rule": "No assignee in the active sprint",
-    "why": "work in the sprint that nobody owns.",
-    "n": 1,
-    "items": [
-     {
-      "key": "DS-750",
-      "summary": "[DB Access Request] Grant Deployment SP db_ddladmin for WellfitReporting Databas"
-     }
-    ]
-   },
-   {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
     "n": 3,
@@ -512,18 +501,6 @@
     "clear_n": 73
    },
    {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 5.2,
-    "clear_n": 10
-   },
-   {
     "status": "On Hold",
     "open": 0,
     "med_age": 0,
@@ -534,6 +511,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 5.2,
+    "clear_n": 10
    }
   ],
   "parked": {
