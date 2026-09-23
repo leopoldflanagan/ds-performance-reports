@@ -213,7 +213,8 @@
     "Closed": 22,
     "Ready for Development": 5,
     "Won't Do": 1,
-    "In Development": 2
+    "In Development": 1,
+    "Backlog": 1
    },
    "stalled": 13,
    "worst": 13.42,
