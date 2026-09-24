@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T16:15:18Z",
+ "generated": "2026-09-24T16:21:39Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -179,8 +179,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 5,
-    "points": 5,
+    "n": 6,
+    "points": 8,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 15,
+   "ready": 16,
    "sprint": 22,
    "sprint_name": "DS-Sprint 22-26"
   },
@@ -236,8 +236,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 5,
+    "n": 6,
     "items": [
+     {
+      "key": "DS-751",
+      "summary": "1.1: Provision the dedicated key-based CREG inbound SFTP folder"
+     },
      {
       "key": "DS-746",
       "summary": "SFTP Transfer - Solomon Dentistry"
@@ -257,6 +261,17 @@
      {
       "key": "DS-724",
       "summary": "Plan alternative solution for long running SPs in platform"
+     }
+    ]
+   },
+   {
+    "rule": "Open dependency",
+    "why": "the guide: Definition of Ready means no open dependencies.",
+    "n": 1,
+    "items": [
+     {
+      "key": "DS-751",
+      "summary": "1.1: Provision the dedicated key-based CREG inbound SFTP folder"
      }
     ]
    },
@@ -283,20 +298,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 30 of 30 items. This reads as a field the team does not use rather than 30 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 30,
+    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 31,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 30 of 30 items. This reads as a field the team does not use rather than 30 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 30,
+    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 31,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 30 of 30 items. This reads as a field the team does not use rather than 30 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 30,
+    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 31,
     "items": []
    },
    {
@@ -481,8 +496,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 15,
-    "med_age": 24.0,
+    "open": 16,
+    "med_age": 22.4,
     "max_age": 142.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -504,18 +519,6 @@
     "clear_n": 74
    },
    {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
-   },
-   {
     "status": "Awaiting Review",
     "open": 0,
     "med_age": 0,
@@ -526,12 +529,24 @@
     "over": 0,
     "clear_med": 5.2,
     "clear_n": 10
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 21,
+  "open_total": 22,
   "stale": 15,
   "worst": "Ready for Development"
  }
