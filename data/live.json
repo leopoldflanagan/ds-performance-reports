@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T16:30:21Z",
+ "generated": "2026-09-24T16:42:00Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -203,18 +203,18 @@
   "days": 9,
   "n": 9,
   "done_now": 8,
-  "committed": 34,
+  "committed": 36,
   "lo": 8,
   "mid": 8,
   "hi": 8,
-  "pct": 24,
+  "pct": 22,
   "verdict": "well short of the commitment",
   "share_mid": 1.0
  },
  "admin": {
   "scope": {
-   "ready": 16,
-   "sprint": 22,
+   "ready": 17,
+   "sprint": 23,
    "sprint_name": "DS-Sprint 22-26"
   },
   "blocking": [
@@ -265,6 +265,17 @@
     ]
    },
    {
+    "rule": "No assignee in the active sprint",
+    "why": "work in the sprint that nobody owns.",
+    "n": 1,
+    "items": [
+     {
+      "key": "DS-753",
+      "summary": "[DB Access Request] [DB Access Request] Platform - Stage"
+     }
+    ]
+   },
+   {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
     "n": 1,
@@ -298,20 +309,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 31,
+    "why": "missing on 32 of 32 items. This reads as a field the team does not use rather than 32 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 32,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 31,
+    "why": "missing on 32 of 32 items. This reads as a field the team does not use rather than 32 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 32,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 31,
+    "why": "missing on 32 of 32 items. This reads as a field the team does not use rather than 32 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 32,
     "items": []
    },
    {
@@ -384,17 +395,17 @@
   "start": "2026-09-16",
   "end": "2026-09-25",
   "goal": "",
-  "items": 24,
+  "items": 25,
   "items_done": 6,
-  "committed": 34,
-  "final": 37,
+  "committed": 36,
+  "final": 39,
   "completed": 8,
-  "scope_change": 9,
-  "vs_commitment": 24,
+  "scope_change": 8,
+  "vs_commitment": 22,
   "time_elapsed": 93,
   "spill": {
-   "open_items": 15,
-   "open_pts": 23.0,
+   "open_items": 16,
+   "open_pts": 25.0,
    "out_items": 2,
    "out_pts": 4.0,
    "done_pts": 5.0
@@ -402,52 +413,52 @@
   "recv": {
    "items": 9,
    "pts": 16,
-   "pct": 47,
+   "pct": 44,
    "from": "DS-Sprint 21-26"
   },
-  "spill_rate": 84,
+  "spill_rate": 85,
   "dist": {
-   "Ready for Development": 7,
+   "Ready for Development": 8,
    "In Development": 5,
    "Closed": 6,
    "Backlog": 3,
    "Won't Do": 1
   },
   "burn": [
+   30.0,
+   31.0,
+   31.0,
+   31.0,
+   31.0,
+   31.0,
    28.0,
-   29.0,
-   29.0,
-   29.0,
-   29.0,
-   29.0,
-   26.0,
-   25.0,
-   25.0,
-   25.0
+   27.0,
+   27.0,
+   27.0
   ],
   "scope": [
-   33.0,
-   34.0,
-   34.0,
-   34.0,
-   34.0,
-   34.0,
-   34.0,
-   33.0,
-   33.0,
-   33.0
+   35.0,
+   36.0,
+   36.0,
+   36.0,
+   36.0,
+   36.0,
+   36.0,
+   35.0,
+   35.0,
+   35.0
   ],
   "ghost": [
+   30.0,
+   31.0,
+   31.0,
+   31.0,
+   31.0,
+   31.0,
    28.0,
-   29.0,
-   29.0,
-   29.0,
-   29.0,
-   29.0,
-   26.0,
-   29.0,
-   29.0,
-   29.0
+   31.0,
+   31.0,
+   31.0
   ],
   "days": 9,
   "day": 9,
@@ -496,9 +507,9 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 16,
-    "med_age": 22.5,
-    "max_age": 142.8,
+    "open": 17,
+    "med_age": 20.9,
+    "max_age": 142.9,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
@@ -546,7 +557,7 @@
   "parked": {
    "Backlog": 38
   },
-  "open_total": 22,
+  "open_total": 23,
   "stale": 15,
   "worst": "Ready for Development"
  }
