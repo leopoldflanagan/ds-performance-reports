@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T01:00:25Z",
+ "generated": "2026-09-24T01:29:31Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -491,7 +491,7 @@
    {
     "status": "In Development",
     "open": 6,
-    "med_age": 7.4,
+    "med_age": 7.5,
     "max_age": 21.2,
     "worst_key": "DS-729",
     "worst_sum": "Add CORS configs in Preprod",
