@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T19:00:23Z",
+ "generated": "2026-09-25T19:14:48Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -244,7 +244,7 @@
      },
      {
       "key": "DS-751",
-      "summary": "1.1: Provision the dedicated key-based CREG inbound SFTP folder"
+      "summary": "1.1: Provision eligibility CREG inbound SFTP folder"
      },
      {
       "key": "DS-746",
@@ -290,7 +290,7 @@
      },
      {
       "key": "DS-751",
-      "summary": "1.1: Provision the dedicated key-based CREG inbound SFTP folder"
+      "summary": "1.1: Provision eligibility CREG inbound SFTP folder"
      }
     ]
    },
@@ -516,8 +516,8 @@
    {
     "status": "Ready for Development",
     "open": 18,
-    "med_age": 22.0,
-    "max_age": 143.9,
+    "med_age": 22.1,
+    "max_age": 144.0,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
