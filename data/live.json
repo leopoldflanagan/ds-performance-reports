@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T03:44:40Z",
+ "generated": "2026-09-25T04:00:23Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -410,7 +410,7 @@
   "completed": 8,
   "scope_change": 8,
   "vs_commitment": 22,
-  "time_elapsed": 98,
+  "time_elapsed": 99,
   "spill": {
    "open_items": 16,
    "open_pts": 25.0,
@@ -528,26 +528,14 @@
    {
     "status": "In Development",
     "open": 6,
-    "med_age": 8.5,
-    "max_age": 22.3,
+    "med_age": 8.6,
+    "max_age": 22.4,
     "worst_key": "DS-729",
     "worst_sum": "Add CORS configs in Preprod",
     "worst_who": "Carlos Parra",
     "over": 4,
     "clear_med": 3.3,
     "clear_n": 74
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 5.2,
-    "clear_n": 10
    },
    {
     "status": "On Hold",
@@ -560,6 +548,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 5.2,
+    "clear_n": 10
    }
   ],
   "parked": {
