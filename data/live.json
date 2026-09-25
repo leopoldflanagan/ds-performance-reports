@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T19:15:16Z",
+ "generated": "2026-09-25T19:30:19Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -179,8 +179,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 7,
-    "points": 13,
+    "n": 6,
+    "points": 10,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 18,
+   "ready": 17,
    "sprint": 23,
    "sprint_name": "DS-Sprint 22-26"
   },
@@ -236,15 +236,11 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 7,
+    "n": 6,
     "items": [
      {
       "key": "DS-754",
       "summary": "1.4: CREG HR Report delivery - twice-monthly SFTP + email"
-     },
-     {
-      "key": "DS-751",
-      "summary": "1.1: Provision eligibility CREG inbound SFTP folder"
      },
      {
       "key": "DS-746",
@@ -282,15 +278,11 @@
    {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
-    "n": 2,
+    "n": 1,
     "items": [
      {
       "key": "DS-754",
       "summary": "1.4: CREG HR Report delivery - twice-monthly SFTP + email"
-     },
-     {
-      "key": "DS-751",
-      "summary": "1.1: Provision eligibility CREG inbound SFTP folder"
      }
     ]
    },
@@ -317,20 +309,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 33 of 33 items. This reads as a field the team does not use rather than 33 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 33,
+    "why": "missing on 32 of 32 items. This reads as a field the team does not use rather than 32 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 32,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 33 of 33 items. This reads as a field the team does not use rather than 33 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 33,
+    "why": "missing on 32 of 32 items. This reads as a field the team does not use rather than 32 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 32,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 33 of 33 items. This reads as a field the team does not use rather than 33 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 33,
+    "why": "missing on 32 of 32 items. This reads as a field the team does not use rather than 32 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 32,
     "items": []
    },
    {
@@ -515,7 +507,7 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 18,
+    "open": 17,
     "med_age": 22.1,
     "max_age": 144.0,
     "worst_key": "DS-495",
@@ -565,7 +557,7 @@
   "parked": {
    "Backlog": 38
   },
-  "open_total": 24,
+  "open_total": 23,
   "stale": 15,
   "worst": "Ready for Development"
  }
