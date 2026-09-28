@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-28T15:43:53Z",
+ "generated": "2026-09-28T16:00:25Z",
  "team": "DS",
  "board": 257,
- "kind": "recent",
+ "kind": "active",
  "capacity": {
   "page": "3755671557",
   "url": "https://wellfit.atlassian.net/wiki/spaces/EDW/pages/3755671557",
@@ -179,8 +179,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 3,
-    "points": 8,
+    "n": 4,
+    "points": 10,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -198,31 +198,28 @@
   ]
  },
  "projection": {
-  "too_early": false,
-  "day": 12,
-  "days": 12,
+  "too_early": true,
+  "day": 1,
+  "days": 14,
   "n": 9,
-  "done_now": 15,
-  "committed": 36,
-  "lo": 15,
-  "mid": 15,
-  "hi": 15,
-  "pct": 42,
-  "verdict": "well short of the commitment",
-  "share_mid": 1.0
+  "why": "this early, past sprints had finished too little of their work for the comparison to say anything"
  },
  "admin": {
   "scope": {
-   "ready": 12,
-   "sprint": 22,
-   "sprint_name": "DS-Sprint 22-26"
+   "ready": 13,
+   "sprint": 19,
+   "sprint_name": "DS-Sprint 23-26"
   },
   "blocking": [
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 3,
+    "n": 4,
     "items": [
+     {
+      "key": "DS-758",
+      "summary": "ACH Token upload testing"
+     },
      {
       "key": "DS-754",
       "summary": "1.4: CREG HR Report delivery - twice-monthly SFTP + email"
@@ -251,7 +248,7 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 3,
+    "n": 4,
     "items": [
      {
       "key": "DS-740",
@@ -264,6 +261,10 @@
      {
       "key": "DS-738",
       "summary": "Smile Brands SFTP - One Smile WA"
+     },
+     {
+      "key": "DS-427",
+      "summary": "Archival Initiative"
      }
     ]
    }
@@ -271,31 +272,27 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 31,
+    "why": "missing on 23 of 23 items. This reads as a field the team does not use rather than 23 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 23,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 31,
+    "why": "missing on 23 of 23 items. This reads as a field the team does not use rather than 23 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 23,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 31,
+    "why": "missing on 23 of 23 items. This reads as a field the team does not use rather than 23 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 23,
     "items": []
    },
    {
     "rule": "Assignee is not on the roster",
     "why": "the capacity page lists the team; this work is assigned outside it.",
-    "n": 6,
+    "n": 4,
     "items": [
-     {
-      "key": "DS-742",
-      "summary": "Production Support"
-     },
      {
       "key": "DS-735",
       "summary": "Story 3 and Story 2 Prod pipelines"
@@ -305,23 +302,19 @@
       "summary": "Schedule Prod and capture any changes ACH and Credit Card pipelines"
      },
      {
-      "key": "DS-714",
-      "summary": "Production Support - Srininvas"
+      "key": "DS-691",
+      "summary": "Platform Master Incremental ETL"
      },
      {
-      "key": "DS-709",
-      "summary": "Production ETL for CreditCardPaymentAccount with logging"
-     },
-     {
-      "key": "DS-708",
-      "summary": "Production ETL for ACH AchAuthorizationHoldingArea"
+      "key": "DS-690",
+      "summary": "WorldPay SFTP"
      }
     ]
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 5,
+    "n": 6,
     "items": [
      {
       "key": "DS-711",
@@ -342,6 +335,10 @@
      {
       "key": "DS-576",
       "summary": "Mirror remaining tables for Platform"
+     },
+     {
+      "key": "DS-427",
+      "summary": "Archival Initiative"
      }
     ]
    }
@@ -352,113 +349,66 @@
     "why": "neither Jira nor the capacity page records one, so delivery can only be measured in points.",
     "n": 1,
     "items": []
+   },
+   {
+    "rule": "The sprint is missing from the capacity page",
+    "why": "the planning record and Jira have drifted apart.",
+    "n": 1,
+    "items": []
    }
   ]
  },
  "sprint": {
-  "name": "DS-Sprint 22-26",
-  "state": "closed",
-  "start": "2026-09-16",
-  "end": "2026-09-28",
+  "name": "DS-Sprint 23-26",
+  "state": "active",
+  "start": "2026-09-28",
+  "end": "2026-10-12",
   "goal": "",
-  "items": 25,
-  "items_done": 10,
-  "committed": 36,
-  "final": 37,
-  "completed": 15,
-  "scope_change": 3,
-  "vs_commitment": 42,
-  "time_elapsed": 100,
+  "items": 22,
+  "items_done": 0,
+  "committed": 31,
+  "final": 31,
+  "completed": 0,
+  "scope_change": 0,
+  "vs_commitment": 0,
+  "time_elapsed": 0,
   "spill": {
-   "open_items": 11,
-   "open_pts": 19.0,
-   "out_items": 3,
-   "out_pts": 6.0,
-   "done_pts": 12.0
+   "open_items": 19,
+   "open_pts": 31.0,
+   "out_items": 0,
+   "out_pts": 0,
+   "done_pts": 0
   },
   "recv": {
-   "items": 9,
-   "pts": 15,
-   "pct": 42,
-   "from": "DS-Sprint 21-26"
+   "items": 5,
+   "pts": 5,
+   "pct": 16,
+   "from": "DS-Sprint 22-26"
   },
-  "spill_rate": 68,
+  "spill_rate": null,
   "dist": {
-   "Closed": 10,
+   "Ready for Development": 11,
    "Awaiting Review": 1,
-   "Ready for Development": 3,
-   "Backlog": 3,
-   "In Development": 4,
-   "Won't Do": 1
+   "Backlog": 4,
+   "In Development": 6
   },
   "burn": [
-   30.0,
    31.0,
-   31.0,
-   31.0,
-   31.0,
-   31.0,
-   28.0,
-   25.0,
-   25.0,
-   25.0,
-   25.0,
-   25.0,
-   25.0,
-   16.0
+   31.0
   ],
   "scope": [
-   35.0,
-   36.0,
-   36.0,
-   36.0,
-   36.0,
-   36.0,
-   36.0,
-   33.0,
-   33.0,
-   33.0,
-   33.0,
-   33.0,
-   33.0,
+   31.0,
    31.0
   ],
   "ghost": [
-   30.0,
    31.0,
-   31.0,
-   31.0,
-   31.0,
-   31.0,
-   28.0,
-   29.0,
-   29.0,
-   29.0,
-   29.0,
-   29.0,
-   29.0,
-   22.0
+   31.0
   ],
-  "days": 12,
-  "day": 12,
-  "capacity": {
-   "release": "9.08",
-   "start": "2026-09-16",
-   "end": "2026-09-25",
-   "members": null,
-   "holidays": null,
-   "pto": null,
-   "eff_days": null,
-   "pct": null,
-   "risk": null,
-   "planned": false
-  }
+  "days": 14,
+  "day": 1,
+  "capacity": null
  },
- "next": {
-  "name": "DS-Sprint 23-26",
-  "start": "2026-09-28",
-  "state": "not started"
- },
+ "next": null,
  "month": {
   "month": "9.08",
   "label": "Release 9.08",
@@ -486,8 +436,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 12,
-    "med_age": 30.5,
+    "open": 13,
+    "med_age": 28.0,
     "max_age": 146.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -499,8 +449,8 @@
    {
     "status": "In Development",
     "open": 5,
-    "med_age": 12.0,
-    "max_age": 25.8,
+    "med_age": 12.1,
+    "max_age": 25.9,
     "worst_key": "DS-729",
     "worst_sum": "Add CORS configs in Preprod",
     "worst_who": "Carlos Parra",
@@ -534,9 +484,9 @@
    }
   ],
   "parked": {
-   "Backlog": 41
+   "Backlog": 40
   },
-  "open_total": 17,
+  "open_total": 18,
   "stale": 14,
   "worst": "Ready for Development"
  }
