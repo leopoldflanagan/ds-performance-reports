@@ -260,11 +260,10 @@
    },
    "dist": {
     "Closed": 10,
-    "Awaiting Review": 1,
+    "Won't Do": 2,
     "Ready for Development": 5,
     "Backlog": 4,
-    "In Development": 4,
-    "Won't Do": 1
+    "In Development": 4
    },
    "stalled": 12,
    "worst": 5.43,

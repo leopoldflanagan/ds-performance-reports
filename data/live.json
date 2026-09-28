@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T17:00:26Z",
+ "generated": "2026-09-28T17:15:19Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -373,11 +373,11 @@
   "vs_commitment": 0,
   "time_elapsed": 0,
   "spill": {
-   "open_items": 19,
-   "open_pts": 31.0,
+   "open_items": 18,
+   "open_pts": 30.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 0
+   "done_pts": 1.0
   },
   "recv": {
    "items": 5,
@@ -388,7 +388,7 @@
   "spill_rate": null,
   "dist": {
    "Ready for Development": 11,
-   "Awaiting Review": 1,
+   "Won't Do": 1,
    "Backlog": 4,
    "In Development": 6
   },
@@ -444,7 +444,7 @@
     "worst_who": "Carlos Parra",
     "over": 10,
     "clear_med": 1.2,
-    "clear_n": 122
+    "clear_n": 123
    },
    {
     "status": "In Development",
@@ -455,8 +455,20 @@
     "worst_sum": "Add CORS configs in Preprod",
     "worst_who": "Carlos Parra",
     "over": 4,
-    "clear_med": 3.6,
-    "clear_n": 70
+    "clear_med": 3.3,
+    "clear_n": 71
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 4.7,
+    "clear_n": 9
    },
    {
     "status": "On Hold",
@@ -469,18 +481,6 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 5.2,
-    "clear_n": 8
    }
   ],
   "parked": {
