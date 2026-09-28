@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T21:30:21Z",
+ "generated": "2026-09-28T21:45:16Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -248,20 +248,8 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 4,
+    "n": 1,
     "items": [
-     {
-      "key": "DS-740",
-      "summary": "Smile Brands SFTP - Essential Smiles Plan"
-     },
-     {
-      "key": "DS-739",
-      "summary": "Smile Brands SFTP - One Smile NV"
-     },
-     {
-      "key": "DS-738",
-      "summary": "Smile Brands SFTP - One Smile WA"
-     },
      {
       "key": "DS-427",
       "summary": "Archival Initiative"
@@ -389,8 +377,8 @@
   "dist": {
    "Ready for Development": 11,
    "Won't Do": 1,
-   "Backlog": 4,
-   "In Development": 6
+   "In Development": 9,
+   "Backlog": 1
   },
   "burn": [
    31.0,
@@ -448,8 +436,8 @@
    },
    {
     "status": "In Development",
-    "open": 5,
-    "med_age": 12.3,
+    "open": 8,
+    "med_age": 9.2,
     "max_age": 26.1,
     "worst_key": "DS-729",
     "worst_sum": "Add CORS configs in Preprod",
@@ -484,9 +472,9 @@
    }
   ],
   "parked": {
-   "Backlog": 41
+   "Backlog": 38
   },
-  "open_total": 18,
+  "open_total": 21,
   "stale": 14,
   "worst": "Ready for Development"
  }
