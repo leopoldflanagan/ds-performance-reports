@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T14:22:36Z",
+ "generated": "2026-09-28T14:45:20Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -160,11 +160,11 @@
   },
   "ready": {
    "items": 9,
-   "points": 20
+   "points": 21
   },
   "misfiled": {
-   "items": 14,
-   "points": 54
+   "items": 15,
+   "points": 56
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -173,14 +173,14 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 14,
-    "points": 54,
+    "n": 15,
+    "points": 56,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 4,
-    "points": 10,
+    "n": 3,
+    "points": 8,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -203,7 +203,7 @@
   "days": 9,
   "n": 9,
   "done_now": 8,
-  "committed": 40,
+  "committed": 41,
   "lo": 8,
   "mid": 8,
   "hi": 8,
@@ -213,15 +213,15 @@
  },
  "admin": {
   "scope": {
-   "ready": 13,
-   "sprint": 23,
+   "ready": 12,
+   "sprint": 22,
    "sprint_name": "DS-Sprint 22-26"
   },
   "blocking": [
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 4,
+    "n": 3,
     "items": [
      {
       "key": "DS-754",
@@ -230,10 +230,6 @@
      {
       "key": "DS-746",
       "summary": "SFTP Transfer - Solomon Dentistry"
-     },
-     {
-      "key": "DS-725",
-      "summary": "Refresh Platform in Preprod"
      },
      {
       "key": "DS-724",
@@ -275,20 +271,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 32 of 32 items. This reads as a field the team does not use rather than 32 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 32,
+    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 31,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 32 of 32 items. This reads as a field the team does not use rather than 32 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 32,
+    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 31,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 32 of 32 items. This reads as a field the team does not use rather than 32 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 32,
+    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 31,
     "items": []
    },
    {
@@ -329,7 +325,7 @@
     "items": [
      {
       "key": "DS-683",
-      "summary": "Expand prod database alerts to new databases"
+      "summary": "Expand prod database alerts and backups to new databases"
      },
      {
       "key": "DS-682",
@@ -363,69 +359,69 @@
   "goal": "",
   "items": 25,
   "items_done": 6,
-  "committed": 40,
-  "final": 41,
+  "committed": 41,
+  "final": 42,
   "completed": 8,
   "scope_change": 2,
   "vs_commitment": 20,
   "time_elapsed": 100,
   "spill": {
-   "open_items": 13,
-   "open_pts": 21.0,
-   "out_items": 2,
-   "out_pts": 4.0,
-   "done_pts": 11.0
+   "open_items": 11,
+   "open_pts": 19.0,
+   "out_items": 3,
+   "out_pts": 6.0,
+   "done_pts": 12.0
   },
   "recv": {
    "items": 9,
-   "pts": 16,
-   "pct": 40,
+   "pts": 17,
+   "pct": 41,
    "from": "DS-Sprint 21-26"
   },
-  "spill_rate": 69,
+  "spill_rate": 68,
   "dist": {
-   "Closed": 9,
+   "Closed": 10,
    "Awaiting Review": 1,
-   "In Development": 5,
-   "Ready for Development": 4,
+   "Ready for Development": 3,
    "Backlog": 3,
+   "In Development": 4,
    "Won't Do": 1
   },
   "burn": [
-   34.0,
    35.0,
-   35.0,
-   35.0,
-   35.0,
-   35.0,
-   32.0,
-   29.0,
-   29.0,
-   29.0
+   36.0,
+   36.0,
+   36.0,
+   36.0,
+   36.0,
+   33.0,
+   30.0,
+   30.0,
+   30.0
   ],
   "scope": [
-   39.0,
    40.0,
-   40.0,
-   40.0,
-   40.0,
-   40.0,
-   40.0,
-   37.0,
-   37.0,
-   37.0
+   41.0,
+   41.0,
+   41.0,
+   41.0,
+   41.0,
+   41.0,
+   38.0,
+   38.0,
+   38.0
   ],
   "ghost": [
+   35.0,
+   36.0,
+   36.0,
+   36.0,
+   36.0,
+   36.0,
+   33.0,
    34.0,
-   35.0,
-   35.0,
-   35.0,
-   35.0,
-   35.0,
-   32.0,
-   33.0,
-   33.0,
-   33.0
+   34.0,
+   34.0
   ],
   "days": 9,
   "day": 9,
@@ -474,27 +470,27 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 13,
-    "med_age": 28.0,
+    "open": 12,
+    "med_age": 30.4,
     "max_age": 146.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
-    "over": 11,
+    "over": 10,
     "clear_med": 1.2,
-    "clear_n": 121
+    "clear_n": 122
    },
    {
     "status": "In Development",
-    "open": 6,
+    "open": 5,
     "med_age": 12.0,
     "max_age": 25.8,
     "worst_key": "DS-729",
     "worst_sum": "Add CORS configs in Preprod",
     "worst_who": "Carlos Parra",
     "over": 4,
-    "clear_med": 3.3,
-    "clear_n": 69
+    "clear_med": 3.6,
+    "clear_n": 70
    },
    {
     "status": "Awaiting Review",
@@ -522,10 +518,10 @@
    }
   ],
   "parked": {
-   "Backlog": 39
+   "Backlog": 40
   },
-  "open_total": 19,
-  "stale": 15,
+  "open_total": 17,
+  "stale": 14,
   "worst": "Ready for Development"
  }
 }
