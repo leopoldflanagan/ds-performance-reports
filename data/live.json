@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-28T14:46:20Z",
+ "generated": "2026-09-28T15:00:25Z",
  "team": "DS",
  "board": 257,
- "kind": "active",
+ "kind": "recent",
  "capacity": {
   "page": "3755671557",
   "url": "https://wellfit.atlassian.net/wiki/spaces/EDW/pages/3755671557",
@@ -160,7 +160,7 @@
   },
   "ready": {
    "items": 9,
-   "points": 21
+   "points": 19
   },
   "misfiled": {
    "items": 15,
@@ -199,15 +199,15 @@
  },
  "projection": {
   "too_early": false,
-  "day": 9,
-  "days": 9,
+  "day": 12,
+  "days": 12,
   "n": 9,
-  "done_now": 8,
-  "committed": 41,
-  "lo": 8,
-  "mid": 8,
-  "hi": 8,
-  "pct": 20,
+  "done_now": 15,
+  "committed": 36,
+  "lo": 15,
+  "mid": 15,
+  "hi": 15,
+  "pct": 42,
   "verdict": "well short of the commitment",
   "share_mid": 1.0
  },
@@ -321,8 +321,12 @@
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 4,
+    "n": 5,
     "items": [
+     {
+      "key": "DS-711",
+      "summary": "Wellfit Cedar Gate Coordination for Upcoming SFTP Change"
+     },
      {
       "key": "DS-683",
       "summary": "Expand prod database alerts and backups to new databases"
@@ -353,17 +357,17 @@
  },
  "sprint": {
   "name": "DS-Sprint 22-26",
-  "state": "active",
+  "state": "closed",
   "start": "2026-09-16",
-  "end": "2026-09-25",
+  "end": "2026-09-28",
   "goal": "",
   "items": 25,
-  "items_done": 6,
-  "committed": 41,
-  "final": 42,
-  "completed": 8,
-  "scope_change": 2,
-  "vs_commitment": 20,
+  "items_done": 10,
+  "committed": 36,
+  "final": 37,
+  "completed": 15,
+  "scope_change": 3,
+  "vs_commitment": 42,
   "time_elapsed": 100,
   "spill": {
    "open_items": 11,
@@ -374,8 +378,8 @@
   },
   "recv": {
    "items": 9,
-   "pts": 17,
-   "pct": 41,
+   "pts": 15,
+   "pct": 42,
    "from": "DS-Sprint 21-26"
   },
   "spill_rate": 68,
@@ -388,43 +392,55 @@
    "Won't Do": 1
   },
   "burn": [
-   35.0,
-   36.0,
-   36.0,
-   36.0,
-   36.0,
-   36.0,
-   33.0,
    30.0,
-   30.0,
-   30.0
+   31.0,
+   31.0,
+   31.0,
+   31.0,
+   31.0,
+   28.0,
+   25.0,
+   25.0,
+   25.0,
+   25.0,
+   25.0,
+   25.0,
+   16.0
   ],
   "scope": [
-   40.0,
-   41.0,
-   41.0,
-   41.0,
-   41.0,
-   41.0,
-   41.0,
-   38.0,
-   38.0,
-   38.0
-  ],
-  "ghost": [
    35.0,
    36.0,
    36.0,
    36.0,
    36.0,
    36.0,
+   36.0,
    33.0,
-   34.0,
-   34.0,
-   34.0
+   33.0,
+   33.0,
+   33.0,
+   33.0,
+   33.0,
+   31.0
   ],
-  "days": 9,
-  "day": 9,
+  "ghost": [
+   30.0,
+   31.0,
+   31.0,
+   31.0,
+   31.0,
+   31.0,
+   28.0,
+   29.0,
+   29.0,
+   29.0,
+   29.0,
+   29.0,
+   29.0,
+   22.0
+  ],
+  "days": 12,
+  "day": 12,
   "capacity": {
    "release": "9.08",
    "start": "2026-09-16",
@@ -462,7 +478,7 @@
    "DS-Sprint 22-26"
   ],
   "n_sprints": 2,
-  "sprints_done": 1
+  "sprints_done": 2
  },
  "aging": {
   "window_days": 90,
@@ -493,18 +509,6 @@
     "clear_n": 70
    },
    {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
-   },
-   {
     "status": "Awaiting Review",
     "open": 0,
     "med_age": 0,
@@ -515,6 +519,18 @@
     "over": 0,
     "clear_med": 5.2,
     "clear_n": 8
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
