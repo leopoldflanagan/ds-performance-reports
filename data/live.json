@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T16:22:49Z",
+ "generated": "2026-09-29T16:30:22Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -359,7 +359,7 @@
   "completed": 1,
   "scope_change": 0,
   "vs_commitment": 3,
-  "time_elapsed": 7,
+  "time_elapsed": 8,
   "spill": {
    "open_items": 17,
    "open_pts": 29.0,
@@ -429,7 +429,7 @@
    {
     "status": "Ready for Development",
     "open": 14,
-    "med_age": 27.4,
+    "med_age": 27.5,
     "max_age": 147.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -451,18 +451,6 @@
     "clear_n": 73
    },
    {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 4.7,
-    "clear_n": 9
-   },
-   {
     "status": "On Hold",
     "open": 0,
     "med_age": 0,
@@ -473,6 +461,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 4.7,
+    "clear_n": 9
    }
   ],
   "parked": {
