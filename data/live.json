@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T14:30:22Z",
+ "generated": "2026-09-29T14:44:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -159,8 +159,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 9,
-   "points": 19
+   "items": 10,
+   "points": 22
   },
   "misfiled": {
    "items": 15,
@@ -206,7 +206,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 13,
+   "ready": 14,
    "sprint": 19,
    "sprint_name": "DS-Sprint 23-26"
   },
@@ -317,12 +317,12 @@
       "summary": "Troubleshoot and finish ETL for EDW in preprod"
      },
      {
-      "key": "DS-526",
-      "summary": "Fabric POC for reporting table"
-     },
-     {
       "key": "DS-576",
       "summary": "Mirror remaining tables for Platform"
+     },
+     {
+      "key": "DS-526",
+      "summary": "Fabric POC for reporting table"
      },
      {
       "key": "DS-427",
@@ -375,9 +375,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "Ready for Development": 11,
+   "Ready for Development": 12,
    "Won't Do": 1,
-   "In Development": 8,
+   "In Development": 7,
    "Closed": 1,
    "Backlog": 1
   },
@@ -425,8 +425,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 13,
-    "med_age": 29.0,
+    "open": 14,
+    "med_age": 27.4,
     "max_age": 147.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -437,27 +437,15 @@
    },
    {
     "status": "In Development",
-    "open": 7,
-    "med_age": 6.8,
+    "open": 6,
+    "med_age": 3.8,
     "max_age": 26.8,
     "worst_key": "DS-729",
     "worst_sum": "Add CORS configs in Preprod",
     "worst_who": "Carlos Parra",
-    "over": 3,
-    "clear_med": 3.6,
-    "clear_n": 72
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 4.7,
-    "clear_n": 9
+    "over": 2,
+    "clear_med": 3.8,
+    "clear_n": 73
    },
    {
     "status": "On Hold",
@@ -470,13 +458,25 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 4.7,
+    "clear_n": 9
    }
   ],
   "parked": {
    "Backlog": 38
   },
   "open_total": 20,
-  "stale": 14,
+  "stale": 13,
   "worst": "Ready for Development"
  }
 }
