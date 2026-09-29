@@ -258,10 +258,10 @@
     }
    },
    "dist": {
-    "Closed": 11,
+    "Closed": 12,
     "Won't Do": 2,
     "Ready for Development": 6,
-    "In Development": 5,
+    "In Development": 4,
     "Backlog": 1
    },
    "stalled": 12,

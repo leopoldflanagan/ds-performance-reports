@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T19:40:14Z",
+ "generated": "2026-09-29T20:15:17Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -206,8 +206,8 @@
  },
  "admin": {
   "scope": {
-   "ready": 15,
-   "sprint": 21,
+   "ready": 16,
+   "sprint": 22,
    "sprint_name": "DS-Sprint 23-26"
   },
   "blocking": [
@@ -260,20 +260,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 25 of 25 items. This reads as a field the team does not use rather than 25 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 25,
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 25 of 25 items. This reads as a field the team does not use rather than 25 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 25,
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 25 of 25 items. This reads as a field the team does not use rather than 25 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 25,
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
     "items": []
    },
    {
@@ -356,48 +356,48 @@
   "start": "2026-09-28",
   "end": "2026-10-12",
   "goal": "",
-  "items": 25,
-  "items_done": 2,
-  "committed": 33,
-  "final": 36,
-  "completed": 1,
+  "items": 26,
+  "items_done": 3,
+  "committed": 35,
+  "final": 38,
+  "completed": 3,
   "scope_change": 9,
-  "vs_commitment": 3,
+  "vs_commitment": 9,
   "time_elapsed": 9,
   "spill": {
    "open_items": 19,
    "open_pts": 34.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 2.0
+   "done_pts": 4.0
   },
   "recv": {
    "items": 5,
    "pts": 5,
-   "pct": 15,
+   "pct": 14,
    "from": "DS-Sprint 22-26"
   },
   "spill_rate": null,
   "dist": {
-   "Ready for Development": 13,
+   "Ready for Development": 14,
    "Backlog": 2,
-   "In Development": 8,
+   "In Development": 7,
    "Won't Do": 1,
-   "Closed": 1
+   "Closed": 2
   },
   "burn": [
-   33.0,
-   32.0,
+   35.0,
+   34.0,
    35.0
   ],
   "scope": [
-   33.0,
-   33.0,
-   36.0
+   35.0,
+   35.0,
+   38.0
   ],
   "ghost": [
-   33.0,
-   32.0,
+   35.0,
+   34.0,
    35.0
   ],
   "days": 14,
@@ -432,7 +432,7 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 15,
+    "open": 16,
     "med_age": 26.1,
     "max_age": 148.0,
     "worst_key": "DS-495",
@@ -444,15 +444,15 @@
    },
    {
     "status": "In Development",
-    "open": 7,
+    "open": 6,
     "med_age": 0.9,
     "max_age": 27.0,
     "worst_key": "DS-729",
     "worst_sum": "Add CORS configs in Preprod",
     "worst_who": "Carlos Parra",
-    "over": 3,
+    "over": 2,
     "clear_med": 3.8,
-    "clear_n": 73
+    "clear_n": 74
    },
    {
     "status": "On Hold",
@@ -483,7 +483,7 @@
    "Backlog": 37
   },
   "open_total": 22,
-  "stale": 14,
+  "stale": 13,
   "worst": "Ready for Development"
  }
 }
