@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T00:55:09Z",
+ "generated": "2026-09-29T01:30:19Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -437,7 +437,7 @@
    {
     "status": "In Development",
     "open": 8,
-    "med_age": 9.3,
+    "med_age": 9.4,
     "max_age": 26.2,
     "worst_key": "DS-729",
     "worst_sum": "Add CORS configs in Preprod",
@@ -445,18 +445,6 @@
     "over": 4,
     "clear_med": 3.3,
     "clear_n": 71
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -469,6 +457,18 @@
     "over": 0,
     "clear_med": 4.7,
     "clear_n": 9
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
