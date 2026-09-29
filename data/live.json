@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T14:19:28Z",
+ "generated": "2026-09-29T14:30:22Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -353,19 +353,19 @@
   "end": "2026-10-12",
   "goal": "",
   "items": 22,
-  "items_done": 0,
+  "items_done": 1,
   "committed": 31,
   "final": 31,
-  "completed": 0,
+  "completed": 1,
   "scope_change": 0,
-  "vs_commitment": 0,
+  "vs_commitment": 3,
   "time_elapsed": 7,
   "spill": {
-   "open_items": 18,
-   "open_pts": 30.0,
+   "open_items": 17,
+   "open_pts": 29.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 1.0
+   "done_pts": 2.0
   },
   "recv": {
    "items": 5,
@@ -377,12 +377,13 @@
   "dist": {
    "Ready for Development": 11,
    "Won't Do": 1,
-   "In Development": 9,
+   "In Development": 8,
+   "Closed": 1,
    "Backlog": 1
   },
   "burn": [
    31.0,
-   31.0
+   30.0
   ],
   "scope": [
    31.0,
@@ -390,7 +391,7 @@
   ],
   "ghost": [
    31.0,
-   31.0
+   30.0
   ],
   "days": 14,
   "day": 2,
@@ -436,15 +437,15 @@
    },
    {
     "status": "In Development",
-    "open": 8,
-    "med_age": 9.9,
+    "open": 7,
+    "med_age": 6.8,
     "max_age": 26.8,
     "worst_key": "DS-729",
     "worst_sum": "Add CORS configs in Preprod",
     "worst_who": "Carlos Parra",
-    "over": 4,
-    "clear_med": 3.3,
-    "clear_n": 71
+    "over": 3,
+    "clear_med": 3.6,
+    "clear_n": 72
    },
    {
     "status": "Awaiting Review",
@@ -474,8 +475,8 @@
   "parked": {
    "Backlog": 38
   },
-  "open_total": 21,
-  "stale": 15,
+  "open_total": 20,
+  "stale": 14,
   "worst": "Ready for Development"
  }
 }
