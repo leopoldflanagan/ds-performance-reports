@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T11:30:21Z",
+ "generated": "2026-09-29T11:41:31Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -425,7 +425,7 @@
    {
     "status": "Ready for Development",
     "open": 13,
-    "med_age": 28.8,
+    "med_age": 28.9,
     "max_age": 147.6,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
