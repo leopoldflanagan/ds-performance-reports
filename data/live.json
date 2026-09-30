@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T14:15:19Z",
+ "generated": "2026-09-30T14:22:22Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -179,8 +179,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 4,
-    "points": 10,
+    "n": 3,
+    "points": 8,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 16,
+   "ready": 15,
    "sprint": 22,
    "sprint_name": "DS-Sprint 23-26"
   },
@@ -221,12 +221,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 4,
+    "n": 3,
     "items": [
-     {
-      "key": "DS-758",
-      "summary": "ACH Token upload testing"
-     },
      {
       "key": "DS-754",
       "summary": "1.4: CREG HR Report delivery - twice-monthly SFTP + email"
@@ -386,9 +382,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "Ready for Development": 14,
+   "Ready for Development": 13,
+   "In Development": 8,
    "Backlog": 2,
-   "In Development": 7,
    "Won't Do": 1,
    "Closed": 2
   },
@@ -439,19 +435,19 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 16,
+    "open": 15,
     "med_age": 26.8,
     "max_age": 148.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 11,
-    "clear_med": 1.2,
-    "clear_n": 119
+    "clear_med": 1.6,
+    "clear_n": 120
    },
    {
     "status": "In Development",
-    "open": 6,
+    "open": 7,
     "med_age": 1.7,
     "max_age": 27.8,
     "worst_key": "DS-729",
