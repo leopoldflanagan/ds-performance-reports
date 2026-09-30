@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T23:45:17Z",
+ "generated": "2026-09-30T00:00:23Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -198,11 +198,18 @@
   ]
  },
  "projection": {
-  "too_early": true,
-  "day": 2,
+  "too_early": false,
+  "day": 3,
   "days": 14,
   "n": 9,
-  "why": "this early, past sprints had finished too little of their work for the comparison to say anything"
+  "done_now": 3,
+  "committed": 35,
+  "lo": 13,
+  "mid": 14,
+  "hi": 28,
+  "pct": 40,
+  "verdict": "well short of the commitment",
+  "share_mid": 0.212
  },
  "admin": {
   "scope": {
@@ -401,7 +408,7 @@
    35.0
   ],
   "days": 14,
-  "day": 2,
+  "day": 3,
   "capacity": null
  },
  "next": null,
@@ -433,14 +440,14 @@
    {
     "status": "Ready for Development",
     "open": 16,
-    "med_age": 26.2,
-    "max_age": 148.1,
+    "med_age": 26.3,
+    "max_age": 148.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 11,
     "clear_med": 1.2,
-    "clear_n": 120
+    "clear_n": 119
    },
    {
     "status": "In Development",
@@ -452,19 +459,7 @@
     "worst_who": "Carlos Parra",
     "over": 2,
     "clear_med": 3.8,
-    "clear_n": 74
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "clear_n": 73
    },
    {
     "status": "Awaiting Review",
@@ -477,6 +472,18 @@
     "over": 0,
     "clear_med": 4.7,
     "clear_n": 9
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
