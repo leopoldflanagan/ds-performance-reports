@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T21:30:18Z",
+ "generated": "2026-10-01T21:41:44Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -203,18 +203,18 @@
   "days": 14,
   "n": 9,
   "done_now": 4,
-  "committed": 35,
+  "committed": 37,
   "lo": 11,
   "mid": 16,
   "hi": 19,
-  "pct": 46,
+  "pct": 43,
   "verdict": "well short of the commitment",
   "share_mid": 0.247
  },
  "admin": {
   "scope": {
-   "ready": 14,
-   "sprint": 24,
+   "ready": 15,
+   "sprint": 25,
    "sprint_name": "DS-Sprint 23-26"
   },
   "blocking": [
@@ -249,6 +249,17 @@
     ]
    },
    {
+    "rule": "No assignee in the active sprint",
+    "why": "work in the sprint that nobody owns.",
+    "n": 1,
+    "items": [
+     {
+      "key": "DS-763",
+      "summary": "[DB Access Request] Need DB access to Payments and Onboarding in Prod"
+     }
+    ]
+   },
+   {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
     "n": 1,
@@ -274,20 +285,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 28,
+    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 29,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 28,
+    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 29,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 28,
+    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 29,
     "items": []
    },
    {
@@ -382,17 +393,17 @@
   "start": "2026-09-28",
   "end": "2026-10-12",
   "goal": "",
-  "items": 28,
+  "items": 29,
   "items_done": 4,
-  "committed": 35,
-  "final": 39,
+  "committed": 37,
+  "final": 41,
   "completed": 4,
   "scope_change": 11,
   "vs_commitment": 11,
   "time_elapsed": 24,
   "spill": {
-   "open_items": 19,
-   "open_pts": 32.0,
+   "open_items": 20,
+   "open_pts": 34.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 6.0
@@ -405,32 +416,32 @@
   },
   "spill_rate": null,
   "dist": {
+   "Ready for Development": 13,
    "In Development": 9,
    "Won't Do": 2,
-   "Ready for Development": 12,
    "Backlog": 2,
    "Closed": 3
   },
   "burn": [
-   35.0,
-   34.0,
-   35.0,
-   35.0,
-   35.0
+   37.0,
+   36.0,
+   37.0,
+   37.0,
+   37.0
   ],
   "scope": [
-   35.0,
-   35.0,
-   39.0,
-   39.0,
-   39.0
+   37.0,
+   37.0,
+   41.0,
+   41.0,
+   41.0
   ],
   "ghost": [
-   35.0,
-   34.0,
-   35.0,
-   35.0,
-   35.0
+   37.0,
+   36.0,
+   37.0,
+   37.0,
+   37.0
   ],
   "days": 14,
   "day": 4,
@@ -464,8 +475,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 14,
-    "med_age": 29.7,
+    "open": 15,
+    "med_age": 28.2,
     "max_age": 150.1,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -487,18 +498,6 @@
     "clear_n": 73
    },
    {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 4.7,
-    "clear_n": 9
-   },
-   {
     "status": "On Hold",
     "open": 0,
     "med_age": 0,
@@ -509,12 +508,24 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 4.7,
+    "clear_n": 9
    }
   ],
   "parked": {
    "Backlog": 37
   },
-  "open_total": 22,
+  "open_total": 23,
   "stale": 14,
   "worst": "Ready for Development"
  }
