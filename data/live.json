@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T15:20:07Z",
+ "generated": "2026-10-01T15:43:13Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -467,14 +467,14 @@
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
-    "over": 11,
+    "over": 12,
     "clear_med": 1.2,
     "clear_n": 121
    },
    {
     "status": "In Development",
     "open": 8,
-    "med_age": 2.7,
+    "med_age": 2.8,
     "max_age": 28.8,
     "worst_key": "DS-729",
     "worst_sum": "Add CORS configs in Preprod",
@@ -512,7 +512,7 @@
    "Backlog": 37
   },
   "open_total": 22,
-  "stale": 13,
+  "stale": 14,
   "worst": "Ready for Development"
  }
 }
