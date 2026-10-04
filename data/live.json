@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T20:30:20Z",
+ "generated": "2026-10-04T20:45:15Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -404,7 +404,7 @@
   "completed": 7,
   "scope_change": 10,
   "vs_commitment": 17,
-  "time_elapsed": 45,
+  "time_elapsed": 46,
   "spill": {
    "open_items": 21,
    "open_pts": 36.0,
@@ -502,25 +502,13 @@
     "status": "In Development",
     "open": 8,
     "med_age": 5.5,
-    "max_age": 18.2,
+    "max_age": 18.3,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
     "worst_who": "Carlos Parra",
     "over": 1,
     "clear_med": 3.8,
     "clear_n": 75
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 4.7,
-    "clear_n": 9
    },
    {
     "status": "On Hold",
@@ -533,6 +521,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 4.7,
+    "clear_n": 9
    }
   ],
   "parked": {
