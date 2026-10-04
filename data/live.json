@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T23:56:36Z",
+ "generated": "2026-10-04T00:00:23Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,14 +199,14 @@
  },
  "projection": {
   "too_early": false,
-  "day": 6,
+  "day": 7,
   "days": 14,
   "n": 9,
   "done_now": 7,
   "committed": 42,
-  "lo": 17,
+  "lo": 15,
   "mid": 18,
-  "hi": 26,
+  "hi": 20,
   "pct": 43,
   "verdict": "well short of the commitment",
   "share_mid": 0.393
@@ -454,7 +454,7 @@
    39.0
   ],
   "days": 14,
-  "day": 6,
+  "day": 7,
   "capacity": null
  },
  "next": null,
@@ -486,7 +486,7 @@
    {
     "status": "Ready for Development",
     "open": 16,
-    "med_age": 30.2,
+    "med_age": 30.3,
     "max_age": 152.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
