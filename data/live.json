@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T10:45:16Z",
+ "generated": "2026-10-04T11:00:23Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -404,7 +404,7 @@
   "completed": 7,
   "scope_change": 10,
   "vs_commitment": 17,
-  "time_elapsed": 42,
+  "time_elapsed": 43,
   "spill": {
    "open_items": 21,
    "open_pts": 36.0,
@@ -498,7 +498,7 @@
    {
     "status": "In Development",
     "open": 8,
-    "med_age": 5.1,
+    "med_age": 5.2,
     "max_age": 17.8,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
