@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T15:45:51Z",
+ "generated": "2026-10-04T16:00:23Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -433,11 +433,13 @@
    42.0,
    42.0,
    39.0,
+   39.0,
    39.0
   ],
   "scope": [
    42.0,
    42.0,
+   46.0,
    46.0,
    46.0,
    46.0,
@@ -450,6 +452,7 @@
    42.0,
    42.0,
    42.0,
+   39.0,
    39.0,
    39.0
   ],
@@ -499,7 +502,7 @@
     "status": "In Development",
     "open": 8,
     "med_age": 5.3,
-    "max_age": 18.0,
+    "max_age": 18.1,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
     "worst_who": "Carlos Parra",
