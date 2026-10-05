@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T18:45:19Z",
+ "generated": "2026-10-05T18:49:35Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -159,8 +159,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 10,
-   "points": 22
+   "items": 11,
+   "points": 25
   },
   "misfiled": {
    "items": 15,
@@ -179,7 +179,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 6,
+    "n": 5,
     "points": 8,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -221,12 +221,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 3,
+    "n": 2,
     "items": [
-     {
-      "key": "DS-771",
-      "summary": "Security.UserOrganizationsPractices"
-     },
      {
       "key": "DS-770",
       "summary": "Convert Platform [dbo].[pr_ADF_VAPUnmatched_Payments_and_Refunds] to UPSERT proc"
@@ -240,12 +236,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 6,
+    "n": 5,
     "items": [
-     {
-      "key": "DS-771",
-      "summary": "Security.UserOrganizationsPractices"
-     },
      {
       "key": "DS-770",
       "summary": "Convert Platform [dbo].[pr_ADF_VAPUnmatched_Payments_and_Refunds] to UPSERT proc"
@@ -541,18 +533,6 @@
     "clear_n": 76
    },
    {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 4.7,
-    "clear_n": 9
-   },
-   {
     "status": "On Hold",
     "open": 0,
     "med_age": 0,
@@ -563,6 +543,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 4.7,
+    "clear_n": 9
    }
   ],
   "parked": {
