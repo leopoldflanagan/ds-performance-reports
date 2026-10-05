@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T18:15:17Z",
+ "generated": "2026-10-05T18:25:51Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -179,7 +179,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 4,
+    "n": 5,
     "points": 8,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -213,16 +213,20 @@
  },
  "admin": {
   "scope": {
-   "ready": 15,
-   "sprint": 29,
+   "ready": 16,
+   "sprint": 30,
    "sprint_name": "DS-Sprint 23-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 1,
+    "n": 2,
     "items": [
+     {
+      "key": "DS-770",
+      "summary": "Convert Platform [dbo].[pr_ADF_VAPUnmatched_Payments_and_Refunds] to UPSERT proc"
+     },
      {
       "key": "DS-767",
       "summary": "Disable Fabric Mirroring for Release"
@@ -232,8 +236,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 4,
+    "n": 5,
     "items": [
+     {
+      "key": "DS-770",
+      "summary": "Convert Platform [dbo].[pr_ADF_VAPUnmatched_Payments_and_Refunds] to UPSERT proc"
+     },
      {
       "key": "DS-767",
       "summary": "Disable Fabric Mirroring for Release"
@@ -289,27 +297,31 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 34 of 34 items. This reads as a field the team does not use rather than 34 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 34,
+    "why": "missing on 35 of 35 items. This reads as a field the team does not use rather than 35 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 35,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 34 of 34 items. This reads as a field the team does not use rather than 34 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 34,
+    "why": "missing on 35 of 35 items. This reads as a field the team does not use rather than 35 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 35,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 34 of 34 items. This reads as a field the team does not use rather than 34 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 34,
+    "why": "missing on 35 of 35 items. This reads as a field the team does not use rather than 35 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 35,
     "items": []
    },
    {
     "rule": "Assignee is not on the roster",
     "why": "the capacity page lists the team; this work is assigned outside it.",
-    "n": 9,
+    "n": 10,
     "items": [
+     {
+      "key": "DS-770",
+      "summary": "Convert Platform [dbo].[pr_ADF_VAPUnmatched_Payments_and_Refunds] to UPSERT proc"
+     },
      {
       "key": "DS-766",
       "summary": "SubscriberSeed column from Platform dbo.Users needs to be added to Analytics ing"
@@ -337,10 +349,6 @@
      {
       "key": "DS-709",
       "summary": "Production ETL for CreditCardPaymentAccount with logging"
-     },
-     {
-      "key": "DS-691",
-      "summary": "Platform Master Incremental ETL"
      }
     ]
    },
@@ -407,7 +415,7 @@
   "start": "2026-09-28",
   "end": "2026-10-12",
   "goal": "",
-  "items": 33,
+  "items": 34,
   "items_done": 7,
   "committed": 45,
   "final": 50,
@@ -416,7 +424,7 @@
   "vs_commitment": 20,
   "time_elapsed": 52,
   "spill": {
-   "open_items": 21,
+   "open_items": 22,
    "open_pts": 38.0,
    "out_items": 0,
    "out_pts": 0,
@@ -430,7 +438,7 @@
   },
   "spill_rate": null,
   "dist": {
-   "Ready for Development": 12,
+   "Ready for Development": 13,
    "Awaiting Review": 2,
    "Closed": 6,
    "In Development": 9,
@@ -502,8 +510,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 15,
-    "med_age": 32.0,
+    "open": 16,
+    "med_age": 25.4,
     "max_age": 153.9,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -525,18 +533,6 @@
     "clear_n": 76
    },
    {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
-   },
-   {
     "status": "Awaiting Review",
     "open": 0,
     "med_age": 0,
@@ -547,12 +543,24 @@
     "over": 0,
     "clear_med": 4.7,
     "clear_n": 9
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 23,
+  "open_total": 24,
   "stale": 12,
   "worst": "Ready for Development"
  }
