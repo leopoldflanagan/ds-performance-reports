@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T19:18:07Z",
+ "generated": "2026-10-05T20:30:29Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -414,7 +414,7 @@
   "completed": 11,
   "scope_change": 11,
   "vs_commitment": 23,
-  "time_elapsed": 52,
+  "time_elapsed": 53,
   "spill": {
    "open_items": 21,
    "open_pts": 38.0,
@@ -503,7 +503,7 @@
    {
     "status": "Ready for Development",
     "open": 16,
-    "med_age": 25.5,
+    "med_age": 25.6,
     "max_age": 154.0,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -520,7 +520,7 @@
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
     "worst_who": "Carlos Parra",
-    "over": 1,
+    "over": 4,
     "clear_med": 3.8,
     "clear_n": 77
    },
@@ -553,7 +553,7 @@
    "Backlog": 38
   },
   "open_total": 24,
-  "stale": 12,
+  "stale": 15,
   "worst": "Ready for Development"
  }
 }
