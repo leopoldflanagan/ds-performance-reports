@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T19:00:25Z",
+ "generated": "2026-10-05T19:15:35Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -179,7 +179,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 5,
+    "n": 4,
     "points": 8,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -202,18 +202,18 @@
   "day": 8,
   "days": 14,
   "n": 9,
-  "done_now": 9,
-  "committed": 45,
-  "lo": 16,
-  "mid": 20,
-  "hi": 25,
-  "pct": 44,
+  "done_now": 11,
+  "committed": 47,
+  "lo": 20,
+  "mid": 24,
+  "hi": 30,
+  "pct": 51,
   "verdict": "well short of the commitment",
   "share_mid": 0.459
  },
  "admin": {
   "scope": {
-   "ready": 17,
+   "ready": 16,
    "sprint": 30,
    "sprint_name": "DS-Sprint 23-26"
   },
@@ -221,12 +221,8 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 2,
+    "n": 1,
     "items": [
-     {
-      "key": "DS-770",
-      "summary": "Convert Platform [dbo].[pr_ADF_VAPUnmatched_Payments_and_Refunds] to UPSERT proc"
-     },
      {
       "key": "DS-767",
       "summary": "Disable Fabric Mirroring for Release"
@@ -236,12 +232,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 5,
+    "n": 4,
     "items": [
-     {
-      "key": "DS-770",
-      "summary": "Convert Platform [dbo].[pr_ADF_VAPUnmatched_Payments_and_Refunds] to UPSERT proc"
-     },
      {
       "key": "DS-767",
       "summary": "Disable Fabric Mirroring for Release"
@@ -416,19 +408,19 @@
   "end": "2026-10-12",
   "goal": "",
   "items": 34,
-  "items_done": 7,
-  "committed": 45,
-  "final": 50,
-  "completed": 9,
+  "items_done": 8,
+  "committed": 47,
+  "final": 52,
+  "completed": 11,
   "scope_change": 11,
-  "vs_commitment": 20,
+  "vs_commitment": 23,
   "time_elapsed": 52,
   "spill": {
-   "open_items": 22,
+   "open_items": 21,
    "open_pts": 38.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 11.0
+   "done_pts": 13.0
   },
   "recv": {
    "items": 5,
@@ -438,44 +430,44 @@
   },
   "spill_rate": null,
   "dist": {
-   "Ready for Development": 13,
-   "Awaiting Review": 2,
-   "Closed": 6,
    "In Development": 9,
+   "Ready for Development": 12,
+   "Awaiting Review": 2,
+   "Closed": 7,
    "Won't Do": 2,
    "Backlog": 2
   },
   "burn": [
+   47.0,
+   46.0,
+   48.0,
+   48.0,
+   48.0,
    45.0,
-   44.0,
-   46.0,
-   46.0,
-   46.0,
+   45.0,
    43.0,
-   43.0,
-   41.0,
    41.0
   ],
   "scope": [
-   45.0,
-   45.0,
-   50.0,
-   50.0,
-   50.0,
-   50.0,
-   50.0,
-   50.0,
-   50.0
+   47.0,
+   47.0,
+   52.0,
+   52.0,
+   52.0,
+   52.0,
+   52.0,
+   52.0,
+   52.0
   ],
   "ghost": [
+   47.0,
+   46.0,
+   48.0,
+   48.0,
+   48.0,
    45.0,
-   44.0,
-   46.0,
-   46.0,
-   46.0,
+   45.0,
    43.0,
-   43.0,
-   41.0,
    41.0
   ],
   "days": 14,
@@ -510,15 +502,15 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 17,
-    "med_age": 18.9,
-    "max_age": 153.9,
+    "open": 16,
+    "med_age": 25.5,
+    "max_age": 154.0,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 11,
     "clear_med": 1.2,
-    "clear_n": 121
+    "clear_n": 122
    },
    {
     "status": "In Development",
@@ -530,19 +522,7 @@
     "worst_who": "Carlos Parra",
     "over": 1,
     "clear_med": 3.8,
-    "clear_n": 76
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 4.7,
-    "clear_n": 9
+    "clear_n": 77
    },
    {
     "status": "On Hold",
@@ -555,12 +535,24 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 4.7,
+    "clear_n": 9
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 25,
+  "open_total": 24,
   "stale": 12,
   "worst": "Ready for Development"
  }
