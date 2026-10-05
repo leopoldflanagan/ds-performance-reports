@@ -222,8 +222,9 @@
    "dist": {
     "Closed": 22,
     "Backlog": 2,
-    "Ready for Development": 5,
-    "Won't Do": 1
+    "Ready for Development": 4,
+    "Won't Do": 1,
+    "In Development": 1
    },
    "stalled": 13,
    "worst": 13.42,
@@ -260,8 +261,8 @@
    "dist": {
     "Closed": 12,
     "Won't Do": 2,
-    "Ready for Development": 6,
-    "In Development": 4,
+    "Ready for Development": 5,
+    "In Development": 5,
     "Backlog": 1
    },
    "stalled": 12,
