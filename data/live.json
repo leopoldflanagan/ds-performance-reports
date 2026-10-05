@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T17:17:06Z",
+ "generated": "2026-10-05T17:42:11Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -159,8 +159,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 11,
-   "points": 24
+   "items": 10,
+   "points": 22
   },
   "misfiled": {
    "items": 15,
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 16,
+   "ready": 15,
    "sprint": 29,
    "sprint_name": "DS-Sprint 23-26"
   },
@@ -430,10 +430,10 @@
   },
   "spill_rate": null,
   "dist": {
-   "Ready for Development": 13,
+   "Ready for Development": 12,
    "Awaiting Review": 2,
    "Closed": 6,
-   "In Development": 8,
+   "In Development": 9,
    "Won't Do": 2,
    "Backlog": 2
   },
@@ -502,20 +502,20 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 16,
-    "med_age": 25.4,
+    "open": 15,
+    "med_age": 32.0,
     "max_age": 153.9,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 11,
     "clear_med": 1.2,
-    "clear_n": 120
+    "clear_n": 121
    },
    {
     "status": "In Development",
-    "open": 7,
-    "med_age": 6.8,
+    "open": 8,
+    "med_age": 6.3,
     "max_age": 19.1,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
