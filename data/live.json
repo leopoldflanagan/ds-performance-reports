@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T23:30:18Z",
+ "generated": "2026-10-05T00:00:23Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 7,
+  "day": 8,
   "days": 14,
   "n": 9,
   "done_now": 7,
   "committed": 42,
-  "lo": 15,
-  "mid": 18,
-  "hi": 20,
-  "pct": 43,
+  "lo": 13,
+  "mid": 15,
+  "hi": 19,
+  "pct": 36,
   "verdict": "well short of the commitment",
-  "share_mid": 0.393
+  "share_mid": 0.459
  },
  "admin": {
   "scope": {
@@ -388,6 +388,12 @@
     "why": "the planning record and Jira have drifted apart.",
     "n": 1,
     "items": []
+   },
+   {
+    "rule": "The next sprint has not been created",
+    "why": "DS-Sprint 23-26 ends in 7 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
+    "n": 1,
+    "items": []
    }
   ]
  },
@@ -404,7 +410,7 @@
   "completed": 7,
   "scope_change": 10,
   "vs_commitment": 17,
-  "time_elapsed": 46,
+  "time_elapsed": 47,
   "spill": {
    "open_items": 21,
    "open_pts": 36.0,
@@ -457,7 +463,7 @@
    39.0
   ],
   "days": 14,
-  "day": 7,
+  "day": 8,
   "capacity": null
  },
  "next": null,
@@ -489,14 +495,14 @@
    {
     "status": "Ready for Development",
     "open": 16,
-    "med_age": 31.2,
-    "max_age": 153.1,
+    "med_age": 31.3,
+    "max_age": 153.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 12,
     "clear_med": 1.2,
-    "clear_n": 123
+    "clear_n": 119
    },
    {
     "status": "In Development",
@@ -508,7 +514,7 @@
     "worst_who": "Carlos Parra",
     "over": 1,
     "clear_med": 3.8,
-    "clear_n": 75
+    "clear_n": 74
    },
    {
     "status": "Awaiting Review",
