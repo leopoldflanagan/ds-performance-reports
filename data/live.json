@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T15:20:25Z",
+ "generated": "2026-10-05T15:30:21Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 16,
+   "ready": 15,
    "sprint": 28,
    "sprint_name": "DS-Sprint 23-26"
   },
@@ -249,17 +249,6 @@
      {
       "key": "DS-724",
       "summary": "Plan alternative solution for long running SPs in platform"
-     }
-    ]
-   },
-   {
-    "rule": "No assignee in the active sprint",
-    "why": "work in the sprint that nobody owns.",
-    "n": 1,
-    "items": [
-     {
-      "key": "DS-768",
-      "summary": "[DB Access Request] Access to Production Payments tables for customer support an"
      }
     ]
    },
@@ -430,11 +419,11 @@
   },
   "spill_rate": null,
   "dist": {
-   "Ready for Development": 13,
+   "Awaiting Review": 2,
    "Closed": 6,
    "In Development": 8,
-   "Awaiting Review": 1,
    "Won't Do": 2,
+   "Ready for Development": 12,
    "Backlog": 2
   },
   "burn": [
@@ -499,8 +488,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 16,
-    "med_age": 25.3,
+    "open": 15,
+    "med_age": 31.9,
     "max_age": 153.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -549,7 +538,7 @@
   "parked": {
    "Backlog": 38
   },
-  "open_total": 23,
+  "open_total": 22,
   "stale": 12,
   "worst": "Ready for Development"
  }
