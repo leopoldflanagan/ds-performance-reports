@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T23:30:21Z",
+ "generated": "2026-10-06T00:00:25Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 8,
+  "day": 9,
   "days": 14,
   "n": 9,
   "done_now": 11,
   "committed": 47,
-  "lo": 20,
-  "mid": 24,
-  "hi": 30,
-  "pct": 51,
+  "lo": 17,
+  "mid": 19,
+  "hi": 22,
+  "pct": 40,
   "verdict": "well short of the commitment",
-  "share_mid": 0.459
+  "share_mid": 0.576
  },
  "admin": {
   "scope": {
@@ -395,7 +395,7 @@
    },
    {
     "rule": "The next sprint has not been created",
-    "why": "DS-Sprint 23-26 ends in 7 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
+    "why": "DS-Sprint 23-26 ends in 6 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
     "n": 1,
     "items": []
    }
@@ -471,7 +471,7 @@
    41.0
   ],
   "days": 14,
-  "day": 8,
+  "day": 9,
   "capacity": null
  },
  "next": null,
@@ -504,7 +504,7 @@
     "status": "Ready for Development",
     "open": 16,
     "med_age": 25.7,
-    "max_age": 154.1,
+    "max_age": 154.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
