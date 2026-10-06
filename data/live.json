@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T16:15:21Z",
+ "generated": "2026-10-06T16:30:21Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -419,8 +419,8 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 10,
-   "Awaiting Review": 2,
+   "Awaiting Review": 3,
+   "In Development": 9,
    "Closed": 7,
    "Won't Do": 2,
    "Backlog": 2,
@@ -502,12 +502,12 @@
     "worst_who": "Carlos Parra",
     "over": 12,
     "clear_med": 1.2,
-    "clear_n": 123
+    "clear_n": 122
    },
    {
     "status": "In Development",
-    "open": 9,
-    "med_age": 6.9,
+    "open": 8,
+    "med_age": 7.3,
     "max_age": 20.1,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
@@ -515,18 +515,6 @@
     "over": 4,
     "clear_med": 3.8,
     "clear_n": 77
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 4.7,
-    "clear_n": 9
    },
    {
     "status": "On Hold",
@@ -539,12 +527,24 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 4.7,
+    "clear_n": 9
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 24,
+  "open_total": 23,
   "stale": 16,
   "worst": "Ready for Development"
  }
