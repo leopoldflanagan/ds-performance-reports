@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T14:15:20Z",
+ "generated": "2026-10-06T14:20:20Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 16,
+   "ready": 15,
    "sprint": 30,
    "sprint_name": "DS-Sprint 23-26"
   },
@@ -249,17 +249,6 @@
      {
       "key": "DS-724",
       "summary": "Plan alternative solution for long running SPs in platform"
-     }
-    ]
-   },
-   {
-    "rule": "No assignee in the active sprint",
-    "why": "work in the sprint that nobody owns.",
-    "n": 1,
-    "items": [
-     {
-      "key": "DS-769",
-      "summary": "[DB Access Request] Create External Identity for epic-mychart-bff in non-product"
      }
     ]
    },
@@ -430,12 +419,12 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 9,
-   "Ready for Development": 12,
+   "In Development": 10,
    "Awaiting Review": 2,
    "Closed": 7,
    "Won't Do": 2,
-   "Backlog": 2
+   "Backlog": 2,
+   "Ready for Development": 11
   },
   "burn": [
    47.0,
@@ -502,20 +491,20 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 16,
-    "med_age": 26.2,
+    "open": 15,
+    "med_age": 32.8,
     "max_age": 154.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 12,
     "clear_med": 1.2,
-    "clear_n": 122
+    "clear_n": 123
    },
    {
     "status": "In Development",
-    "open": 8,
-    "med_age": 7.2,
+    "open": 9,
+    "med_age": 6.8,
     "max_age": 20.0,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
