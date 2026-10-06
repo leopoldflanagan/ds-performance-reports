@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T10:30:21Z",
+ "generated": "2026-10-06T10:43:40Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -503,7 +503,7 @@
    {
     "status": "Ready for Development",
     "open": 16,
-    "med_age": 26.1,
+    "med_age": 26.2,
     "max_age": 154.6,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -515,7 +515,7 @@
    {
     "status": "In Development",
     "open": 8,
-    "med_age": 7.0,
+    "med_age": 7.1,
     "max_age": 19.8,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
@@ -523,18 +523,6 @@
     "over": 4,
     "clear_med": 3.8,
     "clear_n": 77
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -547,6 +535,18 @@
     "over": 0,
     "clear_med": 4.7,
     "clear_n": 9
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
