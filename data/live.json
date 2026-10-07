@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T23:41:10Z",
+ "generated": "2026-10-07T00:00:26Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 9,
+  "day": 10,
   "days": 14,
   "n": 9,
   "done_now": 11,
   "committed": 47,
-  "lo": 17,
-  "mid": 19,
-  "hi": 22,
-  "pct": 40,
+  "lo": 16,
+  "mid": 16,
+  "hi": 19,
+  "pct": 34,
   "verdict": "well short of the commitment",
-  "share_mid": 0.576
+  "share_mid": 0.667
  },
  "admin": {
   "scope": {
@@ -384,7 +384,7 @@
    },
    {
     "rule": "The next sprint has not been created",
-    "why": "DS-Sprint 23-26 ends in 6 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
+    "why": "DS-Sprint 23-26 ends in 5 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
     "n": 1,
     "items": []
    }
@@ -463,7 +463,7 @@
    41.0
   ],
   "days": 14,
-  "day": 9,
+  "day": 10,
   "capacity": null
  },
  "next": null,
@@ -495,8 +495,8 @@
    {
     "status": "Ready for Development",
     "open": 15,
-    "med_age": 33.2,
-    "max_age": 155.1,
+    "med_age": 33.3,
+    "max_age": 155.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
@@ -517,18 +517,6 @@
     "clear_n": 77
    },
    {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 4.7,
-    "clear_n": 9
-   },
-   {
     "status": "On Hold",
     "open": 0,
     "med_age": 0,
@@ -539,6 +527,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 4.7,
+    "clear_n": 9
    }
   ],
   "parked": {
