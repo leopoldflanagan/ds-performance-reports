@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T20:43:01Z",
+ "generated": "2026-10-07T21:00:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -203,18 +203,18 @@
   "days": 14,
   "n": 9,
   "done_now": 13,
-  "committed": 47,
+  "committed": 49,
   "lo": 18,
   "mid": 20,
   "hi": 23,
-  "pct": 43,
+  "pct": 41,
   "verdict": "well short of the commitment",
   "share_mid": 0.667
  },
  "admin": {
   "scope": {
-   "ready": 13,
-   "sprint": 30,
+   "ready": 14,
+   "sprint": 31,
    "sprint_name": "DS-Sprint 23-26"
   },
   "blocking": [
@@ -234,6 +234,17 @@
      {
       "key": "DS-724",
       "summary": "Plan alternative solution for long running SPs in platform"
+     }
+    ]
+   },
+   {
+    "rule": "No assignee in the active sprint",
+    "why": "work in the sprint that nobody owns.",
+    "n": 1,
+    "items": [
+     {
+      "key": "DS-772",
+      "summary": "[DB Access Request] Create External Identity for Wellfit Pay new services in Dev"
      }
     ]
    },
@@ -263,20 +274,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 35 of 35 items. This reads as a field the team does not use rather than 35 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 35,
+    "why": "missing on 36 of 36 items. This reads as a field the team does not use rather than 36 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 36,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 35 of 35 items. This reads as a field the team does not use rather than 35 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 35,
+    "why": "missing on 36 of 36 items. This reads as a field the team does not use rather than 36 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 36,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 35 of 35 items. This reads as a field the team does not use rather than 35 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 35,
+    "why": "missing on 36 of 36 items. This reads as a field the team does not use rather than 36 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 36,
     "items": []
    },
    {
@@ -381,17 +392,17 @@
   "start": "2026-09-28",
   "end": "2026-10-12",
   "goal": "",
-  "items": 34,
+  "items": 35,
   "items_done": 9,
-  "committed": 47,
-  "final": 52,
+  "committed": 49,
+  "final": 54,
   "completed": 13,
-  "scope_change": 11,
-  "vs_commitment": 28,
+  "scope_change": 10,
+  "vs_commitment": 27,
   "time_elapsed": 68,
   "spill": {
-   "open_items": 20,
-   "open_pts": 36.0,
+   "open_items": 21,
+   "open_pts": 38.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 15.0
@@ -399,56 +410,56 @@
   "recv": {
    "items": 5,
    "pts": 5,
-   "pct": 11,
+   "pct": 10,
    "from": "DS-Sprint 22-26"
   },
   "spill_rate": null,
   "dist": {
+   "Ready for Development": 11,
    "Closed": 8,
    "In Development": 10,
    "Awaiting Review": 2,
    "Won't Do": 2,
-   "Backlog": 2,
-   "Ready for Development": 10
+   "Backlog": 2
   },
   "burn": [
+   49.0,
+   48.0,
+   50.0,
+   50.0,
+   50.0,
    47.0,
-   46.0,
-   48.0,
-   48.0,
-   48.0,
-   45.0,
+   47.0,
    45.0,
    43.0,
    41.0,
-   39.0,
-   39.0
+   41.0
   ],
   "scope": [
-   47.0,
-   47.0,
-   52.0,
-   52.0,
-   52.0,
-   52.0,
-   52.0,
-   52.0,
-   52.0,
-   52.0,
-   52.0
+   49.0,
+   49.0,
+   54.0,
+   54.0,
+   54.0,
+   54.0,
+   54.0,
+   54.0,
+   54.0,
+   54.0,
+   54.0
   ],
   "ghost": [
+   49.0,
+   48.0,
+   50.0,
+   50.0,
+   50.0,
    47.0,
-   46.0,
-   48.0,
-   48.0,
-   48.0,
-   45.0,
+   47.0,
    45.0,
    43.0,
    41.0,
-   39.0,
-   39.0
+   41.0
   ],
   "days": 14,
   "day": 10,
@@ -482,8 +493,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 13,
-    "med_age": 34.1,
+    "open": 14,
+    "med_age": 27.6,
     "max_age": 156.0,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -505,18 +516,6 @@
     "clear_n": 78
    },
    {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.8,
-    "clear_n": 10
-   },
-   {
     "status": "On Hold",
     "open": 0,
     "med_age": 0,
@@ -527,12 +526,24 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.8,
+    "clear_n": 10
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 23,
+  "open_total": 24,
   "stale": 16,
   "worst": "Ready for Development"
  }
