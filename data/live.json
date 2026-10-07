@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T14:15:18Z",
+ "generated": "2026-10-07T14:30:22Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -159,8 +159,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 11,
-   "points": 25
+   "items": 10,
+   "points": 23
   },
   "misfiled": {
    "items": 15,
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 15,
+   "ready": 14,
    "sprint": 30,
    "sprint_name": "DS-Sprint 23-26"
   },
@@ -420,11 +420,11 @@
   "spill_rate": null,
   "dist": {
    "Closed": 8,
-   "In Development": 9,
+   "In Development": 10,
    "Awaiting Review": 2,
    "Won't Do": 2,
    "Backlog": 2,
-   "Ready for Development": 11
+   "Ready for Development": 10
   },
   "burn": [
    47.0,
@@ -494,20 +494,20 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 15,
-    "med_age": 33.8,
+    "open": 14,
+    "med_age": 27.3,
     "max_age": 155.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
-    "over": 12,
+    "over": 11,
     "clear_med": 1.2,
-    "clear_n": 123
+    "clear_n": 124
    },
    {
     "status": "In Development",
-    "open": 8,
-    "med_age": 8.2,
+    "open": 9,
+    "med_age": 7.8,
     "max_age": 21.0,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
@@ -545,7 +545,7 @@
    "Backlog": 38
   },
   "open_total": 23,
-  "stale": 17,
+  "stale": 16,
   "worst": "Ready for Development"
  }
 }
