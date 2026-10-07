@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T14:30:22Z",
+ "generated": "2026-10-07T14:44:09Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -179,7 +179,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 4,
+    "n": 3,
     "points": 8,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -213,31 +213,16 @@
  },
  "admin": {
   "scope": {
-   "ready": 14,
+   "ready": 13,
    "sprint": 30,
    "sprint_name": "DS-Sprint 23-26"
   },
   "blocking": [
    {
-    "rule": "No estimate",
-    "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 1,
-    "items": [
-     {
-      "key": "DS-767",
-      "summary": "Disable Fabric Mirroring for Release"
-     }
-    ]
-   },
-   {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 4,
+    "n": 3,
     "items": [
-     {
-      "key": "DS-767",
-      "summary": "Disable Fabric Mirroring for Release"
-     },
      {
       "key": "DS-754",
       "summary": "1.4: CREG HR Report delivery - twice-monthly SFTP + email"
@@ -278,20 +263,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 36 of 36 items. This reads as a field the team does not use rather than 36 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 36,
+    "why": "missing on 35 of 35 items. This reads as a field the team does not use rather than 35 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 35,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 36 of 36 items. This reads as a field the team does not use rather than 36 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 36,
+    "why": "missing on 35 of 35 items. This reads as a field the team does not use rather than 35 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 35,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 36 of 36 items. This reads as a field the team does not use rather than 36 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 36,
+    "why": "missing on 35 of 35 items. This reads as a field the team does not use rather than 35 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 35,
     "items": []
    },
    {
@@ -494,20 +479,20 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 14,
-    "med_age": 27.3,
+    "open": 13,
+    "med_age": 33.9,
     "max_age": 155.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 11,
     "clear_med": 1.2,
-    "clear_n": 124
+    "clear_n": 125
    },
    {
     "status": "In Development",
-    "open": 9,
-    "med_age": 7.8,
+    "open": 10,
+    "med_age": 6.3,
     "max_age": 21.0,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
@@ -515,18 +500,6 @@
     "over": 5,
     "clear_med": 3.6,
     "clear_n": 78
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -539,6 +512,18 @@
     "over": 0,
     "clear_med": 2.8,
     "clear_n": 10
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
