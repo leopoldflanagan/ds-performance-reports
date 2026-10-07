@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T19:45:19Z",
+ "generated": "2026-10-07T20:00:23Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -495,7 +495,7 @@
    {
     "status": "In Development",
     "open": 10,
-    "med_age": 6.5,
+    "med_age": 6.6,
     "max_age": 21.2,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
@@ -503,18 +503,6 @@
     "over": 5,
     "clear_med": 3.6,
     "clear_n": 78
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.8,
-    "clear_n": 10
    },
    {
     "status": "On Hold",
@@ -527,6 +515,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.8,
+    "clear_n": 10
    }
   ],
   "parked": {
