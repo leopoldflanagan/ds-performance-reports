@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T17:00:26Z",
+ "generated": "2026-10-08T17:15:19Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -159,8 +159,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 10,
-   "points": 23
+   "items": 9,
+   "points": 21
   },
   "misfiled": {
    "items": 15,
@@ -202,18 +202,18 @@
   "day": 11,
   "days": 14,
   "n": 9,
-  "done_now": 23,
+  "done_now": 25,
   "committed": 51,
-  "lo": 28,
-  "mid": 34,
-  "hi": 37,
-  "pct": 67,
+  "lo": 31,
+  "mid": 38,
+  "hi": 40,
+  "pct": 75,
   "verdict": "well short of the commitment",
   "share_mid": 0.667
  },
  "admin": {
   "scope": {
-   "ready": 13,
+   "ready": 12,
    "sprint": 34,
    "sprint_name": "DS-Sprint 23-26"
   },
@@ -382,19 +382,19 @@
   "end": "2026-10-12",
   "goal": "",
   "items": 38,
-  "items_done": 16,
+  "items_done": 17,
   "committed": 51,
   "final": 57,
-  "completed": 23,
+  "completed": 25,
   "scope_change": 12,
-  "vs_commitment": 45,
+  "vs_commitment": 49,
   "time_elapsed": 74,
   "spill": {
-   "open_items": 17,
-   "open_pts": 31.0,
+   "open_items": 16,
+   "open_pts": 29.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 25.0
+   "done_pts": 27.0
   },
   "recv": {
    "items": 5,
@@ -404,11 +404,11 @@
   },
   "spill_rate": null,
   "dist": {
-   "Closed": 15,
+   "Closed": 16,
    "In Development": 9,
    "Won't Do": 2,
    "Backlog": 2,
-   "Ready for Development": 10
+   "Ready for Development": 9
   },
   "burn": [
    51.0,
@@ -422,7 +422,7 @@
    45.0,
    43.0,
    36.0,
-   34.0
+   32.0
   ],
   "scope": [
    51.0,
@@ -450,7 +450,7 @@
    45.0,
    43.0,
    36.0,
-   34.0
+   32.0
   ],
   "days": 14,
   "day": 11,
@@ -484,15 +484,15 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 13,
-    "med_age": 35.0,
+    "open": 12,
+    "med_age": 28.4,
     "max_age": 156.9,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
-    "over": 11,
+    "over": 10,
     "clear_med": 1.2,
-    "clear_n": 126
+    "clear_n": 127
    },
    {
     "status": "In Development",
@@ -503,20 +503,8 @@
     "worst_sum": "DCA  SFTP Set Up",
     "worst_who": "Carlos Parra",
     "over": 5,
-    "clear_med": 3.3,
-    "clear_n": 80
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "clear_med": 3.2,
+    "clear_n": 81
    },
    {
     "status": "Awaiting Review",
@@ -529,13 +517,25 @@
     "over": 0,
     "clear_med": 2.6,
     "clear_n": 12
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 21,
-  "stale": 16,
+  "open_total": 20,
+  "stale": 15,
   "worst": "Ready for Development"
  }
 }
