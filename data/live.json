@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T05:01:01Z",
+ "generated": "2026-10-08T05:15:17Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,12 +202,12 @@
   "day": 11,
   "days": 14,
   "n": 9,
-  "done_now": 16,
+  "done_now": 18,
   "committed": 49,
-  "lo": 20,
-  "mid": 24,
-  "hi": 26,
-  "pct": 49,
+  "lo": 22,
+  "mid": 27,
+  "hi": 29,
+  "pct": 55,
   "verdict": "well short of the commitment",
   "share_mid": 0.667
  },
@@ -234,17 +234,6 @@
      {
       "key": "DS-724",
       "summary": "Plan alternative solution for long running SPs in platform"
-     }
-    ]
-   },
-   {
-    "rule": "No assignee in the active sprint",
-    "why": "work in the sprint that nobody owns.",
-    "n": 1,
-    "items": [
-     {
-      "key": "DS-772",
-      "summary": "[DB Access Request] Create External Identity for Wellfit Pay new services in Dev"
      }
     ]
    },
@@ -393,19 +382,19 @@
   "end": "2026-10-12",
   "goal": "",
   "items": 35,
-  "items_done": 11,
+  "items_done": 12,
   "committed": 49,
   "final": 54,
-  "completed": 16,
+  "completed": 18,
   "scope_change": 10,
-  "vs_commitment": 33,
+  "vs_commitment": 37,
   "time_elapsed": 70,
   "spill": {
-   "open_items": 19,
-   "open_pts": 35.0,
+   "open_items": 18,
+   "open_pts": 33.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 18.0
+   "done_pts": 20.0
   },
   "recv": {
    "items": 5,
@@ -416,8 +405,8 @@
   "spill_rate": null,
   "dist": {
    "Ready for Development": 11,
-   "Closed": 10,
-   "In Development": 10,
+   "Closed": 11,
+   "In Development": 9,
    "Won't Do": 2,
    "Backlog": 2
   },
@@ -432,7 +421,7 @@
    45.0,
    43.0,
    41.0,
-   38.0
+   36.0
   ],
   "scope": [
    49.0,
@@ -458,7 +447,7 @@
    45.0,
    43.0,
    41.0,
-   38.0
+   36.0
   ],
   "days": 14,
   "day": 11,
@@ -504,27 +493,15 @@
    },
    {
     "status": "In Development",
-    "open": 10,
-    "med_age": 7.0,
+    "open": 9,
+    "med_age": 8.4,
     "max_age": 21.6,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
     "worst_who": "Carlos Parra",
     "over": 5,
     "clear_med": 3.8,
-    "clear_n": 76
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "clear_n": 77
    },
    {
     "status": "Awaiting Review",
@@ -537,12 +514,24 @@
     "over": 0,
     "clear_med": 2.6,
     "clear_n": 12
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 24,
+  "open_total": 23,
   "stale": 16,
   "worst": "Ready for Development"
  }
