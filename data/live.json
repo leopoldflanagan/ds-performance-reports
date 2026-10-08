@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T15:45:20Z",
+ "generated": "2026-10-08T16:00:26Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,19 +202,19 @@
   "day": 11,
   "days": 14,
   "n": 9,
-  "done_now": 21,
-  "committed": 49,
-  "lo": 26,
-  "mid": 32,
-  "hi": 34,
-  "pct": 65,
+  "done_now": 23,
+  "committed": 51,
+  "lo": 28,
+  "mid": 34,
+  "hi": 37,
+  "pct": 67,
   "verdict": "well short of the commitment",
   "share_mid": 0.667
  },
  "admin": {
   "scope": {
    "ready": 13,
-   "sprint": 32,
+   "sprint": 34,
    "sprint_name": "DS-Sprint 23-26"
   },
   "blocking": [
@@ -263,27 +263,35 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 37 of 37 items. This reads as a field the team does not use rather than 37 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 37,
+    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 39,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 37 of 37 items. This reads as a field the team does not use rather than 37 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 37,
+    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 39,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 37 of 37 items. This reads as a field the team does not use rather than 37 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 37,
+    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 39,
     "items": []
    },
    {
     "rule": "Assignee is not on the roster",
     "why": "the capacity page lists the team; this work is assigned outside it.",
-    "n": 10,
+    "n": 12,
     "items": [
+     {
+      "key": "DS-774",
+      "summary": "Truncate and reload Ingest.dboUsers table in Prod Analytics DB"
+     },
+     {
+      "key": "DS-773",
+      "summary": "WFP Reporting ETL in Sbox and cleanup duplicate Datasets"
+     },
      {
       "key": "DS-770",
       "summary": "Convert Platform [dbo].[pr_ADF_VAPUnmatched_Payments_and_Refunds] to UPSERT proc"
@@ -307,14 +315,6 @@
      {
       "key": "DS-735",
       "summary": "Story 3 and Story 2 Prod pipelines"
-     },
-     {
-      "key": "DS-734",
-      "summary": "Schedule Prod and capture any changes ACH and Credit Card pipelines"
-     },
-     {
-      "key": "DS-709",
-      "summary": "Production ETL for CreditCardPaymentAccount with logging"
      }
     ]
    },
@@ -381,20 +381,20 @@
   "start": "2026-09-28",
   "end": "2026-10-12",
   "goal": "",
-  "items": 36,
-  "items_done": 14,
-  "committed": 49,
-  "final": 55,
-  "completed": 21,
+  "items": 38,
+  "items_done": 16,
+  "committed": 51,
+  "final": 57,
+  "completed": 23,
   "scope_change": 12,
-  "vs_commitment": 43,
+  "vs_commitment": 45,
   "time_elapsed": 73,
   "spill": {
    "open_items": 17,
    "open_pts": 31.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 23.0
+   "done_pts": 25.0
   },
   "recv": {
    "items": 5,
@@ -404,49 +404,52 @@
   },
   "spill_rate": null,
   "dist": {
-   "Closed": 13,
+   "Closed": 15,
    "In Development": 9,
    "Won't Do": 2,
    "Backlog": 2,
    "Ready for Development": 10
   },
   "burn": [
+   51.0,
+   50.0,
+   52.0,
+   52.0,
+   52.0,
    49.0,
-   48.0,
-   50.0,
-   50.0,
-   50.0,
-   47.0,
+   49.0,
    47.0,
    45.0,
    43.0,
-   41.0,
+   36.0,
    34.0
   ],
   "scope": [
-   49.0,
-   49.0,
-   54.0,
-   54.0,
-   54.0,
-   54.0,
-   54.0,
-   54.0,
-   54.0,
-   54.0,
-   55.0
+   51.0,
+   51.0,
+   56.0,
+   56.0,
+   56.0,
+   56.0,
+   56.0,
+   56.0,
+   56.0,
+   56.0,
+   57.0,
+   57.0
   ],
   "ghost": [
+   51.0,
+   50.0,
+   52.0,
+   52.0,
+   52.0,
    49.0,
-   48.0,
-   50.0,
-   50.0,
-   50.0,
-   47.0,
+   49.0,
    47.0,
    45.0,
    43.0,
-   41.0,
+   36.0,
    34.0
   ],
   "days": 14,
@@ -495,25 +498,13 @@
     "status": "In Development",
     "open": 8,
     "med_age": 9.4,
-    "max_age": 22.0,
+    "max_age": 22.1,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
     "worst_who": "Carlos Parra",
     "over": 5,
-    "clear_med": 3.6,
-    "clear_n": 78
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.6,
-    "clear_n": 12
+    "clear_med": 3.3,
+    "clear_n": 80
    },
    {
     "status": "On Hold",
@@ -526,6 +517,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.6,
+    "clear_n": 12
    }
   ],
   "parked": {
