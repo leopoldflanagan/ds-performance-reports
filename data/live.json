@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T23:45:16Z",
+ "generated": "2026-10-08T00:00:25Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,14 +199,14 @@
  },
  "projection": {
   "too_early": false,
-  "day": 10,
+  "day": 11,
   "days": 14,
   "n": 9,
   "done_now": 13,
   "committed": 49,
-  "lo": 18,
+  "lo": 16,
   "mid": 20,
-  "hi": 23,
+  "hi": 21,
   "pct": 41,
   "verdict": "well short of the commitment",
   "share_mid": 0.667
@@ -380,7 +380,7 @@
    },
    {
     "rule": "The next sprint has not been created",
-    "why": "DS-Sprint 23-26 ends in 5 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
+    "why": "DS-Sprint 23-26 ends in 4 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
     "n": 1,
     "items": []
    }
@@ -399,7 +399,7 @@
   "completed": 13,
   "scope_change": 10,
   "vs_commitment": 27,
-  "time_elapsed": 68,
+  "time_elapsed": 69,
   "spill": {
    "open_items": 21,
    "open_pts": 38.0,
@@ -462,7 +462,7 @@
    41.0
   ],
   "days": 14,
-  "day": 10,
+  "day": 11,
   "capacity": null
  },
  "next": null,
@@ -495,13 +495,13 @@
     "status": "Ready for Development",
     "open": 14,
     "med_age": 27.7,
-    "max_age": 156.1,
+    "max_age": 156.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 11,
     "clear_med": 1.2,
-    "clear_n": 125
+    "clear_n": 123
    },
    {
     "status": "In Development",
@@ -512,20 +512,8 @@
     "worst_sum": "DCA  SFTP Set Up",
     "worst_who": "Carlos Parra",
     "over": 5,
-    "clear_med": 3.6,
-    "clear_n": 78
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "clear_med": 3.8,
+    "clear_n": 75
    },
    {
     "status": "Awaiting Review",
@@ -538,6 +526,18 @@
     "over": 0,
     "clear_med": 2.8,
     "clear_n": 10
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
