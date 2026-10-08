@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T04:30:21Z",
+ "generated": "2026-10-08T04:45:20Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,12 +202,12 @@
   "day": 11,
   "days": 14,
   "n": 9,
-  "done_now": 15,
+  "done_now": 16,
   "committed": 49,
-  "lo": 19,
-  "mid": 22,
-  "hi": 24,
-  "pct": 45,
+  "lo": 20,
+  "mid": 24,
+  "hi": 26,
+  "pct": 49,
   "verdict": "well short of the commitment",
   "share_mid": 0.667
  },
@@ -393,19 +393,19 @@
   "end": "2026-10-12",
   "goal": "",
   "items": 35,
-  "items_done": 10,
+  "items_done": 11,
   "committed": 49,
   "final": 54,
-  "completed": 15,
+  "completed": 16,
   "scope_change": 10,
-  "vs_commitment": 31,
+  "vs_commitment": 33,
   "time_elapsed": 70,
   "spill": {
-   "open_items": 20,
-   "open_pts": 36.0,
+   "open_items": 19,
+   "open_pts": 35.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 17.0
+   "done_pts": 18.0
   },
   "recv": {
    "items": 5,
@@ -416,9 +416,8 @@
   "spill_rate": null,
   "dist": {
    "Ready for Development": 11,
-   "Closed": 9,
+   "Closed": 10,
    "In Development": 10,
-   "Awaiting Review": 1,
    "Won't Do": 2,
    "Backlog": 2
   },
@@ -433,7 +432,7 @@
    45.0,
    43.0,
    41.0,
-   39.0
+   38.0
   ],
   "scope": [
    49.0,
@@ -459,7 +458,7 @@
    45.0,
    43.0,
    41.0,
-   39.0
+   38.0
   ],
   "days": 14,
   "day": 11,
@@ -495,13 +494,13 @@
     "status": "Ready for Development",
     "open": 14,
     "med_age": 27.9,
-    "max_age": 156.3,
+    "max_age": 156.4,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 11,
     "clear_med": 1.2,
-    "clear_n": 124
+    "clear_n": 125
    },
    {
     "status": "In Development",
@@ -513,19 +512,7 @@
     "worst_who": "Carlos Parra",
     "over": 5,
     "clear_med": 3.8,
-    "clear_n": 75
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.5,
-    "clear_n": 11
+    "clear_n": 76
    },
    {
     "status": "On Hold",
@@ -538,6 +525,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.6,
+    "clear_n": 12
    }
   ],
   "parked": {
