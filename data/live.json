@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T19:00:23Z",
+ "generated": "2026-10-08T19:15:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,13 +202,13 @@
   "day": 11,
   "days": 14,
   "n": 9,
-  "done_now": 25,
+  "done_now": 28,
   "committed": 51,
-  "lo": 31,
-  "mid": 38,
-  "hi": 40,
-  "pct": 75,
-  "verdict": "well short of the commitment",
+  "lo": 35,
+  "mid": 42,
+  "hi": 45,
+  "pct": 82,
+  "verdict": "a little short of the commitment",
   "share_mid": 0.667
  },
  "admin": {
@@ -382,19 +382,19 @@
   "end": "2026-10-12",
   "goal": "",
   "items": 38,
-  "items_done": 17,
+  "items_done": 18,
   "committed": 51,
   "final": 57,
-  "completed": 25,
+  "completed": 28,
   "scope_change": 12,
-  "vs_commitment": 49,
+  "vs_commitment": 55,
   "time_elapsed": 74,
   "spill": {
-   "open_items": 16,
-   "open_pts": 29.0,
+   "open_items": 15,
+   "open_pts": 26.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 27.0
+   "done_pts": 30.0
   },
   "recv": {
    "items": 5,
@@ -404,10 +404,10 @@
   },
   "spill_rate": null,
   "dist": {
-   "Closed": 16,
-   "In Development": 9,
+   "Closed": 17,
    "Won't Do": 2,
    "Backlog": 2,
+   "In Development": 8,
    "Ready for Development": 9
   },
   "burn": [
@@ -422,7 +422,7 @@
    45.0,
    43.0,
    36.0,
-   32.0
+   29.0
   ],
   "scope": [
    51.0,
@@ -450,7 +450,7 @@
    45.0,
    43.0,
    36.0,
-   32.0
+   29.0
   ],
   "days": 14,
   "day": 11,
@@ -485,8 +485,8 @@
    {
     "status": "Ready for Development",
     "open": 12,
-    "med_age": 28.4,
-    "max_age": 156.9,
+    "med_age": 28.5,
+    "max_age": 157.0,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
@@ -496,27 +496,15 @@
    },
    {
     "status": "In Development",
-    "open": 8,
-    "med_age": 9.4,
+    "open": 7,
+    "med_age": 9.9,
     "max_age": 22.2,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
     "worst_who": "Carlos Parra",
     "over": 5,
-    "clear_med": 3.2,
-    "clear_n": 81
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "clear_med": 3.3,
+    "clear_n": 82
    },
    {
     "status": "Awaiting Review",
@@ -529,12 +517,24 @@
     "over": 0,
     "clear_med": 2.6,
     "clear_n": 12
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 20,
+  "open_total": 19,
   "stale": 15,
   "worst": "Ready for Development"
  }
