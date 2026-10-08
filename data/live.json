@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T03:50:31Z",
+ "generated": "2026-10-08T04:15:16Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,12 +202,12 @@
   "day": 11,
   "days": 14,
   "n": 9,
-  "done_now": 13,
+  "done_now": 15,
   "committed": 49,
-  "lo": 16,
-  "mid": 20,
-  "hi": 21,
-  "pct": 41,
+  "lo": 19,
+  "mid": 22,
+  "hi": 24,
+  "pct": 45,
   "verdict": "well short of the commitment",
   "share_mid": 0.667
  },
@@ -393,19 +393,19 @@
   "end": "2026-10-12",
   "goal": "",
   "items": 35,
-  "items_done": 9,
+  "items_done": 10,
   "committed": 49,
   "final": 54,
-  "completed": 13,
+  "completed": 15,
   "scope_change": 10,
-  "vs_commitment": 27,
+  "vs_commitment": 31,
   "time_elapsed": 70,
   "spill": {
-   "open_items": 21,
-   "open_pts": 38.0,
+   "open_items": 20,
+   "open_pts": 36.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 15.0
+   "done_pts": 17.0
   },
   "recv": {
    "items": 5,
@@ -416,9 +416,9 @@
   "spill_rate": null,
   "dist": {
    "Ready for Development": 11,
-   "Closed": 8,
+   "Closed": 9,
    "In Development": 10,
-   "Awaiting Review": 2,
+   "Awaiting Review": 1,
    "Won't Do": 2,
    "Backlog": 2
   },
@@ -433,7 +433,7 @@
    45.0,
    43.0,
    41.0,
-   41.0
+   39.0
   ],
   "scope": [
    49.0,
@@ -459,7 +459,7 @@
    45.0,
    43.0,
    41.0,
-   41.0
+   39.0
   ],
   "days": 14,
   "day": 11,
@@ -501,7 +501,7 @@
     "worst_who": "Carlos Parra",
     "over": 11,
     "clear_med": 1.2,
-    "clear_n": 123
+    "clear_n": 124
    },
    {
     "status": "In Development",
@@ -516,6 +516,18 @@
     "clear_n": 75
    },
    {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.5,
+    "clear_n": 11
+   },
+   {
     "status": "On Hold",
     "open": 0,
     "med_age": 0,
@@ -526,18 +538,6 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.8,
-    "clear_n": 10
    }
   ],
   "parked": {
