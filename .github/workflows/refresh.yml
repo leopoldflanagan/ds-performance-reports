@@ -35,6 +35,10 @@ env:
   PROJECT_KEY:   DS
   CAPACITY_PAGE: "3755671557"
   SIGNOFF_PAGE:  "3756425218"
+  # The company release calendar, read on every run. Its two columns -- feature
+  # freeze and dev window -- disagree on some rows, and a release is only taken
+  # from it when both readings agree; the rest are reported, never guessed.
+  SCHEDULE_PAGE: "2842362029"   # Release Schedule 2026, WF Releases space
 
 jobs:
   refresh:
