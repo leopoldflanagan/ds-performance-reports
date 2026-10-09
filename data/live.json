@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T17:45:17Z",
+ "generated": "2026-10-09T18:00:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -372,6 +372,24 @@
     "why": "DS-Sprint 23-26 ends in 3 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
     "n": 1,
     "items": []
+   },
+   {
+    "rule": "Release 9.06 has two different windows on the schedule",
+    "why": "the feature-freeze column gives 2026-06-22 to 2026-07-26 and the dev-window column gives 2026-06-22 to 2026-08-02. The calendar keeps what it already had; the page needs one of the two corrected.",
+    "n": 1,
+    "items": []
+   },
+   {
+    "rule": "Release 9.07 has two different windows on the schedule",
+    "why": "the feature-freeze column gives 2026-07-27 to 2026-08-23 and the dev-window column gives 2026-08-03 to 2026-08-30. The calendar keeps what it already had; the page needs one of the two corrected.",
+    "n": 1,
+    "items": []
+   },
+   {
+    "rule": "Release 9.08 has two different windows on the schedule",
+    "why": "the feature-freeze column gives 2026-08-24 to 2026-09-27 and the dev-window column gives 2026-08-31 to 2026-09-27. The calendar keeps what it already had; the page needs one of the two corrected.",
+    "n": 1,
+    "items": []
    }
   ]
  },
@@ -461,25 +479,24 @@
  },
  "next": null,
  "month": {
-  "month": "9.08",
-  "label": "Release 9.08",
+  "month": "9.09",
+  "label": "Release 9.09",
   "kind": "release",
-  "start": "2026-08-31",
-  "end": "2026-09-27",
-  "day": 28,
+  "start": "2026-09-28",
+  "end": "2026-10-25",
+  "day": 12,
   "days": 28,
-  "closed": 23,
-  "points": 43,
-  "unplanned": 3,
-  "unplanned_pct": 13.0,
-  "access_requests": 2,
-  "people_active": 3,
+  "closed": 20,
+  "points": 34,
+  "unplanned": 7,
+  "unplanned_pct": 35.0,
+  "access_requests": 5,
+  "people_active": 2,
   "sprints": [
-   "DS-Sprint 21-26",
-   "DS-Sprint 22-26"
+   "DS-Sprint 23-26"
   ],
-  "n_sprints": 2,
-  "sprints_done": 2
+  "n_sprints": 1,
+  "sprints_done": 0
  },
  "aging": {
   "window_days": 90,
@@ -510,18 +527,6 @@
     "clear_n": 79
    },
    {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.6,
-    "clear_n": 12
-   },
-   {
     "status": "On Hold",
     "open": 0,
     "med_age": 0,
@@ -532,6 +537,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.6,
+    "clear_n": 12
    }
   ],
   "parked": {
