@@ -188,6 +188,166 @@
    ],
    "in_pct": 65,
    "in_from": "DS-Sprint 13-26"
+  },
+  "DS-R9.00-S4": {
+   "done": [
+    12,
+    21
+   ],
+   "open": [
+    3,
+    6
+   ],
+   "out": [
+    5,
+    16
+   ],
+   "in": [
+    6,
+    16
+   ],
+   "in_pct": 39,
+   "in_from": "DS-R8.29-S3"
+  },
+  "DS-R9.00-S5": {
+   "done": [
+    6,
+    17
+   ],
+   "open": [
+    3,
+    10
+   ],
+   "out": [
+    1,
+    3
+   ],
+   "in": [
+    5,
+    15
+   ],
+   "in_pct": 52,
+   "in_from": "DS-R9.00-S4"
+  },
+  "DS-Sprint 6-26": {
+   "done": [
+    12,
+    27
+   ],
+   "open": [
+    6,
+    22
+   ],
+   "out": [
+    3,
+    8
+   ],
+   "in": [
+    3,
+    9
+   ],
+   "in_pct": 16,
+   "in_from": "DS-R9.00-S5"
+  },
+  "DS-Sprint 7-26": {
+   "done": [
+    13,
+    36
+   ],
+   "open": [
+    4,
+    16
+   ],
+   "out": [
+    8,
+    21
+   ],
+   "in": [
+    0,
+    0
+   ],
+   "in_pct": 0,
+   "in_from": "DS-Sprint 6-26"
+  },
+  "DS-Sprint 8-26": {
+   "done": [
+    19,
+    29
+   ],
+   "open": [
+    7,
+    20
+   ],
+   "out": [
+    1,
+    2
+   ],
+   "in": [
+    4,
+    10
+   ],
+   "in_pct": 20,
+   "in_from": "DS-Sprint 7-26"
+  },
+  "DS-Sprint 9-26": {
+   "done": [
+    10,
+    16
+   ],
+   "open": [
+    8,
+    25
+   ],
+   "out": [
+    1,
+    3
+   ],
+   "in": [
+    5,
+    13
+   ],
+   "in_pct": 34,
+   "in_from": "DS-Sprint 8-26"
+  },
+  "DS-Sprint 10-26": {
+   "done": [
+    19,
+    32
+   ],
+   "open": [
+    7,
+    19
+   ],
+   "out": [
+    1,
+    1
+   ],
+   "in": [
+    7,
+    19
+   ],
+   "in_pct": 39,
+   "in_from": "DS-Sprint 9-26"
+  },
+  "DS-Sprint 11-26": {
+   "done": [
+    19,
+    37
+   ],
+   "open": [
+    7,
+    18
+   ],
+   "out": [
+    2,
+    5
+   ],
+   "in": [
+    6,
+    16
+   ],
+   "in_pct": 35,
+   "in_from": "DS-Sprint 10-26"
   }
  },
  "SPILL_Q1": {},
@@ -236,6 +396,38 @@
    "react": 6,
    "plan": 11,
    "pct": 35
+  },
+  "DS-R9.00-S4": {
+   "react": 0,
+   "plan": 1,
+   "pct": 0
+  },
+  "DS-R9.00-S5": null,
+  "DS-Sprint 6-26": null,
+  "DS-Sprint 7-26": {
+   "react": 4,
+   "plan": 3,
+   "pct": 57
+  },
+  "DS-Sprint 8-26": {
+   "react": 1,
+   "plan": 8,
+   "pct": 11
+  },
+  "DS-Sprint 9-26": {
+   "react": 2,
+   "plan": 4,
+   "pct": 33
+  },
+  "DS-Sprint 10-26": {
+   "react": 3,
+   "plan": 6,
+   "pct": 33
+  },
+  "DS-Sprint 11-26": {
+   "react": 5,
+   "plan": 5,
+   "pct": 50
   }
  },
  "SPLIT_Q1": {},
@@ -644,6 +836,372 @@
     45.0,
     45.0
    ]
+  ],
+  [
+   "DS-R9.00-S4",
+   "Jan 5",
+   "Jan 19",
+   19,
+   12,
+   41,
+   42,
+   22,
+   2,
+   [
+    41.0,
+    41.0,
+    41.0,
+    41.0,
+    38.0,
+    36.0,
+    36.0,
+    36.0,
+    25.0,
+    25.0,
+    25.0,
+    21.0,
+    21.0,
+    21.0,
+    20.0
+   ],
+   [
+    41.0,
+    41.0,
+    41.0,
+    41.0,
+    41.0,
+    41.0,
+    41.0,
+    41.0,
+    41.0,
+    41.0,
+    41.0,
+    42.0,
+    42.0,
+    42.0,
+    42.0
+   ]
+  ],
+  [
+   "DS-R9.00-S5",
+   "Jan 19",
+   "Feb 2",
+   10,
+   6,
+   29,
+   29,
+   17,
+   0,
+   [
+    27.0,
+    27.0,
+    27.0,
+    27.0,
+    19.0,
+    19.0,
+    19.0,
+    19.0,
+    19.0,
+    19.0,
+    19.0,
+    14.0,
+    12.0,
+    12.0,
+    12.0
+   ],
+   [
+    28.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0
+   ]
+  ],
+  [
+   "DS-Sprint 6-26",
+   "Feb 2",
+   "Feb 17",
+   21,
+   12,
+   57,
+   57,
+   27,
+   0,
+   [
+    57.0,
+    57.0,
+    55.0,
+    55.0,
+    51.0,
+    51.0,
+    51.0,
+    48.0,
+    48.0,
+    44.0,
+    36.0,
+    33.0,
+    33.0,
+    33.0,
+    33.0,
+    33.0,
+    22.0
+   ],
+   [
+    57.0,
+    57.0,
+    57.0,
+    57.0,
+    57.0,
+    57.0,
+    57.0,
+    57.0,
+    57.0,
+    57.0,
+    57.0,
+    57.0,
+    57.0,
+    57.0,
+    57.0,
+    57.0,
+    57.0
+   ]
+  ],
+  [
+   "DS-Sprint 7-26",
+   "Feb 17",
+   "Mar 2",
+   25,
+   13,
+   56,
+   74,
+   36,
+   32,
+   [
+    56.0,
+    48.0,
+    51.0,
+    35.0,
+    35.0,
+    35.0,
+    33.0,
+    33.0,
+    30.0,
+    27.0,
+    20.0,
+    20.0,
+    20.0,
+    15.0
+   ],
+   [
+    56.0,
+    56.0,
+    59.0,
+    51.0,
+    51.0,
+    51.0,
+    54.0,
+    54.0,
+    56.0,
+    56.0,
+    56.0,
+    56.0,
+    56.0,
+    56.0
+   ]
+  ],
+  [
+   "DS-Sprint 8-26",
+   "Mar 2",
+   "Mar 16",
+   30,
+   19,
+   51,
+   54,
+   28,
+   6,
+   [
+    51.0,
+    43.0,
+    43.0,
+    40.0,
+    38.0,
+    38.0,
+    38.0,
+    38.0,
+    35.0,
+    32.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    26.0
+   ],
+   [
+    51.0,
+    51.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0
+   ]
+  ],
+  [
+   "DS-Sprint 9-26",
+   "Mar 16",
+   "Mar 30",
+   19,
+   10,
+   38,
+   47,
+   19,
+   24,
+   [
+    35.0,
+    38.0,
+    38.0,
+    38.0,
+    40.0,
+    40.0,
+    40.0,
+    40.0,
+    34.0,
+    34.0,
+    34.0,
+    34.0,
+    31.0,
+    31.0,
+    28.0,
+    28.0
+   ],
+   [
+    35.0,
+    38.0,
+    38.0,
+    38.0,
+    42.0,
+    42.0,
+    42.0,
+    43.0,
+    43.0,
+    43.0,
+    43.0,
+    43.0,
+    43.0,
+    43.0,
+    43.0,
+    47.0
+   ]
+  ],
+  [
+   "DS-Sprint 10-26",
+   "Mar 30",
+   "Apr 13",
+   26,
+   19,
+   49,
+   66,
+   47,
+   35,
+   [
+    42.0,
+    43.0,
+    48.0,
+    51.0,
+    48.0,
+    48.0,
+    48.0,
+    48.0,
+    46.0,
+    46.0,
+    43.0,
+    43.0,
+    43.0,
+    43.0,
+    19.0
+   ],
+   [
+    45.0,
+    49.0,
+    56.0,
+    59.0,
+    59.0,
+    59.0,
+    59.0,
+    59.0,
+    59.0,
+    59.0,
+    66.0,
+    66.0,
+    66.0,
+    66.0,
+    66.0
+   ]
+  ],
+  [
+   "DS-Sprint 11-26",
+   "Apr 13",
+   "Apr 27",
+   31,
+   19,
+   46,
+   69,
+   44,
+   50,
+   [
+    43.0,
+    46.0,
+    45.0,
+    47.0,
+    43.0,
+    43.0,
+    43.0,
+    43.0,
+    43.0,
+    43.0,
+    45.0,
+    42.0,
+    42.0,
+    42.0,
+    42.0,
+    22.0
+   ],
+   [
+    43.0,
+    46.0,
+    46.0,
+    54.0,
+    51.0,
+    51.0,
+    51.0,
+    51.0,
+    51.0,
+    61.0,
+    64.0,
+    64.0,
+    66.0,
+    66.0,
+    66.0,
+    66.0
+   ]
   ]
  ],
  "SPRINTS_Q1": [],
@@ -953,6 +1511,269 @@
    "worst": 0.51,
    "worstSt": "Ready for Development",
    "items": 39
+  },
+  "DS-R9.00-S4": {
+   "tis": {
+    "Backlog": {
+     "n": 5,
+     "med": 6.86
+    },
+    "Ready for Development": {
+     "n": 17,
+     "med": 3.1
+    },
+    "In Development": {
+     "n": 19,
+     "med": 0.71
+    },
+    "Closed": {
+     "n": 12,
+     "med": 6.42
+    },
+    "Won't Do": {
+     "n": 1,
+     "med": 0.0
+    },
+    "On Hold": {
+     "n": 2,
+     "med": 3.34
+    }
+   },
+   "dist": {
+    "Closed": 16,
+    "Backlog": 3
+   },
+   "stalled": 5,
+   "worst": 3.34,
+   "worstSt": "On Hold",
+   "items": 19
+  },
+  "DS-R9.00-S5": {
+   "tis": {
+    "Ready for Development": {
+     "n": 10,
+     "med": 3.6
+    },
+    "In Development": {
+     "n": 10,
+     "med": 3.17
+    },
+    "Closed": {
+     "n": 6,
+     "med": 10.46
+    },
+    "Backlog": {
+     "n": 3,
+     "med": 0.72
+    },
+    "Won't Do": {
+     "n": 1,
+     "med": 0.0
+    }
+   },
+   "dist": {
+    "Closed": 8,
+    "Backlog": 2
+   },
+   "stalled": 4,
+   "worst": 3.6,
+   "worstSt": "Ready for Development",
+   "items": 10
+  },
+  "DS-Sprint 6-26": {
+   "tis": {
+    "Backlog": {
+     "n": 10,
+     "med": 2.52
+    },
+    "Ready for Development": {
+     "n": 20,
+     "med": 2.42
+    },
+    "Closed": {
+     "n": 12,
+     "med": 6.12
+    },
+    "In Development": {
+     "n": 17,
+     "med": 1.91
+    },
+    "Awaiting Review": {
+     "n": 2,
+     "med": 0.13
+    },
+    "Won't Do": {
+     "n": 2,
+     "med": 13.97
+    }
+   },
+   "dist": {
+    "Closed": 18,
+    "Backlog": 3
+   },
+   "stalled": 8,
+   "worst": 2.42,
+   "worstSt": "Ready for Development",
+   "items": 21
+  },
+  "DS-Sprint 7-26": {
+   "tis": {
+    "In Development": {
+     "n": 17,
+     "med": 1.27
+    },
+    "Closed": {
+     "n": 13,
+     "med": 7.04
+    },
+    "Ready for Development": {
+     "n": 22,
+     "med": 5.79
+    },
+    "Backlog": {
+     "n": 1,
+     "med": 0.0
+    },
+    "Awaiting Review": {
+     "n": 1,
+     "med": 1.0
+    }
+   },
+   "dist": {
+    "Closed": 20,
+    "Backlog": 5
+   },
+   "stalled": 10,
+   "worst": 5.79,
+   "worstSt": "Ready for Development",
+   "items": 25
+  },
+  "DS-Sprint 8-26": {
+   "tis": {
+    "Backlog": {
+     "n": 5,
+     "med": 5.03
+    },
+    "Closed": {
+     "n": 19,
+     "med": 5.91
+    },
+    "Ready for Development": {
+     "n": 23,
+     "med": 2.1
+    },
+    "In Development": {
+     "n": 20,
+     "med": 2.81
+    }
+   },
+   "dist": {
+    "Closed": 24,
+    "Backlog": 5,
+    "In Development": 1
+   },
+   "stalled": 11,
+   "worst": 2.81,
+   "worstSt": "In Development",
+   "items": 30
+  },
+  "DS-Sprint 9-26": {
+   "tis": {
+    "Closed": {
+     "n": 10,
+     "med": 5.59
+    },
+    "In Development": {
+     "n": 13,
+     "med": 2.94
+    },
+    "Ready for Development": {
+     "n": 12,
+     "med": 5.59
+    },
+    "Backlog": {
+     "n": 3,
+     "med": 6.01
+    },
+    "Awaiting Review": {
+     "n": 4,
+     "med": 3.49
+    }
+   },
+   "dist": {
+    "Closed": 16,
+    "Backlog": 3
+   },
+   "stalled": 9,
+   "worst": 5.59,
+   "worstSt": "Ready for Development",
+   "items": 19
+  },
+  "DS-Sprint 10-26": {
+   "tis": {
+    "Ready for Development": {
+     "n": 17,
+     "med": 5.03
+    },
+    "In Development": {
+     "n": 21,
+     "med": 2.73
+    },
+    "Closed": {
+     "n": 19,
+     "med": 0.01
+    },
+    "Awaiting Review": {
+     "n": 5,
+     "med": 5.01
+    },
+    "Backlog": {
+     "n": 2,
+     "med": 6.89
+    }
+   },
+   "dist": {
+    "Closed": 24,
+    "Backlog": 2
+   },
+   "stalled": 7,
+   "worst": 5.03,
+   "worstSt": "Ready for Development",
+   "items": 26
+  },
+  "DS-Sprint 11-26": {
+   "tis": {
+    "In Development": {
+     "n": 17,
+     "med": 6.7
+    },
+    "Closed": {
+     "n": 19,
+     "med": 4.91
+    },
+    "Ready for Development": {
+     "n": 17,
+     "med": 3.2
+    },
+    "Awaiting Review": {
+     "n": 2,
+     "med": 5.18
+    },
+    "Backlog": {
+     "n": 4,
+     "med": 14.03
+    }
+   },
+   "dist": {
+    "Closed": 24,
+    "Ready for Development": 2,
+    "In Development": 1,
+    "Backlog": 4
+   },
+   "stalled": 12,
+   "worst": 6.7,
+   "worstSt": "In Development",
+   "items": 31
   }
  },
  "WIP": {},
@@ -980,6 +1801,22 @@
   [
    "9.04",
    "2026-r904.html"
+  ],
+  [
+   "9.03",
+   "2026-r903.html"
+  ],
+  [
+   "9.02",
+   "2026-r902.html"
+  ],
+  [
+   "9.01",
+   "2026-r901.html"
+  ],
+  [
+   "9.00",
+   "2026-r900.html"
   ]
  ],
  "MONTHS": {},
@@ -1013,6 +1850,30 @@
    "title": "Release 9.07 Performance Report",
    "badge": "Pending review",
    "blurb": "40 items closed. Unplanned work at 32.5% of everything closed."
+  },
+  "2026-r900.html": {
+   "short": "9.00",
+   "title": "Release 9.00 Performance Report",
+   "badge": "Pending review",
+   "blurb": "23 items closed. Unplanned work at 30.4% of everything closed."
+  },
+  "2026-r901.html": {
+   "short": "9.01",
+   "title": "Release 9.01 Performance Report",
+   "badge": "Pending review",
+   "blurb": "24 items closed. Unplanned work at 45.8% of everything closed."
+  },
+  "2026-r902.html": {
+   "short": "9.02",
+   "title": "Release 9.02 Performance Report",
+   "badge": "Pending review",
+   "blurb": "28 items closed. Unplanned work at 28.6% of everything closed."
+  },
+  "2026-r903.html": {
+   "short": "9.03",
+   "title": "Release 9.03 Performance Report",
+   "badge": "Pending review",
+   "blurb": "26 items closed. Unplanned work at 38.5% of everything closed."
   }
  },
  "INTRO": "",
@@ -1169,6 +2030,145 @@
    39.0,
    39.0,
    31.0
+  ],
+  "DS-R9.00-S4": [
+   41.0,
+   41.0,
+   41.0,
+   41.0,
+   38.0,
+   36.0,
+   36.0,
+   36.0,
+   25.0,
+   25.0,
+   25.0,
+   21.0,
+   21.0,
+   21.0,
+   20.0
+  ],
+  "DS-R9.00-S5": [
+   27.0,
+   27.0,
+   27.0,
+   27.0,
+   19.0,
+   19.0,
+   19.0,
+   19.0,
+   19.0,
+   19.0,
+   19.0,
+   14.0,
+   12.0,
+   12.0,
+   12.0
+  ],
+  "DS-Sprint 6-26": [
+   57.0,
+   57.0,
+   55.0,
+   55.0,
+   51.0,
+   51.0,
+   51.0,
+   48.0,
+   48.0,
+   44.0,
+   36.0,
+   33.0,
+   33.0,
+   33.0,
+   33.0,
+   33.0,
+   22.0
+  ],
+  "DS-Sprint 7-26": [
+   56.0,
+   48.0,
+   51.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   38.0,
+   38.0,
+   38.0,
+   33.0
+  ],
+  "DS-Sprint 8-26": [
+   51.0,
+   43.0,
+   43.0,
+   40.0,
+   38.0,
+   38.0,
+   38.0,
+   38.0,
+   35.0,
+   32.0,
+   29.0,
+   29.0,
+   29.0,
+   29.0,
+   26.0
+  ],
+  "DS-Sprint 9-26": [
+   35.0,
+   38.0,
+   38.0,
+   38.0,
+   40.0,
+   40.0,
+   40.0,
+   40.0,
+   34.0,
+   34.0,
+   34.0,
+   34.0,
+   31.0,
+   31.0,
+   28.0,
+   28.0
+  ],
+  "DS-Sprint 10-26": [
+   42.0,
+   43.0,
+   48.0,
+   51.0,
+   48.0,
+   48.0,
+   48.0,
+   48.0,
+   46.0,
+   46.0,
+   43.0,
+   43.0,
+   43.0,
+   43.0,
+   19.0
+  ],
+  "DS-Sprint 11-26": [
+   43.0,
+   46.0,
+   45.0,
+   47.0,
+   46.0,
+   46.0,
+   46.0,
+   46.0,
+   46.0,
+   46.0,
+   48.0,
+   45.0,
+   45.0,
+   45.0,
+   45.0,
+   25.0
   ]
  },
  "RELEASES": {
@@ -1689,61 +2689,306 @@
    "slug": "2026-r900",
    "label": "Release 9.00",
    "short": "9.00",
+   "n_sprints": 2,
    "start": "2026-01-05",
    "end": "2026-02-01",
+   "prev": "",
+   "prev_closed": null,
+   "closed": 23,
+   "discarded": 0,
+   "resolved": 23,
+   "unplanned": 7,
+   "unp_pct": 30.4,
+   "types": [
+    [
+     "Story",
+     19
+    ],
+    [
+     "Task",
+     3
+    ],
+    [
+     "Urgent Task",
+     1
+    ]
+   ],
    "sprints": [
     "DS-R9.00-S4",
     "DS-R9.00-S5"
    ],
+   "unp_items": [
+    [
+     "DS-350",
+     "Add tables to Launch Loyalty ETL"
+    ],
+    [
+     "DS-347",
+     "Please give access to the Analytics database"
+    ],
+    [
+     "DS-346",
+     "Update Datacap AccountId from VAR Sheet - EX8000 pilot"
+    ],
+    [
+     "DS-340",
+     "LL - Don't truncate LL tables in Analytics if the source table is empty"
+    ],
+    [
+     "DS-335",
+     "Load and transform 202601 - Pay Fac Merchant Fee Rollup data file into analytics"
+    ],
+    [
+     "DS-326",
+     "Update logic in Settlements pipeline"
+    ],
+    [
+     "DS-321",
+     "Fix EMAF Matching Logic to Correctly Handle Datacap (RAFT) Transactions"
+    ]
+   ],
+   "open": false,
+   "day": 9,
+   "days": 28,
+   "status": "risk",
+   "headline": "23 items closed. Unplanned work at 30.4% of everything closed.",
+   "notes": [
+    "unplanned work at 30.4% of everything closed"
+   ],
    "weeks": 4,
-   "closed": null,
-   "per_sprint": null,
-   "n_sprints": 2
+   "per_sprint": 11.5
   },
   "9.01": {
    "slug": "2026-r901",
    "label": "Release 9.01",
    "short": "9.01",
+   "n_sprints": 2,
    "start": "2026-02-02",
    "end": "2026-03-01",
+   "prev": "",
+   "prev_closed": null,
+   "closed": 24,
+   "discarded": 0,
+   "resolved": 24,
+   "unplanned": 11,
+   "unp_pct": 45.8,
+   "types": [
+    [
+     "Story",
+     24
+    ]
+   ],
    "sprints": [
     "DS-Sprint 6-26",
     "DS-Sprint 7-26"
    ],
+   "unp_items": [
+    [
+     "DS-392",
+     "Stage Master ETL pipeline"
+    ],
+    [
+     "DS-391",
+     "Master ETL - EDW Payments failure fix"
+    ],
+    [
+     "DS-388",
+     "Missing file in Vantiv ETL"
+    ],
+    [
+     "DS-385",
+     "Increase field size in Ingest.ADFedwPurchases"
+    ],
+    [
+     "DS-375",
+     "New column in Vantiv table and add failure PL alert"
+    ],
+    [
+     "DS-371",
+     "February KPIs"
+    ],
+    [
+     "DS-369",
+     "Install Claude"
+    ],
+    [
+     "DS-368",
+     "Install Claude and BMAD"
+    ],
+    [
+     "DS-367",
+     "Troubleshoot unmatched transactions"
+    ],
+    [
+     "DS-365",
+     "Add Denticon tables to Analytics"
+    ],
+    [
+     "DS-364",
+     "Change Cedargate file name to replace Controls to Claims"
+    ]
+   ],
+   "open": false,
+   "day": 9,
+   "days": 28,
+   "status": "risk",
+   "headline": "24 items closed. Unplanned work at 45.8% of everything closed.",
+   "notes": [
+    "unplanned work at 45.8% of everything closed"
+   ],
    "weeks": 4,
-   "closed": null,
-   "per_sprint": null,
-   "n_sprints": 2
+   "per_sprint": 12.0
   },
   "9.02": {
    "slug": "2026-r902",
    "label": "Release 9.02",
    "short": "9.02",
+   "n_sprints": 2,
    "start": "2026-03-02",
    "end": "2026-03-29",
+   "prev": "",
+   "prev_closed": null,
+   "closed": 28,
+   "discarded": 0,
+   "resolved": 28,
+   "unplanned": 8,
+   "unp_pct": 28.6,
+   "types": [
+    [
+     "Story",
+     28
+    ]
+   ],
    "sprints": [
     "DS-Sprint 8-26",
     "DS-Sprint 9-26"
    ],
+   "unp_items": [
+    [
+     "DS-433",
+     "Update PurchaseType field length in [rpt].[PlanPurchasePDS] table."
+    ],
+    [
+     "DS-421",
+     "PDS FMP YTD file corrections"
+    ],
+    [
+     "DS-418",
+     "Fraud and anomaly detection II"
+    ],
+    [
+     "DS-410",
+     "AI Fraud and Anomaly Detection Research"
+    ],
+    [
+     "DS-404",
+     "Load and transform PayFacMerchant spreadsheet manually and send an alert to EDW"
+    ],
+    [
+     "DS-400",
+     "Monthly KPIs"
+    ],
+    [
+     "DS-398",
+     "Disable/Enable Platform maintenance script"
+    ],
+    [
+     "DS-393",
+     "MAXDOP Validation"
+    ]
+   ],
+   "open": false,
+   "day": 9,
+   "days": 28,
+   "status": "risk",
+   "headline": "28 items closed. Unplanned work at 28.6% of everything closed.",
+   "notes": [
+    "unplanned work at 28.6% of everything closed"
+   ],
    "weeks": 4,
-   "closed": null,
-   "per_sprint": null,
-   "n_sprints": 2
+   "per_sprint": 14.0
   },
   "9.03": {
    "slug": "2026-r903",
    "label": "Release 9.03",
    "short": "9.03",
+   "n_sprints": 2,
    "start": "2026-03-30",
    "end": "2026-04-26",
+   "prev": "",
+   "prev_closed": null,
+   "closed": 26,
+   "discarded": 0,
+   "resolved": 26,
+   "unplanned": 10,
+   "unp_pct": 38.5,
+   "types": [
+    [
+     "Story",
+     25
+    ],
+    [
+     "Urgent Task",
+     1
+    ]
+   ],
    "sprints": [
     "DS-Sprint 10-26",
     "DS-Sprint 11-26"
    ],
+   "unp_items": [
+    [
+     "DS-480",
+     "Add field to existing LL table & Modify ETL"
+    ],
+    [
+     "DS-471",
+     "Add new table and fields to LL MembershipFee tables"
+    ],
+    [
+     "DS-468",
+     "Exclude and change Worldpay SFTP download ADF Pipeline"
+    ],
+    [
+     "DS-459",
+     "Replicate Master ETL pipeline in QA data factory"
+    ],
+    [
+     "DS-450",
+     "Add \" Available RTP Balance\" new field to [Vantiv].[DynamicPayoutWalletProjectedAvailableBalanceReport] table"
+    ],
+    [
+     "DS-449",
+     "Create GHE project and repo for Orchestrator database"
+    ],
+    [
+     "DS-441",
+     "Replace code for Settlements"
+    ],
+    [
+     "DS-440",
+     "Settlements - Unmatched transactions code change"
+    ],
+    [
+     "DS-439",
+     "Ingest tables request - FMP changes"
+    ],
+    [
+     "DS-431",
+     "Inventory databases for deletion in all subscriptions"
+    ]
+   ],
+   "open": false,
+   "day": 9,
+   "days": 28,
+   "status": "risk",
+   "headline": "26 items closed. Unplanned work at 38.5% of everything closed.",
+   "notes": [
+    "unplanned work at 38.5% of everything closed",
+    "cycle time average 9.8d against a 5.8d median - a long tail"
+   ],
    "weeks": 4,
-   "closed": null,
-   "per_sprint": null,
-   "n_sprints": 2
+   "per_sprint": 13.0
   }
  },
  "SP_BY_RELEASE": {
@@ -1767,6 +3012,22 @@
   "9.07": [
    "DS-Sprint 19-26",
    "DS-Sprint 20-26"
+  ],
+  "9.00": [
+   "DS-R9.00-S4",
+   "DS-R9.00-S5"
+  ],
+  "9.01": [
+   "DS-Sprint 6-26",
+   "DS-Sprint 7-26"
+  ],
+  "9.02": [
+   "DS-Sprint 8-26",
+   "DS-Sprint 9-26"
+  ],
+  "9.03": [
+   "DS-Sprint 10-26",
+   "DS-Sprint 11-26"
   ]
  },
  "CAP_R": {
@@ -1798,6 +3059,30 @@
    40,
    26,
    62,
+   3
+  ],
+  "9.00": [
+   23,
+   18,
+   42,
+   2
+  ],
+  "9.01": [
+   24,
+   21,
+   63,
+   3
+  ],
+  "9.02": [
+   28,
+   15,
+   41,
+   3
+  ],
+  "9.03": [
+   26,
+   24,
+   60,
    3
   ]
  },
@@ -1841,6 +3126,38 @@
    "mx": 28.14,
    "nodev": 28,
    "base": 40
+  },
+  "9.00": {
+   "med": 0.96,
+   "avg": 5.52,
+   "n": 21,
+   "mx": 63.17,
+   "nodev": 2,
+   "base": 23
+  },
+  "9.01": {
+   "med": 2.03,
+   "avg": 7.32,
+   "n": 21,
+   "mx": 40.71,
+   "nodev": 3,
+   "base": 24
+  },
+  "9.02": {
+   "med": 1.76,
+   "avg": 7.67,
+   "n": 27,
+   "mx": 110.82,
+   "nodev": 1,
+   "base": 28
+  },
+  "9.03": {
+   "med": 5.85,
+   "avg": 9.85,
+   "n": 24,
+   "mx": 43.1,
+   "nodev": 2,
+   "base": 26
   }
  },
  "RELEASE_LABEL": {
