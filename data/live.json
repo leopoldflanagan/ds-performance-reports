@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T23:45:16Z",
+ "generated": "2026-10-09T00:00:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,7 +199,7 @@
  },
  "projection": {
   "too_early": false,
-  "day": 11,
+  "day": 12,
   "days": 14,
   "n": 9,
   "done_now": 28,
@@ -369,7 +369,7 @@
    },
    {
     "rule": "The next sprint has not been created",
-    "why": "DS-Sprint 23-26 ends in 4 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
+    "why": "DS-Sprint 23-26 ends in 3 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
     "n": 1,
     "items": []
    }
@@ -453,7 +453,7 @@
    30.0
   ],
   "days": 14,
-  "day": 11,
+  "day": 12,
   "capacity": null
  },
  "next": null,
@@ -486,13 +486,13 @@
     "status": "Ready for Development",
     "open": 12,
     "med_age": 28.7,
-    "max_age": 157.1,
+    "max_age": 157.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 10,
-    "clear_med": 1.2,
-    "clear_n": 127
+    "clear_med": 2.9,
+    "clear_n": 116
    },
    {
     "status": "In Development",
@@ -503,20 +503,8 @@
     "worst_sum": "DCA  SFTP Set Up",
     "worst_who": "Carlos Parra",
     "over": 5,
-    "clear_med": 3.3,
-    "clear_n": 82
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "clear_med": 3.8,
+    "clear_n": 79
    },
    {
     "status": "Awaiting Review",
@@ -529,6 +517,18 @@
     "over": 0,
     "clear_med": 2.6,
     "clear_n": 12
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
