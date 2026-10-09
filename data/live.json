@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T21:17:02Z",
+ "generated": "2026-10-09T21:30:22Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -506,7 +506,7 @@
     "status": "Ready for Development",
     "open": 12,
     "med_age": 29.6,
-    "max_age": 158.0,
+    "max_age": 158.1,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
