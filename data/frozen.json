@@ -348,6 +348,46 @@
    ],
    "in_pct": 35,
    "in_from": "DS-Sprint 10-26"
+  },
+  "DS-Sprint 21-26": {
+   "done": [
+    17,
+    33
+   ],
+   "open": [
+    12,
+    21
+   ],
+   "out": [
+    1,
+    5
+   ],
+   "in": [
+    0,
+    0
+   ],
+   "in_pct": 0,
+   "in_from": "DS-Sprint 20-26"
+  },
+  "DS-Sprint 22-26": {
+   "done": [
+    10,
+    12
+   ],
+   "open": [
+    11,
+    19
+   ],
+   "out": [
+    3,
+    6
+   ],
+   "in": [
+    9,
+    15
+   ],
+   "in_pct": 42,
+   "in_from": "DS-Sprint 21-26"
   }
  },
  "SPILL_Q1": {},
@@ -428,6 +468,16 @@
    "react": 5,
    "plan": 5,
    "pct": 50
+  },
+  "DS-Sprint 21-26": {
+   "react": 1,
+   "plan": 4,
+   "pct": 20
+  },
+  "DS-Sprint 22-26": {
+   "react": 1,
+   "plan": 0,
+   "pct": 100
   }
  },
  "SPLIT_Q1": {},
@@ -1202,6 +1252,96 @@
     66.0,
     66.0
    ]
+  ],
+  [
+   "DS-Sprint 21-26",
+   "Aug 31",
+   "Sep 15",
+   30,
+   17,
+   50,
+   58,
+   33,
+   16,
+   [
+    50.0,
+    50.0,
+    50.0,
+    47.0,
+    42.0,
+    37.0,
+    37.0,
+    37.0,
+    39.0,
+    39.0,
+    33.0,
+    33.0,
+    33.0,
+    33.0,
+    33.0,
+    24.0
+   ],
+   [
+    50.0,
+    50.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0,
+    58.0,
+    58.0,
+    58.0,
+    58.0,
+    58.0,
+    58.0,
+    58.0,
+    58.0
+   ]
+  ],
+  [
+   "DS-Sprint 22-26",
+   "Sep 16",
+   "Sep 28",
+   25,
+   10,
+   36,
+   37,
+   15,
+   3,
+   [
+    30.0,
+    31.0,
+    31.0,
+    31.0,
+    31.0,
+    31.0,
+    28.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    16.0
+   ],
+   [
+    35.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    36.0,
+    33.0,
+    33.0,
+    33.0,
+    33.0,
+    33.0,
+    33.0,
+    31.0
+   ]
   ]
  ],
  "SPRINTS_Q1": [],
@@ -1774,6 +1914,80 @@
    "worst": 6.7,
    "worstSt": "In Development",
    "items": 31
+  },
+  "DS-Sprint 21-26": {
+   "tis": {
+    "Backlog": {
+     "n": 7,
+     "med": 0.0
+    },
+    "Ready for Development": {
+     "n": 20,
+     "med": 13.42
+    },
+    "Closed": {
+     "n": 17,
+     "med": 10.9
+    },
+    "In Development": {
+     "n": 14,
+     "med": 3.6
+    },
+    "Awaiting Review": {
+     "n": 4,
+     "med": 3.99
+    }
+   },
+   "dist": {
+    "Closed": 22,
+    "Backlog": 2,
+    "Ready for Development": 4,
+    "Won't Do": 1,
+    "In Development": 1
+   },
+   "stalled": 13,
+   "worst": 13.42,
+   "worstSt": "Ready for Development",
+   "items": 30
+  },
+  "DS-Sprint 22-26": {
+   "tis": {
+    "Backlog": {
+     "n": 12,
+     "med": 5.02
+    },
+    "Ready for Development": {
+     "n": 20,
+     "med": 5.43
+    },
+    "Closed": {
+     "n": 10,
+     "med": 6.99
+    },
+    "In Development": {
+     "n": 11,
+     "med": 0.08
+    },
+    "Awaiting Review": {
+     "n": 1,
+     "med": 0.02
+    },
+    "Won't Do": {
+     "n": 1,
+     "med": 5.93
+    }
+   },
+   "dist": {
+    "Closed": 12,
+    "Won't Do": 2,
+    "Ready for Development": 5,
+    "In Development": 5,
+    "Backlog": 1
+   },
+   "stalled": 12,
+   "worst": 5.43,
+   "worstSt": "Ready for Development",
+   "items": 25
   }
  },
  "WIP": {},
@@ -1874,6 +2088,12 @@
    "title": "Release 9.03 Performance Report",
    "badge": "Pending review",
    "blurb": "26 items closed. Unplanned work at 38.5% of everything closed."
+  },
+  "2026-r908.html": {
+   "short": "9.08",
+   "title": "Release 9.08 Performance Report",
+   "badge": "Risk",
+   "blurb": "23 items closed against 40 the month before. Running 42% behind last month's pace."
   }
  },
  "INTRO": "",
@@ -2635,24 +2855,52 @@
    "slug": "2026-r908",
    "label": "Release 9.08",
    "short": "9.08",
+   "n_sprints": 2,
    "start": "2026-08-31",
    "end": "2026-09-27",
+   "prev": "",
+   "prev_closed": 40,
+   "closed": 23,
+   "discarded": 2,
+   "resolved": 25,
+   "unplanned": 3,
+   "unp_pct": 13.0,
+   "types": [
+    [
+     "Story",
+     23
+    ]
+   ],
    "sprints": [
     "DS-Sprint 21-26",
     "DS-Sprint 22-26"
    ],
-   "n_sprints": 2,
+   "unp_items": [
+    [
+     "DS-745",
+     "[DB Access Request] Create External Identity for PaymentArragements in Non-Production Databases"
+    ],
+    [
+     "DS-733",
+     "[DB Access Request] Grant Deployment SP Control Schema for PaymentArragements Database"
+    ],
+    [
+     "DS-727",
+     "Disable activities in pl_Vantiv_PostIngestion_prod"
+    ]
+   ],
+   "open": false,
+   "day": 9,
+   "days": 28,
+   "status": "risk",
+   "headline": "23 items closed against 40 the month before. Running 42% behind last month's pace.",
+   "notes": [
+    "running 42% behind last month's pace",
+    "unplanned work at 13.0%",
+    "cycle time median 6.5d and average 17.5d, both past the healthy band"
+   ],
    "weeks": 4,
-   "closed": 0,
-   "discarded": 0,
-   "resolved": 0,
-   "points": 0,
-   "per_sprint": 0,
-   "unplanned": null,
-   "unp_pct": null,
-   "types": [],
-   "unp_items": [],
-   "open": true
+   "per_sprint": 11.5
   },
   "9.09": {
    "slug": "2026-r909",
@@ -3032,10 +3280,10 @@
  },
  "CAP_R": {
   "9.08": [
-   0,
-   0,
-   0,
-   0
+   23,
+   22,
+   43,
+   3
   ],
   "9.04": [
    38,
@@ -3088,12 +3336,12 @@
  },
  "CYC_R": {
   "9.08": {
-   "med": 0.0,
-   "avg": 0.0,
-   "n": 0,
-   "mx": 0.0,
-   "nodev": 0,
-   "base": 0
+   "med": 6.51,
+   "avg": 17.5,
+   "n": 16,
+   "mx": 72.78,
+   "nodev": 7,
+   "base": 23
   },
   "9.04": {
    "med": 2.98,
