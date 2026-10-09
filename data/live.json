@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T23:15:16Z",
+ "generated": "2026-10-09T23:17:42Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -201,12 +201,12 @@
   "too_early": false,
   "day": 12,
   "days": 14,
-  "n": 17,
+  "n": 19,
   "done_now": 28,
   "committed": 51,
-  "lo": 31,
+  "lo": 32,
   "mid": 41,
-  "hi": 45,
+  "hi": 46,
   "pct": 80,
   "verdict": "a little short of the commitment",
   "share_mid": 0.679
