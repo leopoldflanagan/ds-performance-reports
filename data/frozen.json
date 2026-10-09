@@ -1653,6 +1653,38 @@
    "types": [],
    "unp_items": [],
    "open": true
+  },
+  "9.09": {
+   "slug": "2026-r909",
+   "label": "Release 9.09",
+   "short": "9.09",
+   "start": "2026-09-28",
+   "end": "2026-10-25",
+   "sprints": [
+    "DS-Sprint 23-26",
+    "DS-Sprint 24-26"
+   ],
+   "n_sprints": 2,
+   "weeks": 4,
+   "closed": null,
+   "per_sprint": null,
+   "open": true
+  },
+  "9.10": {
+   "slug": "2026-r910",
+   "label": "Release 9.10",
+   "short": "9.10",
+   "start": "2026-10-26",
+   "end": "2026-11-22",
+   "sprints": [
+    "DS-Sprint 25-26",
+    "DS-Sprint 26-26"
+   ],
+   "n_sprints": 2,
+   "weeks": 4,
+   "closed": null,
+   "per_sprint": null,
+   "open": true
   }
  },
  "SP_BY_RELEASE": {
@@ -1757,7 +1789,9 @@
   "9.04": "R9.04",
   "9.05": "R9.05",
   "9.06": "R9.06",
-  "9.07": "R9.07"
+  "9.07": "R9.07",
+  "9.09": "R9.09",
+  "9.10": "R9.10"
  },
  "HISTORICAL": [],
  "TEAM": {

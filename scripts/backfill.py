@@ -16,7 +16,7 @@ It refuses to overwrite a release that already carries figures unless --force is
 given, so running it twice cannot quietly change a number somebody has already
 read.
 """
-import argparse, importlib.util, json, os, sys
+import argparse, datetime as dt, importlib.util, json, os, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -51,8 +51,20 @@ def main():
     # No list given means: whatever is still unmeasured. The job knows which those
     # are -- it prints them on every run -- so making a person type them in was
     # asking for a step that gets skipped, mistyped, or lost in a re-run.
+    def _still_open(v):
+        """From the window, not from the stored flag. Nothing ever wrote the flag
+        back as false, so 9.08 stayed 'open' twelve days past its end and this
+        filter skipped it on every run."""
+        e = (v.get("end") or "").strip()
+        if not e:
+            return bool(v.get("open"))
+        try:
+            return dt.date.today() <= dt.date.fromisoformat(e)
+        except ValueError:
+            return bool(v.get("open"))
+
     targets = a.releases or [k for k, v in sorted(REL.items())
-                             if v.get("closed") is None and not v.get("open")]
+                             if v.get("closed") is None and not _still_open(v)]
     if not targets:
         print("backfill: every closed release is already measured")
         return
