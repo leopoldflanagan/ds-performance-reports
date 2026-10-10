@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T00:55:53Z",
+ "generated": "2026-10-10T01:15:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -406,7 +406,7 @@
   "completed": 28,
   "scope_change": 14,
   "vs_commitment": 55,
-  "time_elapsed": 83,
+  "time_elapsed": 84,
   "spill": {
    "open_items": 16,
    "open_pts": 27.0,
@@ -505,7 +505,7 @@
    {
     "status": "Ready for Development",
     "open": 12,
-    "med_age": 29.7,
+    "med_age": 29.8,
     "max_age": 158.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -517,7 +517,7 @@
    {
     "status": "In Development",
     "open": 8,
-    "med_age": 10.6,
+    "med_age": 10.7,
     "max_age": 23.4,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
