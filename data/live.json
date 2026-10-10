@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T19:45:17Z",
+ "generated": "2026-10-10T20:15:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -520,7 +520,7 @@
    {
     "status": "In Development",
     "open": 8,
-    "med_age": 11.4,
+    "med_age": 11.5,
     "max_age": 24.2,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
