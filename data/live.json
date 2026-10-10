@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T15:15:16Z",
+ "generated": "2026-10-10T15:30:20Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -505,7 +505,7 @@
    {
     "status": "Ready for Development",
     "open": 12,
-    "med_age": 30.3,
+    "med_age": 30.4,
     "max_age": 158.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -517,7 +517,7 @@
    {
     "status": "In Development",
     "open": 8,
-    "med_age": 11.2,
+    "med_age": 11.3,
     "max_age": 24.0,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
