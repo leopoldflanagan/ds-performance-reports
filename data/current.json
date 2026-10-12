@@ -117,19 +117,19 @@
    "DS-Sprint 24-26",
    "Oct 12",
    "Oct 26",
-   16,
+   17,
    1,
-   27,
-   27,
+   29,
+   29,
    0,
    0,
    [
-    26.0,
-    27.0
+    28.0,
+    29.0
    ],
    [
-    26.0,
-    27.0
+    28.0,
+    29.0
    ]
   ]
  ],
@@ -160,8 +160,8 @@
     0
    ],
    "open": [
-    14,
-    26
+    15,
+    28
    ],
    "out": [
     0,
@@ -171,7 +171,7 @@
     13,
     21
    ],
-   "in_pct": 78,
+   "in_pct": 72,
    "in_from": "DS-Sprint 23-26"
   }
  },
@@ -225,33 +225,33 @@
   },
   "DS-Sprint 24-26": {
    "tis": {
-    "In Development": {
-     "n": 9,
+    "Backlog": {
+     "n": 3,
      "med": 13.67
     },
-    "Backlog": {
-     "n": 2,
+    "Ready for Development": {
+     "n": 5,
+     "med": 13.67
+    },
+    "In Development": {
+     "n": 9,
      "med": 13.67
     },
     "Won't Do": {
      "n": 1,
      "med": 13.67
-    },
-    "Ready for Development": {
-     "n": 4,
-     "med": 13.67
     }
    },
    "dist": {
+    "Ready for Development": 5,
     "In Development": 9,
     "Backlog": 2,
-    "Won't Do": 1,
-    "Ready for Development": 4
+    "Won't Do": 1
    },
-   "stalled": 15,
+   "stalled": 16,
    "worst": 13.67,
-   "worstSt": "In Development",
-   "items": 16
+   "worstSt": "Ready for Development",
+   "items": 17
   }
  },
  "GHOST": {
@@ -273,8 +273,8 @@
    29.0
   ],
   "DS-Sprint 24-26": [
-   26.0,
-   27.0
+   28.0,
+   29.0
   ]
  },
  "CAP": {
