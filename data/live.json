@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T14:52:26Z",
+ "generated": "2026-10-12T15:00:24Z",
  "team": "DS",
  "board": 257,
  "kind": "recent",
@@ -159,7 +159,7 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 9,
+   "items": 8,
    "points": 21
   },
   "misfiled": {
@@ -203,18 +203,18 @@
   "days": 14,
   "n": 19,
   "done_now": 28,
-  "committed": 51,
+  "committed": 50,
   "lo": 28,
   "mid": 28,
   "hi": 28,
-  "pct": 55,
+  "pct": 56,
   "verdict": "well short of the commitment",
   "share_mid": 1.0
  },
  "admin": {
   "scope": {
-   "ready": 11,
-   "sprint": 34,
+   "ready": 10,
+   "sprint": 33,
    "sprint_name": "DS-Sprint 23-26"
   },
   "blocking": [
@@ -248,20 +248,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 39,
+    "why": "missing on 38 of 38 items. This reads as a field the team does not use rather than 38 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 38,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 39,
+    "why": "missing on 38 of 38 items. This reads as a field the team does not use rather than 38 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 38,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 39,
+    "why": "missing on 38 of 38 items. This reads as a field the team does not use rather than 38 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 38,
     "items": []
    },
    {
@@ -378,85 +378,85 @@
   "start": "2026-09-28",
   "end": "2026-10-12",
   "goal": "",
-  "items": 36,
+  "items": 35,
   "items_done": 18,
-  "committed": 51,
-  "final": 58,
+  "committed": 50,
+  "final": 57,
   "completed": 28,
   "scope_change": 14,
-  "vs_commitment": 55,
+  "vs_commitment": 56,
   "time_elapsed": 100,
   "spill": {
-   "open_items": 15,
-   "open_pts": 22.0,
+   "open_items": 14,
+   "open_pts": 21.0,
    "out_items": 1,
    "out_pts": 5.0,
    "done_pts": 30.0
   },
   "recv": {
-   "items": 5,
-   "pts": 5,
-   "pct": 10,
+   "items": 4,
+   "pts": 4,
+   "pct": 8,
    "from": "DS-Sprint 22-26"
   },
-  "spill_rate": 47,
+  "spill_rate": 46,
   "dist": {
    "In Development": 8,
    "Closed": 17,
    "Won't Do": 3,
    "Backlog": 1,
-   "Ready for Development": 6
+   "Ready for Development": 5
   },
   "burn": [
-   51.0,
    50.0,
-   52.0,
-   52.0,
-   52.0,
    49.0,
-   49.0,
-   47.0,
-   45.0,
-   43.0,
-   36.0,
-   30.0,
-   30.0,
-   30.0,
-   30.0
+   51.0,
+   51.0,
+   51.0,
+   48.0,
+   48.0,
+   46.0,
+   44.0,
+   42.0,
+   35.0,
+   29.0,
+   29.0,
+   29.0,
+   29.0
   ],
   "scope": [
-   51.0,
-   51.0,
-   56.0,
-   56.0,
-   56.0,
-   56.0,
-   56.0,
-   56.0,
-   56.0,
+   50.0,
+   50.0,
+   55.0,
+   55.0,
+   55.0,
+   55.0,
+   55.0,
+   55.0,
+   55.0,
+   55.0,
    56.0,
    57.0,
-   58.0,
-   58.0,
-   58.0,
-   58.0
+   57.0,
+   57.0,
+   57.0
   ],
   "ghost": [
-   51.0,
    50.0,
-   52.0,
-   52.0,
-   52.0,
    49.0,
-   49.0,
-   47.0,
-   45.0,
-   43.0,
-   36.0,
-   30.0,
-   30.0,
-   30.0,
-   30.0
+   51.0,
+   51.0,
+   51.0,
+   48.0,
+   48.0,
+   46.0,
+   44.0,
+   42.0,
+   35.0,
+   29.0,
+   29.0,
+   29.0,
+   29.0
   ],
   "days": 14,
   "day": 14,
@@ -494,13 +494,13 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 11,
-    "med_age": 38.9,
+    "open": 10,
+    "med_age": 40.5,
     "max_age": 160.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
-    "over": 10,
+    "over": 9,
     "clear_med": 3.0,
     "clear_n": 115
    },
@@ -542,10 +542,10 @@
    }
   ],
   "parked": {
-   "Backlog": 38
+   "Backlog": 39
   },
-  "open_total": 19,
-  "stale": 16,
+  "open_total": 18,
+  "stale": 15,
   "worst": "Ready for Development"
  }
 }
