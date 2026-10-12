@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-12T14:27:37Z",
+ "generated": "2026-10-12T14:45:18Z",
  "team": "DS",
  "board": 257,
- "kind": "active",
+ "kind": "recent",
  "capacity": {
   "page": "3755671557",
   "url": "https://wellfit.atlassian.net/wiki/spaces/EDW/pages/3755671557",
@@ -214,7 +214,7 @@
  "admin": {
   "scope": {
    "ready": 12,
-   "sprint": 35,
+   "sprint": 34,
    "sprint_name": "DS-Sprint 23-26"
   },
   "blocking": [
@@ -247,36 +247,25 @@
       "summary": "1.4: CREG HR Report delivery - twice-monthly SFTP + email"
      }
     ]
-   },
-   {
-    "rule": "Still in Backlog inside the sprint",
-    "why": "in the sprint but never pulled into the flow.",
-    "n": 1,
-    "items": [
-     {
-      "key": "DS-427",
-      "summary": "Archival Initiative"
-     }
-    ]
    }
   ],
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 40 of 40 items. This reads as a field the team does not use rather than 40 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 40,
+    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 39,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 40 of 40 items. This reads as a field the team does not use rather than 40 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 40,
+    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 39,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 40 of 40 items. This reads as a field the team does not use rather than 40 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 40,
+    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 39,
     "items": []
    },
    {
@@ -324,6 +313,10 @@
     "n": 7,
     "items": [
      {
+      "key": "DS-724",
+      "summary": "Plan alternative solution for long running SPs in platform"
+     },
+     {
       "key": "DS-711",
       "summary": "Wellfit Cedar Gate Coordination for Upcoming SFTP Change"
      },
@@ -346,10 +339,6 @@
      {
       "key": "DS-683",
       "summary": "Expand prod database alerts and backups to new databases"
-     },
-     {
-      "key": "DS-427",
-      "summary": "Archival Initiative"
      }
     ]
    }
@@ -395,11 +384,11 @@
  },
  "sprint": {
   "name": "DS-Sprint 23-26",
-  "state": "active",
+  "state": "closed",
   "start": "2026-09-28",
   "end": "2026-10-12",
   "goal": "",
-  "items": 39,
+  "items": 36,
   "items_done": 18,
   "committed": 51,
   "final": 58,
@@ -408,10 +397,10 @@
   "vs_commitment": 55,
   "time_elapsed": 100,
   "spill": {
-   "open_items": 16,
-   "open_pts": 27.0,
-   "out_items": 0,
-   "out_pts": 0,
+   "open_items": 15,
+   "open_pts": 22.0,
+   "out_items": 1,
+   "out_pts": 5.0,
    "done_pts": 30.0
   },
   "recv": {
@@ -422,11 +411,11 @@
   },
   "spill_rate": 47,
   "dist": {
-   "In Development": 9,
+   "In Development": 8,
    "Closed": 17,
    "Won't Do": 2,
-   "Backlog": 2,
-   "Ready for Development": 9
+   "Backlog": 1,
+   "Ready for Development": 7
   },
   "burn": [
    51.0,
@@ -502,7 +491,7 @@
    "DS-Sprint 23-26"
   ],
   "n_sprints": 1,
-  "sprints_done": 0
+  "sprints_done": 1
  },
  "aging": {
   "window_days": 90,
