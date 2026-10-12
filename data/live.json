@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T20:15:16Z",
+ "generated": "2026-10-12T20:30:20Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -207,7 +207,7 @@
  "admin": {
   "scope": {
    "ready": 10,
-   "sprint": 14,
+   "sprint": 15,
    "sprint_name": "DS-Sprint 24-26"
   },
   "blocking": [
@@ -252,20 +252,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 20 of 20 items. This reads as a field the team does not use rather than 20 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 20,
+    "why": "missing on 21 of 21 items. This reads as a field the team does not use rather than 21 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 21,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 20 of 20 items. This reads as a field the team does not use rather than 20 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 20,
+    "why": "missing on 21 of 21 items. This reads as a field the team does not use rather than 21 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 21,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 20 of 20 items. This reads as a field the team does not use rather than 20 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 20,
+    "why": "missing on 21 of 21 items. This reads as a field the team does not use rather than 21 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 21,
     "items": []
    },
    {
@@ -358,17 +358,17 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 15,
+  "items": 16,
   "items_done": 1,
-  "committed": 26,
-  "final": 26,
+  "committed": 27,
+  "final": 27,
   "completed": 0,
   "scope_change": 0,
   "vs_commitment": 0,
   "time_elapsed": 2,
   "spill": {
-   "open_items": 13,
-   "open_pts": 25.0,
+   "open_items": 14,
+   "open_pts": 26.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 0
@@ -376,27 +376,27 @@
   "recv": {
    "items": 13,
    "pts": 21,
-   "pct": 81,
+   "pct": 78,
    "from": "DS-Sprint 23-26"
   },
   "spill_rate": null,
   "dist": {
+   "In Development": 9,
    "Backlog": 2,
-   "In Development": 8,
    "Won't Do": 1,
    "Ready for Development": 4
   },
   "burn": [
    26.0,
-   26.0
+   27.0
   ],
   "scope": [
    26.0,
-   26.0
+   27.0
   ],
   "ghost": [
    26.0,
-   26.0
+   27.0
   ],
   "days": 14,
   "day": 1,
@@ -446,8 +446,8 @@
    },
    {
     "status": "In Development",
-    "open": 9,
-    "med_age": 13.1,
+    "open": 10,
+    "med_age": 10.2,
     "max_age": 26.2,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
@@ -484,7 +484,7 @@
   "parked": {
    "Backlog": 39
   },
-  "open_total": 19,
+  "open_total": 20,
   "stale": 16,
   "worst": "Ready for Development"
  }
