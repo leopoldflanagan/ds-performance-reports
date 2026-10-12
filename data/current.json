@@ -25,7 +25,8 @@
    ]
   ],
   "sprints": [
-   "DS-Sprint 23-26"
+   "DS-Sprint 23-26",
+   "DS-Sprint 24-26"
   ],
   "unp_items": [
    [
@@ -111,6 +112,25 @@
     57.0,
     57.0
    ]
+  ],
+  [
+   "DS-Sprint 24-26",
+   "Oct 12",
+   "Oct 26",
+   15,
+   1,
+   26,
+   26,
+   0,
+   0,
+   [
+    26.0,
+    26.0
+   ],
+   [
+    26.0,
+    26.0
+   ]
   ]
  ],
  "SPILL": {
@@ -133,6 +153,26 @@
    ],
    "in_pct": 8,
    "in_from": "DS-Sprint 22-26"
+  },
+  "DS-Sprint 24-26": {
+   "done": [
+    1,
+    0
+   ],
+   "open": [
+    13,
+    25
+   ],
+   "out": [
+    0,
+    0
+   ],
+   "in": [
+    13,
+    21
+   ],
+   "in_pct": 81,
+   "in_from": "DS-Sprint 23-26"
   }
  },
  "SPLIT": {
@@ -140,7 +180,8 @@
    "react": 1,
    "plan": 4,
    "pct": 20
-  }
+  },
+  "DS-Sprint 24-26": null
  },
  "TIS": {
   "DS-Sprint 23-26": {
@@ -181,6 +222,36 @@
    "worst": 5.99,
    "worstSt": "Ready for Development",
    "items": 35
+  },
+  "DS-Sprint 24-26": {
+   "tis": {
+    "Backlog": {
+     "n": 2,
+     "med": 13.67
+    },
+    "In Development": {
+     "n": 8,
+     "med": 13.67
+    },
+    "Won't Do": {
+     "n": 1,
+     "med": 13.67
+    },
+    "Ready for Development": {
+     "n": 4,
+     "med": 13.67
+    }
+   },
+   "dist": {
+    "Backlog": 2,
+    "In Development": 8,
+    "Won't Do": 1,
+    "Ready for Development": 4
+   },
+   "stalled": 14,
+   "worst": 13.67,
+   "worstSt": "In Development",
+   "items": 15
   }
  },
  "GHOST": {
@@ -200,6 +271,10 @@
    29.0,
    29.0,
    29.0
+  ],
+  "DS-Sprint 24-26": [
+   26.0,
+   26.0
   ]
  },
  "CAP": {
