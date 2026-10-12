@@ -26,7 +26,7 @@
 
   "reactive": {
     "_": "How this team marks work it did not plan. DS applies the label unevenly, which is why the report says so rather than publishing 0%.",
-    "labels": ["unplanned", "not planned", "not_planned", "urgent"],
+    "labels": ["Unplanned", "not planned", "not_planned", "urgent"],
     "types": ["Urgent Task"]
   },
 
