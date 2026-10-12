@@ -4,14 +4,14 @@
   "slug": "2026-r909",
   "label": "Release 9.09",
   "short": "9.09",
-  "n_sprints": 1,
+  "n_sprints": 2,
   "start": "2026-09-28",
   "end": "2026-10-25",
   "prev": "",
-  "prev_closed": 12,
+  "prev_closed": 23,
   "closed": 20,
-  "discarded": 2,
-  "resolved": 22,
+  "discarded": 3,
+  "resolved": 23,
   "unplanned": 7,
   "unp_pct": 35.0,
   "types": [
@@ -61,7 +61,7 @@
   "day": 12,
   "days": 28,
   "status": "risk",
-  "headline": "20 items closed in the first 12 days, a pace of about 47 for the month against 12 last month. Unplanned work at 35.0% of everything closed.",
+  "headline": "20 items closed in the first 12 days, a pace of about 47 for the month against 23 last month. Unplanned work at 35.0% of everything closed.",
   "notes": [
    "unplanned work at 35.0% of everything closed"
   ]
@@ -173,9 +173,9 @@
    "dist": {
     "In Development": 8,
     "Closed": 17,
-    "Won't Do": 2,
+    "Won't Do": 3,
     "Backlog": 2,
-    "Ready for Development": 7
+    "Ready for Development": 6
    },
    "stalled": 17,
    "worst": 6.47,
@@ -222,7 +222,7 @@
  },
  "complete": false,
  "kind": "release",
- "n_sprints": 1,
+ "n_sprints": 2,
  "CAPACITY": {
   "DS-Sprint 13-26": {
    "release": "9.04",

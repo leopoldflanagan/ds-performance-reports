@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T14:45:18Z",
+ "generated": "2026-10-12T14:52:26Z",
  "team": "DS",
  "board": 257,
  "kind": "recent",
@@ -179,8 +179,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 3,
-    "points": 8,
+    "n": 2,
+    "points": 7,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 12,
+   "ready": 11,
    "sprint": 34,
    "sprint_name": "DS-Sprint 23-26"
   },
@@ -221,15 +221,11 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 3,
+    "n": 2,
     "items": [
      {
       "key": "DS-754",
       "summary": "1.4: CREG HR Report delivery - twice-monthly SFTP + email"
-     },
-     {
-      "key": "DS-746",
-      "summary": "SFTP Transfer - Solomon Dentistry"
      },
      {
       "key": "DS-724",
@@ -357,12 +353,6 @@
     "items": []
    },
    {
-    "rule": "The next sprint has not been created",
-    "why": "DS-Sprint 23-26 ends today and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
-    "n": 1,
-    "items": []
-   },
-   {
     "rule": "Release 9.06 has two different windows on the schedule",
     "why": "the feature-freeze column gives 2026-06-22 to 2026-07-26 and the dev-window column gives 2026-06-22 to 2026-08-02. The calendar keeps what it already had; the page needs one of the two corrected.",
     "n": 1,
@@ -413,9 +403,9 @@
   "dist": {
    "In Development": 8,
    "Closed": 17,
-   "Won't Do": 2,
+   "Won't Do": 3,
    "Backlog": 1,
-   "Ready for Development": 7
+   "Ready for Development": 6
   },
   "burn": [
    51.0,
@@ -472,7 +462,11 @@
   "day": 14,
   "capacity": null
  },
- "next": null,
+ "next": {
+  "name": "DS-Sprint 24-26",
+  "start": "2026-10-12",
+  "state": "not started"
+ },
  "month": {
   "month": "9.09",
   "label": "Release 9.09",
@@ -488,9 +482,10 @@
   "access_requests": 5,
   "people_active": 2,
   "sprints": [
-   "DS-Sprint 23-26"
+   "DS-Sprint 23-26",
+   "DS-Sprint 24-26"
   ],
-  "n_sprints": 1,
+  "n_sprints": 2,
   "sprints_done": 1
  },
  "aging": {
@@ -499,15 +494,15 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 12,
-    "med_age": 32.3,
+    "open": 11,
+    "med_age": 38.9,
     "max_age": 160.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
-    "over": 11,
+    "over": 10,
     "clear_med": 3.0,
-    "clear_n": 114
+    "clear_n": 115
    },
    {
     "status": "In Development",
@@ -522,18 +517,6 @@
     "clear_n": 78
    },
    {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
-   },
-   {
     "status": "Awaiting Review",
     "open": 0,
     "med_age": 0,
@@ -544,13 +527,25 @@
     "over": 0,
     "clear_med": 2.6,
     "clear_n": 12
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 20,
-  "stale": 17,
+  "open_total": 19,
+  "stale": 16,
   "worst": "Ready for Development"
  }
 }

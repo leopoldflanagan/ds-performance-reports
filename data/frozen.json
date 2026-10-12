@@ -2909,9 +2909,10 @@
    "start": "2026-09-28",
    "end": "2026-10-25",
    "sprints": [
-    "DS-Sprint 23-26"
+    "DS-Sprint 23-26",
+    "DS-Sprint 24-26"
    ],
-   "n_sprints": 1,
+   "n_sprints": 2,
    "weeks": 4,
    "closed": null,
    "per_sprint": null,
