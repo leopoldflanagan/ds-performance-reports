@@ -31,7 +31,7 @@
   },
 
   "pods": [
-    { "key": "DS", "name": "Database Services", "sprint_prefix": "DS-" }
+    { "key": "DS", "name": "Database Services", "sprint_prefix": "DS" }
   ],
 
   "pages": {
