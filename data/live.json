@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T16:15:17Z",
+ "generated": "2026-10-12T16:44:37Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -365,7 +365,7 @@
   "completed": 0,
   "scope_change": 0,
   "vs_commitment": 0,
-  "time_elapsed": 0,
+  "time_elapsed": 1,
   "spill": {
    "open_items": 13,
    "open_pts": 25.0,
@@ -436,7 +436,7 @@
     "status": "Ready for Development",
     "open": 10,
     "med_age": 40.5,
-    "max_age": 160.8,
+    "max_age": 160.9,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
@@ -446,8 +446,8 @@
    },
    {
     "status": "In Development",
-    "open": 8,
-    "med_age": 13.4,
+    "open": 9,
+    "med_age": 12.9,
     "max_age": 26.1,
     "worst_key": "DS-737",
     "worst_sum": "DCA  SFTP Set Up",
@@ -455,18 +455,6 @@
     "over": 6,
     "clear_med": 3.6,
     "clear_n": 78
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -479,12 +467,24 @@
     "over": 0,
     "clear_med": 2.6,
     "clear_n": 12
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 39
   },
-  "open_total": 18,
+  "open_total": 19,
   "stale": 15,
   "worst": "Ready for Development"
  }
