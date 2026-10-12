@@ -66,6 +66,13 @@ jobs:
             echo '```' >> "$GITHUB_STEP_SUMMARY"
             exit 1
           }
+          # The team's vocabulary, validated without touching Jira. A missing or
+          # contradictory value fails here in two seconds instead of after a
+          # six-minute run that publishes another team's words as this team's.
+          python3 scripts/teamconfig.py . || {
+            echo "### Refresh - the team configuration is not usable" >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          }
           # a placeholder left in the env block is a configuration error, not a
           # value: it would either crash deep inside the fetch or, worse, read
           # someone else's board. Caught here, by name, before anything runs.
