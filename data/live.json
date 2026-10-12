@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T17:18:55Z",
+ "generated": "2026-10-12T17:43:53Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -440,7 +440,7 @@
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
-    "over": 9,
+    "over": 10,
     "clear_med": 3.0,
     "clear_n": 115
    },
@@ -485,7 +485,7 @@
    "Backlog": 39
   },
   "open_total": 19,
-  "stale": 15,
+  "stale": 16,
   "worst": "Ready for Development"
  }
 }
