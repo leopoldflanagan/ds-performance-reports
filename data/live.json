@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T16:00:25Z",
+ "generated": "2026-10-13T16:22:13Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -242,17 +242,6 @@
     ]
    },
    {
-    "rule": "No assignee in the active sprint",
-    "why": "work in the sprint that nobody owns.",
-    "n": 1,
-    "items": [
-     {
-      "key": "DS-779",
-      "summary": "[DB Access Request] Create External Identity for PaymentsV2 in Non-Production Da"
-     }
-    ]
-   },
-   {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
     "n": 1,
@@ -389,19 +378,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 22,
-  "items_done": 4,
+  "items_done": 5,
   "committed": 35,
   "final": 35,
-  "completed": 4,
+  "completed": 5,
   "scope_change": 0,
-  "vs_commitment": 11,
+  "vs_commitment": 14,
   "time_elapsed": 8,
   "spill": {
-   "open_items": 18,
-   "open_pts": 31.0,
+   "open_items": 17,
+   "open_pts": 30.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 3.0
+   "done_pts": 4.0
   },
   "recv": {
    "items": 13,
@@ -411,9 +400,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 6,
+   "Closed": 3,
    "Ready for Development": 6,
-   "Closed": 2,
+   "In Development": 5,
    "Backlog": 2,
    "Awaiting Review": 5,
    "Won't Do": 1
@@ -421,7 +410,7 @@
   "burn": [
    29.0,
    31.0,
-   31.0
+   30.0
   ],
   "scope": [
    29.0,
@@ -431,7 +420,7 @@
   "ghost": [
    29.0,
    31.0,
-   31.0
+   30.0
   ],
   "days": 14,
   "day": 2,
@@ -450,11 +439,11 @@
   "end": "2026-10-25",
   "day": 16,
   "days": 28,
-  "closed": 22,
-  "points": 37,
-  "unplanned": 8,
-  "unplanned_pct": 36.4,
-  "access_requests": 5,
+  "closed": 23,
+  "points": 38,
+  "unplanned": 9,
+  "unplanned_pct": 39.1,
+  "access_requests": 6,
   "people_active": 2,
   "sprints": [
    "DS-Sprint 23-26",
@@ -481,27 +470,15 @@
    },
    {
     "status": "In Development",
-    "open": 6,
+    "open": 5,
     "med_age": 0.1,
     "max_age": 5.0,
     "worst_key": "DS-690",
     "worst_sum": "WorldPay SFTP",
     "worst_who": "Tharika Bairi",
     "over": 0,
-    "clear_med": 3.6,
-    "clear_n": 82
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "clear_med": 3.3,
+    "clear_n": 83
    },
    {
     "status": "Awaiting Review",
@@ -514,12 +491,24 @@
     "over": 0,
     "clear_med": 2.6,
     "clear_n": 12
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 39
   },
-  "open_total": 18,
+  "open_total": 17,
   "stale": 10,
   "worst": "Ready for Development"
  }
