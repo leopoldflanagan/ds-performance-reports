@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T14:45:23Z",
+ "generated": "2026-10-13T14:48:31Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -370,12 +370,12 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 20,
-  "items_done": 2,
+  "items_done": 3,
   "committed": 34,
   "final": 34,
-  "completed": 2,
+  "completed": 3,
   "scope_change": 0,
-  "vs_commitment": 6,
+  "vs_commitment": 9,
   "time_elapsed": 7,
   "spill": {
    "open_items": 17,
@@ -392,16 +392,16 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 5,
+   "In Development": 4,
    "Ready for Development": 6,
-   "Closed": 1,
+   "Closed": 2,
    "Backlog": 2,
    "Awaiting Review": 5,
    "Won't Do": 1
   },
   "burn": [
    28.0,
-   32.0
+   31.0
   ],
   "scope": [
    28.0,
@@ -409,7 +409,7 @@
   ],
   "ghost": [
    28.0,
-   32.0
+   31.0
   ],
   "days": 14,
   "day": 2,
@@ -428,10 +428,10 @@
   "end": "2026-10-25",
   "day": 16,
   "days": 28,
-  "closed": 21,
-  "points": 36,
+  "closed": 22,
+  "points": 37,
   "unplanned": 8,
-  "unplanned_pct": 38.1,
+  "unplanned_pct": 36.4,
   "access_requests": 5,
   "people_active": 2,
   "sprints": [
@@ -458,16 +458,28 @@
     "clear_n": 109
    },
    {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.6,
+    "clear_n": 12
+   },
+   {
     "status": "In Development",
     "open": 5,
-    "med_age": 0.8,
+    "med_age": 0.0,
     "max_age": 4.9,
     "worst_key": "DS-690",
     "worst_sum": "WorldPay SFTP",
     "worst_who": "Tharika Bairi",
     "over": 0,
     "clear_med": 3.8,
-    "clear_n": 79
+    "clear_n": 80
    },
    {
     "status": "On Hold",
@@ -480,18 +492,6 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.6,
-    "clear_n": 12
    }
   ],
   "parked": {
