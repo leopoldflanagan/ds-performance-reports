@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T15:45:45Z",
+ "generated": "2026-10-13T16:00:25Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -483,25 +483,13 @@
     "status": "In Development",
     "open": 6,
     "med_age": 0.1,
-    "max_age": 4.9,
+    "max_age": 5.0,
     "worst_key": "DS-690",
     "worst_sum": "WorldPay SFTP",
     "worst_who": "Tharika Bairi",
     "over": 0,
     "clear_med": 3.6,
     "clear_n": 82
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.6,
-    "clear_n": 12
    },
    {
     "status": "On Hold",
@@ -514,6 +502,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.6,
+    "clear_n": 12
    }
   ],
   "parked": {
