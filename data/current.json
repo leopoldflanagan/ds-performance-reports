@@ -9,15 +9,15 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 23,
-  "closed": 20,
+  "closed": 21,
   "discarded": 3,
-  "resolved": 23,
-  "unplanned": 7,
-  "unp_pct": 35.0,
+  "resolved": 24,
+  "unplanned": 8,
+  "unp_pct": 38.1,
   "types": [
    [
     "Story",
-    19
+    20
    ],
    [
     "Urgent Task",
@@ -29,6 +29,10 @@
    "DS-Sprint 24-26"
   ],
   "unp_items": [
+   [
+    "DS-777",
+    "PR Reviews 10/12/2026"
+   ],
    [
     "DS-772",
     "[DB Access Request] Create External Identity for Wellfit Pay new services in Dev Database"
@@ -62,9 +66,9 @@
   "day": 13,
   "days": 28,
   "status": "risk",
-  "headline": "20 items closed in the first 13 days, a pace of about 43 for the month against 23 last month. Unplanned work at 35.0% of everything closed.",
+  "headline": "21 items closed in the first 13 days, a pace of about 45 for the month against 23 last month. Unplanned work at 38.1% of everything closed.",
   "notes": [
-   "unplanned work at 35.0% of everything closed"
+   "unplanned work at 38.1% of everything closed"
   ]
  },
  "SPRINTS": [
@@ -117,19 +121,19 @@
    "DS-Sprint 24-26",
    "Oct 12",
    "Oct 26",
-   17,
+   18,
    1,
-   29,
-   29,
+   31,
+   31,
    0,
    0,
    [
     28.0,
-    29.0
+    31.0
    ],
    [
     28.0,
-    29.0
+    31.0
    ]
   ]
  ],
@@ -160,8 +164,8 @@
     0
    ],
    "open": [
-    15,
-    28
+    16,
+    30
    ],
    "out": [
     0,
@@ -171,7 +175,7 @@
     13,
     21
    ],
-   "in_pct": 72,
+   "in_pct": 68,
    "in_from": "DS-Sprint 23-26"
   }
  },
@@ -212,11 +216,12 @@
     }
    },
    "dist": {
-    "In Development": 8,
+    "In Development": 2,
     "Closed": 17,
     "Won't Do": 3,
     "Backlog": 2,
-    "Ready for Development": 5
+    "Awaiting Review": 5,
+    "Ready for Development": 6
    },
    "stalled": 16,
    "worst": 5.99,
@@ -225,17 +230,21 @@
   },
   "DS-Sprint 24-26": {
    "tis": {
+    "In Development": {
+     "n": 10,
+     "med": 0.98
+    },
     "Backlog": {
      "n": 3,
      "med": 13.67
     },
     "Ready for Development": {
-     "n": 5,
+     "n": 7,
      "med": 13.67
     },
-    "In Development": {
-     "n": 9,
-     "med": 13.67
+    "Awaiting Review": {
+     "n": 5,
+     "med": 12.69
     },
     "Won't Do": {
      "n": 1,
@@ -243,15 +252,16 @@
     }
    },
    "dist": {
-    "Ready for Development": 5,
-    "In Development": 9,
+    "In Development": 4,
+    "Ready for Development": 6,
     "Backlog": 2,
+    "Awaiting Review": 5,
     "Won't Do": 1
    },
-   "stalled": 16,
+   "stalled": 17,
    "worst": 13.67,
    "worstSt": "Ready for Development",
-   "items": 17
+   "items": 18
   }
  },
  "GHOST": {
@@ -274,25 +284,25 @@
   ],
   "DS-Sprint 24-26": [
    28.0,
-   29.0
+   31.0
   ]
  },
  "CAP": {
   "9.09": [
-   20,
-   20,
-   34,
+   21,
+   21,
+   36,
    2
   ]
  },
  "CYC": {
   "9.09": {
-   "med": 2.34,
-   "avg": 3.97,
-   "n": 16,
+   "med": 2.08,
+   "avg": 3.79,
+   "n": 17,
    "mx": 13.23,
    "nodev": 4,
-   "base": 20
+   "base": 21
   }
  },
  "complete": false,
