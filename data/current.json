@@ -9,15 +9,15 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 23,
-  "closed": 26,
+  "closed": 27,
   "discarded": 3,
-  "resolved": 29,
-  "unplanned": 9,
-  "unp_pct": 34.6,
+  "resolved": 30,
+  "unplanned": 10,
+  "unp_pct": 37.0,
   "types": [
    [
     "Story",
-    25
+    26
    ],
    [
     "Urgent Task",
@@ -32,6 +32,10 @@
    [
     "DS-783",
     "[DB Access Request] WellfitLegalLanguage db Access"
+   ],
+   [
+    "DS-779",
+    "[DB Access Request] Create External Identity for PaymentsV2 in Non-Production Databases"
    ],
    [
     "DS-777",
@@ -70,9 +74,9 @@
   "day": 13,
   "days": 28,
   "status": "risk",
-  "headline": "26 items closed in the first 13 days, a pace of about 56 for the month against 23 last month. Unplanned work at 34.6% of everything closed.",
+  "headline": "27 items closed in the first 13 days, a pace of about 58 for the month against 23 last month. Unplanned work at 37.0% of everything closed.",
   "notes": [
-   "unplanned work at 34.6% of everything closed"
+   "unplanned work at 37.0% of everything closed"
   ]
  },
  "SPRINTS": [
@@ -126,20 +130,20 @@
    "Oct 12",
    "Oct 26",
    23,
-   7,
-   36,
-   36,
    8,
+   35,
+   35,
+   9,
    0,
    [
-    30.0,
-    32.0,
-    28.0
+    29.0,
+    31.0,
+    26.0
    ],
    [
-    30.0,
-    36.0,
-    36.0
+    29.0,
+    35.0,
+    35.0
    ]
   ]
  ],
@@ -166,12 +170,12 @@
   },
   "DS-Sprint 24-26": {
    "done": [
-    7,
-    8
+    8,
+    9
    ],
    "open": [
-    15,
-    27
+    14,
+    25
    ],
    "out": [
     0,
@@ -181,7 +185,7 @@
     13,
     21
    ],
-   "in_pct": 58,
+   "in_pct": 60,
    "in_from": "DS-Sprint 23-26"
   }
  },
@@ -240,7 +244,7 @@
      "med": 1.12
     },
     "Closed": {
-     "n": 7,
+     "n": 8,
      "med": 12.61
     },
     "Ready for Development": {
@@ -261,14 +265,14 @@
     }
    },
    "dist": {
-    "Closed": 6,
+    "Closed": 7,
     "Ready for Development": 5,
-    "In Development": 4,
+    "In Development": 3,
     "Backlog": 2,
     "Awaiting Review": 5,
     "Won't Do": 1
    },
-   "stalled": 16,
+   "stalled": 15,
    "worst": 12.69,
    "worstSt": "Awaiting Review",
    "items": 23
@@ -293,27 +297,27 @@
    29.0
   ],
   "DS-Sprint 24-26": [
-   30.0,
-   32.0,
-   28.0
+   29.0,
+   31.0,
+   26.0
   ]
  },
  "CAP": {
   "9.09": [
-   26,
-   26,
-   42,
+   27,
+   27,
+   43,
    2
   ]
  },
  "CYC": {
   "9.09": {
-   "med": 2.08,
-   "avg": 3.57,
-   "n": 21,
+   "med": 1.94,
+   "avg": 3.42,
+   "n": 22,
    "mx": 13.23,
    "nodev": 5,
-   "base": 26
+   "base": 27
   }
  },
  "complete": false,

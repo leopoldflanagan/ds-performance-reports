@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T19:45:27Z",
+ "generated": "2026-10-13T20:15:17Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -382,49 +382,49 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 23,
-  "items_done": 7,
-  "committed": 36,
-  "final": 36,
-  "completed": 8,
+  "items_done": 8,
+  "committed": 35,
+  "final": 35,
+  "completed": 9,
   "scope_change": 0,
-  "vs_commitment": 22,
+  "vs_commitment": 26,
   "time_elapsed": 9,
   "spill": {
-   "open_items": 15,
-   "open_pts": 27.0,
+   "open_items": 14,
+   "open_pts": 25.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 8.0
+   "done_pts": 9.0
   },
   "recv": {
    "items": 13,
    "pts": 21,
-   "pct": 58,
+   "pct": 60,
    "from": "DS-Sprint 23-26"
   },
   "spill_rate": null,
   "dist": {
-   "Closed": 6,
+   "Closed": 7,
    "Ready for Development": 5,
-   "In Development": 4,
+   "In Development": 3,
    "Backlog": 2,
    "Awaiting Review": 5,
    "Won't Do": 1
   },
   "burn": [
-   30.0,
-   32.0,
-   28.0
+   29.0,
+   31.0,
+   26.0
   ],
   "scope": [
-   30.0,
-   36.0,
-   36.0
+   29.0,
+   35.0,
+   35.0
   ],
   "ghost": [
-   30.0,
-   32.0,
-   28.0
+   29.0,
+   31.0,
+   26.0
   ],
   "days": 14,
   "day": 2,
@@ -443,11 +443,11 @@
   "end": "2026-10-25",
   "day": 16,
   "days": 28,
-  "closed": 26,
-  "points": 42,
-  "unplanned": 9,
-  "unplanned_pct": 34.6,
-  "access_requests": 6,
+  "closed": 27,
+  "points": 43,
+  "unplanned": 10,
+  "unplanned_pct": 37.0,
+  "access_requests": 7,
   "people_active": 2,
   "sprints": [
    "DS-Sprint 23-26",
@@ -474,7 +474,7 @@
    },
    {
     "status": "In Development",
-    "open": 4,
+    "open": 3,
     "med_age": 0.2,
     "max_age": 0.2,
     "worst_key": "DS-781",
@@ -482,7 +482,7 @@
     "worst_who": "Carlos Parra",
     "over": 0,
     "clear_med": 3.3,
-    "clear_n": 85
+    "clear_n": 86
    },
    {
     "status": "On Hold",
@@ -512,7 +512,7 @@
   "parked": {
    "Backlog": 39
   },
-  "open_total": 15,
+  "open_total": 14,
   "stale": 9,
   "worst": "Ready for Development"
  }
