@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T16:22:13Z",
+ "generated": "2026-10-13T16:30:21Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -159,8 +159,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 9,
-   "points": 22
+   "items": 8,
+   "points": 19
   },
   "misfiled": {
    "items": 15,
@@ -206,7 +206,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 12,
+   "ready": 11,
    "sprint": 21,
    "sprint_name": "DS-Sprint 24-26"
   },
@@ -378,19 +378,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 22,
-  "items_done": 5,
+  "items_done": 6,
   "committed": 35,
   "final": 35,
-  "completed": 5,
+  "completed": 7,
   "scope_change": 0,
-  "vs_commitment": 14,
+  "vs_commitment": 20,
   "time_elapsed": 8,
   "spill": {
-   "open_items": 17,
-   "open_pts": 30.0,
+   "open_items": 15,
+   "open_pts": 27.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 4.0
+   "done_pts": 7.0
   },
   "recv": {
    "items": 13,
@@ -400,9 +400,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "Closed": 3,
-   "Ready for Development": 6,
-   "In Development": 5,
+   "Closed": 5,
+   "Ready for Development": 5,
+   "In Development": 4,
    "Backlog": 2,
    "Awaiting Review": 5,
    "Won't Do": 1
@@ -410,7 +410,7 @@
   "burn": [
    29.0,
    31.0,
-   30.0
+   28.0
   ],
   "scope": [
    29.0,
@@ -420,7 +420,7 @@
   "ghost": [
    29.0,
    31.0,
-   30.0
+   28.0
   ],
   "days": 14,
   "day": 2,
@@ -439,10 +439,10 @@
   "end": "2026-10-25",
   "day": 16,
   "days": 28,
-  "closed": 23,
-  "points": 38,
+  "closed": 25,
+  "points": 41,
   "unplanned": 9,
-  "unplanned_pct": 39.1,
+  "unplanned_pct": 36.0,
   "access_requests": 6,
   "people_active": 2,
   "sprints": [
@@ -458,27 +458,27 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 12,
-    "med_age": 29.4,
+    "open": 11,
+    "med_age": 19.0,
     "max_age": 161.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
-    "over": 10,
-    "clear_med": 3.7,
-    "clear_n": 111
+    "over": 9,
+    "clear_med": 3.8,
+    "clear_n": 112
    },
    {
     "status": "In Development",
-    "open": 5,
+    "open": 4,
     "med_age": 0.1,
-    "max_age": 5.0,
-    "worst_key": "DS-690",
-    "worst_sum": "WorldPay SFTP",
-    "worst_who": "Tharika Bairi",
+    "max_age": 0.1,
+    "worst_key": "DS-781",
+    "worst_sum": "2027 Technology Strategy & Budget Planning",
+    "worst_who": "Carlos Parra",
     "over": 0,
     "clear_med": 3.3,
-    "clear_n": 83
+    "clear_n": 85
    },
    {
     "status": "Awaiting Review",
@@ -508,8 +508,8 @@
   "parked": {
    "Backlog": 39
   },
-  "open_total": 17,
-  "stale": 10,
+  "open_total": 15,
+  "stale": 9,
   "worst": "Ready for Development"
  }
 }
