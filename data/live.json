@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T17:45:21Z",
+ "generated": "2026-10-13T18:00:27Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -163,8 +163,8 @@
    "points": 19
   },
   "misfiled": {
-   "items": 16,
-   "points": 57
+   "items": 15,
+   "points": 56
   },
   "runway": null,
   "runway_if_fixed": null,
@@ -173,8 +173,8 @@
   "violations": [
    {
     "rule": "Groomed but still in Backlog",
-    "n": 16,
-    "points": 57,
+    "n": 15,
+    "points": 56,
     "why": "the guide: an item cannot be Groomed and remain in Backlog. This work is ready and invisible to planning."
    },
    {
@@ -248,7 +248,7 @@
     "items": [
      {
       "key": "DS-784",
-      "summary": "Load PayfacMerchant for last month"
+      "summary": "Load PayfacMerchant for 202609 month"
      }
     ]
    },
@@ -266,12 +266,8 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 2,
+    "n": 1,
     "items": [
-     {
-      "key": "DS-784",
-      "summary": "Load PayfacMerchant for last month"
-     },
      {
       "key": "DS-776",
       "summary": "Microsoft Fabric Architecture"
@@ -393,19 +389,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 23,
-  "items_done": 6,
+  "items_done": 7,
   "committed": 36,
   "final": 36,
-  "completed": 7,
+  "completed": 8,
   "scope_change": 0,
-  "vs_commitment": 19,
+  "vs_commitment": 22,
   "time_elapsed": 8,
   "spill": {
-   "open_items": 16,
-   "open_pts": 28.0,
+   "open_items": 15,
+   "open_pts": 27.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 7.0
+   "done_pts": 8.0
   },
   "recv": {
    "items": 13,
@@ -415,17 +411,17 @@
   },
   "spill_rate": null,
   "dist": {
-   "Backlog": 3,
-   "Closed": 5,
+   "Closed": 6,
    "Ready for Development": 5,
    "In Development": 4,
+   "Backlog": 2,
    "Awaiting Review": 5,
    "Won't Do": 1
   },
   "burn": [
    30.0,
    32.0,
-   29.0
+   28.0
   ],
   "scope": [
    30.0,
@@ -435,7 +431,7 @@
   "ghost": [
    30.0,
    32.0,
-   29.0
+   28.0
   ],
   "days": 14,
   "day": 2,
@@ -454,10 +450,10 @@
   "end": "2026-10-25",
   "day": 16,
   "days": 28,
-  "closed": 25,
-  "points": 41,
+  "closed": 26,
+  "points": 42,
   "unplanned": 9,
-  "unplanned_pct": 36.0,
+  "unplanned_pct": 34.6,
   "access_requests": 6,
   "people_active": 2,
   "sprints": [
@@ -521,7 +517,7 @@
    }
   ],
   "parked": {
-   "Backlog": 40
+   "Backlog": 39
   },
   "open_total": 15,
   "stale": 9,

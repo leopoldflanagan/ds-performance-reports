@@ -9,15 +9,15 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 23,
-  "closed": 25,
+  "closed": 26,
   "discarded": 3,
-  "resolved": 28,
+  "resolved": 29,
   "unplanned": 9,
-  "unp_pct": 36.0,
+  "unp_pct": 34.6,
   "types": [
    [
     "Story",
-    24
+    25
    ],
    [
     "Urgent Task",
@@ -70,9 +70,9 @@
   "day": 13,
   "days": 28,
   "status": "risk",
-  "headline": "25 items closed in the first 13 days, a pace of about 54 for the month against 23 last month. Unplanned work at 36.0% of everything closed.",
+  "headline": "26 items closed in the first 13 days, a pace of about 56 for the month against 23 last month. Unplanned work at 34.6% of everything closed.",
   "notes": [
-   "unplanned work at 36.0% of everything closed"
+   "unplanned work at 34.6% of everything closed"
   ]
  },
  "SPRINTS": [
@@ -126,15 +126,15 @@
    "Oct 12",
    "Oct 26",
    23,
-   6,
-   36,
-   36,
    7,
+   36,
+   36,
+   8,
    0,
    [
     30.0,
     32.0,
-    29.0
+    28.0
    ],
    [
     30.0,
@@ -166,12 +166,12 @@
   },
   "DS-Sprint 24-26": {
    "done": [
-    6,
-    7
+    7,
+    8
    ],
    "open": [
-    16,
-    28
+    15,
+    27
    ],
    "out": [
     0,
@@ -237,7 +237,11 @@
    "tis": {
     "Backlog": {
      "n": 5,
-     "med": 13.67
+     "med": 1.12
+    },
+    "Closed": {
+     "n": 7,
+     "med": 12.61
     },
     "Ready for Development": {
      "n": 9,
@@ -246,10 +250,6 @@
     "In Development": {
      "n": 16,
      "med": 0.98
-    },
-    "Closed": {
-     "n": 6,
-     "med": 12.61
     },
     "Awaiting Review": {
      "n": 5,
@@ -261,14 +261,14 @@
     }
    },
    "dist": {
-    "Backlog": 3,
-    "Closed": 5,
+    "Closed": 6,
     "Ready for Development": 5,
     "In Development": 4,
+    "Backlog": 2,
     "Awaiting Review": 5,
     "Won't Do": 1
    },
-   "stalled": 17,
+   "stalled": 16,
    "worst": 12.69,
    "worstSt": "Awaiting Review",
    "items": 23
@@ -295,14 +295,14 @@
   "DS-Sprint 24-26": [
    30.0,
    32.0,
-   29.0
+   28.0
   ]
  },
  "CAP": {
   "9.09": [
-   25,
-   25,
-   41,
+   26,
+   26,
+   42,
    2
   ]
  },
@@ -312,8 +312,8 @@
    "avg": 3.57,
    "n": 21,
    "mx": 13.23,
-   "nodev": 4,
-   "base": 25
+   "nodev": 5,
+   "base": 26
   }
  },
  "complete": false,
