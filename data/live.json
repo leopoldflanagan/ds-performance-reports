@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T23:45:16Z",
+ "generated": "2026-10-13T00:00:23Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,7 +199,7 @@
  },
  "projection": {
   "too_early": true,
-  "day": 1,
+  "day": 2,
   "days": 14,
   "n": 19,
   "why": "this early, past sprints had finished too little of their work for the comparison to say anything"
@@ -410,7 +410,7 @@
    29.0
   ],
   "days": 14,
-  "day": 1,
+  "day": 2,
   "capacity": null
  },
  "next": {
@@ -424,7 +424,7 @@
   "kind": "release",
   "start": "2026-09-28",
   "end": "2026-10-25",
-  "day": 15,
+  "day": 16,
   "days": 28,
   "closed": 20,
   "points": 34,
@@ -446,14 +446,14 @@
    {
     "status": "Ready for Development",
     "open": 11,
-    "med_age": 39.2,
-    "max_age": 161.1,
+    "med_age": 39.3,
+    "max_age": 161.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 10,
-    "clear_med": 3.0,
-    "clear_n": 115
+    "clear_med": 3.9,
+    "clear_n": 109
    },
    {
     "status": "In Development",
@@ -464,8 +464,8 @@
     "worst_sum": "DCA  SFTP Set Up",
     "worst_who": "Carlos Parra",
     "over": 6,
-    "clear_med": 3.6,
-    "clear_n": 78
+    "clear_med": 3.8,
+    "clear_n": 77
    },
    {
     "status": "On Hold",
