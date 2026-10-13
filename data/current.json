@@ -233,12 +233,12 @@
   "DS-Sprint 24-26": {
    "tis": {
     "In Development": {
-     "n": 13,
+     "n": 14,
      "med": 0.98
     },
     "Ready for Development": {
      "n": 8,
-     "med": 13.52
+     "med": 13.18
     },
     "Backlog": {
      "n": 3,
@@ -258,15 +258,15 @@
     }
    },
    "dist": {
-    "Ready for Development": 7,
-    "In Development": 4,
+    "Ready for Development": 6,
+    "In Development": 5,
     "Closed": 2,
     "Backlog": 2,
     "Awaiting Review": 5,
     "Won't Do": 1
    },
    "stalled": 18,
-   "worst": 13.52,
+   "worst": 13.18,
    "worstSt": "Ready for Development",
    "items": 21
   }
