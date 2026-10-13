@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T14:48:31Z",
+ "generated": "2026-10-13T15:00:26Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -179,7 +179,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 2,
+    "n": 3,
     "points": 7,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -206,16 +206,31 @@
  },
  "admin": {
   "scope": {
-   "ready": 12,
-   "sprint": 19,
+   "ready": 13,
+   "sprint": 20,
    "sprint_name": "DS-Sprint 24-26"
   },
   "blocking": [
    {
+    "rule": "No estimate",
+    "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
+    "n": 1,
+    "items": [
+     {
+      "key": "DS-782",
+      "summary": "Update confluence pages with your documentation"
+     }
+    ]
+   },
+   {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 2,
+    "n": 3,
     "items": [
+     {
+      "key": "DS-782",
+      "summary": "Update confluence pages with your documentation"
+     },
      {
       "key": "DS-754",
       "summary": "1.4: CREG HR Report delivery - twice-monthly SFTP + email"
@@ -263,27 +278,31 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 25 of 25 items. This reads as a field the team does not use rather than 25 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 25,
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 25 of 25 items. This reads as a field the team does not use rather than 25 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 25,
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 25 of 25 items. This reads as a field the team does not use rather than 25 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 25,
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
     "items": []
    },
    {
     "rule": "Assignee is not on the roster",
     "why": "the capacity page lists the team; this work is assigned outside it.",
-    "n": 3,
+    "n": 4,
     "items": [
+     {
+      "key": "DS-782",
+      "summary": "Update confluence pages with your documentation"
+     },
      {
       "key": "DS-775",
       "summary": "Add ingest.dboBenefitPolicyOrganizations table to Master truncate and load pipel"
@@ -369,20 +388,20 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 20,
-  "items_done": 3,
+  "items": 21,
+  "items_done": 4,
   "committed": 34,
   "final": 34,
-  "completed": 3,
+  "completed": 4,
   "scope_change": 0,
-  "vs_commitment": 9,
+  "vs_commitment": 12,
   "time_elapsed": 7,
   "spill": {
    "open_items": 17,
-   "open_pts": 31.0,
+   "open_pts": 30.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 2.0
+   "done_pts": 3.0
   },
   "recv": {
    "items": 13,
@@ -392,8 +411,8 @@
   },
   "spill_rate": null,
   "dist": {
+   "Ready for Development": 7,
    "In Development": 4,
-   "Ready for Development": 6,
    "Closed": 2,
    "Backlog": 2,
    "Awaiting Review": 5,
@@ -401,7 +420,7 @@
   },
   "burn": [
    28.0,
-   31.0
+   30.0
   ],
   "scope": [
    28.0,
@@ -409,7 +428,7 @@
   ],
   "ghost": [
    28.0,
-   31.0
+   30.0
   ],
   "days": 14,
   "day": 2,
@@ -447,8 +466,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 12,
-    "med_age": 29.4,
+    "open": 13,
+    "med_age": 18.9,
     "max_age": 161.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -458,28 +477,16 @@
     "clear_n": 109
    },
    {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.6,
-    "clear_n": 12
-   },
-   {
     "status": "In Development",
-    "open": 5,
+    "open": 4,
     "med_age": 0.0,
     "max_age": 4.9,
     "worst_key": "DS-690",
     "worst_sum": "WorldPay SFTP",
     "worst_who": "Tharika Bairi",
     "over": 0,
-    "clear_med": 3.8,
-    "clear_n": 80
+    "clear_med": 3.6,
+    "clear_n": 82
    },
    {
     "status": "On Hold",
@@ -492,6 +499,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.6,
+    "clear_n": 12
    }
   ],
   "parked": {
