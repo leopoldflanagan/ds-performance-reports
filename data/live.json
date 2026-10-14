@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T01:00:23Z",
+ "generated": "2026-10-14T01:15:16Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -470,7 +470,7 @@
    {
     "status": "Ready for Development",
     "open": 11,
-    "med_age": 19.3,
+    "med_age": 19.4,
     "max_age": 162.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -483,25 +483,13 @@
     "status": "In Development",
     "open": 3,
     "med_age": 0.4,
-    "max_age": 0.4,
-    "worst_key": "DS-781",
-    "worst_sum": "2027 Technology Strategy & Budget Planning",
+    "max_age": 0.5,
+    "worst_key": "DS-780",
+    "worst_sum": "PR Reviews 10/13/2026",
     "worst_who": "Carlos Parra",
     "over": 0,
     "clear_med": 3.3,
     "clear_n": 86
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.6,
-    "clear_n": 12
    },
    {
     "status": "On Hold",
@@ -514,6 +502,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.6,
+    "clear_n": 12
    }
   ],
   "parked": {
