@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T18:00:25Z",
+ "generated": "2026-10-14T18:15:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,19 +202,19 @@
   "day": 3,
   "days": 14,
   "n": 19,
-  "done_now": 10,
-  "committed": 37,
-  "lo": 35,
-  "mid": 51,
-  "hi": 94,
-  "pct": 138,
+  "done_now": 12,
+  "committed": 39,
+  "lo": 42,
+  "mid": 61,
+  "hi": 113,
+  "pct": 156,
   "verdict": "on track for the commitment",
   "share_mid": 0.196
  },
  "admin": {
   "scope": {
    "ready": 14,
-   "sprint": 27,
+   "sprint": 28,
    "sprint_name": "DS-Sprint 24-26"
   },
   "blocking": [
@@ -275,20 +275,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 33 of 33 items. This reads as a field the team does not use rather than 33 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 33,
+    "why": "missing on 34 of 34 items. This reads as a field the team does not use rather than 34 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 34,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 33 of 33 items. This reads as a field the team does not use rather than 33 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 33,
+    "why": "missing on 34 of 34 items. This reads as a field the team does not use rather than 34 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 34,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 33 of 33 items. This reads as a field the team does not use rather than 33 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 33,
+    "why": "missing on 34 of 34 items. This reads as a field the team does not use rather than 34 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 34,
     "items": []
    },
    {
@@ -397,52 +397,52 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 28,
-  "items_done": 9,
-  "committed": 37,
-  "final": 41,
-  "completed": 10,
-  "scope_change": 11,
-  "vs_commitment": 27,
+  "items": 29,
+  "items_done": 10,
+  "committed": 39,
+  "final": 43,
+  "completed": 12,
+  "scope_change": 10,
+  "vs_commitment": 31,
   "time_elapsed": 16,
   "spill": {
    "open_items": 18,
    "open_pts": 30.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 10.0
+   "done_pts": 12.0
   },
   "recv": {
    "items": 13,
    "pts": 21,
-   "pct": 57,
+   "pct": 54,
    "from": "DS-Sprint 23-26"
   },
   "spill_rate": null,
   "dist": {
+   "Closed": 9,
    "In Development": 5,
    "Ready for Development": 8,
-   "Closed": 8,
    "Backlog": 1,
    "Awaiting Review": 5,
    "Won't Do": 1
   },
   "burn": [
-   31.0,
    33.0,
-   31.0,
+   35.0,
+   33.0,
    31.0
   ],
   "scope": [
-   31.0,
-   37.0,
-   41.0,
-   41.0
+   33.0,
+   39.0,
+   43.0,
+   43.0
   ],
   "ghost": [
-   31.0,
    33.0,
-   31.0,
+   35.0,
+   33.0,
    31.0
   ],
   "days": 14,
@@ -462,11 +462,11 @@
   "end": "2026-10-25",
   "day": 17,
   "days": 28,
-  "closed": 28,
-  "points": 44,
-  "unplanned": 11,
-  "unplanned_pct": 39.3,
-  "access_requests": 7,
+  "closed": 29,
+  "points": 46,
+  "unplanned": 12,
+  "unplanned_pct": 41.4,
+  "access_requests": 8,
   "people_active": 2,
   "sprints": [
    "DS-Sprint 23-26",
@@ -488,32 +488,20 @@
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 9,
-    "clear_med": 3.3,
-    "clear_n": 115
+    "clear_med": 3.2,
+    "clear_n": 116
    },
    {
     "status": "In Development",
     "open": 5,
     "med_age": 0.2,
-    "max_age": 1.1,
+    "max_age": 1.2,
     "worst_key": "DS-781",
     "worst_sum": "2027 Technology Strategy & Budget Planning",
     "worst_who": "Carlos Parra",
     "over": 0,
-    "clear_med": 3.2,
-    "clear_n": 87
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "clear_med": 3.1,
+    "clear_n": 88
    },
    {
     "status": "Awaiting Review",
@@ -526,6 +514,18 @@
     "over": 0,
     "clear_med": 2.5,
     "clear_n": 13
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
