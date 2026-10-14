@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T14:15:22Z",
+ "generated": "2026-10-14T14:30:22Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -159,8 +159,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 8,
-   "points": 19
+   "items": 10,
+   "points": 27
   },
   "misfiled": {
    "items": 15,
@@ -213,8 +213,8 @@
  },
  "admin": {
   "scope": {
-   "ready": 11,
-   "sprint": 23,
+   "ready": 13,
+   "sprint": 24,
    "sprint_name": "DS-Sprint 24-26"
   },
   "blocking": [
@@ -258,36 +258,25 @@
       "summary": "1.4: CREG HR Report delivery - twice-monthly SFTP + email"
      }
     ]
-   },
-   {
-    "rule": "Still in Backlog inside the sprint",
-    "why": "in the sprint but never pulled into the flow.",
-    "n": 1,
-    "items": [
-     {
-      "key": "DS-776",
-      "summary": "Microsoft Fabric Architecture"
-     }
-    ]
    }
   ],
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 29,
+    "why": "missing on 30 of 30 items. This reads as a field the team does not use rather than 30 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 30,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 29,
+    "why": "missing on 30 of 30 items. This reads as a field the team does not use rather than 30 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 30,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 29,
+    "why": "missing on 30 of 30 items. This reads as a field the team does not use rather than 30 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 30,
     "items": []
    },
    {
@@ -388,17 +377,17 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 24,
+  "items": 25,
   "items_done": 9,
   "committed": 35,
-  "final": 36,
+  "final": 39,
   "completed": 10,
-  "scope_change": 3,
+  "scope_change": 11,
   "vs_commitment": 29,
   "time_elapsed": 14,
   "spill": {
-   "open_items": 14,
-   "open_pts": 25.0,
+   "open_items": 15,
+   "open_pts": 28.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 10.0
@@ -411,27 +400,27 @@
   },
   "spill_rate": null,
   "dist": {
+   "Ready for Development": 7,
    "In Development": 3,
    "Closed": 8,
-   "Ready for Development": 5,
-   "Backlog": 2,
+   "Backlog": 1,
    "Awaiting Review": 5,
    "Won't Do": 1
   },
   "burn": [
    29.0,
    31.0,
-   26.0
+   29.0
   ],
   "scope": [
    29.0,
    35.0,
-   36.0
+   39.0
   ],
   "ghost": [
    29.0,
    31.0,
-   26.0
+   29.0
   ],
   "days": 14,
   "day": 3,
@@ -469,8 +458,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 11,
-    "med_age": 19.9,
+    "open": 13,
+    "med_age": 15.0,
     "max_age": 162.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -492,18 +481,6 @@
     "clear_n": 87
    },
    {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.6,
-    "clear_n": 12
-   },
-   {
     "status": "On Hold",
     "open": 0,
     "med_age": 0,
@@ -514,12 +491,24 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.6,
+    "clear_n": 12
    }
   ],
   "parked": {
-   "Backlog": 40
+   "Backlog": 39
   },
-  "open_total": 14,
+  "open_total": 16,
   "stale": 9,
   "worst": "Ready for Development"
  }
