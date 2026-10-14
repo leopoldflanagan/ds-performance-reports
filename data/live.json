@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T15:15:19Z",
+ "generated": "2026-10-14T15:45:05Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -487,7 +487,7 @@
     "status": "In Development",
     "open": 4,
     "med_age": 0.6,
-    "max_age": 1.0,
+    "max_age": 1.1,
     "worst_key": "DS-781",
     "worst_sum": "2027 Technology Strategy & Budget Planning",
     "worst_who": "Carlos Parra",
