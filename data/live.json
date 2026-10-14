@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T14:30:22Z",
+ "generated": "2026-10-14T14:42:15Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -203,18 +203,18 @@
   "days": 14,
   "n": 19,
   "done_now": 10,
-  "committed": 35,
+  "committed": 37,
   "lo": 35,
   "mid": 51,
   "hi": 94,
-  "pct": 146,
+  "pct": 138,
   "verdict": "on track for the commitment",
   "share_mid": 0.196
  },
  "admin": {
   "scope": {
    "ready": 13,
-   "sprint": 24,
+   "sprint": 25,
    "sprint_name": "DS-Sprint 24-26"
   },
   "blocking": [
@@ -263,20 +263,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 30 of 30 items. This reads as a field the team does not use rather than 30 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 30,
+    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 31,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 30 of 30 items. This reads as a field the team does not use rather than 30 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 30,
+    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 31,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 30 of 30 items. This reads as a field the team does not use rather than 30 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 30,
+    "why": "missing on 31 of 31 items. This reads as a field the team does not use rather than 31 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 31,
     "items": []
    },
    {
@@ -377,17 +377,17 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 25,
+  "items": 26,
   "items_done": 9,
-  "committed": 35,
-  "final": 39,
+  "committed": 37,
+  "final": 41,
   "completed": 10,
   "scope_change": 11,
-  "vs_commitment": 29,
-  "time_elapsed": 14,
+  "vs_commitment": 27,
+  "time_elapsed": 15,
   "spill": {
-   "open_items": 15,
-   "open_pts": 28.0,
+   "open_items": 16,
+   "open_pts": 30.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 10.0
@@ -395,32 +395,32 @@
   "recv": {
    "items": 13,
    "pts": 21,
-   "pct": 60,
+   "pct": 57,
    "from": "DS-Sprint 23-26"
   },
   "spill_rate": null,
   "dist": {
+   "In Development": 4,
    "Ready for Development": 7,
-   "In Development": 3,
    "Closed": 8,
    "Backlog": 1,
    "Awaiting Review": 5,
    "Won't Do": 1
   },
   "burn": [
-   29.0,
    31.0,
-   29.0
+   33.0,
+   31.0
   ],
   "scope": [
-   29.0,
-   35.0,
-   39.0
+   31.0,
+   37.0,
+   41.0
   ],
   "ghost": [
-   29.0,
    31.0,
-   29.0
+   33.0,
+   31.0
   ],
   "days": 14,
   "day": 3,
@@ -465,13 +465,13 @@
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 9,
-    "clear_med": 3.8,
-    "clear_n": 112
+    "clear_med": 3.7,
+    "clear_n": 113
    },
    {
     "status": "In Development",
-    "open": 3,
-    "med_age": 0.9,
+    "open": 4,
+    "med_age": 0.5,
     "max_age": 1.0,
     "worst_key": "DS-781",
     "worst_sum": "2027 Technology Strategy & Budget Planning",
@@ -479,18 +479,6 @@
     "over": 0,
     "clear_med": 3.2,
     "clear_n": 87
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -503,12 +491,24 @@
     "over": 0,
     "clear_med": 2.6,
     "clear_n": 12
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 39
   },
-  "open_total": 16,
+  "open_total": 17,
   "stale": 9,
   "worst": "Ready for Development"
  }
