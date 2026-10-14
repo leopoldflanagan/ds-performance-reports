@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T19:45:18Z",
+ "generated": "2026-10-14T20:00:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -482,7 +482,7 @@
    {
     "status": "Ready for Development",
     "open": 14,
-    "med_age": 13.6,
+    "med_age": 13.7,
     "max_age": 163.0,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -494,7 +494,7 @@
    {
     "status": "In Development",
     "open": 5,
-    "med_age": 0.2,
+    "med_age": 0.3,
     "max_age": 1.2,
     "worst_key": "DS-781",
     "worst_sum": "2027 Technology Strategy & Budget Planning",
@@ -502,18 +502,6 @@
     "over": 0,
     "clear_med": 3.1,
     "clear_n": 88
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.5,
-    "clear_n": 13
    },
    {
     "status": "On Hold",
@@ -526,6 +514,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.5,
+    "clear_n": 13
    }
   ],
   "parked": {
