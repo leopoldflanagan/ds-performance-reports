@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T13:15:21Z",
+ "generated": "2026-10-14T13:17:14Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -482,10 +482,10 @@
    {
     "status": "In Development",
     "open": 3,
-    "med_age": 0.9,
+    "med_age": 1.0,
     "max_age": 1.0,
-    "worst_key": "DS-780",
-    "worst_sum": "PR Reviews 10/13/2026",
+    "worst_key": "DS-781",
+    "worst_sum": "2027 Technology Strategy & Budget Planning",
     "worst_who": "Carlos Parra",
     "over": 0,
     "clear_med": 3.3,
