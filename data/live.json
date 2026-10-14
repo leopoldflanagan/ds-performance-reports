@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T03:22:29Z",
+ "generated": "2026-10-14T03:45:17Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -470,7 +470,7 @@
    {
     "status": "Ready for Development",
     "open": 11,
-    "med_age": 19.4,
+    "med_age": 19.5,
     "max_age": 162.3,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -482,8 +482,8 @@
    {
     "status": "In Development",
     "open": 3,
-    "med_age": 0.5,
-    "max_age": 0.5,
+    "med_age": 0.6,
+    "max_age": 0.6,
     "worst_key": "DS-781",
     "worst_sum": "2027 Technology Strategy & Budget Planning",
     "worst_who": "Carlos Parra",
