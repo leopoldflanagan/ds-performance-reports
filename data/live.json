@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T14:45:20Z",
+ "generated": "2026-10-14T15:15:19Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -179,7 +179,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 3,
+    "n": 4,
     "points": 7,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -257,17 +257,6 @@
     ]
    },
    {
-    "rule": "No assignee in the active sprint",
-    "why": "work in the sprint that nobody owns.",
-    "n": 1,
-    "items": [
-     {
-      "key": "DS-786",
-      "summary": "Report for DCA"
-     }
-    ]
-   },
-   {
     "rule": "Open dependency",
     "why": "the guide: Definition of Ready means no open dependencies.",
     "n": 1,
@@ -301,8 +290,12 @@
    {
     "rule": "Assignee is not on the roster",
     "why": "the capacity page lists the team; this work is assigned outside it.",
-    "n": 5,
+    "n": 6,
     "items": [
+     {
+      "key": "DS-786",
+      "summary": "Report for DCA"
+     },
      {
       "key": "DS-784",
       "summary": "Load PayfacMerchant for 202609 month"
@@ -420,25 +413,28 @@
   "spill_rate": null,
   "dist": {
    "In Development": 4,
-   "Ready for Development": 7,
-   "Backlog": 2,
+   "Ready for Development": 8,
    "Closed": 8,
+   "Backlog": 1,
    "Awaiting Review": 5,
    "Won't Do": 1
   },
   "burn": [
    31.0,
    33.0,
+   31.0,
    31.0
   ],
   "scope": [
    31.0,
    37.0,
+   41.0,
    41.0
   ],
   "ghost": [
    31.0,
    33.0,
+   31.0,
    31.0
   ],
   "days": 14,
@@ -478,7 +474,7 @@
    {
     "status": "Ready for Development",
     "open": 14,
-    "med_age": 13.4,
+    "med_age": 13.5,
     "max_age": 162.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -490,7 +486,7 @@
    {
     "status": "In Development",
     "open": 4,
-    "med_age": 0.5,
+    "med_age": 0.6,
     "max_age": 1.0,
     "worst_key": "DS-781",
     "worst_sum": "2027 Technology Strategy & Budget Planning",
