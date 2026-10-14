@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T13:45:17Z",
+ "generated": "2026-10-14T14:00:28Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,19 +202,19 @@
   "day": 3,
   "days": 14,
   "n": 19,
-  "done_now": 9,
+  "done_now": 10,
   "committed": 35,
-  "lo": 32,
-  "mid": 46,
-  "hi": 84,
-  "pct": 131,
+  "lo": 35,
+  "mid": 51,
+  "hi": 94,
+  "pct": 146,
   "verdict": "on track for the commitment",
   "share_mid": 0.196
  },
  "admin": {
   "scope": {
    "ready": 11,
-   "sprint": 22,
+   "sprint": 23,
    "sprint_name": "DS-Sprint 24-26"
   },
   "blocking": [
@@ -274,20 +274,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 28,
+    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 29,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 28,
+    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 29,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 28,
+    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 29,
     "items": []
    },
    {
@@ -388,20 +388,20 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 23,
-  "items_done": 8,
+  "items": 24,
+  "items_done": 9,
   "committed": 35,
-  "final": 35,
-  "completed": 9,
-  "scope_change": 0,
-  "vs_commitment": 26,
+  "final": 36,
+  "completed": 10,
+  "scope_change": 3,
+  "vs_commitment": 29,
   "time_elapsed": 14,
   "spill": {
    "open_items": 14,
    "open_pts": 25.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 9.0
+   "done_pts": 10.0
   },
   "recv": {
    "items": 13,
@@ -411,9 +411,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "Closed": 7,
-   "Ready for Development": 5,
    "In Development": 3,
+   "Closed": 8,
+   "Ready for Development": 5,
    "Backlog": 2,
    "Awaiting Review": 5,
    "Won't Do": 1
@@ -426,7 +426,7 @@
   "scope": [
    29.0,
    35.0,
-   35.0
+   36.0
   ],
   "ghost": [
    29.0,
@@ -450,10 +450,10 @@
   "end": "2026-10-25",
   "day": 17,
   "days": 28,
-  "closed": 27,
-  "points": 43,
-  "unplanned": 10,
-  "unplanned_pct": 37.0,
+  "closed": 28,
+  "points": 44,
+  "unplanned": 11,
+  "unplanned_pct": 39.3,
   "access_requests": 7,
   "people_active": 2,
   "sprints": [
@@ -482,14 +482,14 @@
    {
     "status": "In Development",
     "open": 3,
-    "med_age": 1.0,
+    "med_age": 0.9,
     "max_age": 1.0,
     "worst_key": "DS-781",
     "worst_sum": "2027 Technology Strategy & Budget Planning",
     "worst_who": "Carlos Parra",
     "over": 0,
-    "clear_med": 3.3,
-    "clear_n": 86
+    "clear_med": 3.2,
+    "clear_n": 87
    },
    {
     "status": "On Hold",

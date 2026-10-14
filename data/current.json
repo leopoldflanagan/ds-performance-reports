@@ -9,15 +9,15 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 23,
-  "closed": 27,
+  "closed": 28,
   "discarded": 3,
-  "resolved": 30,
-  "unplanned": 10,
-  "unp_pct": 37.0,
+  "resolved": 31,
+  "unplanned": 11,
+  "unp_pct": 39.3,
   "types": [
    [
     "Story",
-    26
+    27
    ],
    [
     "Urgent Task",
@@ -32,6 +32,10 @@
    [
     "DS-783",
     "[DB Access Request] WellfitLegalLanguage db Access"
+   ],
+   [
+    "DS-780",
+    "PR Reviews 10/13/2026"
    ],
    [
     "DS-779",
@@ -74,9 +78,9 @@
   "day": 14,
   "days": 28,
   "status": "risk",
-  "headline": "27 items closed in the first 14 days, a pace of about 54 for the month against 23 last month. Unplanned work at 37.0% of everything closed.",
+  "headline": "28 items closed in the first 14 days, a pace of about 56 for the month against 23 last month. Unplanned work at 39.3% of everything closed.",
   "notes": [
-   "unplanned work at 37.0% of everything closed"
+   "unplanned work at 39.3% of everything closed"
   ]
  },
  "SPRINTS": [
@@ -129,12 +133,12 @@
    "DS-Sprint 24-26",
    "Oct 12",
    "Oct 26",
-   23,
-   8,
-   35,
-   35,
+   24,
    9,
-   0,
+   35,
+   36,
+   10,
+   3,
    [
     29.0,
     31.0,
@@ -143,7 +147,7 @@
    [
     29.0,
     35.0,
-    35.0
+    36.0
    ]
   ]
  ],
@@ -170,8 +174,8 @@
   },
   "DS-Sprint 24-26": {
    "done": [
-    8,
-    9
+    9,
+    10
    ],
    "open": [
     14,
@@ -195,7 +199,11 @@
    "plan": 4,
    "pct": 20
   },
-  "DS-Sprint 24-26": null
+  "DS-Sprint 24-26": {
+   "react": 1,
+   "plan": 0,
+   "pct": 100
+  }
  },
  "TIS": {
   "DS-Sprint 23-26": {
@@ -239,21 +247,21 @@
   },
   "DS-Sprint 24-26": {
    "tis": {
+    "In Development": {
+     "n": 17,
+     "med": 0.98
+    },
     "Backlog": {
      "n": 5,
      "med": 1.12
     },
     "Closed": {
-     "n": 8,
+     "n": 9,
      "med": 12.61
     },
     "Ready for Development": {
      "n": 9,
      "med": 12.67
-    },
-    "In Development": {
-     "n": 16,
-     "med": 0.98
     },
     "Awaiting Review": {
      "n": 5,
@@ -265,9 +273,9 @@
     }
    },
    "dist": {
-    "Closed": 7,
-    "Ready for Development": 5,
     "In Development": 3,
+    "Closed": 8,
+    "Ready for Development": 5,
     "Backlog": 2,
     "Awaiting Review": 5,
     "Won't Do": 1
@@ -275,7 +283,7 @@
    "stalled": 15,
    "worst": 12.69,
    "worstSt": "Awaiting Review",
-   "items": 23
+   "items": 24
   }
  },
  "GHOST": {
@@ -304,20 +312,20 @@
  },
  "CAP": {
   "9.09": [
-   27,
-   27,
-   43,
+   28,
+   28,
+   44,
    2
   ]
  },
  "CYC": {
   "9.09": {
-   "med": 1.94,
-   "avg": 3.42,
-   "n": 22,
+   "med": 1.79,
+   "avg": 3.31,
+   "n": 23,
    "mx": 13.23,
    "nodev": 5,
-   "base": 27
+   "base": 28
   }
  },
  "complete": false,
