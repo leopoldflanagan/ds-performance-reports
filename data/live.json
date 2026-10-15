@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T23:36:52Z",
+ "generated": "2026-10-15T00:00:26Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 3,
+  "day": 4,
   "days": 14,
   "n": 19,
   "done_now": 12,
   "committed": 39,
-  "lo": 42,
-  "mid": 61,
-  "hi": 113,
-  "pct": 156,
+  "lo": 31,
+  "mid": 49,
+  "hi": 68,
+  "pct": 126,
   "verdict": "on track for the commitment",
-  "share_mid": 0.196
+  "share_mid": 0.247
  },
  "admin": {
   "scope": {
@@ -446,7 +446,7 @@
    31.0
   ],
   "days": 14,
-  "day": 3,
+  "day": 4,
   "capacity": null
  },
  "next": {
@@ -460,7 +460,7 @@
   "kind": "release",
   "start": "2026-09-28",
   "end": "2026-10-25",
-  "day": 17,
+  "day": 18,
   "days": 28,
   "closed": 29,
   "points": 46,
@@ -483,13 +483,13 @@
     "status": "Ready for Development",
     "open": 14,
     "med_age": 13.9,
-    "max_age": 163.1,
+    "max_age": 163.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 9,
-    "clear_med": 3.2,
-    "clear_n": 116
+    "clear_med": 3.5,
+    "clear_n": 114
    },
    {
     "status": "In Development",
@@ -500,8 +500,8 @@
     "worst_sum": "2027 Technology Strategy & Budget Planning",
     "worst_who": "Carlos Parra",
     "over": 0,
-    "clear_med": 3.1,
-    "clear_n": 88
+    "clear_med": 3.2,
+    "clear_n": 87
    },
    {
     "status": "Awaiting Review",
@@ -512,8 +512,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 2.5,
-    "clear_n": 13
+    "clear_med": 1.7,
+    "clear_n": 12
    },
    {
     "status": "On Hold",
