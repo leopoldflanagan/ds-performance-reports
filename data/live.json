@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T23:30:21Z",
+ "generated": "2026-10-15T23:37:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -493,7 +493,7 @@
    {
     "status": "In Development",
     "open": 5,
-    "med_age": 1.2,
+    "med_age": 1.3,
     "max_age": 2.4,
     "worst_key": "DS-781",
     "worst_sum": "2027 Technology Strategy & Budget Planning",
