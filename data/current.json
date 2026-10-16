@@ -9,15 +9,15 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 23,
-  "closed": 32,
+  "closed": 33,
   "discarded": 3,
-  "resolved": 35,
+  "resolved": 36,
   "unplanned": 14,
-  "unp_pct": 43.8,
+  "unp_pct": 42.4,
   "types": [
    [
     "Story",
-    31
+    32
    ],
    [
     "Urgent Task",
@@ -90,9 +90,9 @@
   "day": 16,
   "days": 28,
   "status": "risk",
-  "headline": "32 items closed in the first 16 days, a pace of about 56 for the month against 23 last month. Unplanned work at 43.8% of everything closed.",
+  "headline": "33 items closed in the first 16 days, a pace of about 58 for the month against 23 last month. Unplanned work at 42.4% of everything closed.",
   "notes": [
-   "unplanned work at 43.8% of everything closed"
+   "unplanned work at 42.4% of everything closed"
   ]
  },
  "SPRINTS": [
@@ -146,7 +146,7 @@
    "Oct 12",
    "Oct 26",
    32,
-   13,
+   14,
    38,
    46,
    15,
@@ -190,11 +190,11 @@
   },
   "DS-Sprint 24-26": {
    "done": [
-    13,
+    14,
     15
    ],
    "open": [
-    18,
+    17,
     30
    ],
    "out": [
@@ -264,7 +264,7 @@
   "DS-Sprint 24-26": {
    "tis": {
     "In Development": {
-     "n": 23,
+     "n": 24,
      "med": 0.98
     },
     "Backlog": {
@@ -276,8 +276,8 @@
      "med": 1.98
     },
     "Closed": {
-     "n": 13,
-     "med": 12.45
+     "n": 14,
+     "med": 12.08
     },
     "Awaiting Review": {
      "n": 6,
@@ -290,13 +290,13 @@
    },
    "dist": {
     "In Development": 5,
-    "Closed": 12,
-    "Ready for Development": 8,
+    "Closed": 13,
+    "Ready for Development": 7,
     "Backlog": 1,
     "Awaiting Review": 5,
     "Won't Do": 1
    },
-   "stalled": 19,
+   "stalled": 18,
    "worst": 12.69,
    "worstSt": "Awaiting Review",
    "items": 32
@@ -330,7 +330,7 @@
  },
  "CAP": {
   "9.09": [
-   32,
+   33,
    32,
    49,
    2
@@ -338,12 +338,12 @@
  },
  "CYC": {
   "9.09": {
-   "med": 1.62,
-   "avg": 5.49,
-   "n": 27,
+   "med": 1.7,
+   "avg": 5.36,
+   "n": 28,
    "mx": 70.01,
    "nodev": 5,
-   "base": 32
+   "base": 33
   }
  },
  "complete": false,

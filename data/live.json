@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T14:15:18Z",
+ "generated": "2026-10-16T14:30:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -159,7 +159,7 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 10,
+   "items": 9,
    "points": 26
   },
   "misfiled": {
@@ -185,7 +185,7 @@
    },
    {
     "rule": "Groomed items with no estimate",
-    "n": 1,
+    "n": 0,
     "points": 0,
     "why": "the guide: a Groomed item must be estimated."
    },
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 13,
+   "ready": 12,
    "sprint": 31,
    "sprint_name": "DS-Sprint 24-26"
   },
@@ -224,16 +224,16 @@
     "n": 3,
     "items": [
      {
-      "key": "DS-786",
-      "summary": "Report for DCA"
-     },
-     {
       "key": "DS-782",
       "summary": "Update confluence pages with your documentation"
      },
      {
       "key": "DS-789",
       "summary": "Update Ingest.dboMemberActivityLogs with new field"
+     },
+     {
+      "key": "DS-786",
+      "summary": "Report for DCA"
      }
     ]
    },
@@ -394,7 +394,7 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 32,
-  "items_done": 13,
+  "items_done": 14,
   "committed": 38,
   "final": 46,
   "completed": 15,
@@ -402,7 +402,7 @@
   "vs_commitment": 39,
   "time_elapsed": 29,
   "spill": {
-   "open_items": 18,
+   "open_items": 17,
    "open_pts": 30.0,
    "out_items": 0,
    "out_pts": 0,
@@ -417,8 +417,8 @@
   "spill_rate": null,
   "dist": {
    "In Development": 5,
-   "Closed": 12,
-   "Ready for Development": 8,
+   "Closed": 13,
+   "Ready for Development": 7,
    "Backlog": 1,
    "Awaiting Review": 5,
    "Won't Do": 1
@@ -461,10 +461,10 @@
   "end": "2026-10-25",
   "day": 19,
   "days": 28,
-  "closed": 32,
+  "closed": 33,
   "points": 49,
   "unplanned": 14,
-  "unplanned_pct": 43.8,
+  "unplanned_pct": 42.4,
   "access_requests": 9,
   "people_active": 2,
   "sprints": [
@@ -480,39 +480,27 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 13,
-    "med_age": 17.0,
+    "open": 12,
+    "med_age": 19.4,
     "max_age": 164.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 9,
-    "clear_med": 3.3,
-    "clear_n": 115
+    "clear_med": 3.2,
+    "clear_n": 116
    },
    {
     "status": "In Development",
     "open": 5,
-    "med_age": 1.9,
+    "med_age": 1.0,
     "max_age": 3.0,
     "worst_key": "DS-781",
     "worst_sum": "2027 Technology Strategy & Budget Planning",
     "worst_who": "Carlos Parra",
     "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 90
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "clear_med": 2.9,
+    "clear_n": 91
    },
    {
     "status": "Awaiting Review",
@@ -525,12 +513,24 @@
     "over": 0,
     "clear_med": 1.7,
     "clear_n": 12
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 18,
+  "open_total": 17,
   "stale": 9,
   "worst": "Ready for Development"
  }
