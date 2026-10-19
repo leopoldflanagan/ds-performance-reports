@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T13:47:54Z",
+ "generated": "2026-10-19T14:15:19Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,13 +202,13 @@
   "day": 8,
   "days": 14,
   "n": 19,
-  "done_now": 15,
+  "done_now": 17,
   "committed": 38,
-  "lo": 26,
-  "mid": 29,
-  "hi": 40,
-  "pct": 76,
-  "verdict": "well short of the commitment",
+  "lo": 29,
+  "mid": 33,
+  "hi": 45,
+  "pct": 87,
+  "verdict": "a little short of the commitment",
   "share_mid": 0.519
  },
  "admin": {
@@ -394,19 +394,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 32,
-  "items_done": 14,
+  "items_done": 15,
   "committed": 38,
   "final": 46,
-  "completed": 15,
+  "completed": 17,
   "scope_change": 21,
-  "vs_commitment": 39,
+  "vs_commitment": 45,
   "time_elapsed": 51,
   "spill": {
-   "open_items": 17,
-   "open_pts": 30.0,
+   "open_items": 16,
+   "open_pts": 28.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 15.0
+   "done_pts": 17.0
   },
   "recv": {
    "items": 13,
@@ -416,8 +416,8 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 5,
-   "Closed": 13,
+   "In Development": 4,
+   "Closed": 14,
    "Ready for Development": 7,
    "Backlog": 1,
    "Awaiting Review": 5,
@@ -431,7 +431,7 @@
    30.0,
    30.0,
    30.0,
-   30.0
+   28.0
   ],
   "scope": [
    32.0,
@@ -451,7 +451,7 @@
    31.0,
    31.0,
    31.0,
-   31.0
+   29.0
   ],
   "days": 14,
   "day": 8,
@@ -470,10 +470,10 @@
   "end": "2026-10-25",
   "day": 22,
   "days": 28,
-  "closed": 33,
-  "points": 49,
+  "closed": 34,
+  "points": 51,
   "unplanned": 14,
-  "unplanned_pct": 42.4,
+  "unplanned_pct": 41.2,
   "access_requests": 9,
   "people_active": 2,
   "sprints": [
@@ -491,7 +491,7 @@
     "status": "Ready for Development",
     "open": 12,
     "med_age": 22.4,
-    "max_age": 167.7,
+    "max_age": 167.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
@@ -501,15 +501,15 @@
    },
    {
     "status": "In Development",
-    "open": 5,
-    "med_age": 4.0,
-    "max_age": 6.0,
-    "worst_key": "DS-781",
-    "worst_sum": "2027 Technology Strategy & Budget Planning",
-    "worst_who": "Carlos Parra",
+    "open": 4,
+    "med_age": 3.9,
+    "max_age": 5.9,
+    "worst_key": "DS-526",
+    "worst_sum": "Fabric POC for reporting table",
+    "worst_who": "Tharika Bairi",
     "over": 0,
-    "clear_med": 2.6,
-    "clear_n": 90
+    "clear_med": 2.9,
+    "clear_n": 91
    },
    {
     "status": "Awaiting Review",
@@ -539,7 +539,7 @@
   "parked": {
    "Backlog": 38
   },
-  "open_total": 17,
+  "open_total": 16,
   "stale": 9,
   "worst": "Ready for Development"
  }
