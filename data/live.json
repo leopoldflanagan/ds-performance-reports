@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T20:15:19Z",
+ "generated": "2026-10-19T20:19:36Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -473,10 +473,10 @@
   "end": "2026-10-25",
   "day": 22,
   "days": 28,
-  "closed": 35,
+  "closed": 36,
   "points": 52,
   "unplanned": 15,
-  "unplanned_pct": 42.9,
+  "unplanned_pct": 41.7,
   "access_requests": 9,
   "people_active": 2,
   "sprints": [
@@ -511,8 +511,8 @@
     "worst_sum": "Fabric rptDailyDepositCSP for reporting table",
     "worst_who": "Tharika Bairi",
     "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 92
+    "clear_med": 2.9,
+    "clear_n": 93
    },
    {
     "status": "On Hold",
@@ -540,7 +540,7 @@
    }
   ],
   "parked": {
-   "Backlog": 38
+   "Backlog": 39
   },
   "open_total": 16,
   "stale": 9,
