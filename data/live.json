@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T07:45:17Z",
+ "generated": "2026-10-19T08:00:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -502,7 +502,7 @@
    {
     "status": "In Development",
     "open": 5,
-    "med_age": 3.7,
+    "med_age": 3.8,
     "max_age": 5.7,
     "worst_key": "DS-781",
     "worst_sum": "2027 Technology Strategy & Budget Planning",
@@ -510,18 +510,6 @@
     "over": 0,
     "clear_med": 2.6,
     "clear_n": 90
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.7,
-    "clear_n": 12
    },
    {
     "status": "On Hold",
@@ -534,6 +522,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.7,
+    "clear_n": 12
    }
   ],
   "parked": {
