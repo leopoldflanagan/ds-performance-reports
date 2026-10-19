@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T13:15:18Z",
+ "generated": "2026-10-19T13:22:16Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -503,25 +503,13 @@
     "status": "In Development",
     "open": 5,
     "med_age": 4.0,
-    "max_age": 5.9,
+    "max_age": 6.0,
     "worst_key": "DS-781",
     "worst_sum": "2027 Technology Strategy & Budget Planning",
     "worst_who": "Carlos Parra",
     "over": 0,
     "clear_med": 2.6,
     "clear_n": 90
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -534,6 +522,18 @@
     "over": 0,
     "clear_med": 1.7,
     "clear_n": 12
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
