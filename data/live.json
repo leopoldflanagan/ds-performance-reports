@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T15:00:26Z",
+ "generated": "2026-10-19T15:15:23Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -431,6 +431,7 @@
    30.0,
    30.0,
    30.0,
+   28.0,
    28.0
   ],
   "scope": [
@@ -441,6 +442,7 @@
    45.0,
    45.0,
    45.0,
+   46.0,
    46.0
   ],
   "ghost": [
@@ -451,6 +453,7 @@
    31.0,
    31.0,
    31.0,
+   29.0,
    29.0
   ],
   "days": 14,
@@ -503,7 +506,7 @@
     "status": "In Development",
     "open": 4,
     "med_age": 3.4,
-    "max_age": 5.9,
+    "max_age": 6.0,
     "worst_key": "DS-526",
     "worst_sum": "Fabric rptDailyDepositCSP for reporting table",
     "worst_who": "Tharika Bairi",
