@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T18:23:35Z",
+ "generated": "2026-10-20T18:30:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,12 +202,12 @@
   "day": 9,
   "days": 14,
   "n": 19,
-  "done_now": 23,
+  "done_now": 24,
   "committed": 38,
-  "lo": 35,
-  "mid": 39,
-  "hi": 46,
-  "pct": 103,
+  "lo": 36,
+  "mid": 41,
+  "hi": 48,
+  "pct": 108,
   "verdict": "on track for the commitment",
   "share_mid": 0.588
  },
@@ -390,19 +390,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 36,
-  "items_done": 18,
+  "items_done": 19,
   "committed": 38,
   "final": 56,
-  "completed": 23,
+  "completed": 24,
   "scope_change": 47,
-  "vs_commitment": 61,
+  "vs_commitment": 63,
   "time_elapsed": 60,
   "spill": {
-   "open_items": 17,
-   "open_pts": 32.0,
+   "open_items": 16,
+   "open_pts": 31.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 23.0
+   "done_pts": 24.0
   },
   "recv": {
    "items": 13,
@@ -412,8 +412,8 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 4,
-   "Closed": 17,
+   "In Development": 3,
+   "Closed": 18,
    "Ready for Development": 8,
    "Backlog": 1,
    "Awaiting Review": 5,
@@ -429,7 +429,7 @@
    33.0,
    31.0,
    29.0,
-   32.0
+   31.0
   ],
   "scope": [
    32.0,
@@ -453,7 +453,7 @@
    34.0,
    32.0,
    30.0,
-   33.0
+   32.0
   ],
   "days": 14,
   "day": 9,
@@ -472,10 +472,10 @@
   "end": "2026-10-25",
   "day": 23,
   "days": 28,
-  "closed": 39,
-  "points": 57,
+  "closed": 40,
+  "points": 58,
   "unplanned": 16,
-  "unplanned_pct": 41.0,
+  "unplanned_pct": 40.0,
   "access_requests": 9,
   "people_active": 2,
   "sprints": [
@@ -503,27 +503,15 @@
    },
    {
     "status": "In Development",
-    "open": 5,
-    "med_age": 0.1,
+    "open": 4,
+    "med_age": 0.7,
     "max_age": 7.1,
     "worst_key": "DS-526",
     "worst_sum": "Fabric rptDailyDepositCSP for reporting table",
     "worst_who": "Tharika Bairi",
     "over": 1,
     "clear_med": 3.0,
-    "clear_n": 95
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "clear_n": 96
    },
    {
     "status": "Awaiting Review",
@@ -536,12 +524,24 @@
     "over": 0,
     "clear_med": 1.7,
     "clear_n": 12
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 17,
+  "open_total": 16,
   "stale": 11,
   "worst": "Ready for Development"
  }
