@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T16:45:17Z",
+ "generated": "2026-10-20T17:00:31Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -214,7 +214,7 @@
  "admin": {
   "scope": {
    "ready": 12,
-   "sprint": 33,
+   "sprint": 35,
    "sprint_name": "DS-Sprint 24-26"
   },
   "blocking": [
@@ -267,20 +267,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 37 of 37 items. This reads as a field the team does not use rather than 37 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 37,
+    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 39,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 37 of 37 items. This reads as a field the team does not use rather than 37 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 37,
+    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 39,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 37 of 37 items. This reads as a field the team does not use rather than 37 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 37,
+    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 39,
     "items": []
    },
    {
@@ -389,17 +389,17 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 34,
+  "items": 36,
   "items_done": 18,
   "committed": 38,
-  "final": 53,
+  "final": 56,
   "completed": 23,
-  "scope_change": 39,
+  "scope_change": 47,
   "vs_commitment": 61,
   "time_elapsed": 59,
   "spill": {
-   "open_items": 15,
-   "open_pts": 29.0,
+   "open_items": 17,
+   "open_pts": 32.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 23.0
@@ -412,7 +412,7 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 2,
+   "In Development": 4,
    "Closed": 17,
    "Ready for Development": 8,
    "Backlog": 1,
@@ -429,7 +429,7 @@
    33.0,
    31.0,
    29.0,
-   29.0
+   32.0
   ],
   "scope": [
    32.0,
@@ -441,7 +441,7 @@
    48.0,
    49.0,
    52.0,
-   52.0
+   55.0
   ],
   "ghost": [
    32.0,
@@ -453,7 +453,7 @@
    34.0,
    32.0,
    30.0,
-   30.0
+   33.0
   ],
   "days": 14,
   "day": 9,
@@ -502,16 +502,16 @@
     "clear_n": 114
    },
    {
-    "status": "In Development",
-    "open": 3,
-    "med_age": 1.1,
-    "max_age": 7.0,
-    "worst_key": "DS-526",
-    "worst_sum": "Fabric rptDailyDepositCSP for reporting table",
-    "worst_who": "Tharika Bairi",
-    "over": 1,
-    "clear_med": 3.0,
-    "clear_n": 95
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -526,22 +526,22 @@
     "clear_n": 12
    },
    {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "status": "In Development",
+    "open": 5,
+    "med_age": 0.0,
+    "max_age": 7.0,
+    "worst_key": "DS-526",
+    "worst_sum": "Fabric rptDailyDepositCSP for reporting table",
+    "worst_who": "Tharika Bairi",
+    "over": 1,
+    "clear_med": 3.0,
+    "clear_n": 95
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 15,
+  "open_total": 17,
   "stale": 11,
   "worst": "Ready for Development"
  }
