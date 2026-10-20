@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T14:30:22Z",
+ "generated": "2026-10-20T15:00:27Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,13 +202,13 @@
   "day": 9,
   "days": 14,
   "n": 19,
-  "done_now": 20,
+  "done_now": 23,
   "committed": 38,
-  "lo": 30,
-  "mid": 34,
-  "hi": 40,
-  "pct": 89,
-  "verdict": "a little short of the commitment",
+  "lo": 35,
+  "mid": 39,
+  "hi": 46,
+  "pct": 103,
+  "verdict": "on track for the commitment",
   "share_mid": 0.588
  },
  "admin": {
@@ -221,7 +221,7 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 3,
+    "n": 2,
     "items": [
      {
       "key": "DS-782",
@@ -230,10 +230,6 @@
      {
       "key": "DS-789",
       "summary": "Update Ingest.dboMemberActivityLogs with new field"
-     },
-     {
-      "key": "DS-786",
-      "summary": "Report for DCA"
      }
     ]
    },
@@ -394,19 +390,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 34,
-  "items_done": 17,
+  "items_done": 18,
   "committed": 38,
-  "final": 50,
-  "completed": 20,
-  "scope_change": 32,
-  "vs_commitment": 53,
-  "time_elapsed": 58,
+  "final": 53,
+  "completed": 23,
+  "scope_change": 39,
+  "vs_commitment": 61,
+  "time_elapsed": 59,
   "spill": {
-   "open_items": 16,
+   "open_items": 15,
    "open_pts": 29.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 20.0
+   "done_pts": 23.0
   },
   "recv": {
    "items": 13,
@@ -416,8 +412,8 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 3,
-   "Closed": 16,
+   "In Development": 2,
+   "Closed": 17,
    "Ready for Development": 8,
    "Backlog": 1,
    "Awaiting Review": 5,
@@ -426,34 +422,34 @@
   "burn": [
    32.0,
    34.0,
-   32.0,
-   28.0,
-   30.0,
-   30.0,
-   30.0,
-   28.0,
+   35.0,
+   31.0,
+   33.0,
+   33.0,
+   33.0,
+   31.0,
    29.0
   ],
   "scope": [
    32.0,
    38.0,
-   42.0,
-   43.0,
-   45.0,
-   45.0,
    45.0,
    46.0,
-   49.0
+   48.0,
+   48.0,
+   48.0,
+   49.0,
+   52.0
   ],
   "ghost": [
    32.0,
    34.0,
+   35.0,
    32.0,
-   29.0,
-   31.0,
-   31.0,
-   31.0,
-   29.0,
+   34.0,
+   34.0,
+   34.0,
+   32.0,
    30.0
   ],
   "days": 14,
@@ -473,10 +469,10 @@
   "end": "2026-10-25",
   "day": 23,
   "days": 28,
-  "closed": 38,
-  "points": 54,
-  "unplanned": 15,
-  "unplanned_pct": 39.5,
+  "closed": 39,
+  "points": 57,
+  "unplanned": 16,
+  "unplanned_pct": 41.0,
   "access_requests": 9,
   "people_active": 2,
   "sprints": [
@@ -504,7 +500,7 @@
    },
    {
     "status": "In Development",
-    "open": 3,
+    "open": 2,
     "med_age": 4.0,
     "max_age": 6.9,
     "worst_key": "DS-526",
@@ -512,7 +508,7 @@
     "worst_who": "Tharika Bairi",
     "over": 0,
     "clear_med": 3.0,
-    "clear_n": 94
+    "clear_n": 95
    },
    {
     "status": "Awaiting Review",
@@ -542,7 +538,7 @@
   "parked": {
    "Backlog": 38
   },
-  "open_total": 15,
+  "open_total": 14,
   "stale": 10,
   "worst": "Ready for Development"
  }

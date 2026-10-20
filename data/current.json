@@ -9,15 +9,15 @@
   "end": "2026-10-25",
   "prev": "",
   "prev_closed": 23,
-  "closed": 38,
+  "closed": 39,
   "discarded": 3,
-  "resolved": 41,
-  "unplanned": 15,
-  "unp_pct": 39.5,
+  "resolved": 42,
+  "unplanned": 16,
+  "unp_pct": 41.0,
   "types": [
    [
     "Story",
-    35
+    36
    ],
    [
     "Bug",
@@ -44,6 +44,10 @@
    [
     "DS-788",
     "[DB Access Request] Grant Viewer access to the \"Mirroring\" Fabric workspace (farheen.fatima@wellfit.com)"
+   ],
+   [
+    "DS-786",
+    "Report for DCA"
    ],
    [
     "DS-785",
@@ -98,9 +102,9 @@
   "day": 20,
   "days": 28,
   "status": "risk",
-  "headline": "38 items closed in the first 20 days, a pace of about 53 for the month against 23 last month. Unplanned work at 39.5% of everything closed.",
+  "headline": "39 items closed in the first 20 days, a pace of about 55 for the month against 23 last month. Unplanned work at 41.0% of everything closed.",
   "notes": [
-   "unplanned work at 39.5% of everything closed"
+   "unplanned work at 41.0% of everything closed"
   ]
  },
  "SPRINTS": [
@@ -154,32 +158,34 @@
    "Oct 12",
    "Oct 26",
    34,
-   17,
+   18,
    38,
-   50,
-   20,
-   32,
+   53,
+   23,
+   39,
    [
     32.0,
     34.0,
-    32.0,
-    28.0,
-    30.0,
-    30.0,
-    30.0,
-    28.0,
+    35.0,
+    31.0,
+    33.0,
+    33.0,
+    33.0,
+    31.0,
+    29.0,
     29.0
    ],
    [
     32.0,
     38.0,
-    42.0,
-    43.0,
-    45.0,
-    45.0,
     45.0,
     46.0,
-    49.0
+    48.0,
+    48.0,
+    48.0,
+    49.0,
+    52.0,
+    52.0
    ]
   ]
  ],
@@ -206,11 +212,11 @@
   },
   "DS-Sprint 24-26": {
    "done": [
-    17,
-    20
+    18,
+    23
    ],
    "open": [
-    16,
+    15,
     29
    ],
    "out": [
@@ -288,8 +294,8 @@
      "med": 0.98
     },
     "Closed": {
-     "n": 17,
-     "med": 11.53
+     "n": 18,
+     "med": 11.12
     },
     "Ready for Development": {
      "n": 18,
@@ -305,14 +311,14 @@
     }
    },
    "dist": {
-    "In Development": 3,
-    "Closed": 16,
+    "In Development": 2,
+    "Closed": 17,
     "Ready for Development": 8,
     "Backlog": 1,
     "Awaiting Review": 5,
     "Won't Do": 1
    },
-   "stalled": 17,
+   "stalled": 16,
    "worst": 12.69,
    "worstSt": "Awaiting Review",
    "items": 34
@@ -339,31 +345,32 @@
   "DS-Sprint 24-26": [
    32.0,
    34.0,
+   35.0,
    32.0,
-   29.0,
-   31.0,
-   31.0,
-   31.0,
-   29.0,
+   34.0,
+   34.0,
+   34.0,
+   32.0,
+   30.0,
    30.0
   ]
  },
  "CAP": {
   "9.09": [
-   38,
-   35,
-   54,
+   39,
+   36,
+   57,
    2
   ]
  },
  "CYC": {
   "9.09": {
-   "med": 1.83,
-   "avg": 5.13,
-   "n": 32,
+   "med": 1.87,
+   "avg": 5.09,
+   "n": 33,
    "mx": 70.01,
    "nodev": 6,
-   "base": 38
+   "base": 39
   }
  },
  "complete": false,
