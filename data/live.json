@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T16:00:26Z",
+ "generated": "2026-10-20T16:43:10Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -493,7 +493,7 @@
     "status": "Ready for Development",
     "open": 12,
     "med_age": 23.6,
-    "max_age": 168.8,
+    "max_age": 168.9,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
@@ -503,8 +503,8 @@
    },
    {
     "status": "In Development",
-    "open": 2,
-    "med_age": 4.0,
+    "open": 3,
+    "med_age": 1.1,
     "max_age": 7.0,
     "worst_key": "DS-526",
     "worst_sum": "Fabric rptDailyDepositCSP for reporting table",
@@ -512,18 +512,6 @@
     "over": 1,
     "clear_med": 3.0,
     "clear_n": 95
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -536,12 +524,24 @@
     "over": 0,
     "clear_med": 1.7,
     "clear_n": 12
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 14,
+  "open_total": 15,
   "stale": 11,
   "worst": "Ready for Development"
  }
