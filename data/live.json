@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T14:15:18Z",
+ "generated": "2026-10-21T14:20:23Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -314,7 +314,7 @@
      },
      {
       "key": "DS-526",
-      "summary": "Fabric rptDailyDepositCSP for reporting table"
+      "summary": "Fabric rptDailyDepositProviderPortal for reporting table"
      }
     ]
    },
@@ -345,7 +345,7 @@
      },
      {
       "key": "DS-526",
-      "summary": "Fabric rptDailyDepositCSP for reporting table"
+      "summary": "Fabric rptDailyDepositProviderPortal for reporting table"
      }
     ]
    }
@@ -507,7 +507,7 @@
     "med_age": 1.4,
     "max_age": 7.9,
     "worst_key": "DS-526",
-    "worst_sum": "Fabric rptDailyDepositCSP for reporting table",
+    "worst_sum": "Fabric rptDailyDepositProviderPortal for reporting table",
     "worst_who": "Tharika Bairi",
     "over": 1,
     "clear_med": 3.3,
