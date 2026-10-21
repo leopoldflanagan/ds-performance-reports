@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T20:18:06Z",
+ "generated": "2026-10-21T20:30:22Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -400,7 +400,7 @@
   "completed": 24,
   "scope_change": 47,
   "vs_commitment": 63,
-  "time_elapsed": 67,
+  "time_elapsed": 68,
   "spill": {
    "open_items": 16,
    "open_pts": 31.0,
@@ -499,7 +499,7 @@
    {
     "status": "Ready for Development",
     "open": 12,
-    "med_age": 24.6,
+    "med_age": 24.7,
     "max_age": 170.0,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -511,7 +511,7 @@
    {
     "status": "In Development",
     "open": 4,
-    "med_age": 1.7,
+    "med_age": 1.8,
     "max_age": 8.2,
     "worst_key": "DS-526",
     "worst_sum": "Fabric rptDailyDepositProviderPortal for reporting table",
