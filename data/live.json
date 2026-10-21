@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T23:45:16Z",
+ "generated": "2026-10-21T00:00:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 9,
+  "day": 10,
   "days": 14,
   "n": 19,
   "done_now": 24,
   "committed": 38,
-  "lo": 36,
-  "mid": 41,
-  "hi": 48,
-  "pct": 108,
+  "lo": 33,
+  "mid": 36,
+  "hi": 43,
+  "pct": 95,
   "verdict": "on track for the commitment",
-  "share_mid": 0.588
+  "share_mid": 0.667
  },
  "admin": {
   "scope": {
@@ -456,7 +456,7 @@
    32.0
   ],
   "days": 14,
-  "day": 9,
+  "day": 10,
   "capacity": null
  },
  "next": {
@@ -470,7 +470,7 @@
   "kind": "release",
   "start": "2026-09-28",
   "end": "2026-10-25",
-  "day": 23,
+  "day": 24,
   "days": 28,
   "closed": 40,
   "points": 58,
@@ -493,13 +493,13 @@
     "status": "Ready for Development",
     "open": 12,
     "med_age": 23.9,
-    "max_age": 169.1,
+    "max_age": 169.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 10,
-    "clear_med": 3.2,
-    "clear_n": 114
+    "clear_med": 3.7,
+    "clear_n": 111
    },
    {
     "status": "In Development",
@@ -510,8 +510,20 @@
     "worst_sum": "Fabric rptDailyDepositCSP for reporting table",
     "worst_who": "Tharika Bairi",
     "over": 1,
-    "clear_med": 3.0,
-    "clear_n": 96
+    "clear_med": 3.3,
+    "clear_n": 91
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 0.9,
+    "clear_n": 11
    },
    {
     "status": "On Hold",
@@ -524,18 +536,6 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.7,
-    "clear_n": 12
    }
   ],
   "parked": {
