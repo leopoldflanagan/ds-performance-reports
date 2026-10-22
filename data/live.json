@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T13:15:20Z",
+ "generated": "2026-10-22T13:20:39Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -511,7 +511,7 @@
    {
     "status": "In Development",
     "open": 4,
-    "med_age": 2.4,
+    "med_age": 2.5,
     "max_age": 8.9,
     "worst_key": "DS-526",
     "worst_sum": "Fabric rptDailyDepositProviderPortal for reporting table",
