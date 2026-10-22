@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T13:30:22Z",
+ "generated": "2026-10-22T13:43:43Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,13 +202,13 @@
   "day": 11,
   "days": 14,
   "n": 19,
-  "done_now": 24,
+  "done_now": 26,
   "committed": 38,
-  "lo": 28,
-  "mid": 35,
-  "hi": 40,
-  "pct": 92,
-  "verdict": "a little short of the commitment",
+  "lo": 30,
+  "mid": 38,
+  "hi": 44,
+  "pct": 100,
+  "verdict": "on track for the commitment",
   "share_mid": 0.679
  },
  "admin": {
@@ -394,19 +394,19 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 36,
-  "items_done": 19,
+  "items_done": 20,
   "committed": 38,
   "final": 56,
-  "completed": 24,
+  "completed": 26,
   "scope_change": 47,
-  "vs_commitment": 63,
+  "vs_commitment": 68,
   "time_elapsed": 73,
   "spill": {
-   "open_items": 16,
-   "open_pts": 31.0,
+   "open_items": 15,
+   "open_pts": 29.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 24.0
+   "done_pts": 26.0
   },
   "recv": {
    "items": 13,
@@ -416,8 +416,8 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 3,
-   "Closed": 18,
+   "Closed": 19,
+   "In Development": 2,
    "Ready for Development": 8,
    "Backlog": 1,
    "Awaiting Review": 5,
@@ -434,7 +434,7 @@
    31.0,
    29.0,
    31.0,
-   31.0
+   29.0
   ],
   "scope": [
    32.0,
@@ -460,7 +460,7 @@
    32.0,
    30.0,
    32.0,
-   32.0
+   30.0
   ],
   "days": 14,
   "day": 11,
@@ -479,10 +479,10 @@
   "end": "2026-10-25",
   "day": 25,
   "days": 28,
-  "closed": 40,
-  "points": 58,
+  "closed": 41,
+  "points": 60,
   "unplanned": 16,
-  "unplanned_pct": 40.0,
+  "unplanned_pct": 39.0,
   "access_requests": 9,
   "people_active": 2,
   "sprints": [
@@ -510,15 +510,15 @@
    },
    {
     "status": "In Development",
-    "open": 4,
-    "med_age": 2.5,
+    "open": 3,
+    "med_age": 3.0,
     "max_age": 8.9,
     "worst_key": "DS-526",
     "worst_sum": "Fabric rptDailyDepositProviderPortal for reporting table",
     "worst_who": "Tharika Bairi",
     "over": 1,
     "clear_med": 3.3,
-    "clear_n": 91
+    "clear_n": 92
    },
    {
     "status": "On Hold",
@@ -548,7 +548,7 @@
   "parked": {
    "Backlog": 38
   },
-  "open_total": 16,
+  "open_total": 15,
   "stale": 13,
   "worst": "Ready for Development"
  }
