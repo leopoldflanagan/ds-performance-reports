@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T22:30:21Z",
+ "generated": "2026-10-22T22:39:10Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -159,8 +159,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 10,
-   "points": 28
+   "items": 9,
+   "points": 27
   },
   "misfiled": {
    "items": 15,
@@ -202,18 +202,18 @@
   "day": 11,
   "days": 14,
   "n": 19,
-  "done_now": 26,
-  "committed": 38,
-  "lo": 30,
-  "mid": 38,
-  "hi": 44,
-  "pct": 100,
+  "done_now": 27,
+  "committed": 37,
+  "lo": 31,
+  "mid": 40,
+  "hi": 45,
+  "pct": 108,
   "verdict": "on track for the commitment",
   "share_mid": 0.679
  },
  "admin": {
   "scope": {
-   "ready": 13,
+   "ready": 12,
    "sprint": 35,
    "sprint_name": "DS-Sprint 24-26"
   },
@@ -221,11 +221,15 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 2,
+    "n": 3,
     "items": [
      {
       "key": "DS-782",
       "summary": "Update confluence pages with your documentation"
+     },
+     {
+      "key": "DS-800",
+      "summary": "Analyze cost spike for SQL in September"
      },
      {
       "key": "DS-789",
@@ -394,76 +398,76 @@
   "end": "2026-10-26",
   "goal": "",
   "items": 37,
-  "items_done": 20,
-  "committed": 38,
-  "final": 58,
-  "completed": 26,
-  "scope_change": 53,
-  "vs_commitment": 68,
-  "time_elapsed": 75,
+  "items_done": 21,
+  "committed": 37,
+  "final": 57,
+  "completed": 27,
+  "scope_change": 54,
+  "vs_commitment": 73,
+  "time_elapsed": 76,
   "spill": {
-   "open_items": 15,
-   "open_pts": 29.0,
+   "open_items": 14,
+   "open_pts": 27.0,
    "out_items": 1,
    "out_pts": 2.0,
-   "done_pts": 26.0
+   "done_pts": 27.0
   },
   "recv": {
-   "items": 13,
-   "pts": 21,
-   "pct": 55,
+   "items": 12,
+   "pts": 20,
+   "pct": 54,
    "from": "DS-Sprint 23-26"
   },
   "spill_rate": null,
   "dist": {
-   "Closed": 19,
    "In Development": 2,
-   "Ready for Development": 8,
+   "Closed": 20,
+   "Ready for Development": 7,
    "Backlog": 1,
    "Awaiting Review": 5,
    "Won't Do": 1
   },
   "burn": [
-   32.0,
+   31.0,
+   33.0,
    34.0,
-   35.0,
-   31.0,
-   33.0,
-   33.0,
-   33.0,
-   31.0,
-   29.0,
-   31.0,
-   29.0,
-   31.0
+   30.0,
+   32.0,
+   32.0,
+   32.0,
+   30.0,
+   28.0,
+   30.0,
+   28.0,
+   29.0
   ],
   "scope": [
-   32.0,
-   38.0,
+   31.0,
+   37.0,
+   44.0,
    45.0,
-   46.0,
+   47.0,
+   47.0,
+   47.0,
    48.0,
-   48.0,
-   48.0,
-   49.0,
-   52.0,
-   55.0,
-   55.0,
-   57.0
+   51.0,
+   54.0,
+   54.0,
+   56.0
   ],
   "ghost": [
-   32.0,
+   31.0,
+   33.0,
    34.0,
-   35.0,
-   32.0,
-   34.0,
-   34.0,
-   34.0,
-   32.0,
-   30.0,
-   32.0,
-   30.0,
-   32.0
+   31.0,
+   33.0,
+   33.0,
+   33.0,
+   31.0,
+   29.0,
+   31.0,
+   29.0,
+   30.0
   ],
   "days": 14,
   "day": 11,
@@ -482,10 +486,10 @@
   "end": "2026-10-25",
   "day": 25,
   "days": 28,
-  "closed": 41,
-  "points": 60,
-  "unplanned": 16,
-  "unplanned_pct": 39.0,
+  "closed": 42,
+  "points": 61,
+  "unplanned": 17,
+  "unplanned_pct": 40.5,
   "access_requests": 9,
   "people_active": 2,
   "sprints": [
@@ -501,20 +505,20 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 13,
-    "med_age": 23.3,
+    "open": 12,
+    "med_age": 25.8,
     "max_age": 171.1,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
-    "over": 12,
+    "over": 11,
     "clear_med": 3.7,
     "clear_n": 111
    },
    {
     "status": "In Development",
     "open": 3,
-    "med_age": 3.3,
+    "med_age": 2.2,
     "max_age": 9.3,
     "worst_key": "DS-526",
     "worst_sum": "Fabric rptDailyDepositProviderPortal for reporting table",
@@ -551,8 +555,8 @@
   "parked": {
    "Backlog": 38
   },
-  "open_total": 16,
-  "stale": 13,
+  "open_total": 15,
+  "stale": 12,
   "worst": "Ready for Development"
  }
 }
