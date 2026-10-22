@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T17:00:27Z",
+ "generated": "2026-10-22T17:39:32Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -515,7 +515,7 @@
     "status": "In Development",
     "open": 3,
     "med_age": 3.1,
-    "max_age": 9.0,
+    "max_age": 9.1,
     "worst_key": "DS-526",
     "worst_sum": "Fabric rptDailyDepositProviderPortal for reporting table",
     "worst_who": "Tharika Bairi",
