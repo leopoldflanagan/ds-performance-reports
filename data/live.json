@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T22:16:06Z",
+ "generated": "2026-10-22T22:30:21Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -159,8 +159,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 9,
-   "points": 26
+   "items": 10,
+   "points": 28
   },
   "misfiled": {
    "items": 15,
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 12,
+   "ready": 13,
    "sprint": 35,
    "sprint_name": "DS-Sprint 24-26"
   },
@@ -267,20 +267,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 39,
+    "why": "missing on 40 of 40 items. This reads as a field the team does not use rather than 40 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 40,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 39,
+    "why": "missing on 40 of 40 items. This reads as a field the team does not use rather than 40 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 40,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 39 of 39 items. This reads as a field the team does not use rather than 39 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 39,
+    "why": "missing on 40 of 40 items. This reads as a field the team does not use rather than 40 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 40,
     "items": []
    },
    {
@@ -393,19 +393,19 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 36,
+  "items": 37,
   "items_done": 20,
   "committed": 38,
-  "final": 56,
+  "final": 58,
   "completed": 26,
-  "scope_change": 47,
+  "scope_change": 53,
   "vs_commitment": 68,
   "time_elapsed": 75,
   "spill": {
    "open_items": 15,
    "open_pts": 29.0,
-   "out_items": 0,
-   "out_pts": 0,
+   "out_items": 1,
+   "out_pts": 2.0,
    "done_pts": 26.0
   },
   "recv": {
@@ -435,7 +435,7 @@
    29.0,
    31.0,
    29.0,
-   29.0
+   31.0
   ],
   "scope": [
    32.0,
@@ -449,7 +449,7 @@
    52.0,
    55.0,
    55.0,
-   55.0
+   57.0
   ],
   "ghost": [
    32.0,
@@ -463,7 +463,7 @@
    30.0,
    32.0,
    30.0,
-   30.0
+   32.0
   ],
   "days": 14,
   "day": 11,
@@ -501,8 +501,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 12,
-    "med_age": 25.8,
+    "open": 13,
+    "med_age": 23.3,
     "max_age": 171.1,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -515,13 +515,13 @@
     "status": "In Development",
     "open": 3,
     "med_age": 3.3,
-    "max_age": 9.2,
+    "max_age": 9.3,
     "worst_key": "DS-526",
     "worst_sum": "Fabric rptDailyDepositProviderPortal for reporting table",
     "worst_who": "Tharika Bairi",
     "over": 1,
-    "clear_med": 3.3,
-    "clear_n": 92
+    "clear_med": 3.2,
+    "clear_n": 93
    },
    {
     "status": "Awaiting Review",
@@ -551,7 +551,7 @@
   "parked": {
    "Backlog": 38
   },
-  "open_total": 15,
+  "open_total": 16,
   "stale": 13,
   "worst": "Ready for Development"
  }
