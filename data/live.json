@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T11:17:55Z",
+ "generated": "2026-10-23T12:00:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -404,7 +404,7 @@
   "completed": 27,
   "scope_change": 54,
   "vs_commitment": 73,
-  "time_elapsed": 79,
+  "time_elapsed": 80,
   "spill": {
    "open_items": 14,
    "open_pts": 27.0,
@@ -418,7 +418,7 @@
    "pct": 54,
    "from": "DS-Sprint 23-26"
   },
-  "spill_rate": null,
+  "spill_rate": 52,
   "dist": {
    "In Development": 2,
    "Closed": 20,
@@ -507,7 +507,7 @@
     "status": "Ready for Development",
     "open": 12,
     "med_age": 26.4,
-    "max_age": 171.6,
+    "max_age": 171.7,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
