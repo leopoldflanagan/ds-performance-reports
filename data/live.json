@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T23:45:19Z",
+ "generated": "2026-10-23T00:00:28Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,12 +199,12 @@
  },
  "projection": {
   "too_early": false,
-  "day": 11,
+  "day": 12,
   "days": 14,
   "n": 19,
   "done_now": 27,
   "committed": 37,
-  "lo": 31,
+  "lo": 30,
   "mid": 40,
   "hi": 45,
   "pct": 108,
@@ -470,7 +470,7 @@
    30.0
   ],
   "days": 14,
-  "day": 11,
+  "day": 12,
   "capacity": null
  },
  "next": {
@@ -484,7 +484,7 @@
   "kind": "release",
   "start": "2026-09-28",
   "end": "2026-10-25",
-  "day": 25,
+  "day": 26,
   "days": 28,
   "closed": 42,
   "points": 61,
@@ -507,13 +507,13 @@
     "status": "Ready for Development",
     "open": 12,
     "med_age": 25.9,
-    "max_age": 171.1,
+    "max_age": 171.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 11,
-    "clear_med": 3.7,
-    "clear_n": 111
+    "clear_med": 3.9,
+    "clear_n": 108
    },
    {
     "status": "In Development",
