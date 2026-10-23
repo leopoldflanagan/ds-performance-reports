@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T06:00:24Z",
+ "generated": "2026-10-23T06:15:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -518,7 +518,7 @@
    {
     "status": "In Development",
     "open": 3,
-    "med_age": 2.5,
+    "med_age": 2.6,
     "max_age": 9.6,
     "worst_key": "DS-526",
     "worst_sum": "Fabric rptDailyDepositProviderPortal for reporting table",
@@ -526,18 +526,6 @@
     "over": 1,
     "clear_med": 3.2,
     "clear_n": 93
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -550,6 +538,18 @@
     "over": 0,
     "clear_med": 0.9,
     "clear_n": 11
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
