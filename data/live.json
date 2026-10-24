@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T02:45:19Z",
+ "generated": "2026-10-24T03:15:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -522,25 +522,13 @@
     "status": "In Development",
     "open": 3,
     "med_age": 3.4,
-    "max_age": 10.4,
+    "max_age": 10.5,
     "worst_key": "DS-526",
     "worst_sum": "Fabric rptDailyDepositProviderPortal for reporting table",
     "worst_who": "Tharika Bairi",
     "over": 1,
     "clear_med": 3.2,
     "clear_n": 93
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -553,6 +541,18 @@
     "over": 0,
     "clear_med": 0.9,
     "clear_n": 11
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
