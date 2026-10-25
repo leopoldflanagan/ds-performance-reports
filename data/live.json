@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T22:45:17Z",
+ "generated": "2026-10-25T23:00:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -404,7 +404,7 @@
   "completed": 27,
   "scope_change": 54,
   "vs_commitment": 73,
-  "time_elapsed": 97,
+  "time_elapsed": 98,
   "spill": {
    "open_items": 14,
    "open_pts": 27.0,
@@ -515,7 +515,7 @@
    {
     "status": "Ready for Development",
     "open": 12,
-    "med_age": 28.8,
+    "med_age": 28.9,
     "max_age": 174.1,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -527,7 +527,7 @@
    {
     "status": "In Development",
     "open": 3,
-    "med_age": 5.2,
+    "med_age": 5.3,
     "max_age": 12.3,
     "worst_key": "DS-526",
     "worst_sum": "Fabric rptDailyDepositProviderPortal for reporting table",
@@ -535,18 +535,6 @@
     "over": 1,
     "clear_med": 3.2,
     "clear_n": 93
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -559,6 +547,18 @@
     "over": 0,
     "clear_med": 0.9,
     "clear_n": 11
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
