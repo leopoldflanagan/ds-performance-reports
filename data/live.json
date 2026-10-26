@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-26T14:45:19Z",
+ "generated": "2026-10-26T15:00:28Z",
  "team": "DS",
  "board": 257,
- "kind": "recent",
+ "kind": "active",
  "capacity": {
   "page": "3755671557",
   "url": "https://wellfit.atlassian.net/wiki/spaces/EDW/pages/3755671557",
@@ -179,8 +179,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 5,
-    "points": 10,
+    "n": 6,
+    "points": 12,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -198,50 +198,28 @@
   ]
  },
  "projection": {
-  "too_early": false,
-  "day": 14,
+  "too_early": true,
+  "day": 1,
   "days": 14,
-  "n": 19,
-  "done_now": 31,
-  "committed": 40,
-  "lo": 31,
-  "mid": 31,
-  "hi": 31,
-  "pct": 78,
-  "verdict": "well short of the commitment",
-  "share_mid": 1.0
+  "n": 21,
+  "why": "this early, past sprints had finished too little of their work for the comparison to say anything"
  },
  "admin": {
   "scope": {
-   "ready": 14,
-   "sprint": 36,
-   "sprint_name": "DS-Sprint 24-26"
+   "ready": 15,
+   "sprint": 16,
+   "sprint_name": "DS-Sprint 25-26"
   },
   "blocking": [
    {
-    "rule": "No estimate",
-    "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 3,
-    "items": [
-     {
-      "key": "DS-782",
-      "summary": "Update confluence pages with your documentation"
-     },
-     {
-      "key": "DS-800",
-      "summary": "Analyze cost spike for SQL in September"
-     },
-     {
-      "key": "DS-789",
-      "summary": "Update Ingest.dboMemberActivityLogs with new field"
-     }
-    ]
-   },
-   {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 5,
+    "n": 6,
     "items": [
+     {
+      "key": "DS-804",
+      "summary": "Explain change in reporting databases"
+     },
      {
       "key": "DS-803",
       "summary": "Update URL in settlements ETL web activity"
@@ -279,42 +257,38 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 43 of 43 items. This reads as a field the team does not use rather than 43 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 43,
+    "why": "missing on 20 of 20 items. This reads as a field the team does not use rather than 20 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 20,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 43 of 43 items. This reads as a field the team does not use rather than 43 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 43,
+    "why": "missing on 20 of 20 items. This reads as a field the team does not use rather than 20 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 20,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 43 of 43 items. This reads as a field the team does not use rather than 43 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 43,
+    "why": "missing on 20 of 20 items. This reads as a field the team does not use rather than 20 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 20,
     "items": []
    },
    {
     "rule": "Assignee is not on the roster",
     "why": "the capacity page lists the team; this work is assigned outside it.",
-    "n": 9,
+    "n": 5,
     "items": [
+     {
+      "key": "DS-803",
+      "summary": "Update URL in settlements ETL web activity"
+     },
+     {
+      "key": "DS-802",
+      "summary": "Update linked services in all ADFs and Logic Apps to point to live copies"
+     },
      {
       "key": "DS-801",
       "summary": "DCA Stage testing"
-     },
-     {
-      "key": "DS-789",
-      "summary": "Update Ingest.dboMemberActivityLogs with new field"
-     },
-     {
-      "key": "DS-786",
-      "summary": "Report for DCA"
-     },
-     {
-      "key": "DS-784",
-      "summary": "Load PayfacMerchant for 202609 month"
      },
      {
       "key": "DS-782",
@@ -323,21 +297,13 @@
      {
       "key": "DS-776",
       "summary": "Microsoft Fabric Architecture"
-     },
-     {
-      "key": "DS-775",
-      "summary": "Add ingest.dboBenefitPolicyOrganizations table to Master truncate and load pipel"
-     },
-     {
-      "key": "DS-690",
-      "summary": "WorldPay SFTP"
      }
     ]
    },
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 10,
+    "n": 8,
     "items": [
      {
       "key": "DS-724",
@@ -408,99 +374,58 @@
   ]
  },
  "sprint": {
-  "name": "DS-Sprint 24-26",
-  "state": "closed",
-  "start": "2026-10-12",
-  "end": "2026-10-26",
+  "name": "DS-Sprint 25-26",
+  "state": "active",
+  "start": "2026-10-26",
+  "end": "2026-11-09",
   "goal": "",
-  "items": 38,
-  "items_done": 24,
-  "committed": 40,
-  "final": 60,
-  "completed": 31,
-  "scope_change": 50,
-  "vs_commitment": 78,
-  "time_elapsed": 100,
+  "items": 17,
+  "items_done": 1,
+  "committed": 33,
+  "final": 33,
+  "completed": 0,
+  "scope_change": 0,
+  "vs_commitment": 0,
+  "time_elapsed": 0,
   "spill": {
-   "open_items": 12,
-   "open_pts": 26.0,
-   "out_items": 1,
-   "out_pts": 2.0,
-   "done_pts": 31.0
+   "open_items": 16,
+   "open_pts": 33.0,
+   "out_items": 0,
+   "out_pts": 0,
+   "done_pts": 0
   },
   "recv": {
-   "items": 12,
-   "pts": 20,
-   "pct": 50,
-   "from": "DS-Sprint 23-26"
+   "items": 5,
+   "pts": 10,
+   "pct": 30,
+   "from": "DS-Sprint 24-26"
   },
-  "spill_rate": 47,
+  "spill_rate": null,
   "dist": {
+   "Ready for Development": 11,
    "In Development": 1,
-   "Closed": 23,
-   "Ready for Development": 7,
    "Backlog": 1,
-   "Awaiting Review": 4,
-   "Won't Do": 1
+   "Awaiting Review": 4
   },
   "burn": [
-   34.0,
-   36.0,
-   37.0,
    33.0,
-   35.0,
-   35.0,
-   35.0,
-   33.0,
-   31.0,
-   33.0,
-   31.0,
-   32.0,
-   32.0,
-   32.0,
-   28.0
+   33.0
   ],
   "scope": [
-   34.0,
-   40.0,
-   47.0,
-   48.0,
-   50.0,
-   50.0,
-   50.0,
-   51.0,
-   54.0,
-   57.0,
-   57.0,
-   59.0,
-   59.0,
-   59.0,
-   59.0
+   33.0,
+   33.0
   ],
   "ghost": [
-   34.0,
-   36.0,
-   37.0,
-   34.0,
-   36.0,
-   36.0,
-   36.0,
-   34.0,
-   32.0,
-   34.0,
-   32.0,
    33.0,
-   33.0,
-   33.0,
-   29.0
+   33.0
   ],
   "days": 14,
-  "day": 14,
+  "day": 1,
   "capacity": null
  },
  "next": {
-  "name": "DS-Sprint 25-26",
-  "start": "2026-10-26",
+  "name": "DS-Sprint 26-26",
+  "start": "2026-11-09",
   "state": "not started"
  },
  "month": {
@@ -530,8 +455,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 14,
-    "med_age": 23.9,
+    "open": 15,
+    "med_age": 20.8,
     "max_age": 174.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -553,18 +478,6 @@
     "clear_n": 93
    },
    {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 1.7,
-    "clear_n": 12
-   },
-   {
     "status": "On Hold",
     "open": 0,
     "med_age": 0,
@@ -575,12 +488,24 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 1.7,
+    "clear_n": 12
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 16,
+  "open_total": 17,
   "stale": 11,
   "worst": "Ready for Development"
  }

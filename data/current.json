@@ -8,7 +8,7 @@
   "start": "2026-10-26",
   "end": "2026-11-22",
   "prev": "",
-  "prev_closed": null,
+  "prev_closed": 42,
   "closed": 3,
   "discarded": 0,
   "resolved": 3,
@@ -20,7 +20,9 @@
     3
    ]
   ],
-  "sprints": [],
+  "sprints": [
+   "DS-Sprint 25-26"
+  ],
   "unp_items": [
    [
     "DS-800",
@@ -31,17 +33,97 @@
   "day": 26,
   "days": 28,
   "status": "risk",
-  "headline": "3 items closed in the first 26 days. Unplanned work at 33.3% of everything closed.",
+  "headline": "3 items closed in the first 26 days, a pace of about 3 for the month against 42 last month. Running 92% behind last month's pace.",
   "notes": [
+   "running 92% behind last month's pace",
    "unplanned work at 33.3% of everything closed",
    "cycle time median 12.9d and average 18.9d, both past the healthy band"
   ]
  },
- "SPRINTS": [],
- "SPILL": {},
- "SPLIT": {},
- "TIS": {},
- "GHOST": {},
+ "SPRINTS": [
+  [
+   "DS-Sprint 25-26",
+   "Oct 26",
+   "Nov 9",
+   17,
+   1,
+   33,
+   33,
+   0,
+   0,
+   [
+    33.0,
+    33.0
+   ],
+   [
+    33.0,
+    33.0
+   ]
+  ]
+ ],
+ "SPILL": {
+  "DS-Sprint 25-26": {
+   "done": [
+    1,
+    0
+   ],
+   "open": [
+    16,
+    33
+   ],
+   "out": [
+    0,
+    0
+   ],
+   "in": [
+    5,
+    10
+   ],
+   "in_pct": 30,
+   "in_from": "DS-Sprint 24-26"
+  }
+ },
+ "SPLIT": {
+  "DS-Sprint 25-26": null
+ },
+ "TIS": {
+  "DS-Sprint 25-26": {
+   "tis": {
+    "Ready for Development": {
+     "n": 11,
+     "med": 13.68
+    },
+    "In Development": {
+     "n": 1,
+     "med": 13.68
+    },
+    "Backlog": {
+     "n": 1,
+     "med": 13.68
+    },
+    "Awaiting Review": {
+     "n": 4,
+     "med": 13.68
+    }
+   },
+   "dist": {
+    "Ready for Development": 11,
+    "In Development": 1,
+    "Backlog": 1,
+    "Awaiting Review": 4
+   },
+   "stalled": 17,
+   "worst": 13.68,
+   "worstSt": "Ready for Development",
+   "items": 17
+  }
+ },
+ "GHOST": {
+  "DS-Sprint 25-26": [
+   33.0,
+   33.0
+  ]
+ },
  "CAP": {
   "9.10": [
    3,
