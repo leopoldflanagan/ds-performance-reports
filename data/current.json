@@ -1,395 +1,52 @@
 {
- "ym": "9.09",
+ "ym": "9.10",
  "month": {
-  "slug": "2026-r909",
-  "label": "Release 9.09",
-  "short": "9.09",
+  "slug": "2026-r910",
+  "label": "Release 9.10",
+  "short": "9.10",
   "n_sprints": 2,
-  "start": "2026-09-28",
-  "end": "2026-10-25",
+  "start": "2026-10-26",
+  "end": "2026-11-22",
   "prev": "",
-  "prev_closed": 23,
-  "closed": 42,
-  "discarded": 3,
-  "resolved": 45,
-  "unplanned": 17,
-  "unp_pct": 40.5,
-  "types": [
-   [
-    "Story",
-    39
-   ],
-   [
-    "Bug",
-    2
-   ],
-   [
-    "Urgent Task",
-    1
-   ]
-  ],
-  "sprints": [
-   "DS-Sprint 23-26",
-   "DS-Sprint 24-26"
-  ],
-  "unp_items": [
-   [
-    "DS-793",
-    "PR Reviews 10/19/2026"
-   ],
-   [
-    "DS-791",
-    "PR Reviews 10/15/2026"
-   ],
-   [
-    "DS-790",
-    "[DB Access Request] WellfitLegalLanguage db Access"
-   ],
-   [
-    "DS-788",
-    "[DB Access Request] Grant Viewer access to the \"Mirroring\" Fabric workspace (farheen.fatima@wellfit.com)"
-   ],
-   [
-    "DS-786",
-    "Report for DCA"
-   ],
-   [
-    "DS-785",
-    "PR Reviews 10/14/2026"
-   ],
-   [
-    "DS-783",
-    "[DB Access Request] WellfitLegalLanguage db Access"
-   ],
-   [
-    "DS-780",
-    "PR Reviews 10/13/2026"
-   ],
-   [
-    "DS-779",
-    "[DB Access Request] Create External Identity for PaymentsV2 in Non-Production Databases"
-   ],
-   [
-    "DS-777",
-    "PR Reviews 10/12/2026"
-   ],
-   [
-    "DS-772",
-    "[DB Access Request] Create External Identity for Wellfit Pay new services in Dev Database"
-   ],
-   [
-    "DS-769",
-    "[DB Access Request] Create External Identity for epic-mychart-bff in non-production Databases"
-   ],
-   [
-    "DS-768",
-    "[DB Access Request] Access to Production Payments tables for customer support and possible repair."
-   ],
-   [
-    "DS-767",
-    "Disable Fabric Mirroring for Release"
-   ],
-   [
-    "DS-763",
-    "[DB Access Request] Need DB access to Payments and Onboarding in Prod"
-   ],
-   [
-    "DS-753",
-    "[DB Access Request] [DB Access Request] Platform - Stage"
-   ],
-   [
-    "DS-749",
-    "PR requests 9/22"
-   ]
-  ],
+  "prev_closed": null,
+  "closed": 0,
+  "discarded": 0,
+  "resolved": 0,
+  "unplanned": null,
+  "unp_pct": null,
+  "types": [],
+  "sprints": [],
+  "unp_items": [],
   "open": true,
-  "day": 25,
+  "day": 26,
   "days": 28,
-  "status": "risk",
-  "headline": "42 items closed in the first 25 days, a pace of about 47 for the month against 23 last month. Unplanned work at 40.5% of everything closed.",
+  "status": "warning",
+  "headline": "0 items closed in the first 26 days. The Unplanned label was not applied, so reactive work cannot be measured.",
   "notes": [
-   "unplanned work at 40.5% of everything closed"
+   "the Unplanned label was not applied, so reactive work cannot be measured"
   ]
  },
- "SPRINTS": [
-  [
-   "DS-Sprint 23-26",
-   "Sep 28",
-   "Oct 12",
-   34,
-   18,
-   49,
-   56,
-   28,
-   14,
-   [
-    49.0,
-    48.0,
-    50.0,
-    50.0,
-    50.0,
-    47.0,
-    47.0,
-    45.0,
-    43.0,
-    41.0,
-    34.0,
-    28.0,
-    28.0,
-    28.0,
-    28.0
-   ],
-   [
-    49.0,
-    49.0,
-    54.0,
-    54.0,
-    54.0,
-    54.0,
-    54.0,
-    54.0,
-    54.0,
-    54.0,
-    55.0,
-    56.0,
-    56.0,
-    56.0,
-    56.0
-   ]
-  ],
-  [
-   "DS-Sprint 24-26",
-   "Oct 12",
-   "Oct 26",
-   37,
-   21,
-   37,
-   57,
-   27,
-   54,
-   [
-    31.0,
-    33.0,
-    34.0,
-    30.0,
-    32.0,
-    32.0,
-    32.0,
-    30.0,
-    28.0,
-    30.0,
-    28.0,
-    29.0,
-    29.0,
-    29.0,
-    29.0
-   ],
-   [
-    31.0,
-    37.0,
-    44.0,
-    45.0,
-    47.0,
-    47.0,
-    47.0,
-    48.0,
-    51.0,
-    54.0,
-    54.0,
-    56.0,
-    56.0,
-    56.0,
-    56.0
-   ]
-  ]
- ],
- "SPILL": {
-  "DS-Sprint 23-26": {
-   "done": [
-    18,
-    30
-   ],
-   "open": [
-    13,
-    20
-   ],
-   "out": [
-    1,
-    5
-   ],
-   "in": [
-    4,
-    4
-   ],
-   "in_pct": 8,
-   "in_from": "DS-Sprint 22-26"
-  },
-  "DS-Sprint 24-26": {
-   "done": [
-    21,
-    27
-   ],
-   "open": [
-    14,
-    27
-   ],
-   "out": [
-    1,
-    2
-   ],
-   "in": [
-    12,
-    20
-   ],
-   "in_pct": 54,
-   "in_from": "DS-Sprint 23-26"
-  }
- },
- "SPLIT": {
-  "DS-Sprint 23-26": {
-   "react": 1,
-   "plan": 4,
-   "pct": 20
-  },
-  "DS-Sprint 24-26": {
-   "react": 5,
-   "plan": 7,
-   "pct": 42
-  }
- },
- "TIS": {
-  "DS-Sprint 23-26": {
-   "tis": {
-    "In Development": {
-     "n": 22,
-     "med": 2.5
-    },
-    "Backlog": {
-     "n": 17,
-     "med": 4.02
-    },
-    "Closed": {
-     "n": 17,
-     "med": 4.45
-    },
-    "Ready for Development": {
-     "n": 18,
-     "med": 4.84
-    },
-    "Awaiting Review": {
-     "n": 4,
-     "med": 1.71
-    },
-    "Won't Do": {
-     "n": 2,
-     "med": 12.8
-    }
-   },
-   "dist": {
-    "Closed": 20,
-    "Won't Do": 3,
-    "Backlog": 2,
-    "Awaiting Review": 5,
-    "Ready for Development": 4
-   },
-   "stalled": 15,
-   "worst": 4.84,
-   "worstSt": "Ready for Development",
-   "items": 34
-  },
-  "DS-Sprint 24-26": {
-   "tis": {
-    "In Development": {
-     "n": 29,
-     "med": 0.98
-    },
-    "Closed": {
-     "n": 21,
-     "med": 10.71
-    },
-    "Backlog": {
-     "n": 10,
-     "med": 1.55
-    },
-    "Ready for Development": {
-     "n": 18,
-     "med": 1.98
-    },
-    "Awaiting Review": {
-     "n": 6,
-     "med": 12.69
-    },
-    "Won't Do": {
-     "n": 1,
-     "med": 13.67
-    }
-   },
-   "dist": {
-    "In Development": 2,
-    "Closed": 20,
-    "Ready for Development": 8,
-    "Backlog": 1,
-    "Awaiting Review": 5,
-    "Won't Do": 1
-   },
-   "stalled": 16,
-   "worst": 12.69,
-   "worstSt": "Awaiting Review",
-   "items": 37
-  }
- },
- "GHOST": {
-  "DS-Sprint 23-26": [
-   49.0,
-   48.0,
-   50.0,
-   50.0,
-   50.0,
-   47.0,
-   47.0,
-   45.0,
-   43.0,
-   41.0,
-   34.0,
-   28.0,
-   28.0,
-   28.0,
-   28.0
-  ],
-  "DS-Sprint 24-26": [
-   31.0,
-   33.0,
-   34.0,
-   31.0,
-   33.0,
-   33.0,
-   33.0,
-   31.0,
-   29.0,
-   31.0,
-   29.0,
-   30.0,
-   30.0,
-   30.0,
-   30.0
-  ]
- },
+ "SPRINTS": [],
+ "SPILL": {},
+ "SPLIT": {},
+ "TIS": {},
+ "GHOST": {},
  "CAP": {
-  "9.09": [
-   42,
-   39,
-   61,
-   2
+  "9.10": [
+   0,
+   0,
+   0,
+   0
   ]
  },
  "CYC": {
-  "9.09": {
-   "med": 1.86,
-   "avg": 4.82,
-   "n": 36,
-   "mx": 70.01,
-   "nodev": 6,
-   "base": 42
+  "9.10": {
+   "med": 0,
+   "avg": 0,
+   "n": 0,
+   "mx": 0,
+   "nodev": 0,
+   "base": 0
   }
  },
  "complete": false,
