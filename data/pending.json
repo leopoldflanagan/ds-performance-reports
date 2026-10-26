@@ -163,10 +163,10 @@
     "Oct 12",
     "Oct 26",
     38,
-    21,
+    24,
     40,
     60,
-    27,
+    31,
     50,
     [
      34.0,
@@ -183,7 +183,7 @@
      32.0,
      32.0,
      32.0,
-     29.0
+     28.0
     ],
     [
      34.0,
@@ -227,12 +227,12 @@
    },
    "DS-Sprint 24-26": {
     "done": [
-     21,
-     30
+     24,
+     31
     ],
     "open": [
-     14,
-     27
+     12,
+     26
     ],
     "out": [
      1,
@@ -287,10 +287,10 @@
      }
     },
     "dist": {
-     "Closed": 20,
+     "Closed": 21,
      "Won't Do": 3,
      "Backlog": 2,
-     "Awaiting Review": 5,
+     "Awaiting Review": 4,
      "Ready for Development": 4
     },
     "stalled": 15,
@@ -304,37 +304,37 @@
       "n": 11,
       "med": 1.97
      },
+     "Ready for Development": {
+      "n": 19,
+      "med": 1.98
+     },
      "In Development": {
-      "n": 29,
+      "n": 30,
       "med": 0.98
      },
      "Closed": {
-      "n": 21,
-      "med": 10.71
-     },
-     "Ready for Development": {
-      "n": 18,
-      "med": 1.98
+      "n": 24,
+      "med": 10.51
      },
      "Awaiting Review": {
       "n": 6,
-      "med": 12.69
+      "med": 13.01
      },
      "Won't Do": {
       "n": 1,
-      "med": 13.67
+      "med": 13.98
      }
     },
     "dist": {
-     "In Development": 2,
-     "Closed": 21,
+     "In Development": 1,
+     "Closed": 23,
      "Ready for Development": 8,
      "Backlog": 1,
-     "Awaiting Review": 5,
+     "Awaiting Review": 4,
      "Won't Do": 1
     },
-    "stalled": 17,
-    "worst": 12.69,
+    "stalled": 13,
+    "worst": 13.01,
     "worstSt": "Awaiting Review",
     "items": 38
    }
@@ -372,7 +372,7 @@
     33.0,
     33.0,
     33.0,
-    30.0
+    29.0
    ]
   },
   "CAP": {
@@ -393,7 +393,7 @@
     "base": 42
    }
   },
-  "complete": false,
+  "complete": true,
   "kind": "release",
   "n_sprints": 2,
   "CAPACITY": {

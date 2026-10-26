@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-26T14:30:26Z",
+ "generated": "2026-10-26T14:45:19Z",
  "team": "DS",
  "board": 257,
- "kind": "active",
+ "kind": "recent",
  "capacity": {
   "page": "3755671557",
   "url": "https://wellfit.atlassian.net/wiki/spaces/EDW/pages/3755671557",
@@ -179,8 +179,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 3,
-    "points": 7,
+    "n": 5,
+    "points": 10,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -202,18 +202,18 @@
   "day": 14,
   "days": 14,
   "n": 19,
-  "done_now": 27,
+  "done_now": 31,
   "committed": 40,
-  "lo": 27,
-  "mid": 27,
-  "hi": 27,
-  "pct": 68,
+  "lo": 31,
+  "mid": 31,
+  "hi": 31,
+  "pct": 78,
   "verdict": "well short of the commitment",
   "share_mid": 1.0
  },
  "admin": {
   "scope": {
-   "ready": 12,
+   "ready": 14,
    "sprint": 36,
    "sprint_name": "DS-Sprint 24-26"
   },
@@ -240,8 +240,16 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 3,
+    "n": 5,
     "items": [
+     {
+      "key": "DS-803",
+      "summary": "Update URL in settlements ETL web activity"
+     },
+     {
+      "key": "DS-802",
+      "summary": "Update linked services in all ADFs and Logic Apps to point to live copies"
+     },
      {
       "key": "DS-782",
       "summary": "Update confluence pages with your documentation"
@@ -271,20 +279,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 41 of 41 items. This reads as a field the team does not use rather than 41 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 41,
+    "why": "missing on 43 of 43 items. This reads as a field the team does not use rather than 43 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 43,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 41 of 41 items. This reads as a field the team does not use rather than 41 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 41,
+    "why": "missing on 43 of 43 items. This reads as a field the team does not use rather than 43 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 43,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 41 of 41 items. This reads as a field the team does not use rather than 41 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 41,
+    "why": "missing on 43 of 43 items. This reads as a field the team does not use rather than 43 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 43,
     "items": []
    },
    {
@@ -294,7 +302,7 @@
     "items": [
      {
       "key": "DS-801",
-      "summary": "Denticon Stage testing"
+      "summary": "DCA Stage testing"
      },
      {
       "key": "DS-789",
@@ -329,7 +337,7 @@
    {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
-    "n": 6,
+    "n": 10,
     "items": [
      {
       "key": "DS-724",
@@ -348,12 +356,20 @@
       "summary": "Mirror remaining tables for Platform"
      },
      {
-      "key": "DS-683",
-      "summary": "Expand prod database alerts and backups to new databases"
+      "key": "DS-756",
+      "summary": "Data services-Set up and configure SFTP for CREG for report delivery"
      },
      {
-      "key": "DS-526",
-      "summary": "Fabric rptDailyDepositProviderPortal for reporting table"
+      "key": "DS-740",
+      "summary": "Smile Brands SFTP - Essential Smiles Plan"
+     },
+     {
+      "key": "DS-739",
+      "summary": "Smile Brands SFTP - One Smile NV"
+     },
+     {
+      "key": "DS-738",
+      "summary": "Smile Brands SFTP - One Smile WA"
      }
     ]
    }
@@ -393,24 +409,24 @@
  },
  "sprint": {
   "name": "DS-Sprint 24-26",
-  "state": "active",
+  "state": "closed",
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
   "items": 38,
-  "items_done": 21,
+  "items_done": 24,
   "committed": 40,
   "final": 60,
-  "completed": 27,
+  "completed": 31,
   "scope_change": 50,
-  "vs_commitment": 68,
+  "vs_commitment": 78,
   "time_elapsed": 100,
   "spill": {
-   "open_items": 14,
-   "open_pts": 27.0,
+   "open_items": 12,
+   "open_pts": 26.0,
    "out_items": 1,
    "out_pts": 2.0,
-   "done_pts": 30.0
+   "done_pts": 31.0
   },
   "recv": {
    "items": 12,
@@ -418,13 +434,13 @@
    "pct": 50,
    "from": "DS-Sprint 23-26"
   },
-  "spill_rate": 49,
+  "spill_rate": 47,
   "dist": {
-   "In Development": 2,
-   "Closed": 21,
+   "In Development": 1,
+   "Closed": 23,
    "Ready for Development": 7,
    "Backlog": 1,
-   "Awaiting Review": 5,
+   "Awaiting Review": 4,
    "Won't Do": 1
   },
   "burn": [
@@ -442,7 +458,7 @@
    32.0,
    32.0,
    32.0,
-   29.0
+   28.0
   ],
   "scope": [
    34.0,
@@ -476,7 +492,7 @@
    33.0,
    33.0,
    33.0,
-   30.0
+   29.0
   ],
   "days": 14,
   "day": 14,
@@ -495,12 +511,12 @@
   "end": "2026-11-22",
   "day": 1,
   "days": 28,
-  "closed": 1,
-  "points": 3,
-  "unplanned": null,
-  "unplanned_pct": null,
+  "closed": 3,
+  "points": 4,
+  "unplanned": 1,
+  "unplanned_pct": 33.3,
   "access_requests": 0,
-  "people_active": 0,
+  "people_active": 1,
   "sprints": [
    "DS-Sprint 25-26",
    "DS-Sprint 26-26"
@@ -514,27 +530,27 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 12,
-    "med_age": 29.4,
+    "open": 14,
+    "med_age": 23.9,
     "max_age": 174.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 11,
-    "clear_med": 3.7,
-    "clear_n": 105
+    "clear_med": 3.5,
+    "clear_n": 106
    },
    {
     "status": "In Development",
-    "open": 3,
-    "med_age": 3.7,
+    "open": 2,
+    "med_age": 3.0,
     "max_age": 5.9,
     "worst_key": "DS-797",
     "worst_sum": "Compliance / Privacy Request",
     "worst_who": "Carlos Parra",
     "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 91
+    "clear_med": 3.2,
+    "clear_n": 93
    },
    {
     "status": "Awaiting Review",
@@ -545,8 +561,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 0.9,
-    "clear_n": 11
+    "clear_med": 1.7,
+    "clear_n": 12
    },
    {
     "status": "On Hold",
@@ -564,7 +580,7 @@
   "parked": {
    "Backlog": 38
   },
-  "open_total": 15,
+  "open_total": 16,
   "stale": 11,
   "worst": "Ready for Development"
  }

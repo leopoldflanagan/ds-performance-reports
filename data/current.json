@@ -9,27 +9,32 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": null,
-  "closed": 1,
+  "closed": 3,
   "discarded": 0,
-  "resolved": 1,
-  "unplanned": null,
-  "unp_pct": null,
+  "resolved": 3,
+  "unplanned": 1,
+  "unp_pct": 33.3,
   "types": [
    [
     "Story",
-    1
+    3
    ]
   ],
   "sprints": [],
-  "unp_items": [],
+  "unp_items": [
+   [
+    "DS-800",
+    "Analyze cost spike for SQL in September"
+   ]
+  ],
   "open": true,
   "day": 26,
   "days": 28,
   "status": "risk",
-  "headline": "1 items closed in the first 26 days. The Unplanned label was not applied, so reactive work cannot be measured.",
+  "headline": "3 items closed in the first 26 days. Unplanned work at 33.3% of everything closed.",
   "notes": [
-   "the Unplanned label was not applied, so reactive work cannot be measured",
-   "cycle time median 12.9d and average 12.9d, both past the healthy band"
+   "unplanned work at 33.3% of everything closed",
+   "cycle time median 12.9d and average 18.9d, both past the healthy band"
   ]
  },
  "SPRINTS": [],
@@ -39,20 +44,20 @@
  "GHOST": {},
  "CAP": {
   "9.10": [
-   1,
-   1,
    3,
-   0
+   2,
+   4,
+   1
   ]
  },
  "CYC": {
   "9.10": {
    "med": 12.91,
-   "avg": 12.91,
-   "n": 1,
-   "mx": 12.91,
+   "avg": 18.86,
+   "n": 3,
+   "mx": 40.0,
    "nodev": 0,
-   "base": 1
+   "base": 3
   }
  },
  "complete": false,
