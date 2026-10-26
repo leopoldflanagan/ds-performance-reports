@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T21:00:25Z",
+ "generated": "2026-10-26T21:15:17Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -404,7 +404,7 @@
   "dist": {
    "Ready for Development": 11,
    "In Development": 1,
-   "Backlog": 1,
+   "Closed": 1,
    "Awaiting Review": 4
   },
   "burn": [
