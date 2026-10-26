@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T14:15:21Z",
+ "generated": "2026-10-26T14:30:26Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -203,18 +203,18 @@
   "days": 14,
   "n": 19,
   "done_now": 27,
-  "committed": 37,
+  "committed": 40,
   "lo": 27,
   "mid": 27,
   "hi": 27,
-  "pct": 73,
+  "pct": 68,
   "verdict": "well short of the commitment",
   "share_mid": 1.0
  },
  "admin": {
   "scope": {
    "ready": 12,
-   "sprint": 35,
+   "sprint": 36,
    "sprint_name": "DS-Sprint 24-26"
   },
   "blocking": [
@@ -271,27 +271,31 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 40 of 40 items. This reads as a field the team does not use rather than 40 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 40,
+    "why": "missing on 41 of 41 items. This reads as a field the team does not use rather than 41 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 41,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 40 of 40 items. This reads as a field the team does not use rather than 40 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 40,
+    "why": "missing on 41 of 41 items. This reads as a field the team does not use rather than 41 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 41,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 40 of 40 items. This reads as a field the team does not use rather than 40 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 40,
+    "why": "missing on 41 of 41 items. This reads as a field the team does not use rather than 41 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 41,
     "items": []
    },
    {
     "rule": "Assignee is not on the roster",
     "why": "the capacity page lists the team; this work is assigned outside it.",
-    "n": 8,
+    "n": 9,
     "items": [
+     {
+      "key": "DS-801",
+      "summary": "Denticon Stage testing"
+     },
      {
       "key": "DS-789",
       "summary": "Update Ingest.dboMemberActivityLogs with new field"
@@ -319,10 +323,6 @@
      {
       "key": "DS-690",
       "summary": "WorldPay SFTP"
-     },
-     {
-      "key": "DS-526",
-      "summary": "Fabric rptDailyDepositProviderPortal for reporting table"
      }
     ]
    },
@@ -397,85 +397,85 @@
   "start": "2026-10-12",
   "end": "2026-10-26",
   "goal": "",
-  "items": 37,
+  "items": 38,
   "items_done": 21,
-  "committed": 37,
-  "final": 57,
+  "committed": 40,
+  "final": 60,
   "completed": 27,
-  "scope_change": 54,
-  "vs_commitment": 73,
+  "scope_change": 50,
+  "vs_commitment": 68,
   "time_elapsed": 100,
   "spill": {
    "open_items": 14,
    "open_pts": 27.0,
    "out_items": 1,
    "out_pts": 2.0,
-   "done_pts": 27.0
+   "done_pts": 30.0
   },
   "recv": {
    "items": 12,
    "pts": 20,
-   "pct": 54,
+   "pct": 50,
    "from": "DS-Sprint 23-26"
   },
-  "spill_rate": 52,
+  "spill_rate": 49,
   "dist": {
    "In Development": 2,
-   "Closed": 20,
+   "Closed": 21,
    "Ready for Development": 7,
    "Backlog": 1,
    "Awaiting Review": 5,
    "Won't Do": 1
   },
   "burn": [
+   34.0,
+   36.0,
+   37.0,
+   33.0,
+   35.0,
+   35.0,
+   35.0,
+   33.0,
    31.0,
    33.0,
-   34.0,
-   30.0,
+   31.0,
    32.0,
    32.0,
    32.0,
-   30.0,
-   28.0,
-   30.0,
-   28.0,
-   29.0,
-   29.0,
-   29.0,
    29.0
   ],
   "scope": [
-   31.0,
-   37.0,
-   44.0,
-   45.0,
-   47.0,
-   47.0,
+   34.0,
+   40.0,
    47.0,
    48.0,
+   50.0,
+   50.0,
+   50.0,
    51.0,
    54.0,
-   54.0,
-   56.0,
-   56.0,
-   56.0,
-   56.0
+   57.0,
+   57.0,
+   59.0,
+   59.0,
+   59.0,
+   59.0
   ],
   "ghost": [
-   31.0,
-   33.0,
    34.0,
-   31.0,
+   36.0,
+   37.0,
+   34.0,
+   36.0,
+   36.0,
+   36.0,
+   34.0,
+   32.0,
+   34.0,
+   32.0,
    33.0,
    33.0,
    33.0,
-   31.0,
-   29.0,
-   31.0,
-   29.0,
-   30.0,
-   30.0,
-   30.0,
    30.0
   ],
   "days": 14,
@@ -495,8 +495,8 @@
   "end": "2026-11-22",
   "day": 1,
   "days": 28,
-  "closed": 0,
-  "points": 0,
+  "closed": 1,
+  "points": 3,
   "unplanned": null,
   "unplanned_pct": null,
   "access_requests": 0,
@@ -521,32 +521,20 @@
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 11,
-    "clear_med": 3.8,
-    "clear_n": 104
+    "clear_med": 3.7,
+    "clear_n": 105
    },
    {
     "status": "In Development",
     "open": 3,
-    "med_age": 5.9,
-    "max_age": 12.9,
-    "worst_key": "DS-526",
-    "worst_sum": "Fabric rptDailyDepositProviderPortal for reporting table",
-    "worst_who": "Tharika Bairi",
-    "over": 1,
-    "clear_med": 3.0,
-    "clear_n": 90
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
+    "med_age": 3.7,
+    "max_age": 5.9,
+    "worst_key": "DS-797",
+    "worst_sum": "Compliance / Privacy Request",
+    "worst_who": "Carlos Parra",
     "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "clear_med": 3.0,
+    "clear_n": 91
    },
    {
     "status": "Awaiting Review",
@@ -559,13 +547,25 @@
     "over": 0,
     "clear_med": 0.9,
     "clear_n": 11
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 38
   },
   "open_total": 15,
-  "stale": 12,
+  "stale": 11,
   "worst": "Ready for Development"
  }
 }
