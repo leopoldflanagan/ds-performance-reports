@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T08:15:19Z",
+ "generated": "2026-10-26T08:30:23Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -515,7 +515,7 @@
    {
     "status": "Ready for Development",
     "open": 12,
-    "med_age": 29.1,
+    "med_age": 29.2,
     "max_age": 174.5,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -527,7 +527,7 @@
    {
     "status": "In Development",
     "open": 3,
-    "med_age": 5.6,
+    "med_age": 5.7,
     "max_age": 12.7,
     "worst_key": "DS-526",
     "worst_sum": "Fabric rptDailyDepositProviderPortal for reporting table",
