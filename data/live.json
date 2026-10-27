@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T04:15:17Z",
+ "generated": "2026-10-27T04:21:00Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -350,6 +350,24 @@
    {
     "rule": "The sprint is missing from the capacity page",
     "why": "the planning record and Jira have drifted apart.",
+    "n": 1,
+    "items": []
+   },
+   {
+    "rule": "Release 9.06 has two different windows on the schedule",
+    "why": "the feature-freeze column gives 2026-06-22 to 2026-07-26 and the dev-window column gives 2026-06-22 to 2026-08-02. The calendar keeps what it already had; the page needs one of the two corrected.",
+    "n": 1,
+    "items": []
+   },
+   {
+    "rule": "Release 9.07 has two different windows on the schedule",
+    "why": "the feature-freeze column gives 2026-07-27 to 2026-08-23 and the dev-window column gives 2026-08-03 to 2026-08-30. The calendar keeps what it already had; the page needs one of the two corrected.",
+    "n": 1,
+    "items": []
+   },
+   {
+    "rule": "Release 9.08 has two different windows on the schedule",
+    "why": "the feature-freeze column gives 2026-08-24 to 2026-09-27 and the dev-window column gives 2026-08-31 to 2026-09-27. The calendar keeps what it already had; the page needs one of the two corrected.",
     "n": 1,
     "items": []
    }
