@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 3,
+  "closed": 4,
   "discarded": 0,
-  "resolved": 3,
+  "resolved": 4,
   "unplanned": 1,
-  "unp_pct": 33.3,
+  "unp_pct": 25.0,
   "types": [
    [
     "Story",
-    3
+    4
    ]
   ],
   "sprints": [
@@ -33,10 +33,10 @@
   "day": 28,
   "days": 28,
   "status": "risk",
-  "headline": "3 items closed against 42 the month before. Running 93% behind last month's pace.",
+  "headline": "4 items closed against 42 the month before. Running 90% behind last month's pace.",
   "notes": [
-   "running 93% behind last month's pace",
-   "unplanned work at 33.3% of everything closed",
+   "running 90% behind last month's pace",
+   "unplanned work at 25.0% of everything closed",
    "cycle time median 12.9d and average 18.9d, both past the healthy band"
   ]
  },
@@ -46,15 +46,15 @@
    "Oct 26",
    "Nov 9",
    18,
-   1,
+   2,
    37,
    37,
-   0,
+   2,
    0,
    [
     37.0,
     37.0,
-    37.0
+    35.0
    ],
    [
     37.0,
@@ -66,12 +66,12 @@
  "SPILL": {
   "DS-Sprint 25-26": {
    "done": [
-    1,
-    0
+    2,
+    2
    ],
    "open": [
-    17,
-    37
+    16,
+    35
    ],
    "out": [
     0,
@@ -99,13 +99,13 @@
      "n": 12,
      "med": 13.68
     },
+    "Closed": {
+     "n": 2,
+     "med": 12.57
+    },
     "In Development": {
      "n": 1,
      "med": 13.68
-    },
-    "Closed": {
-     "n": 1,
-     "med": 13.41
     },
     "Awaiting Review": {
      "n": 4,
@@ -113,12 +113,12 @@
     }
    },
    "dist": {
-    "Ready for Development": 12,
+    "Ready for Development": 11,
+    "Closed": 2,
     "In Development": 1,
-    "Closed": 1,
     "Awaiting Review": 4
    },
-   "stalled": 17,
+   "stalled": 16,
    "worst": 13.68,
    "worstSt": "Ready for Development",
    "items": 18
@@ -128,14 +128,14 @@
   "DS-Sprint 25-26": [
    37.0,
    37.0,
-   37.0
+   35.0
   ]
  },
  "CAP": {
   "9.10": [
-   3,
-   2,
    4,
+   3,
+   6,
    1
   ]
  },
@@ -145,8 +145,8 @@
    "avg": 18.86,
    "n": 3,
    "mx": 40.0,
-   "nodev": 0,
-   "base": 3
+   "nodev": 1,
+   "base": 4
   }
  },
  "complete": false,
