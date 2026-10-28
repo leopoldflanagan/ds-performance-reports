@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 6,
+  "closed": 7,
   "discarded": 0,
-  "resolved": 6,
+  "resolved": 7,
   "unplanned": 3,
-  "unp_pct": 50.0,
+  "unp_pct": 42.9,
   "types": [
    [
     "Story",
-    6
+    7
    ]
   ],
   "sprints": [
@@ -41,11 +41,11 @@
   "day": 28,
   "days": 28,
   "status": "risk",
-  "headline": "6 items closed against 42 the month before. Running 86% behind last month's pace.",
+  "headline": "7 items closed against 42 the month before. Running 83% behind last month's pace.",
   "notes": [
-   "running 86% behind last month's pace",
-   "unplanned work at 50.0% of everything closed",
-   "cycle time median 8.3d and average 14.6d, both past the healthy band"
+   "running 83% behind last month's pace",
+   "unplanned work at 42.9% of everything closed",
+   "cycle time median 5.8d and average 12.8d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -54,34 +54,34 @@
    "Oct 26",
    "Nov 9",
    19,
-   3,
-   37,
-   39,
-   5,
-   5,
+   4,
+   36,
+   38,
+   6,
+   6,
    [
-    37.0,
-    37.0,
-    32.0,
-    34.0
+    36.0,
+    36.0,
+    31.0,
+    32.0
    ],
    [
-    37.0,
-    37.0,
-    37.0,
-    39.0
+    36.0,
+    36.0,
+    36.0,
+    38.0
    ]
   ]
  ],
  "SPILL": {
   "DS-Sprint 25-26": {
    "done": [
-    3,
-    5
+    4,
+    6
    ],
    "open": [
-    16,
-    34
+    15,
+    32
    ],
    "out": [
     0,
@@ -89,9 +89,9 @@
    ],
    "in": [
     5,
-    10
+    9
    ],
-   "in_pct": 27,
+   "in_pct": 25,
    "in_from": "DS-Sprint 24-26"
   }
  },
@@ -114,8 +114,8 @@
      "med": 13.68
     },
     "Closed": {
-     "n": 3,
-     "med": 11.72
+     "n": 4,
+     "med": 11.7
     },
     "In Development": {
      "n": 3,
@@ -127,12 +127,12 @@
     }
    },
    "dist": {
-    "Closed": 3,
-    "Ready for Development": 9,
+    "Closed": 4,
+    "Ready for Development": 8,
     "In Development": 3,
     "Awaiting Review": 4
    },
-   "stalled": 16,
+   "stalled": 15,
    "worst": 13.68,
    "worstSt": "Ready for Development",
    "items": 19
@@ -140,28 +140,28 @@
  },
  "GHOST": {
   "DS-Sprint 25-26": [
-   37.0,
-   37.0,
-   32.0,
-   34.0
+   36.0,
+   36.0,
+   31.0,
+   32.0
   ]
  },
  "CAP": {
   "9.10": [
+   7,
    6,
-   5,
-   10,
+   11,
    2
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 8.29,
-   "avg": 14.58,
-   "n": 4,
+   "med": 5.78,
+   "avg": 12.82,
+   "n": 5,
    "mx": 40.0,
    "nodev": 2,
-   "base": 6
+   "base": 7
   }
  },
  "complete": false,
