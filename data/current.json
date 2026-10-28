@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 5,
+  "closed": 6,
   "discarded": 0,
-  "resolved": 5,
-  "unplanned": 2,
-  "unp_pct": 40.0,
+  "resolved": 6,
+  "unplanned": 3,
+  "unp_pct": 50.0,
   "types": [
    [
     "Story",
-    5
+    6
    ]
   ],
   "sprints": [
@@ -29,6 +29,10 @@
     "First and Last Name fix in Platform [dbo].[pr_GetSecuredEpicPaymentArrangementsDataJoinCollections]"
    ],
    [
+    "DS-805",
+    "Update stored proc for unmatched transactions"
+   ],
+   [
     "DS-800",
     "Analyze cost spike for SQL in September"
    ]
@@ -37,11 +41,11 @@
   "day": 28,
   "days": 28,
   "status": "risk",
-  "headline": "5 items closed against 42 the month before. Running 88% behind last month's pace.",
+  "headline": "6 items closed against 42 the month before. Running 86% behind last month's pace.",
   "notes": [
-   "running 88% behind last month's pace",
-   "unplanned work at 40.0% of everything closed",
-   "cycle time median 12.9d and average 18.9d, both past the healthy band"
+   "running 86% behind last month's pace",
+   "unplanned work at 50.0% of everything closed",
+   "cycle time median 8.3d and average 14.6d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -108,8 +112,8 @@
      "med": 11.72
     },
     "In Development": {
-     "n": 1,
-     "med": 13.68
+     "n": 2,
+     "med": 12.68
     },
     "Awaiting Review": {
      "n": 4,
@@ -118,8 +122,8 @@
    },
    "dist": {
     "Closed": 3,
-    "Ready for Development": 10,
-    "In Development": 1,
+    "Ready for Development": 9,
+    "In Development": 2,
     "Awaiting Review": 4
    },
    "stalled": 15,
@@ -137,20 +141,20 @@
  },
  "CAP": {
   "9.10": [
+   6,
    5,
-   4,
-   9,
+   10,
    2
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 12.91,
-   "avg": 18.86,
-   "n": 3,
+   "med": 8.29,
+   "avg": 14.58,
+   "n": 4,
    "mx": 40.0,
    "nodev": 2,
-   "base": 5
+   "base": 6
   }
  },
  "complete": false,
