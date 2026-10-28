@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 7,
+  "closed": 8,
   "discarded": 0,
-  "resolved": 7,
+  "resolved": 8,
   "unplanned": 3,
-  "unp_pct": 42.9,
+  "unp_pct": 37.5,
   "types": [
    [
     "Story",
-    7
+    8
    ]
   ],
   "sprints": [
@@ -41,11 +41,11 @@
   "day": 28,
   "days": 28,
   "status": "risk",
-  "headline": "7 items closed against 42 the month before. Running 83% behind last month's pace.",
+  "headline": "8 items closed against 42 the month before. Running 81% behind last month's pace.",
   "notes": [
-   "running 83% behind last month's pace",
-   "unplanned work at 42.9% of everything closed",
-   "cycle time median 5.8d and average 12.8d, both past the healthy band"
+   "running 81% behind last month's pace",
+   "unplanned work at 37.5% of everything closed",
+   "cycle time average 10.7d against a 4.7d median - a long tail"
   ]
  },
  "SPRINTS": [
@@ -54,16 +54,16 @@
    "Oct 26",
    "Nov 9",
    19,
-   4,
+   5,
    36,
    38,
-   6,
+   8,
    6,
    [
     36.0,
     36.0,
     31.0,
-    32.0
+    30.0
    ],
    [
     36.0,
@@ -76,12 +76,12 @@
  "SPILL": {
   "DS-Sprint 25-26": {
    "done": [
-    4,
-    6
+    5,
+    8
    ],
    "open": [
-    15,
-    32
+    14,
+    30
    ],
    "out": [
     0,
@@ -114,12 +114,12 @@
      "med": 13.68
     },
     "Closed": {
-     "n": 4,
-     "med": 11.7
+     "n": 5,
+     "med": 11.69
     },
     "In Development": {
      "n": 3,
-     "med": 11.69
+     "med": 11.67
     },
     "Awaiting Review": {
      "n": 4,
@@ -127,12 +127,12 @@
     }
    },
    "dist": {
-    "Closed": 4,
+    "Closed": 5,
     "Ready for Development": 8,
-    "In Development": 3,
+    "In Development": 2,
     "Awaiting Review": 4
    },
-   "stalled": 15,
+   "stalled": 14,
    "worst": 13.68,
    "worstSt": "Ready for Development",
    "items": 19
@@ -143,25 +143,25 @@
    36.0,
    36.0,
    31.0,
-   32.0
+   30.0
   ]
  },
  "CAP": {
   "9.10": [
+   8,
    7,
-   6,
-   11,
+   13,
    2
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 5.78,
-   "avg": 12.82,
-   "n": 5,
+   "med": 4.72,
+   "avg": 10.74,
+   "n": 6,
    "mx": 40.0,
    "nodev": 2,
-   "base": 7
+   "base": 8
   }
  },
  "complete": false,
