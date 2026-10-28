@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T17:45:18Z",
+ "generated": "2026-10-28T18:00:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -477,7 +477,7 @@
    {
     "status": "In Development",
     "open": 3,
-    "med_age": 2.1,
+    "med_age": 2.2,
     "max_age": 8.0,
     "worst_key": "DS-797",
     "worst_sum": "Compliance / Privacy Request Investigation",
@@ -485,18 +485,6 @@
     "over": 1,
     "clear_med": 2.6,
     "clear_n": 90
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.5,
-    "clear_n": 11
    },
    {
     "status": "On Hold",
@@ -509,6 +497,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.5,
+    "clear_n": 11
    }
   ],
   "parked": {
