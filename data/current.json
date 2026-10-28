@@ -9,21 +9,25 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 4,
+  "closed": 5,
   "discarded": 0,
-  "resolved": 4,
-  "unplanned": 1,
-  "unp_pct": 25.0,
+  "resolved": 5,
+  "unplanned": 2,
+  "unp_pct": 40.0,
   "types": [
    [
     "Story",
-    4
+    5
    ]
   ],
   "sprints": [
    "DS-Sprint 25-26"
   ],
   "unp_items": [
+   [
+    "DS-806",
+    "First and Last Name fix in Platform [dbo].[pr_GetSecuredEpicPaymentArrangementsDataJoinCollections]"
+   ],
    [
     "DS-800",
     "Analyze cost spike for SQL in September"
@@ -33,10 +37,10 @@
   "day": 28,
   "days": 28,
   "status": "risk",
-  "headline": "4 items closed against 42 the month before. Running 90% behind last month's pace.",
+  "headline": "5 items closed against 42 the month before. Running 88% behind last month's pace.",
   "notes": [
-   "running 90% behind last month's pace",
-   "unplanned work at 25.0% of everything closed",
+   "running 88% behind last month's pace",
+   "unplanned work at 40.0% of everything closed",
    "cycle time median 12.9d and average 18.9d, both past the healthy band"
   ]
  },
@@ -46,15 +50,15 @@
    "Oct 26",
    "Nov 9",
    18,
-   2,
+   3,
    37,
    37,
-   2,
+   5,
    0,
    [
     37.0,
     37.0,
-    35.0
+    32.0
    ],
    [
     37.0,
@@ -66,12 +70,12 @@
  "SPILL": {
   "DS-Sprint 25-26": {
    "done": [
-    2,
-    2
+    3,
+    5
    ],
    "open": [
-    16,
-    35
+    15,
+    32
    ],
    "out": [
     0,
@@ -100,8 +104,8 @@
      "med": 13.68
     },
     "Closed": {
-     "n": 2,
-     "med": 12.57
+     "n": 3,
+     "med": 11.72
     },
     "In Development": {
      "n": 1,
@@ -113,12 +117,12 @@
     }
    },
    "dist": {
-    "Ready for Development": 11,
-    "Closed": 2,
+    "Closed": 3,
+    "Ready for Development": 10,
     "In Development": 1,
     "Awaiting Review": 4
    },
-   "stalled": 16,
+   "stalled": 15,
    "worst": 13.68,
    "worstSt": "Ready for Development",
    "items": 18
@@ -128,15 +132,15 @@
   "DS-Sprint 25-26": [
    37.0,
    37.0,
-   35.0
+   32.0
   ]
  },
  "CAP": {
   "9.10": [
+   5,
    4,
-   3,
-   6,
-   1
+   9,
+   2
   ]
  },
  "CYC": {
@@ -145,8 +149,8 @@
    "avg": 18.86,
    "n": 3,
    "mx": 40.0,
-   "nodev": 1,
-   "base": 4
+   "nodev": 2,
+   "base": 5
   }
  },
  "complete": false,
