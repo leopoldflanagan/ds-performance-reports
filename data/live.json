@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T14:37:22Z",
+ "generated": "2026-10-28T15:00:25Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -214,7 +214,7 @@
  "admin": {
   "scope": {
    "ready": 13,
-   "sprint": 17,
+   "sprint": 18,
    "sprint_name": "DS-Sprint 25-26"
   },
   "blocking": [
@@ -256,20 +256,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 21 of 21 items. This reads as a field the team does not use rather than 21 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 21,
+    "why": "missing on 22 of 22 items. This reads as a field the team does not use rather than 22 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 22,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 21 of 21 items. This reads as a field the team does not use rather than 21 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 21,
+    "why": "missing on 22 of 22 items. This reads as a field the team does not use rather than 22 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 22,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 21 of 21 items. This reads as a field the team does not use rather than 21 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 21,
+    "why": "missing on 22 of 22 items. This reads as a field the team does not use rather than 22 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 22,
     "items": []
    },
    {
@@ -382,17 +382,17 @@
   "start": "2026-10-26",
   "end": "2026-11-09",
   "goal": "",
-  "items": 18,
+  "items": 19,
   "items_done": 3,
   "committed": 37,
-  "final": 37,
+  "final": 39,
   "completed": 5,
-  "scope_change": 0,
+  "scope_change": 5,
   "vs_commitment": 14,
   "time_elapsed": 15,
   "spill": {
-   "open_items": 15,
-   "open_pts": 32.0,
+   "open_items": 16,
+   "open_pts": 34.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 5.0
@@ -407,23 +407,26 @@
   "dist": {
    "Closed": 3,
    "Ready for Development": 9,
-   "In Development": 2,
+   "In Development": 3,
    "Awaiting Review": 4
   },
   "burn": [
    37.0,
    37.0,
-   32.0
+   32.0,
+   34.0
   ],
   "scope": [
    37.0,
    37.0,
-   37.0
+   37.0,
+   39.0
   ],
   "ghost": [
    37.0,
    37.0,
-   32.0
+   32.0,
+   34.0
   ],
   "days": 14,
   "day": 3,
@@ -477,7 +480,7 @@
     "med_age": 2.0,
     "max_age": 7.9,
     "worst_key": "DS-797",
-    "worst_sum": "Compliance / Privacy Request",
+    "worst_sum": "Compliance / Privacy Request Investigation",
     "worst_who": "Carlos Parra",
     "over": 1,
     "clear_med": 2.6,
