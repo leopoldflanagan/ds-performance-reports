@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T18:00:24Z",
+ "generated": "2026-10-28T18:15:20Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -478,7 +478,7 @@
     "status": "In Development",
     "open": 3,
     "med_age": 2.2,
-    "max_age": 8.0,
+    "max_age": 8.1,
     "worst_key": "DS-797",
     "worst_sum": "Compliance / Privacy Request Investigation",
     "worst_who": "Carlos Parra",
