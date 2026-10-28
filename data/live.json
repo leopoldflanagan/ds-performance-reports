@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T13:37:20Z",
+ "generated": "2026-10-28T13:45:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -180,7 +180,7 @@
    {
     "rule": "Idea/Draft sitting in Ready for Development",
     "n": 6,
-    "points": 12,
+    "points": 13,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -393,7 +393,7 @@
   "time_elapsed": 14,
   "spill": {
    "open_items": 17,
-   "open_pts": 36.0,
+   "open_pts": 37.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 0
