@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T23:37:10Z",
+ "generated": "2026-10-29T00:00:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 3,
+  "day": 4,
   "days": 14,
   "n": 21,
   "done_now": 8,
   "committed": 36,
-  "lo": 24,
-  "mid": 41,
-  "hi": 75,
-  "pct": 114,
-  "verdict": "on track for the commitment",
-  "share_mid": 0.196
+  "lo": 20,
+  "mid": 32,
+  "hi": 47,
+  "pct": 89,
+  "verdict": "a little short of the commitment",
+  "share_mid": 0.247
  },
  "admin": {
   "scope": {
@@ -429,7 +429,7 @@
    30.0
   ],
   "days": 14,
-  "day": 3,
+  "day": 4,
   "capacity": null
  },
  "next": {
@@ -443,7 +443,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 3,
+  "day": 4,
   "days": 28,
   "closed": 8,
   "points": 13,
@@ -466,13 +466,13 @@
     "status": "Ready for Development",
     "open": 12,
     "med_age": 31.8,
-    "max_age": 177.1,
+    "max_age": 177.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 11,
-    "clear_med": 3.5,
-    "clear_n": 108
+    "clear_med": 3.7,
+    "clear_n": 107
    },
    {
     "status": "In Development",
@@ -483,20 +483,8 @@
     "worst_sum": "Compliance / Privacy Request Investigation",
     "worst_who": "Carlos Parra",
     "over": 1,
-    "clear_med": 2.2,
-    "clear_n": 91
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.5,
-    "clear_n": 11
+    "clear_med": 2.9,
+    "clear_n": 89
    },
    {
     "status": "On Hold",
@@ -509,6 +497,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.5,
+    "clear_n": 11
    }
   ],
   "parked": {
