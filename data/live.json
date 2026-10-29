@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T16:16:25Z",
+ "generated": "2026-10-29T16:45:19Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -393,7 +393,7 @@
   "completed": 8,
   "scope_change": 6,
   "vs_commitment": 22,
-  "time_elapsed": 22,
+  "time_elapsed": 23,
   "spill": {
    "open_items": 14,
    "open_pts": 30.0,
@@ -473,7 +473,7 @@
     "status": "Ready for Development",
     "open": 11,
     "med_age": 35.0,
-    "max_age": 177.8,
+    "max_age": 177.9,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
@@ -494,18 +494,6 @@
     "clear_n": 89
    },
    {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.5,
-    "clear_n": 11
-   },
-   {
     "status": "On Hold",
     "open": 0,
     "med_age": 0,
@@ -516,6 +504,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.5,
+    "clear_n": 11
    }
   ],
   "parked": {
