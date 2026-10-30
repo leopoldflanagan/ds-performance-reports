@@ -53,7 +53,7 @@
    "DS-Sprint 25-26",
    "Oct 26",
    "Nov 9",
-   19,
+   20,
    6,
    36,
    38,
@@ -84,7 +84,7 @@
     13
    ],
    "open": [
-    13,
+    14,
     25
    ],
    "out": [
@@ -110,20 +110,20 @@
   "DS-Sprint 25-26": {
    "tis": {
     "Backlog": {
-     "n": 2,
-     "med": 0.68
+     "n": 3,
+     "med": 1.11
     },
     "Ready for Development": {
-     "n": 12,
+     "n": 13,
      "med": 3.98
+    },
+    "In Development": {
+     "n": 6,
+     "med": 10.19
     },
     "Closed": {
      "n": 6,
      "med": 11.64
-    },
-    "In Development": {
-     "n": 5,
-     "med": 10.68
     },
     "Awaiting Review": {
      "n": 4,
@@ -131,15 +131,15 @@
     }
    },
    "dist": {
+    "In Development": 5,
     "Closed": 6,
     "Ready for Development": 5,
-    "In Development": 4,
     "Awaiting Review": 4
    },
-   "stalled": 13,
+   "stalled": 14,
    "worst": 13.68,
    "worstSt": "Awaiting Review",
-   "items": 19
+   "items": 20
   }
  },
  "GHOST": {
