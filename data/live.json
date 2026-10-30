@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T00:38:12Z",
+ "generated": "2026-10-30T01:15:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -472,7 +472,7 @@
    {
     "status": "Ready for Development",
     "open": 11,
-    "med_age": 35.3,
+    "med_age": 35.4,
     "max_age": 178.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -484,7 +484,7 @@
    {
     "status": "In Development",
     "open": 3,
-    "med_age": 3.4,
+    "med_age": 3.5,
     "max_age": 9.3,
     "worst_key": "DS-797",
     "worst_sum": "Compliance / Privacy Request Investigation",
