@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 8,
+  "closed": 9,
   "discarded": 0,
-  "resolved": 8,
+  "resolved": 9,
   "unplanned": 3,
-  "unp_pct": 37.5,
+  "unp_pct": 33.3,
   "types": [
    [
     "Story",
-    8
+    9
    ]
   ],
   "sprints": [
@@ -41,10 +41,10 @@
   "day": 30,
   "days": 28,
   "status": "risk",
-  "headline": "8 items closed against 42 the month before. Running 82% behind last month's pace.",
+  "headline": "9 items closed against 42 the month before. Running 80% behind last month's pace.",
   "notes": [
-   "running 82% behind last month's pace",
-   "unplanned work at 37.5% of everything closed",
+   "running 80% behind last month's pace",
+   "unplanned work at 33.3% of everything closed",
    "cycle time average 10.7d against a 4.7d median - a long tail"
   ]
  },
@@ -54,17 +54,17 @@
    "Oct 26",
    "Nov 9",
    19,
-   5,
+   6,
    36,
    38,
-   8,
+   13,
    6,
    [
     36.0,
     36.0,
     31.0,
     30.0,
-    30.0
+    25.0
    ],
    [
     36.0,
@@ -78,12 +78,12 @@
  "SPILL": {
   "DS-Sprint 25-26": {
    "done": [
-    5,
-    8
+    6,
+    13
    ],
    "open": [
-    14,
-    30
+    13,
+    25
    ],
    "out": [
     0,
@@ -113,15 +113,15 @@
     },
     "Ready for Development": {
      "n": 12,
-     "med": 13.68
+     "med": 3.98
     },
     "Closed": {
-     "n": 5,
-     "med": 11.69
+     "n": 6,
+     "med": 11.64
     },
     "In Development": {
-     "n": 4,
-     "med": 11.18
+     "n": 5,
+     "med": 10.68
     },
     "Awaiting Review": {
      "n": 4,
@@ -129,14 +129,14 @@
     }
    },
    "dist": {
-    "Closed": 5,
-    "Ready for Development": 7,
-    "In Development": 3,
+    "Closed": 6,
+    "Ready for Development": 5,
+    "In Development": 4,
     "Awaiting Review": 4
    },
-   "stalled": 14,
+   "stalled": 13,
    "worst": 13.68,
-   "worstSt": "Ready for Development",
+   "worstSt": "Awaiting Review",
    "items": 19
   }
  },
@@ -146,14 +146,14 @@
    36.0,
    31.0,
    30.0,
-   30.0
+   25.0
   ]
  },
  "CAP": {
   "9.10": [
+   9,
    8,
-   7,
-   13,
+   18,
    2
   ]
  },
@@ -163,8 +163,8 @@
    "avg": 10.74,
    "n": 6,
    "mx": 40.0,
-   "nodev": 2,
-   "base": 8
+   "nodev": 3,
+   "base": 9
   }
  },
  "complete": false,
