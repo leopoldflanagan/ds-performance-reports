@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T11:00:23Z",
+ "generated": "2026-10-31T11:09:36Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -491,7 +491,7 @@
    {
     "status": "In Development",
     "open": 5,
-    "med_age": 1.8,
+    "med_age": 1.9,
     "max_age": 10.8,
     "worst_key": "DS-797",
     "worst_sum": "Compliance / Privacy Request Investigation",
