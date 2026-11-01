@@ -38,12 +38,11 @@
    ]
   ],
   "open": true,
-  "day": 31,
+  "day": 1,
   "days": 28,
   "status": "risk",
-  "headline": "9 items closed against 42 the month before. Running 81% behind last month's pace.",
+  "headline": "9 items closed in the first 1 days, a pace of about 252 for the month against 42 last month. Unplanned work at 33.3% of everything closed.",
   "notes": [
-   "running 81% behind last month's pace",
    "unplanned work at 33.3% of everything closed",
    "cycle time average 10.7d against a 4.7d median - a long tail"
   ]
