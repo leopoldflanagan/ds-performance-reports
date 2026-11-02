@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T20:15:21Z",
+ "generated": "2026-11-02T20:30:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -484,7 +484,7 @@
    {
     "status": "Ready for Development",
     "open": 8,
-    "med_age": 49.6,
+    "med_age": 49.7,
     "max_age": 182.0,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -497,7 +497,7 @@
     "status": "In Development",
     "open": 3,
     "med_age": 4.2,
-    "max_age": 7.2,
+    "max_age": 7.3,
     "worst_key": "DS-801",
     "worst_sum": "DCA Stage testing",
     "worst_who": "Tharika Bairi",
