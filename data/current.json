@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 12,
+  "closed": 13,
   "discarded": 0,
-  "resolved": 12,
+  "resolved": 13,
   "unplanned": 3,
-  "unp_pct": 25.0,
+  "unp_pct": 23.1,
   "types": [
    [
     "Story",
-    12
+    13
    ]
   ],
   "sprints": [
@@ -41,10 +41,10 @@
   "day": 2,
   "days": 28,
   "status": "risk",
-  "headline": "12 items closed in the first 2 days, a pace of about 168 for the month against 42 last month. Unplanned work at 25.0% of everything closed.",
+  "headline": "13 items closed in the first 2 days, a pace of about 182 for the month against 42 last month. Unplanned work at 23.1% of everything closed.",
   "notes": [
-   "unplanned work at 25.0% of everything closed",
-   "cycle time average 9.7d against a 3.7d median - a long tail"
+   "unplanned work at 23.1% of everything closed",
+   "cycle time average 9.5d against a 4.7d median - a long tail"
   ]
  },
  "SPRINTS": [
@@ -52,11 +52,11 @@
    "DS-Sprint 25-26",
    "Oct 26",
    "Nov 9",
-   21,
-   9,
+   22,
+   10,
    39,
    41,
-   17,
+   20,
    5,
    [
     39.0,
@@ -67,7 +67,7 @@
     28.0,
     28.0,
     28.0,
-    24.0
+    21.0
    ],
    [
     39.0,
@@ -85,12 +85,12 @@
  "SPILL": {
   "DS-Sprint 25-26": {
    "done": [
-    9,
-    17
+    10,
+    20
    ],
    "open": [
     12,
-    24
+    21
    ],
    "out": [
     0,
@@ -115,8 +115,8 @@
   "DS-Sprint 25-26": {
    "tis": {
     "Backlog": {
-     "n": 4,
-     "med": 2.57
+     "n": 5,
+     "med": 4.03
     },
     "Ready for Development": {
      "n": 14,
@@ -127,8 +127,8 @@
      "med": 4.1
     },
     "Closed": {
-     "n": 9,
-     "med": 11.35
+     "n": 10,
+     "med": 10.52
     },
     "Awaiting Review": {
      "n": 5,
@@ -136,15 +136,16 @@
     }
    },
    "dist": {
-    "Closed": 9,
+    "Backlog": 1,
+    "Closed": 10,
     "Ready for Development": 4,
-    "In Development": 3,
-    "Awaiting Review": 5
+    "Awaiting Review": 5,
+    "In Development": 2
    },
    "stalled": 12,
    "worst": 13.68,
    "worstSt": "Awaiting Review",
-   "items": 21
+   "items": 22
   }
  },
  "GHOST": {
@@ -157,25 +158,25 @@
    28.0,
    28.0,
    28.0,
-   24.0
+   21.0
   ]
  },
  "CAP": {
   "9.10": [
+   13,
    12,
-   11,
-   22,
+   25,
    2
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 3.67,
-   "avg": 9.73,
-   "n": 9,
+   "med": 4.72,
+   "avg": 9.49,
+   "n": 10,
    "mx": 40.0,
    "nodev": 3,
-   "base": 12
+   "base": 13
   }
  },
  "complete": false,
