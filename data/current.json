@@ -123,7 +123,7 @@
      "med": 3.49
     },
     "In Development": {
-     "n": 7,
+     "n": 8,
      "med": 6.64
     },
     "Closed": {
@@ -136,9 +136,9 @@
     }
    },
    "dist": {
-    "In Development": 4,
+    "In Development": 5,
     "Closed": 8,
-    "Ready for Development": 5,
+    "Ready for Development": 4,
     "Awaiting Review": 4
    },
    "stalled": 13,
