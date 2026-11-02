@@ -1,156 +1,9 @@
 {
- "generated": "2026-11-02T04:45:16Z",
+ "generated": "2026-11-02T05:14:09Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
- "capacity": {
-  "page": "3755671557",
-  "url": "https://wellfit.atlassian.net/wiki/spaces/EDW/pages/3755671557",
-  "sprints": {
-   "DS-Sprint 13-26": {
-    "release": "9.04",
-    "start": "2026-05-11",
-    "end": "2026-05-25",
-    "members": null,
-    "holidays": null,
-    "pto": null,
-    "eff_days": null,
-    "pct": null,
-    "risk": null,
-    "planned": false
-   },
-   "DS-Sprint 15-26": {
-    "release": "9.05",
-    "start": "2026-06-08",
-    "end": "2026-06-22",
-    "members": null,
-    "holidays": null,
-    "pto": null,
-    "eff_days": null,
-    "pct": null,
-    "risk": null,
-    "planned": false
-   },
-   "DS-Sprint 16-26": {
-    "release": "9.06",
-    "start": "2026-06-22",
-    "end": "2026-07-03",
-    "members": null,
-    "holidays": null,
-    "pto": null,
-    "eff_days": null,
-    "pct": null,
-    "risk": null,
-    "planned": false
-   },
-   "DS-Sprint 16-27": {
-    "release": "9.06",
-    "start": "2026-07-06",
-    "end": "2026-07-18",
-    "members": null,
-    "holidays": null,
-    "pto": null,
-    "eff_days": null,
-    "pct": null,
-    "risk": null,
-    "planned": false
-   },
-   "DS-Sprint 18-26": {
-    "release": "9.06",
-    "start": "2026-07-20",
-    "end": "2026-08-02",
-    "members": null,
-    "holidays": null,
-    "pto": null,
-    "eff_days": null,
-    "pct": null,
-    "risk": null,
-    "planned": false
-   },
-   "DS-Sprint 19-26": {
-    "release": "9.07",
-    "start": "2026-08-03",
-    "end": "2026-08-14",
-    "members": null,
-    "holidays": null,
-    "pto": null,
-    "eff_days": null,
-    "pct": null,
-    "risk": null,
-    "planned": false
-   },
-   "DS-Sprint 20-26": {
-    "release": "9.07",
-    "start": "2026-08-27",
-    "end": "2026-08-28",
-    "members": null,
-    "holidays": null,
-    "pto": null,
-    "eff_days": null,
-    "pct": null,
-    "risk": null,
-    "planned": false
-   },
-   "DS-Sprint 21-26": {
-    "release": "9.08",
-    "start": "2026-08-31",
-    "end": "2026-09-11",
-    "members": null,
-    "holidays": null,
-    "pto": null,
-    "eff_days": null,
-    "pct": null,
-    "risk": null,
-    "planned": false
-   },
-   "DS-Sprint 22-26": {
-    "release": "9.08",
-    "start": "2026-09-16",
-    "end": "2026-09-25",
-    "members": null,
-    "holidays": null,
-    "pto": null,
-    "eff_days": null,
-    "pct": null,
-    "risk": null,
-    "planned": false
-   }
-  },
-  "goals": {},
-  "roster": [
-   {
-    "name": "Carlos Parra",
-    "role": "Team lead",
-    "status": "Active"
-   },
-   {
-    "name": "Tharika",
-    "role": "Developer",
-    "status": "Active"
-   }
-  ],
-  "config": {
-   "Sprint duration": "to confirm",
-   "Working hours per day": "8",
-   "Focus factor": "75%",
-   "Productive hours per day": "6",
-   "Team members (current)": "",
-   "Team effective days per sprint": ""
-  },
-  "changes": [],
-  "team": [
-   {
-    "name": "Carlos Parra",
-    "role": "Team lead",
-    "status": "Active"
-   },
-   {
-    "name": "Tharika",
-    "role": "Developer",
-    "status": "Active"
-   }
-  ]
- },
+ "capacity": null,
  "backlog": {
   "per_sprint_pts": null,
   "bands": {
@@ -273,45 +126,6 @@
     "items": []
    },
    {
-    "rule": "Assignee is not on the roster",
-    "why": "the capacity page lists the team; this work is assigned outside it.",
-    "n": 9,
-    "items": [
-     {
-      "key": "DS-808",
-      "summary": "Add dbo ResponsibleParties table from Platform to Analytics DB"
-     },
-     {
-      "key": "DS-807",
-      "summary": "Analytics Ingest tables truncate and reload after the LL migration"
-     },
-     {
-      "key": "DS-806",
-      "summary": "First and Last Name fix in Platform [dbo].[pr_GetSecuredEpicPaymentArrangementsD"
-     },
-     {
-      "key": "DS-803",
-      "summary": "Update URL in settlements ETL web activity"
-     },
-     {
-      "key": "DS-802",
-      "summary": "Update linked services in all ADFs and Logic Apps to point to live copies"
-     },
-     {
-      "key": "DS-801",
-      "summary": "DCA Stage testing"
-     },
-     {
-      "key": "DS-782",
-      "summary": "Update confluence pages with your documentation"
-     },
-     {
-      "key": "DS-776",
-      "summary": "Microsoft Fabric Architecture"
-     }
-    ]
-   },
-   {
     "rule": "Riding 4+ sprints",
     "why": "an item that keeps moving forward is not spillover, it is a decision nobody has made.",
     "n": 8,
@@ -355,12 +169,6 @@
    {
     "rule": "The active sprint has no goal",
     "why": "neither Jira nor the capacity page records one, so delivery can only be measured in points.",
-    "n": 1,
-    "items": []
-   },
-   {
-    "rule": "The sprint is missing from the capacity page",
-    "why": "the planning record and Jira have drifted apart.",
     "n": 1,
     "items": []
    },
@@ -449,8 +257,7 @@
    28.0
   ],
   "days": 14,
-  "day": 8,
-  "capacity": null
+  "day": 8
  },
  "next": {
   "name": "DS-Sprint 26-26",
@@ -507,18 +314,6 @@
     "clear_n": 87
    },
    {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.5,
-    "clear_n": 11
-   },
-   {
     "status": "On Hold",
     "open": 0,
     "med_age": 0,
@@ -529,6 +324,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.5,
+    "clear_n": 11
    }
   ],
   "parked": {
