@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T15:30:22Z",
+ "generated": "2026-11-02T15:36:53Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -179,8 +179,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 4,
-    "points": 9,
+    "n": 3,
+    "points": 8,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -202,18 +202,18 @@
   "day": 8,
   "days": 14,
   "n": 21,
-  "done_now": 14,
+  "done_now": 16,
   "committed": 39,
-  "lo": 24,
-  "mid": 27,
-  "hi": 36,
-  "pct": 69,
+  "lo": 27,
+  "mid": 31,
+  "hi": 41,
+  "pct": 79,
   "verdict": "well short of the commitment",
   "share_mid": 0.519
  },
  "admin": {
   "scope": {
-   "ready": 10,
+   "ready": 9,
    "sprint": 20,
    "sprint_name": "DS-Sprint 25-26"
   },
@@ -221,12 +221,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 4,
+    "n": 3,
     "items": [
-     {
-      "key": "DS-808",
-      "summary": "Add dbo ResponsibleParties table from Platform to Analytics DB"
-     },
      {
       "key": "DS-803",
       "summary": "Update URL in settlements ETL web activity"
@@ -391,19 +387,19 @@
   "end": "2026-11-09",
   "goal": "",
   "items": 21,
-  "items_done": 7,
+  "items_done": 8,
   "committed": 39,
   "final": 41,
-  "completed": 14,
+  "completed": 16,
   "scope_change": 5,
-  "vs_commitment": 36,
+  "vs_commitment": 41,
   "time_elapsed": 51,
   "spill": {
-   "open_items": 14,
-   "open_pts": 27.0,
+   "open_items": 13,
+   "open_pts": 25.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 14.0
+   "done_pts": 16.0
   },
   "recv": {
    "items": 5,
@@ -413,9 +409,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "Ready for Development": 6,
    "In Development": 4,
-   "Closed": 7,
+   "Closed": 8,
+   "Ready for Development": 5,
    "Awaiting Review": 4
   },
   "burn": [
@@ -427,7 +423,7 @@
    28.0,
    28.0,
    28.0,
-   27.0
+   25.0
   ],
   "scope": [
    39.0,
@@ -449,7 +445,7 @@
    28.0,
    28.0,
    28.0,
-   27.0
+   25.0
   ],
   "days": 14,
   "day": 8,
@@ -468,10 +464,10 @@
   "end": "2026-11-22",
   "day": 8,
   "days": 28,
-  "closed": 10,
-  "points": 19,
+  "closed": 11,
+  "points": 21,
   "unplanned": 3,
-  "unplanned_pct": 30.0,
+  "unplanned_pct": 27.3,
   "access_requests": 0,
   "people_active": 2,
   "sprints": [
@@ -487,15 +483,15 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 10,
-    "med_age": 49.4,
+    "open": 9,
+    "med_age": 59.9,
     "max_age": 181.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 9,
-    "clear_med": 3.2,
-    "clear_n": 106
+    "clear_med": 3.0,
+    "clear_n": 107
    },
    {
     "status": "In Development",
@@ -506,20 +502,8 @@
     "worst_sum": "Compliance / Privacy Request Investigation",
     "worst_who": "Carlos Parra",
     "over": 2,
-    "clear_med": 2.6,
-    "clear_n": 88
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "clear_med": 2.9,
+    "clear_n": 89
    },
    {
     "status": "Awaiting Review",
@@ -532,12 +516,24 @@
     "over": 0,
     "clear_med": 2.5,
     "clear_n": 11
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 14,
+  "open_total": 13,
   "stale": 11,
   "worst": "Ready for Development"
  }
