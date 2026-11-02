@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T23:45:16Z",
+ "generated": "2026-11-02T00:00:25Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 7,
+  "day": 8,
   "days": 14,
   "n": 21,
   "done_now": 13,
   "committed": 39,
-  "lo": 25,
-  "mid": 33,
-  "hi": 46,
-  "pct": 85,
-  "verdict": "a little short of the commitment",
-  "share_mid": 0.393
+  "lo": 22,
+  "mid": 25,
+  "hi": 33,
+  "pct": 64,
+  "verdict": "well short of the commitment",
+  "share_mid": 0.519
  },
  "admin": {
   "scope": {
@@ -449,7 +449,7 @@
    28.0
   ],
   "days": 14,
-  "day": 7,
+  "day": 8,
   "capacity": null
  },
  "next": {
@@ -463,7 +463,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 7,
+  "day": 8,
   "days": 28,
   "closed": 9,
   "points": 18,
@@ -486,13 +486,13 @@
     "status": "Ready for Development",
     "open": 10,
     "med_age": 48.8,
-    "max_age": 181.1,
+    "max_age": 181.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 8,
-    "clear_med": 3.9,
-    "clear_n": 111
+    "clear_med": 3.2,
+    "clear_n": 106
    },
    {
     "status": "In Development",
@@ -503,8 +503,8 @@
     "worst_sum": "Compliance / Privacy Request Investigation",
     "worst_who": "Carlos Parra",
     "over": 1,
-    "clear_med": 2.9,
-    "clear_n": 89
+    "clear_med": 2.2,
+    "clear_n": 87
    },
    {
     "status": "Awaiting Review",
