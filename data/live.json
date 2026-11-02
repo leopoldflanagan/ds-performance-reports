@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T15:13:51Z",
+ "generated": "2026-11-02T15:30:22Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,12 +202,12 @@
   "day": 8,
   "days": 14,
   "n": 21,
-  "done_now": 13,
+  "done_now": 14,
   "committed": 39,
-  "lo": 22,
-  "mid": 25,
-  "hi": 33,
-  "pct": 64,
+  "lo": 24,
+  "mid": 27,
+  "hi": 36,
+  "pct": 69,
   "verdict": "well short of the commitment",
   "share_mid": 0.519
  },
@@ -391,19 +391,19 @@
   "end": "2026-11-09",
   "goal": "",
   "items": 21,
-  "items_done": 6,
+  "items_done": 7,
   "committed": 39,
   "final": 41,
-  "completed": 13,
+  "completed": 14,
   "scope_change": 5,
-  "vs_commitment": 33,
+  "vs_commitment": 36,
   "time_elapsed": 51,
   "spill": {
-   "open_items": 15,
-   "open_pts": 28.0,
+   "open_items": 14,
+   "open_pts": 27.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 13.0
+   "done_pts": 14.0
   },
   "recv": {
    "items": 5,
@@ -414,8 +414,8 @@
   "spill_rate": null,
   "dist": {
    "Ready for Development": 6,
-   "In Development": 5,
-   "Closed": 6,
+   "In Development": 4,
+   "Closed": 7,
    "Awaiting Review": 4
   },
   "burn": [
@@ -427,7 +427,7 @@
    28.0,
    28.0,
    28.0,
-   28.0
+   27.0
   ],
   "scope": [
    39.0,
@@ -449,7 +449,7 @@
    28.0,
    28.0,
    28.0,
-   28.0
+   27.0
   ],
   "days": 14,
   "day": 8,
@@ -468,10 +468,10 @@
   "end": "2026-11-22",
   "day": 8,
   "days": 28,
-  "closed": 9,
-  "points": 18,
+  "closed": 10,
+  "points": 19,
   "unplanned": 3,
-  "unplanned_pct": 33.3,
+  "unplanned_pct": 30.0,
   "access_requests": 0,
   "people_active": 2,
   "sprints": [
@@ -499,27 +499,15 @@
    },
    {
     "status": "In Development",
-    "open": 5,
-    "med_age": 4.0,
+    "open": 4,
+    "med_age": 5.5,
     "max_age": 12.9,
     "worst_key": "DS-797",
     "worst_sum": "Compliance / Privacy Request Investigation",
     "worst_who": "Carlos Parra",
     "over": 2,
-    "clear_med": 2.2,
-    "clear_n": 87
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.5,
-    "clear_n": 11
+    "clear_med": 2.6,
+    "clear_n": 88
    },
    {
     "status": "On Hold",
@@ -532,12 +520,24 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.5,
+    "clear_n": 11
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 15,
+  "open_total": 14,
   "stale": 11,
   "worst": "Ready for Development"
  }
