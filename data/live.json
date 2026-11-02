@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T13:00:29Z",
+ "generated": "2026-11-02T13:13:40Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -502,21 +502,9 @@
     "worst_key": "DS-797",
     "worst_sum": "Compliance / Privacy Request Investigation",
     "worst_who": "Carlos Parra",
-    "over": 1,
+    "over": 2,
     "clear_med": 2.2,
     "clear_n": 87
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.5,
-    "clear_n": 11
    },
    {
     "status": "On Hold",
@@ -529,13 +517,25 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.5,
+    "clear_n": 11
    }
   ],
   "parked": {
    "Backlog": 38
   },
   "open_total": 15,
-  "stale": 9,
+  "stale": 10,
   "worst": "Ready for Development"
  }
 }
