@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T07:15:18Z",
+ "generated": "2026-11-03T07:30:25Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -519,7 +519,7 @@
    {
     "status": "In Development",
     "open": 2,
-    "med_age": 2.6,
+    "med_age": 2.7,
     "max_age": 4.7,
     "worst_key": "DS-576",
     "worst_sum": "Mirror remaining tables for Platform",
