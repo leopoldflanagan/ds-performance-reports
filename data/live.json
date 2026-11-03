@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T17:36:04Z",
+ "generated": "2026-11-03T17:45:27Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,19 +202,19 @@
   "day": 9,
   "days": 14,
   "n": 21,
-  "done_now": 20,
+  "done_now": 22,
   "committed": 39,
-  "lo": 30,
-  "mid": 34,
-  "hi": 40,
-  "pct": 87,
-  "verdict": "a little short of the commitment",
+  "lo": 33,
+  "mid": 37,
+  "hi": 44,
+  "pct": 95,
+  "verdict": "on track for the commitment",
   "share_mid": 0.588
  },
  "admin": {
   "scope": {
    "ready": 7,
-   "sprint": 21,
+   "sprint": 22,
    "sprint_name": "DS-Sprint 25-26"
   },
   "blocking": [
@@ -274,26 +274,26 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 25 of 25 items. This reads as a field the team does not use rather than 25 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 25,
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 25 of 25 items. This reads as a field the team does not use rather than 25 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 25,
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 25 of 25 items. This reads as a field the team does not use rather than 25 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 25,
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
     "items": []
    },
    {
     "rule": "Assignee is not on the roster",
     "why": "the capacity page lists the team; this work is assigned outside it.",
-    "n": 10,
+    "n": 11,
     "items": [
      {
       "key": "DS-809",
@@ -408,20 +408,20 @@
   "start": "2026-10-26",
   "end": "2026-11-09",
   "goal": "",
-  "items": 22,
-  "items_done": 10,
+  "items": 23,
+  "items_done": 11,
   "committed": 39,
-  "final": 41,
-  "completed": 20,
-  "scope_change": 5,
-  "vs_commitment": 51,
+  "final": 43,
+  "completed": 22,
+  "scope_change": 10,
+  "vs_commitment": 56,
   "time_elapsed": 59,
   "spill": {
    "open_items": 12,
    "open_pts": 21.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 20.0
+   "done_pts": 22.0
   },
   "recv": {
    "items": 5,
@@ -432,7 +432,7 @@
   "spill_rate": null,
   "dist": {
    "Backlog": 1,
-   "Closed": 10,
+   "Closed": 11,
    "Ready for Development": 3,
    "Awaiting Review": 5,
    "In Development": 3
@@ -459,7 +459,7 @@
    41.0,
    41.0,
    41.0,
-   41.0
+   43.0
   ],
   "ghost": [
    39.0,
@@ -490,10 +490,10 @@
   "end": "2026-11-22",
   "day": 9,
   "days": 28,
-  "closed": 13,
-  "points": 25,
+  "closed": 14,
+  "points": 27,
   "unplanned": 3,
-  "unplanned_pct": 23.1,
+  "unplanned_pct": 21.4,
   "access_requests": 0,
   "people_active": 2,
   "sprints": [
@@ -516,8 +516,8 @@
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 7,
-    "clear_med": 3.5,
-    "clear_n": 108
+    "clear_med": 3.3,
+    "clear_n": 109
    },
    {
     "status": "In Development",
@@ -532,18 +532,6 @@
     "clear_n": 91
    },
    {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.5,
-    "clear_n": 11
-   },
-   {
     "status": "On Hold",
     "open": 0,
     "med_age": 0,
@@ -554,10 +542,22 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.5,
+    "clear_n": 11
    }
   ],
   "parked": {
-   "Backlog": 39
+   "Backlog": 38
   },
   "open_total": 11,
   "stale": 7,
