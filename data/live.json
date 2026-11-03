@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T16:45:20Z",
+ "generated": "2026-11-03T17:00:27Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -510,7 +510,7 @@
    {
     "status": "Ready for Development",
     "open": 7,
-    "med_age": 60.9,
+    "med_age": 61.0,
     "max_age": 182.9,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -522,7 +522,7 @@
    {
     "status": "In Development",
     "open": 4,
-    "med_age": 0.5,
+    "med_age": 0.6,
     "max_age": 5.1,
     "worst_key": "DS-576",
     "worst_sum": "Mirror remaining tables for Platform",
