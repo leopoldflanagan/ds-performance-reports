@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T19:15:32Z",
+ "generated": "2026-11-03T19:30:37Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -522,7 +522,7 @@
    {
     "status": "In Development",
     "open": 4,
-    "med_age": 0.6,
+    "med_age": 0.7,
     "max_age": 5.2,
     "worst_key": "DS-576",
     "worst_sum": "Mirror remaining tables for Platform",
@@ -530,18 +530,6 @@
     "over": 0,
     "clear_med": 2.9,
     "clear_n": 91
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -554,6 +542,18 @@
     "over": 0,
     "clear_med": 2.5,
     "clear_n": 11
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
