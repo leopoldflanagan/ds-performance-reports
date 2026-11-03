@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T15:45:27Z",
+ "generated": "2026-11-03T16:00:29Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -159,8 +159,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 5,
-   "points": 16
+   "items": 4,
+   "points": 13
   },
   "misfiled": {
    "items": 15,
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 8,
+   "ready": 7,
    "sprint": 21,
    "sprint_name": "DS-Sprint 25-26"
   },
@@ -433,9 +433,9 @@
   "dist": {
    "Backlog": 1,
    "Closed": 10,
-   "Ready for Development": 4,
+   "Ready for Development": 3,
    "Awaiting Review": 5,
-   "In Development": 2
+   "In Development": 3
   },
   "burn": [
    39.0,
@@ -509,21 +509,21 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 8,
-    "med_age": 50.5,
+    "open": 7,
+    "med_age": 60.9,
     "max_age": 182.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
-    "over": 8,
-    "clear_med": 3.3,
-    "clear_n": 107
+    "over": 7,
+    "clear_med": 3.5,
+    "clear_n": 108
    },
    {
     "status": "In Development",
-    "open": 2,
-    "med_age": 3.0,
-    "max_age": 5.0,
+    "open": 4,
+    "med_age": 0.5,
+    "max_age": 5.1,
     "worst_key": "DS-576",
     "worst_sum": "Mirror remaining tables for Platform",
     "worst_who": "Carlos Parra",
@@ -559,8 +559,8 @@
   "parked": {
    "Backlog": 39
   },
-  "open_total": 10,
-  "stale": 8,
+  "open_total": 11,
+  "stale": 7,
   "worst": "Ready for Development"
  }
 }
