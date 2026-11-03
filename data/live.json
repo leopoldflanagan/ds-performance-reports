@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T14:45:22Z",
+ "generated": "2026-11-03T15:00:28Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -415,7 +415,7 @@
   "completed": 20,
   "scope_change": 5,
   "vs_commitment": 51,
-  "time_elapsed": 58,
+  "time_elapsed": 59,
   "spill": {
    "open_items": 12,
    "open_pts": 21.0,
@@ -446,12 +446,14 @@
    28.0,
    28.0,
    28.0,
+   21.0,
    21.0
   ],
   "scope": [
    39.0,
    39.0,
    39.0,
+   41.0,
    41.0,
    41.0,
    41.0,
@@ -468,6 +470,7 @@
    28.0,
    28.0,
    28.0,
+   21.0,
    21.0
   ],
   "days": 14,
@@ -529,18 +532,6 @@
     "clear_n": 91
    },
    {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
-   },
-   {
     "status": "Awaiting Review",
     "open": 0,
     "med_age": 0,
@@ -551,6 +542,18 @@
     "over": 0,
     "clear_med": 2.5,
     "clear_n": 11
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
