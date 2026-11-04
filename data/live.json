@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T19:30:24Z",
+ "generated": "2026-11-04T19:36:30Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -266,7 +266,7 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 3,
+    "n": 2,
     "items": [
      {
       "key": "DS-809",
@@ -275,10 +275,6 @@
      {
       "key": "DS-448",
       "summary": "Missing vantiv files alert"
-     },
-     {
-      "key": "DS-370",
-      "summary": "Add [UnifiedPayments].[TransactionContext] to analytics ingest layer"
      }
     ]
    }
@@ -443,10 +439,10 @@
   },
   "spill_rate": null,
   "dist": {
-   "Backlog": 3,
+   "Backlog": 2,
    "Closed": 12,
    "Ready for Development": 3,
-   "In Development": 4,
+   "In Development": 5,
    "Awaiting Review": 4
   },
   "burn": [
@@ -536,8 +532,8 @@
    },
    {
     "status": "In Development",
-    "open": 4,
-    "med_age": 1.7,
+    "open": 5,
+    "med_age": 1.2,
     "max_age": 6.2,
     "worst_key": "DS-576",
     "worst_sum": "Mirror remaining tables for Platform",
@@ -545,18 +541,6 @@
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 92
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.2,
-    "clear_n": 12
    },
    {
     "status": "On Hold",
@@ -569,12 +553,24 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.2,
+    "clear_n": 12
    }
   ],
   "parked": {
-   "Backlog": 37
+   "Backlog": 36
   },
-  "open_total": 11,
+  "open_total": 12,
   "stale": 7,
   "worst": "Ready for Development"
  }

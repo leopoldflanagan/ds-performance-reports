@@ -123,15 +123,15 @@
    "tis": {
     "Backlog": {
      "n": 9,
-     "med": 4.03
+     "med": 1.11
     },
     "Ready for Development": {
      "n": 16,
      "med": 2.99
     },
     "In Development": {
-     "n": 11,
-     "med": 4.64
+     "n": 12,
+     "med": 4.56
     },
     "Closed": {
      "n": 12,
@@ -143,10 +143,10 @@
     }
    },
    "dist": {
-    "Backlog": 3,
+    "Backlog": 2,
     "Closed": 12,
     "Ready for Development": 3,
-    "In Development": 4,
+    "In Development": 5,
     "Awaiting Review": 4
    },
    "stalled": 14,
