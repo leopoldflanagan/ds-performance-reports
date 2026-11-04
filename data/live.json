@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T15:30:26Z",
+ "generated": "2026-11-04T15:36:45Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -214,18 +214,22 @@
  "admin": {
   "scope": {
    "ready": 7,
-   "sprint": 23,
+   "sprint": 25,
    "sprint_name": "DS-Sprint 25-26"
   },
   "blocking": [
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 1,
+    "n": 2,
     "items": [
      {
       "key": "DS-809",
       "summary": "DCA Prod Refresh"
+     },
+     {
+      "key": "DS-370",
+      "summary": "Add [UnifiedPayments].[TransactionContext] to analytics ingest layer"
      }
     ]
    },
@@ -262,11 +266,19 @@
    {
     "rule": "Still in Backlog inside the sprint",
     "why": "in the sprint but never pulled into the flow.",
-    "n": 1,
+    "n": 3,
     "items": [
      {
       "key": "DS-809",
       "summary": "DCA Prod Refresh"
+     },
+     {
+      "key": "DS-448",
+      "summary": "Missing vantiv files alert"
+     },
+     {
+      "key": "DS-370",
+      "summary": "Add [UnifiedPayments].[TransactionContext] to analytics ingest layer"
      }
     ]
    }
@@ -274,26 +286,26 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 27 of 27 items. This reads as a field the team does not use rather than 27 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 27,
+    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 29,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 27 of 27 items. This reads as a field the team does not use rather than 27 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 27,
+    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 29,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 27 of 27 items. This reads as a field the team does not use rather than 27 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 27,
+    "why": "missing on 29 of 29 items. This reads as a field the team does not use rather than 29 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 29,
     "items": []
    },
    {
     "rule": "Assignee is not on the roster",
     "why": "the capacity page lists the team; this work is assigned outside it.",
-    "n": 12,
+    "n": 14,
     "items": [
      {
       "key": "DS-809",
@@ -408,17 +420,17 @@
   "start": "2026-10-26",
   "end": "2026-11-09",
   "goal": "",
-  "items": 24,
+  "items": 26,
   "items_done": 12,
   "committed": 39,
-  "final": 45,
+  "final": 47,
   "completed": 24,
-  "scope_change": 15,
+  "scope_change": 21,
   "vs_commitment": 62,
   "time_elapsed": 66,
   "spill": {
-   "open_items": 12,
-   "open_pts": 21.0,
+   "open_items": 14,
+   "open_pts": 23.0,
    "out_items": 0,
    "out_pts": 0,
    "done_pts": 24.0
@@ -431,11 +443,11 @@
   },
   "spill_rate": null,
   "dist": {
-   "Backlog": 1,
+   "Backlog": 3,
    "Closed": 12,
    "Ready for Development": 3,
-   "Awaiting Review": 5,
-   "In Development": 3
+   "In Development": 4,
+   "Awaiting Review": 4
   },
   "burn": [
    39.0,
@@ -448,7 +460,7 @@
    28.0,
    21.0,
    23.0,
-   21.0
+   23.0
   ],
   "scope": [
    39.0,
@@ -461,7 +473,7 @@
    41.0,
    41.0,
    45.0,
-   45.0
+   47.0
   ],
   "ghost": [
    39.0,
@@ -474,7 +486,7 @@
    28.0,
    21.0,
    23.0,
-   21.0
+   23.0
   ],
   "days": 14,
   "day": 10,
@@ -493,10 +505,10 @@
   "end": "2026-11-22",
   "day": 10,
   "days": 28,
-  "closed": 15,
+  "closed": 16,
   "points": 29,
-  "unplanned": 3,
-  "unplanned_pct": 20.0,
+  "unplanned": 4,
+  "unplanned_pct": 25.0,
   "access_requests": 0,
   "people_active": 2,
   "sprints": [
@@ -532,7 +544,19 @@
     "worst_who": "Carlos Parra",
     "over": 0,
     "clear_med": 3.0,
-    "clear_n": 90
+    "clear_n": 92
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.2,
+    "clear_n": 12
    },
    {
     "status": "On Hold",
@@ -545,18 +569,6 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.5,
-    "clear_n": 11
    }
   ],
   "parked": {
