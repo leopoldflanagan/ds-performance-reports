@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T21:09:49Z",
+ "generated": "2026-11-06T21:15:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -530,8 +530,8 @@
    },
    {
     "status": "In Development",
-    "open": 5,
-    "med_age": 3.2,
+    "open": 6,
+    "med_age": 2.7,
     "max_age": 8.3,
     "worst_key": "DS-576",
     "worst_sum": "Mirror remaining tables for Platform",
@@ -568,7 +568,7 @@
   "parked": {
    "Backlog": 36
   },
-  "open_total": 13,
+  "open_total": 14,
   "stale": 8,
   "worst": "Ready for Development"
  }
