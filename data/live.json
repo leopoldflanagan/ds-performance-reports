@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T10:45:18Z",
+ "generated": "2026-11-06T11:10:52Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -529,25 +529,13 @@
     "status": "In Development",
     "open": 5,
     "med_age": 2.8,
-    "max_age": 7.8,
+    "max_age": 7.9,
     "worst_key": "DS-576",
     "worst_sum": "Mirror remaining tables for Platform",
     "worst_who": "Carlos Parra",
     "over": 1,
     "clear_med": 2.2,
     "clear_n": 91
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.2,
-    "clear_n": 12
    },
    {
     "status": "On Hold",
@@ -560,6 +548,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.2,
+    "clear_n": 12
    }
   ],
   "parked": {
