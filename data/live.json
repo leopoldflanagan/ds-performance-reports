@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T20:12:26Z",
+ "generated": "2026-11-06T20:45:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -532,7 +532,7 @@
     "status": "In Development",
     "open": 5,
     "med_age": 3.2,
-    "max_age": 8.2,
+    "max_age": 8.3,
     "worst_key": "DS-576",
     "worst_sum": "Mirror remaining tables for Platform",
     "worst_who": "Carlos Parra",
