@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T14:45:17Z",
+ "generated": "2026-11-07T15:00:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -450,6 +450,7 @@
    25.0,
    26.0,
    25.0,
+   25.0,
    25.0
   ],
   "scope": [
@@ -463,6 +464,7 @@
    43.0,
    43.0,
    47.0,
+   50.0,
    50.0,
    50.0,
    50.0
@@ -479,6 +481,7 @@
    23.0,
    25.0,
    26.0,
+   25.0,
    25.0,
    25.0
   ],
@@ -541,18 +544,6 @@
     "clear_n": 91
    },
    {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
-   },
-   {
     "status": "Awaiting Review",
     "open": 0,
     "med_age": 0,
@@ -563,6 +554,18 @@
     "over": 0,
     "clear_med": 2.2,
     "clear_n": 12
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
