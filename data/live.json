@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T06:45:19Z",
+ "generated": "2026-11-08T07:12:23Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -522,8 +522,8 @@
    {
     "status": "Ready for Development",
     "open": 8,
-    "med_age": 55.0,
-    "max_age": 187.4,
+    "med_age": 55.1,
+    "max_age": 187.5,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
@@ -534,7 +534,7 @@
    {
     "status": "In Development",
     "open": 6,
-    "med_age": 4.1,
+    "med_age": 4.2,
     "max_age": 9.7,
     "worst_key": "DS-576",
     "worst_sum": "Mirror remaining tables for Platform",
