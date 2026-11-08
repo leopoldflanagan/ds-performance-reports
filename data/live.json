@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T23:45:17Z",
+ "generated": "2026-11-08T00:00:26Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 13,
+  "day": 14,
   "days": 14,
   "n": 21,
   "done_now": 25,
   "committed": 41,
-  "lo": 28,
-  "mid": 34,
-  "hi": 40,
-  "pct": 83,
-  "verdict": "a little short of the commitment",
-  "share_mid": 0.735
+  "lo": 25,
+  "mid": 25,
+  "hi": 25,
+  "pct": 61,
+  "verdict": "well short of the commitment",
+  "share_mid": 1.0
  },
  "admin": {
   "scope": {
@@ -415,7 +415,7 @@
   "completed": 25,
   "scope_change": 22,
   "vs_commitment": 61,
-  "time_elapsed": 90,
+  "time_elapsed": 91,
   "spill": {
    "open_items": 13,
    "open_pts": 23.0,
@@ -486,7 +486,7 @@
    25.0
   ],
   "days": 14,
-  "day": 13,
+  "day": 14,
   "capacity": null
  },
  "next": {
@@ -500,7 +500,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 13,
+  "day": 14,
   "days": 28,
   "closed": 17,
   "points": 30,
@@ -523,7 +523,7 @@
     "status": "Ready for Development",
     "open": 8,
     "med_age": 54.8,
-    "max_age": 187.1,
+    "max_age": 187.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
