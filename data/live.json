@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T14:13:20Z",
+ "generated": "2026-11-09T14:15:19Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -417,11 +417,11 @@
   "vs_commitment": 61,
   "time_elapsed": 100,
   "spill": {
-   "open_items": 13,
-   "open_pts": 23.0,
+   "open_items": 11,
+   "open_pts": 21.0,
    "out_items": 1,
    "out_pts": 2.0,
-   "done_pts": 25.0
+   "done_pts": 27.0
   },
   "recv": {
    "items": 5,
@@ -429,13 +429,13 @@
    "pct": 22,
    "from": "DS-Sprint 24-26"
   },
-  "spill_rate": 50,
+  "spill_rate": 46,
   "dist": {
    "Ready for Development": 4,
    "Backlog": 1,
-   "Closed": 13,
+   "Closed": 15,
    "In Development": 4,
-   "Awaiting Review": 4
+   "Awaiting Review": 2
   },
   "burn": [
    41.0,
@@ -452,7 +452,7 @@
    25.0,
    25.0,
    25.0,
-   25.0
+   23.0
   ],
   "scope": [
    41.0,
@@ -486,7 +486,7 @@
    25.0,
    25.0,
    25.0,
-   25.0
+   23.0
   ],
   "days": 14,
   "day": 14,
@@ -505,10 +505,10 @@
   "end": "2026-11-22",
   "day": 15,
   "days": 28,
-  "closed": 18,
-  "points": 32,
+  "closed": 20,
+  "points": 34,
   "unplanned": 5,
-  "unplanned_pct": 27.8,
+  "unplanned_pct": 25.0,
   "access_requests": 0,
   "people_active": 2,
   "sprints": [
@@ -526,7 +526,7 @@
     "status": "Ready for Development",
     "open": 8,
     "med_age": 56.3,
-    "max_age": 188.7,
+    "max_age": 188.8,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
@@ -543,8 +543,20 @@
     "worst_sum": "Mirror remaining tables for Platform",
     "worst_who": "Carlos Parra",
     "over": 1,
-    "clear_med": 2.2,
-    "clear_n": 91
+    "clear_med": 2.7,
+    "clear_n": 93
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.6,
+    "clear_n": 14
    },
    {
     "status": "On Hold",
@@ -557,18 +569,6 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.2,
-    "clear_n": 12
    }
   ],
   "parked": {
