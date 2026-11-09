@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 22,
+  "closed": 23,
   "discarded": 0,
-  "resolved": 22,
+  "resolved": 23,
   "unplanned": 6,
-  "unp_pct": 27.3,
+  "unp_pct": 26.1,
   "types": [
    [
     "Story",
-    22
+    23
    ]
   ],
   "sprints": [
@@ -54,9 +54,9 @@
   "day": 9,
   "days": 28,
   "status": "risk",
-  "headline": "22 items closed in the first 9 days, a pace of about 68 for the month against 42 last month. Unplanned work at 27.3% of everything closed.",
+  "headline": "23 items closed in the first 9 days, a pace of about 72 for the month against 42 last month. Unplanned work at 26.1% of everything closed.",
   "notes": [
-   "unplanned work at 27.3% of everything closed",
+   "unplanned work at 26.1% of everything closed",
    "cycle time median 4.7d and average 13.7d, both past the healthy band"
   ]
  },
@@ -67,64 +67,64 @@
    "Nov 9",
    27,
    16,
-   44,
-   53,
+   45,
+   54,
    28,
    20,
    [
-    44.0,
-    44.0,
+    45.0,
+    45.0,
+    40.0,
     39.0,
-    38.0,
-    33.0,
-    33.0,
-    33.0,
-    33.0,
-    26.0,
-    28.0,
+    34.0,
+    34.0,
+    34.0,
+    34.0,
+    27.0,
     29.0,
-    28.0,
-    28.0,
-    28.0,
-    26.0,
-    23.0
+    30.0,
+    29.0,
+    29.0,
+    29.0,
+    27.0,
+    22.0
    ],
    [
-    44.0,
-    44.0,
-    44.0,
-    46.0,
-    46.0,
-    46.0,
-    46.0,
-    46.0,
-    46.0,
-    50.0,
-    53.0,
-    53.0,
-    53.0,
-    53.0,
-    53.0,
-    53.0
+    45.0,
+    45.0,
+    45.0,
+    47.0,
+    47.0,
+    47.0,
+    47.0,
+    47.0,
+    47.0,
+    51.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0,
+    54.0
    ]
   ],
   [
    "DS-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   15,
-   2,
-   36,
-   36,
-   2,
+   16,
+   3,
+   39,
+   39,
+   4,
    0,
    [
-    36.0,
-    34.0
+    37.0,
+    35.0
    ],
    [
-    36.0,
-    36.0
+    37.0,
+    39.0
    ]
   ]
  ],
@@ -146,17 +146,17 @@
     5,
     10
    ],
-   "in_pct": 23,
+   "in_pct": 22,
    "in_from": "DS-Sprint 24-26"
   },
   "DS-Sprint 26-26": {
    "done": [
-    2,
-    2
+    3,
+    4
    ],
    "open": [
     13,
-    34
+    35
    ],
    "out": [
     0,
@@ -166,7 +166,7 @@
     8,
     20
    ],
-   "in_pct": 56,
+   "in_pct": 51,
    "in_from": "DS-Sprint 25-26"
   }
  },
@@ -203,9 +203,9 @@
     }
    },
    "dist": {
-    "Ready for Development": 4,
+    "Ready for Development": 3,
     "Backlog": 1,
-    "Closed": 17,
+    "Closed": 18,
     "In Development": 4,
     "Awaiting Review": 1
    },
@@ -216,6 +216,10 @@
   },
   "DS-Sprint 26-26": {
    "tis": {
+    "In Development": {
+     "n": 6,
+     "med": 13.63
+    },
     "Backlog": {
      "n": 3,
      "med": 13.63
@@ -224,13 +228,9 @@
      "n": 5,
      "med": 13.63
     },
-    "In Development": {
-     "n": 5,
-     "med": 13.63
-    },
     "Closed": {
-     "n": 2,
-     "med": 13.53
+     "n": 3,
+     "med": 13.44
     },
     "Awaiting Review": {
      "n": 1,
@@ -238,47 +238,47 @@
     }
    },
    "dist": {
+    "In Development": 5,
     "Backlog": 3,
-    "Ready for Development": 5,
-    "Closed": 2,
-    "In Development": 4,
+    "Ready for Development": 4,
+    "Closed": 3,
     "Awaiting Review": 1
    },
    "stalled": 13,
    "worst": 13.63,
-   "worstSt": "Ready for Development",
-   "items": 15
+   "worstSt": "In Development",
+   "items": 16
   }
  },
  "GHOST": {
   "DS-Sprint 25-26": [
-   44.0,
-   44.0,
+   45.0,
+   45.0,
+   40.0,
    39.0,
-   38.0,
-   33.0,
-   33.0,
-   33.0,
-   33.0,
-   26.0,
-   28.0,
+   34.0,
+   34.0,
+   34.0,
+   34.0,
+   27.0,
    29.0,
-   28.0,
-   28.0,
-   28.0,
-   26.0,
-   23.0
+   30.0,
+   29.0,
+   29.0,
+   29.0,
+   27.0,
+   22.0
   ],
   "DS-Sprint 26-26": [
-   36.0,
-   34.0
+   37.0,
+   35.0
   ]
  },
  "CAP": {
   "9.10": [
-   22,
-   20,
-   37,
+   23,
+   21,
+   39,
    2
   ]
  },
@@ -288,8 +288,8 @@
    "avg": 13.65,
    "n": 18,
    "mx": 41.75,
-   "nodev": 4,
-   "base": 22
+   "nodev": 5,
+   "base": 23
   }
  },
  "complete": false,
