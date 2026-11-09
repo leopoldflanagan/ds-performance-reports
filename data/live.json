@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T20:30:24Z",
+ "generated": "2026-11-09T20:36:22Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -383,19 +383,19 @@
   "end": "2026-11-23",
   "goal": "",
   "items": 15,
-  "items_done": 1,
+  "items_done": 2,
   "committed": 36,
   "final": 36,
-  "completed": 0,
+  "completed": 2,
   "scope_change": 0,
-  "vs_commitment": 0,
+  "vs_commitment": 6,
   "time_elapsed": 1,
   "spill": {
-   "open_items": 14,
-   "open_pts": 36.0,
+   "open_items": 13,
+   "open_pts": 34.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 0
+   "done_pts": 2.0
   },
   "recv": {
    "items": 8,
@@ -407,13 +407,13 @@
   "dist": {
    "Backlog": 3,
    "Ready for Development": 5,
-   "In Development": 5,
-   "Closed": 1,
+   "Closed": 2,
+   "In Development": 4,
    "Awaiting Review": 1
   },
   "burn": [
    36.0,
-   36.0
+   34.0
   ],
   "scope": [
    36.0,
@@ -421,7 +421,7 @@
   ],
   "ghost": [
    36.0,
-   36.0
+   34.0
   ],
   "days": 14,
   "day": 1,
@@ -436,10 +436,10 @@
   "end": "2026-11-22",
   "day": 15,
   "days": 28,
-  "closed": 21,
-  "points": 35,
-  "unplanned": 5,
-  "unplanned_pct": 23.8,
+  "closed": 22,
+  "points": 37,
+  "unplanned": 6,
+  "unplanned_pct": 27.3,
   "access_requests": 0,
   "people_active": 2,
   "sprints": [
@@ -467,15 +467,15 @@
    },
    {
     "status": "In Development",
-    "open": 5,
-    "med_age": 6.2,
+    "open": 4,
+    "med_age": 6.7,
     "max_age": 11.2,
     "worst_key": "DS-576",
     "worst_sum": "Mirror remaining tables for Platform",
     "worst_who": "Carlos Parra",
     "over": 2,
-    "clear_med": 2.8,
-    "clear_n": 94
+    "clear_med": 2.9,
+    "clear_n": 95
    },
    {
     "status": "On Hold",
@@ -505,7 +505,7 @@
   "parked": {
    "Backlog": 38
   },
-  "open_total": 14,
+  "open_total": 13,
   "stale": 9,
   "worst": "Ready for Development"
  }

@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 21,
+  "closed": 22,
   "discarded": 0,
-  "resolved": 21,
-  "unplanned": 5,
-  "unp_pct": 23.8,
+  "resolved": 22,
+  "unplanned": 6,
+  "unp_pct": 27.3,
   "types": [
    [
     "Story",
-    21
+    22
    ]
   ],
   "sprints": [
@@ -44,16 +44,20 @@
    [
     "DS-800",
     "Analyze cost spike for SQL in September"
+   ],
+   [
+    "DS-797",
+    "Compliance / Privacy Request Investigation"
    ]
   ],
   "open": true,
   "day": 9,
   "days": 28,
   "status": "risk",
-  "headline": "21 items closed in the first 9 days, a pace of about 65 for the month against 42 last month. Unplanned work at 23.8% of everything closed.",
+  "headline": "22 items closed in the first 9 days, a pace of about 68 for the month against 42 last month. Unplanned work at 27.3% of everything closed.",
   "notes": [
-   "unplanned work at 23.8% of everything closed",
-   "cycle time median 3.7d and average 13.3d, both past the healthy band"
+   "unplanned work at 27.3% of everything closed",
+   "cycle time median 4.7d and average 13.7d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -83,7 +87,7 @@
     28.0,
     28.0,
     26.0,
-    25.0
+    23.0
    ],
    [
     44.0,
@@ -109,14 +113,14 @@
    "Nov 9",
    "Nov 23",
    15,
-   1,
+   2,
    36,
    36,
-   0,
+   2,
    0,
    [
     36.0,
-    36.0
+    34.0
    ],
    [
     36.0,
@@ -147,12 +151,12 @@
   },
   "DS-Sprint 26-26": {
    "done": [
-    1,
-    0
+    2,
+    2
    ],
    "open": [
-    14,
-    36
+    13,
+    34
    ],
    "out": [
     0,
@@ -201,8 +205,8 @@
    "dist": {
     "Ready for Development": 4,
     "Backlog": 1,
-    "Closed": 16,
-    "In Development": 5,
+    "Closed": 17,
+    "In Development": 4,
     "Awaiting Review": 1
    },
    "stalled": 10,
@@ -225,8 +229,8 @@
      "med": 13.63
     },
     "Closed": {
-     "n": 1,
-     "med": 13.63
+     "n": 2,
+     "med": 13.53
     },
     "Awaiting Review": {
      "n": 1,
@@ -236,11 +240,11 @@
    "dist": {
     "Backlog": 3,
     "Ready for Development": 5,
-    "In Development": 5,
-    "Closed": 1,
+    "Closed": 2,
+    "In Development": 4,
     "Awaiting Review": 1
    },
-   "stalled": 14,
+   "stalled": 13,
    "worst": 13.63,
    "worstSt": "Ready for Development",
    "items": 15
@@ -263,29 +267,29 @@
    28.0,
    28.0,
    26.0,
-   25.0
+   23.0
   ],
   "DS-Sprint 26-26": [
    36.0,
-   36.0
+   34.0
   ]
  },
  "CAP": {
   "9.10": [
-   21,
-   19,
-   35,
+   22,
+   20,
+   37,
    2
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 3.67,
-   "avg": 13.26,
-   "n": 17,
+   "med": 4.72,
+   "avg": 13.65,
+   "n": 18,
    "mx": 41.75,
    "nodev": 4,
-   "base": 21
+   "base": 22
   }
  },
  "complete": false,
