@@ -9,21 +9,25 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 17,
+  "closed": 18,
   "discarded": 0,
-  "resolved": 17,
-  "unplanned": 4,
-  "unp_pct": 23.5,
+  "resolved": 18,
+  "unplanned": 5,
+  "unp_pct": 27.8,
   "types": [
    [
     "Story",
-    17
+    18
    ]
   ],
   "sprints": [
    "DS-Sprint 25-26"
   ],
   "unp_items": [
+   [
+    "DS-813",
+    "Load 28 plans to Stage"
+   ],
    [
     "DS-810",
     "CCB Support"
@@ -45,9 +49,9 @@
   "day": 9,
   "days": 28,
   "status": "risk",
-  "headline": "17 items closed in the first 9 days, a pace of about 53 for the month against 42 last month. Unplanned work at 23.5% of everything closed.",
+  "headline": "18 items closed in the first 9 days, a pace of about 56 for the month against 42 last month. Unplanned work at 27.8% of everything closed.",
   "notes": [
-   "unplanned work at 23.5% of everything closed"
+   "unplanned work at 27.8% of everything closed"
   ]
  },
  "SPRINTS": [
@@ -184,20 +188,20 @@
  },
  "CAP": {
   "9.10": [
-   17,
-   15,
-   30,
+   18,
+   16,
+   32,
    2
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 3.0,
-   "avg": 7.51,
-   "n": 13,
+   "med": 2.86,
+   "avg": 7.17,
+   "n": 14,
    "mx": 40.0,
    "nodev": 4,
-   "base": 17
+   "base": 18
   }
  },
  "complete": false,
