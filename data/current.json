@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 20,
+  "closed": 21,
   "discarded": 0,
-  "resolved": 20,
+  "resolved": 21,
   "unplanned": 5,
-  "unp_pct": 25.0,
+  "unp_pct": 23.8,
   "types": [
    [
     "Story",
-    20
+    21
    ]
   ],
   "sprints": [
@@ -49,10 +49,10 @@
   "day": 9,
   "days": 28,
   "status": "risk",
-  "headline": "20 items closed in the first 9 days, a pace of about 62 for the month against 42 last month. Unplanned work at 25.0% of everything closed.",
+  "headline": "21 items closed in the first 9 days, a pace of about 65 for the month against 42 last month. Unplanned work at 23.8% of everything closed.",
   "notes": [
-   "unplanned work at 25.0% of everything closed",
-   "cycle time median 3.3d and average 11.5d, both past the healthy band"
+   "unplanned work at 23.8% of everything closed",
+   "cycle time median 3.7d and average 13.3d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -106,11 +106,11 @@
   "DS-Sprint 25-26": {
    "done": [
     13,
-    27
+    28
    ],
    "open": [
-    11,
-    21
+    10,
+    20
    ],
    "out": [
     1,
@@ -158,9 +158,9 @@
    "dist": {
     "Ready for Development": 4,
     "Backlog": 1,
-    "Closed": 15,
+    "Closed": 16,
     "In Development": 5,
-    "Awaiting Review": 2
+    "Awaiting Review": 1
    },
    "stalled": 13,
    "worst": 13.68,
@@ -189,20 +189,20 @@
  },
  "CAP": {
   "9.10": [
-   20,
-   18,
-   34,
+   21,
+   19,
+   35,
    2
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 3.34,
-   "avg": 11.48,
-   "n": 16,
-   "mx": 41.69,
+   "med": 3.67,
+   "avg": 13.26,
+   "n": 17,
+   "mx": 41.75,
    "nodev": 4,
-   "base": 20
+   "base": 21
   }
  },
  "complete": false,
