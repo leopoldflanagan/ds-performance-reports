@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 26,
+  "closed": 27,
   "discarded": 0,
-  "resolved": 26,
-  "unplanned": 8,
-  "unp_pct": 30.8,
+  "resolved": 27,
+  "unplanned": 9,
+  "unp_pct": 33.3,
   "types": [
    [
     "Story",
-    26
+    27
    ]
   ],
   "sprints": [
@@ -25,6 +25,10 @@
    "DS-Sprint 26-26"
   ],
   "unp_items": [
+   [
+    "DS-820",
+    "Payments DB: add payment-webhook-dbl identities to API_dbaccess_3 + EXECUTE on pr_PurgeOutboxMessages (PAY-5161, replaces DIS-2206)"
+   ],
    [
     "DS-819",
     "CCBs 11/10/2026"
@@ -62,10 +66,10 @@
   "day": 10,
   "days": 28,
   "status": "risk",
-  "headline": "26 items closed in the first 10 days, a pace of about 73 for the month against 42 last month. Unplanned work at 30.8% of everything closed.",
+  "headline": "27 items closed in the first 10 days, a pace of about 76 for the month against 42 last month. Unplanned work at 33.3% of everything closed.",
   "notes": [
-   "unplanned work at 30.8% of everything closed",
-   "cycle time median 3.7d and average 12.0d, both past the healthy band"
+   "unplanned work at 33.3% of everything closed",
+   "cycle time median 3.3d and average 11.4d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -121,7 +125,7 @@
    "Nov 9",
    "Nov 23",
    18,
-   6,
+   7,
    39,
    40,
    9,
@@ -161,11 +165,11 @@
   },
   "DS-Sprint 26-26": {
    "done": [
-    6,
+    7,
     9
    ],
    "open": [
-    12,
+    11,
     31
    ],
    "out": [
@@ -232,11 +236,11 @@
    "tis": {
     "In Development": {
      "n": 9,
-     "med": 12.37
+     "med": 1.08
     },
     "Closed": {
-     "n": 6,
-     "med": 13.02
+     "n": 7,
+     "med": 12.63
     },
     "Backlog": {
      "n": 3,
@@ -252,13 +256,13 @@
     }
    },
    "dist": {
-    "In Development": 5,
-    "Closed": 6,
+    "Closed": 7,
     "Backlog": 3,
+    "In Development": 4,
     "Ready for Development": 3,
     "Awaiting Review": 1
    },
-   "stalled": 12,
+   "stalled": 11,
    "worst": 13.63,
    "worstSt": "Ready for Development",
    "items": 18
@@ -291,7 +295,7 @@
  },
  "CAP": {
   "9.10": [
-   26,
+   27,
    24,
    44,
    2
@@ -299,12 +303,12 @@
  },
  "CYC": {
   "9.10": {
-   "med": 3.67,
-   "avg": 11.97,
-   "n": 21,
+   "med": 3.34,
+   "avg": 11.43,
+   "n": 22,
    "mx": 41.75,
    "nodev": 5,
-   "base": 26
+   "base": 27
   }
  },
  "complete": false,

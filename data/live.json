@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T22:15:23Z",
+ "generated": "2026-11-10T22:30:22Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -397,7 +397,7 @@
   "end": "2026-11-23",
   "goal": "",
   "items": 18,
-  "items_done": 6,
+  "items_done": 7,
   "committed": 39,
   "final": 40,
   "completed": 9,
@@ -405,7 +405,7 @@
   "vs_commitment": 23,
   "time_elapsed": 9,
   "spill": {
-   "open_items": 12,
+   "open_items": 11,
    "open_pts": 31.0,
    "out_items": 0,
    "out_pts": 0,
@@ -419,9 +419,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 5,
-   "Closed": 6,
+   "Closed": 7,
    "Backlog": 3,
+   "In Development": 4,
    "Ready for Development": 3,
    "Awaiting Review": 1
   },
@@ -453,10 +453,10 @@
   "end": "2026-11-22",
   "day": 16,
   "days": 28,
-  "closed": 26,
+  "closed": 27,
   "points": 44,
-  "unplanned": 8,
-  "unplanned_pct": 30.8,
+  "unplanned": 9,
+  "unplanned_pct": 33.3,
   "access_requests": 0,
   "people_active": 2,
   "sprints": [
@@ -484,27 +484,15 @@
    },
    {
     "status": "In Development",
-    "open": 5,
-    "med_age": 7.3,
+    "open": 4,
+    "med_age": 7.8,
     "max_age": 12.3,
     "worst_key": "DS-576",
     "worst_sum": "Mirror remaining tables for Platform",
     "worst_who": "Carlos Parra",
     "over": 3,
-    "clear_med": 2.8,
-    "clear_n": 98
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "clear_med": 2.7,
+    "clear_n": 99
    },
    {
     "status": "Awaiting Review",
@@ -517,12 +505,24 @@
     "over": 0,
     "clear_med": 2.6,
     "clear_n": 15
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 39
   },
-  "open_total": 12,
+  "open_total": 11,
   "stale": 9,
   "worst": "Ready for Development"
  }
