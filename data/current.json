@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 23,
+  "closed": 24,
   "discarded": 0,
-  "resolved": 23,
-  "unplanned": 6,
-  "unp_pct": 26.1,
+  "resolved": 24,
+  "unplanned": 7,
+  "unp_pct": 29.2,
   "types": [
    [
     "Story",
-    23
+    24
    ]
   ],
   "sprints": [
@@ -25,6 +25,10 @@
    "DS-Sprint 26-26"
   ],
   "unp_items": [
+   [
+    "DS-817",
+    "CCBs 11/9/2026"
+   ],
    [
     "DS-813",
     "Load 28 plans to Stage"
@@ -54,10 +58,10 @@
   "day": 10,
   "days": 28,
   "status": "risk",
-  "headline": "23 items closed in the first 10 days, a pace of about 64 for the month against 42 last month. Unplanned work at 26.1% of everything closed.",
+  "headline": "24 items closed in the first 10 days, a pace of about 67 for the month against 42 last month. Unplanned work at 29.2% of everything closed.",
   "notes": [
-   "unplanned work at 26.1% of everything closed",
-   "cycle time median 4.7d and average 13.7d, both past the healthy band"
+   "unplanned work at 29.2% of everything closed",
+   "cycle time median 3.7d and average 13.0d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -113,17 +117,19 @@
    "Nov 9",
    "Nov 23",
    16,
-   3,
-   39,
-   39,
    4,
+   39,
+   39,
+   6,
    0,
    [
     37.0,
-    35.0
+    33.0,
+    33.0
    ],
    [
     37.0,
+    39.0,
     39.0
    ]
   ]
@@ -151,12 +157,12 @@
   },
   "DS-Sprint 26-26": {
    "done": [
-    3,
-    4
+    4,
+    6
    ],
    "open": [
-    13,
-    35
+    12,
+    33
    ],
    "out": [
     0,
@@ -220,6 +226,10 @@
      "n": 6,
      "med": 13.63
     },
+    "Closed": {
+     "n": 4,
+     "med": 13.42
+    },
     "Backlog": {
      "n": 3,
      "med": 13.63
@@ -228,23 +238,19 @@
      "n": 5,
      "med": 13.63
     },
-    "Closed": {
-     "n": 3,
-     "med": 13.44
-    },
     "Awaiting Review": {
      "n": 1,
      "med": 13.63
     }
    },
    "dist": {
-    "In Development": 5,
+    "Closed": 4,
     "Backlog": 3,
     "Ready for Development": 4,
-    "Closed": 3,
+    "In Development": 4,
     "Awaiting Review": 1
    },
-   "stalled": 13,
+   "stalled": 12,
    "worst": 13.63,
    "worstSt": "In Development",
    "items": 16
@@ -271,25 +277,26 @@
   ],
   "DS-Sprint 26-26": [
    37.0,
-   35.0
+   33.0,
+   33.0
   ]
  },
  "CAP": {
   "9.10": [
-   23,
-   21,
-   39,
+   24,
+   22,
+   41,
    2
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 4.72,
-   "avg": 13.65,
-   "n": 18,
+   "med": 3.67,
+   "avg": 12.97,
+   "n": 19,
    "mx": 41.75,
    "nodev": 5,
-   "base": 23
+   "base": 24
   }
  },
  "complete": false,
