@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T14:30:24Z",
+ "generated": "2026-11-10T14:36:37Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -475,12 +475,12 @@
    {
     "status": "In Development",
     "open": 5,
-    "med_age": 6.9,
+    "med_age": 7.0,
     "max_age": 12.0,
     "worst_key": "DS-576",
     "worst_sum": "Mirror remaining tables for Platform",
     "worst_who": "Carlos Parra",
-    "over": 2,
+    "over": 3,
     "clear_med": 2.9,
     "clear_n": 95
    },
@@ -513,7 +513,7 @@
    "Backlog": 39
   },
   "open_total": 13,
-  "stale": 8,
+  "stale": 9,
   "worst": "Ready for Development"
  }
 }
