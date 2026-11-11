@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T21:30:25Z",
+ "generated": "2026-11-11T21:36:20Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -488,26 +488,14 @@
    {
     "status": "In Development",
     "open": 3,
-    "med_age": 0.2,
-    "max_age": 1.1,
+    "med_age": 0.3,
+    "max_age": 1.2,
     "worst_key": "DS-814",
     "worst_sum": "Reports for Smile Brands",
     "worst_who": "Tharika Bairi",
     "over": 0,
     "clear_med": 3.0,
     "clear_n": 102
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.6,
-    "clear_n": 15
    },
    {
     "status": "On Hold",
@@ -520,6 +508,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.6,
+    "clear_n": 15
    }
   ],
   "parked": {
