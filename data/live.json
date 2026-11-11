@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T16:37:05Z",
+ "generated": "2026-11-11T16:45:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -477,13 +477,25 @@
     "status": "Ready for Development",
     "open": 10,
     "med_age": 20.9,
-    "max_age": 190.8,
+    "max_age": 190.9,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 5,
     "clear_med": 3.9,
     "clear_n": 108
+   },
+   {
+    "status": "In Development",
+    "open": 3,
+    "med_age": 0.1,
+    "max_age": 0.9,
+    "worst_key": "DS-814",
+    "worst_sum": "Reports for Smile Brands",
+    "worst_who": "Tharika Bairi",
+    "over": 0,
+    "clear_med": 3.0,
+    "clear_n": 102
    },
    {
     "status": "On Hold",
@@ -508,18 +520,6 @@
     "over": 0,
     "clear_med": 2.6,
     "clear_n": 15
-   },
-   {
-    "status": "In Development",
-    "open": 3,
-    "med_age": 0.0,
-    "max_age": 0.9,
-    "worst_key": "DS-814",
-    "worst_sum": "Reports for Smile Brands",
-    "worst_who": "Tharika Bairi",
-    "over": 0,
-    "clear_med": 3.0,
-    "clear_n": 102
    }
   ],
   "parked": {
