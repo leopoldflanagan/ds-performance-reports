@@ -242,7 +242,7 @@
    "tis": {
     "In Development": {
      "n": 13,
-     "med": 1.98
+     "med": 1.18
     },
     "Backlog": {
      "n": 4,
@@ -257,19 +257,19 @@
      "med": 12.54
     },
     "Awaiting Review": {
-     "n": 1,
-     "med": 13.63
+     "n": 2,
+     "med": 12.05
     }
    },
    "dist": {
-    "In Development": 4,
+    "In Development": 3,
     "Ready for Development": 7,
     "Closed": 9,
-    "Backlog": 2,
-    "Awaiting Review": 1
+    "Awaiting Review": 2,
+    "Backlog": 2
    },
    "stalled": 14,
-   "worst": 13.63,
+   "worst": 12.05,
    "worstSt": "Awaiting Review",
    "items": 23
   }
