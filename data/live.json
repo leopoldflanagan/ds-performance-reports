@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T04:36:51Z",
+ "generated": "2026-11-12T04:45:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -477,7 +477,7 @@
     "status": "Ready for Development",
     "open": 10,
     "med_age": 21.4,
-    "max_age": 191.3,
+    "max_age": 191.4,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
@@ -488,7 +488,7 @@
    {
     "status": "In Development",
     "open": 3,
-    "med_age": 0.5,
+    "med_age": 0.6,
     "max_age": 1.4,
     "worst_key": "DS-814",
     "worst_sum": "Reports for Smile Brands",
