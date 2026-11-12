@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T18:15:18Z",
+ "generated": "2026-11-12T18:30:26Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -159,8 +159,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 7,
-   "points": 22
+   "items": 6,
+   "points": 21
   },
   "misfiled": {
    "items": 14,
@@ -202,18 +202,18 @@
   "day": 4,
   "days": 14,
   "n": 21,
-  "done_now": 11,
+  "done_now": 12,
   "committed": 41,
-  "lo": 28,
-  "mid": 45,
-  "hi": 64,
-  "pct": 110,
+  "lo": 31,
+  "mid": 49,
+  "hi": 70,
+  "pct": 120,
   "verdict": "on track for the commitment",
   "share_mid": 0.247
  },
  "admin": {
   "scope": {
-   "ready": 11,
+   "ready": 10,
    "sprint": 21,
    "sprint_name": "DS-Sprint 26-26"
   },
@@ -346,16 +346,16 @@
       "summary": "Plan alternative solution for long running SPs in platform"
      },
      {
-      "key": "DS-711",
-      "summary": "Wellfit Cedar Gate Coordination for Upcoming SFTP Change"
-     },
-     {
       "key": "DS-576",
       "summary": "Mirror remaining tables for Platform"
      },
      {
       "key": "DS-756",
       "summary": "Data services-Set up and configure SFTP for CREG for report delivery"
+     },
+     {
+      "key": "DS-711",
+      "summary": "Wellfit Cedar Gate Coordination for Upcoming SFTP Change"
      },
      {
       "key": "DS-682",
@@ -408,19 +408,19 @@
   "end": "2026-11-23",
   "goal": "",
   "items": 22,
-  "items_done": 8,
+  "items_done": 9,
   "committed": 41,
   "final": 49,
-  "completed": 11,
+  "completed": 12,
   "scope_change": 20,
-  "vs_commitment": 27,
+  "vs_commitment": 29,
   "time_elapsed": 23,
   "spill": {
-   "open_items": 14,
-   "open_pts": 38.0,
+   "open_items": 13,
+   "open_pts": 37.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 11.0
+   "done_pts": 12.0
   },
   "recv": {
    "items": 8,
@@ -430,8 +430,8 @@
   },
   "spill_rate": null,
   "dist": {
-   "Ready for Development": 8,
-   "Closed": 8,
+   "Ready for Development": 7,
+   "Closed": 9,
    "In Development": 3,
    "Backlog": 2,
    "Awaiting Review": 1
@@ -441,7 +441,7 @@
    35.0,
    38.0,
    38.0,
-   38.0
+   37.0
   ],
   "scope": [
    39.0,
@@ -455,7 +455,7 @@
    35.0,
    38.0,
    38.0,
-   38.0
+   37.0
   ],
   "days": 14,
   "day": 4,
@@ -470,10 +470,10 @@
   "end": "2026-11-22",
   "day": 18,
   "days": 28,
-  "closed": 28,
-  "points": 46,
+  "closed": 29,
+  "points": 47,
   "unplanned": 10,
-  "unplanned_pct": 35.7,
+  "unplanned_pct": 34.5,
   "access_requests": 0,
   "people_active": 2,
   "sprints": [
@@ -489,15 +489,15 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 11,
-    "med_age": 6.0,
+    "open": 10,
+    "med_age": 22.0,
     "max_age": 191.9,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
     "over": 5,
     "clear_med": 3.9,
-    "clear_n": 108
+    "clear_n": 109
    },
    {
     "status": "In Development",
@@ -512,18 +512,6 @@
     "clear_n": 103
    },
    {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 2.6,
-    "clear_n": 15
-   },
-   {
     "status": "On Hold",
     "open": 0,
     "med_age": 0,
@@ -534,12 +522,24 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 2.6,
+    "clear_n": 15
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 14,
+  "open_total": 13,
   "stale": 5,
   "worst": "Ready for Development"
  }

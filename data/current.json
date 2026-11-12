@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 28,
+  "closed": 29,
   "discarded": 0,
-  "resolved": 28,
+  "resolved": 29,
   "unplanned": 10,
-  "unp_pct": 35.7,
+  "unp_pct": 34.5,
   "types": [
    [
     "Story",
-    28
+    29
    ]
   ],
   "sprints": [
@@ -70,10 +70,10 @@
   "day": 12,
   "days": 28,
   "status": "risk",
-  "headline": "28 items closed in the first 12 days, a pace of about 65 for the month against 42 last month. Unplanned work at 35.7% of everything closed.",
+  "headline": "29 items closed in the first 12 days, a pace of about 68 for the month against 42 last month. Unplanned work at 34.5% of everything closed.",
   "notes": [
-   "unplanned work at 35.7% of everything closed",
-   "cycle time median 3.0d and average 10.9d, both past the healthy band"
+   "unplanned work at 34.5% of everything closed",
+   "cycle time median 3.3d and average 10.9d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -129,17 +129,17 @@
    "Nov 9",
    "Nov 23",
    22,
-   8,
+   9,
    41,
    49,
-   11,
+   12,
    20,
    [
     39.0,
     35.0,
     38.0,
     38.0,
-    38.0
+    37.0
    ],
    [
     39.0,
@@ -173,12 +173,12 @@
   },
   "DS-Sprint 26-26": {
    "done": [
-    8,
-    11
+    9,
+    12
    ],
    "open": [
-    14,
-    38
+    13,
+    37
    ],
    "out": [
     0,
@@ -229,8 +229,8 @@
     }
    },
    "dist": {
-    "Ready for Development": 7,
-    "Closed": 19,
+    "Ready for Development": 6,
+    "Closed": 20,
     "Awaiting Review": 1
    },
    "stalled": 10,
@@ -253,8 +253,8 @@
      "med": 1.53
     },
     "Closed": {
-     "n": 8,
-     "med": 12.59
+     "n": 9,
+     "med": 12.54
     },
     "Awaiting Review": {
      "n": 1,
@@ -262,13 +262,13 @@
     }
    },
    "dist": {
-    "Ready for Development": 8,
-    "Closed": 8,
+    "Ready for Development": 7,
+    "Closed": 9,
     "In Development": 3,
     "Backlog": 2,
     "Awaiting Review": 1
    },
-   "stalled": 14,
+   "stalled": 13,
    "worst": 13.63,
    "worstSt": "Awaiting Review",
    "items": 22
@@ -298,25 +298,25 @@
    35.0,
    38.0,
    38.0,
-   38.0
+   37.0
   ]
  },
  "CAP": {
   "9.10": [
-   28,
-   25,
-   46,
+   29,
+   26,
+   47,
    2
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 3.0,
-   "avg": 10.93,
-   "n": 23,
+   "med": 3.34,
+   "avg": 10.9,
+   "n": 24,
    "mx": 41.75,
    "nodev": 5,
-   "base": 28
+   "base": 29
   }
  },
  "complete": false,
