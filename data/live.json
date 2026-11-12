@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T22:10:52Z",
+ "generated": "2026-11-12T22:30:25Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -179,7 +179,7 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 2,
+    "n": 3,
     "points": 7,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
@@ -213,7 +213,7 @@
  },
  "admin": {
   "scope": {
-   "ready": 10,
+   "ready": 11,
    "sprint": 22,
    "sprint_name": "DS-Sprint 26-26"
   },
@@ -221,8 +221,12 @@
    {
     "rule": "No estimate",
     "why": "the guide: a Groomed item must be estimated. Ready for Development without story points means planning is committing to an unknown.",
-    "n": 2,
+    "n": 3,
     "items": [
+     {
+      "key": "DS-825",
+      "summary": "Process refreshed Wave 1 & Wave 2 card token files from Careington/Chase"
+     },
      {
       "key": "DS-824",
       "summary": "Load Phase 4 ACH file from Careington"
@@ -236,8 +240,12 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 2,
+    "n": 3,
     "items": [
+     {
+      "key": "DS-825",
+      "summary": "Process refreshed Wave 1 & Wave 2 card token files from Careington/Chase"
+     },
      {
       "key": "DS-754",
       "summary": "1.4: CREG HR Report delivery - twice-monthly SFTP + email"
@@ -278,20 +286,20 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 25 of 25 items. This reads as a field the team does not use rather than 25 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 25,
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 25 of 25 items. This reads as a field the team does not use rather than 25 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 25,
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 25 of 25 items. This reads as a field the team does not use rather than 25 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 25,
+    "why": "missing on 26 of 26 items. This reads as a field the team does not use rather than 26 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 26,
     "items": []
    },
    {
@@ -423,11 +431,11 @@
   },
   "spill_rate": null,
   "dist": {
-   "In Development": 3,
+   "Awaiting Review": 3,
    "Ready for Development": 7,
    "Closed": 9,
-   "Awaiting Review": 2,
-   "Backlog": 2
+   "Backlog": 2,
+   "In Development": 2
   },
   "burn": [
    39.0,
@@ -482,8 +490,8 @@
   "rows": [
    {
     "status": "Ready for Development",
-    "open": 10,
-    "med_age": 22.1,
+    "open": 11,
+    "med_age": 6.1,
     "max_age": 192.1,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -494,8 +502,8 @@
    },
    {
     "status": "In Development",
-    "open": 3,
-    "med_age": 1.3,
+    "open": 2,
+    "med_age": 1.8,
     "max_age": 2.2,
     "worst_key": "DS-814",
     "worst_sum": "Reports for Smile Brands",
@@ -503,18 +511,6 @@
     "over": 0,
     "clear_med": 2.9,
     "clear_n": 103
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -527,10 +523,22 @@
     "over": 0,
     "clear_med": 2.6,
     "clear_n": 15
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
-   "Backlog": 39
+   "Backlog": 38
   },
   "open_total": 13,
   "stale": 5,
