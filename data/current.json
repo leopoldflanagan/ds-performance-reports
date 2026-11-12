@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 27,
+  "closed": 28,
   "discarded": 0,
-  "resolved": 27,
-  "unplanned": 9,
-  "unp_pct": 33.3,
+  "resolved": 28,
+  "unplanned": 10,
+  "unp_pct": 35.7,
   "types": [
    [
     "Story",
-    27
+    28
    ]
   ],
   "sprints": [
@@ -25,6 +25,10 @@
    "DS-Sprint 26-26"
   ],
   "unp_items": [
+   [
+    "DS-822",
+    "Pull Requests and prod support for 11/11/2026"
+   ],
    [
     "DS-820",
     "Payments DB: add payment-webhook-dbl identities to API_dbaccess_3 + EXECUTE on pr_PurgeOutboxMessages (PAY-5161, replaces DIS-2206)"
@@ -66,10 +70,10 @@
   "day": 12,
   "days": 28,
   "status": "risk",
-  "headline": "27 items closed in the first 12 days, a pace of about 63 for the month against 42 last month. Unplanned work at 33.3% of everything closed.",
+  "headline": "28 items closed in the first 12 days, a pace of about 65 for the month against 42 last month. Unplanned work at 35.7% of everything closed.",
   "notes": [
-   "unplanned work at 33.3% of everything closed",
-   "cycle time median 3.3d and average 11.4d, both past the healthy band"
+   "unplanned work at 35.7% of everything closed",
+   "cycle time median 3.0d and average 10.9d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -124,12 +128,12 @@
    "DS-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   20,
-   7,
+   21,
+   8,
    39,
-   45,
-   9,
-   15,
+   47,
+   11,
+   21,
    [
     37.0,
     33.0,
@@ -140,7 +144,7 @@
     37.0,
     39.0,
     45.0,
-    45.0
+    47.0
    ]
   ]
  ],
@@ -167,8 +171,8 @@
   },
   "DS-Sprint 26-26": {
    "done": [
-    7,
-    9
+    8,
+    11
    ],
    "open": [
     13,
@@ -193,9 +197,9 @@
    "pct": 20
   },
   "DS-Sprint 26-26": {
-   "react": 3,
+   "react": 4,
    "plan": 1,
-   "pct": 75
+   "pct": 80
   }
  },
  "TIS": {
@@ -235,12 +239,12 @@
   "DS-Sprint 26-26": {
    "tis": {
     "In Development": {
-     "n": 11,
-     "med": 1.98
+     "n": 12,
+     "med": 1.53
     },
     "Closed": {
-     "n": 7,
-     "med": 12.63
+     "n": 8,
+     "med": 12.59
     },
     "Backlog": {
      "n": 3,
@@ -256,8 +260,8 @@
     }
    },
    "dist": {
+    "Closed": 8,
     "In Development": 3,
-    "Closed": 7,
     "Backlog": 2,
     "Ready for Development": 7,
     "Awaiting Review": 1
@@ -265,7 +269,7 @@
    "stalled": 13,
    "worst": 13.63,
    "worstSt": "Awaiting Review",
-   "items": 20
+   "items": 21
   }
  },
  "GHOST": {
@@ -296,20 +300,20 @@
  },
  "CAP": {
   "9.10": [
-   27,
-   24,
-   44,
+   28,
+   25,
+   46,
    2
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 3.34,
-   "avg": 11.43,
-   "n": 22,
+   "med": 3.0,
+   "avg": 10.93,
+   "n": 23,
    "mx": 41.75,
    "nodev": 5,
-   "base": 27
+   "base": 28
   }
  },
  "complete": false,
