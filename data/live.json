@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T00:00:25Z",
+ "generated": "2026-11-13T00:15:18Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -415,7 +415,7 @@
   "completed": 12,
   "scope_change": 20,
   "vs_commitment": 29,
-  "time_elapsed": 24,
+  "time_elapsed": 25,
   "spill": {
    "open_items": 14,
    "open_pts": 37.0,
