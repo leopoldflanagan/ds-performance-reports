@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 29,
+  "closed": 30,
   "discarded": 0,
-  "resolved": 29,
-  "unplanned": 10,
-  "unp_pct": 34.5,
+  "resolved": 30,
+  "unplanned": 11,
+  "unp_pct": 36.7,
   "types": [
    [
     "Story",
-    29
+    30
    ]
   ],
   "sprints": [
@@ -25,6 +25,10 @@
    "DS-Sprint 26-26"
   ],
   "unp_items": [
+   [
+    "DS-823",
+    "[DB Access Request] Request for access to QA Datafactory"
+   ],
    [
     "DS-822",
     "Pull Requests and prod support for 11/11/2026"
@@ -70,9 +74,9 @@
   "day": 13,
   "days": 28,
   "status": "risk",
-  "headline": "29 items closed in the first 13 days, a pace of about 62 for the month against 42 last month. Unplanned work at 34.5% of everything closed.",
+  "headline": "30 items closed in the first 13 days, a pace of about 65 for the month against 42 last month. Unplanned work at 36.7% of everything closed.",
   "notes": [
-   "unplanned work at 34.5% of everything closed",
+   "unplanned work at 36.7% of everything closed",
    "cycle time median 3.3d and average 10.9d, both past the healthy band"
   ]
  },
@@ -129,24 +133,24 @@
    "Nov 9",
    "Nov 23",
    23,
-   9,
-   41,
-   49,
-   12,
+   10,
+   40,
+   48,
+   13,
    20,
    [
-    39.0,
-    35.0,
     38.0,
-    38.0,
-    37.0
+    34.0,
+    37.0,
+    37.0,
+    35.0
    ],
    [
-    39.0,
-    41.0,
-    47.0,
-    49.0,
-    49.0
+    38.0,
+    40.0,
+    46.0,
+    48.0,
+    48.0
    ]
   ]
  ],
@@ -173,12 +177,12 @@
   },
   "DS-Sprint 26-26": {
    "done": [
-    9,
-    12
+    10,
+    13
    ],
    "open": [
-    14,
-    37
+    13,
+    35
    ],
    "out": [
     0,
@@ -188,7 +192,7 @@
     8,
     20
    ],
-   "in_pct": 49,
+   "in_pct": 50,
    "in_from": "DS-Sprint 25-26"
   }
  },
@@ -257,18 +261,18 @@
      "med": 11.64
     },
     "Closed": {
-     "n": 9,
-     "med": 12.54
+     "n": 10,
+     "med": 12.46
     }
    },
    "dist": {
     "Awaiting Review": 3,
-    "Ready for Development": 7,
-    "Closed": 9,
+    "Closed": 10,
     "Backlog": 2,
-    "In Development": 2
+    "In Development": 2,
+    "Ready for Development": 6
    },
-   "stalled": 14,
+   "stalled": 13,
    "worst": 11.64,
    "worstSt": "Ready for Development",
    "items": 23
@@ -294,18 +298,18 @@
    22.0
   ],
   "DS-Sprint 26-26": [
-   39.0,
-   35.0,
    38.0,
-   38.0,
-   37.0
+   34.0,
+   37.0,
+   37.0,
+   35.0
   ]
  },
  "CAP": {
   "9.10": [
-   29,
-   26,
-   47,
+   30,
+   27,
+   48,
    2
   ]
  },
@@ -315,8 +319,8 @@
    "avg": 10.9,
    "n": 24,
    "mx": 41.75,
-   "nodev": 5,
-   "base": 29
+   "nodev": 6,
+   "base": 30
   }
  },
  "complete": false,
