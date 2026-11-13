@@ -235,7 +235,8 @@
     }
    },
    "dist": {
-    "Ready for Development": 6,
+    "In Development": 1,
+    "Ready for Development": 5,
     "Closed": 20,
     "Awaiting Review": 1
    },
@@ -247,8 +248,8 @@
   "DS-Sprint 26-26": {
    "tis": {
     "In Development": {
-     "n": 13,
-     "med": 1.08
+     "n": 14,
+     "med": 1.13
     },
     "Awaiting Review": {
      "n": 3,
@@ -260,7 +261,7 @@
     },
     "Ready for Development": {
      "n": 11,
-     "med": 11.64
+     "med": 4.09
     },
     "Closed": {
      "n": 10,
@@ -271,12 +272,12 @@
     "Awaiting Review": 3,
     "Closed": 10,
     "Backlog": 2,
-    "In Development": 2,
-    "Ready for Development": 6
+    "In Development": 3,
+    "Ready for Development": 5
    },
    "stalled": 13,
-   "worst": 11.64,
-   "worstSt": "Ready for Development",
+   "worst": 10.47,
+   "worstSt": "Awaiting Review",
    "items": 23
   }
  },
