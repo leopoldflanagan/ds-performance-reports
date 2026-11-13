@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T14:15:19Z",
+ "generated": "2026-11-13T14:30:32Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -503,8 +503,8 @@
    {
     "status": "In Development",
     "open": 2,
-    "med_age": 2.3,
-    "max_age": 2.8,
+    "med_age": 2.5,
+    "max_age": 2.9,
     "worst_key": "DS-814",
     "worst_sum": "Reports for Smile Brands",
     "worst_who": "Tharika Bairi",
