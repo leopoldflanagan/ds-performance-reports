@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T23:45:18Z",
+ "generated": "2026-11-16T00:00:26Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 7,
+  "day": 8,
   "days": 14,
   "n": 21,
   "done_now": 13,
   "committed": 42,
-  "lo": 25,
-  "mid": 33,
-  "hi": 46,
-  "pct": 79,
+  "lo": 22,
+  "mid": 25,
+  "hi": 33,
+  "pct": 60,
   "verdict": "well short of the commitment",
-  "share_mid": 0.393
+  "share_mid": 0.519
  },
  "admin": {
   "scope": {
@@ -387,6 +387,12 @@
     "items": []
    },
    {
+    "rule": "The next sprint has not been created",
+    "why": "DS-Sprint 26-26 ends in 7 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
+    "n": 1,
+    "items": []
+   },
+   {
     "rule": "Release 9.06 has two different windows on the schedule",
     "why": "the feature-freeze column gives 2026-06-22 to 2026-07-26 and the dev-window column gives 2026-06-22 to 2026-08-02. The calendar keeps what it already had; the page needs one of the two corrected.",
     "n": 1,
@@ -472,7 +478,7 @@
    37.0
   ],
   "days": 14,
-  "day": 7,
+  "day": 8,
   "capacity": null
  },
  "next": null,
@@ -482,7 +488,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 21,
+  "day": 22,
   "days": 28,
   "closed": 30,
   "points": 48,
@@ -505,7 +511,7 @@
     "status": "Ready for Development",
     "open": 10,
     "med_age": 22.8,
-    "max_age": 195.1,
+    "max_age": 195.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
@@ -516,8 +522,8 @@
    {
     "status": "In Development",
     "open": 3,
-    "med_age": 4.3,
-    "max_age": 5.2,
+    "med_age": 4.4,
+    "max_age": 5.3,
     "worst_key": "DS-814",
     "worst_sum": "Reports for Smile Brands",
     "worst_who": "Tharika Bairi",
