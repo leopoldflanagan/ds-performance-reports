@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 32,
+  "closed": 34,
   "discarded": 0,
-  "resolved": 32,
-  "unplanned": 12,
-  "unp_pct": 37.5,
+  "resolved": 34,
+  "unplanned": 14,
+  "unp_pct": 41.2,
   "types": [
    [
     "Story",
-    32
+    34
    ]
   ],
   "sprints": [
@@ -25,6 +25,14 @@
    "DS-Sprint 26-26"
   ],
   "unp_items": [
+   [
+    "DS-831",
+    "Promote plans to Stage 11/16/2026"
+   ],
+   [
+    "DS-829",
+    "Decrypt/Encrypt file for WorldPay"
+   ],
    [
     "DS-823",
     "[DB Access Request] Request for access to QA Datafactory"
@@ -78,10 +86,10 @@
   "day": 16,
   "days": 28,
   "status": "risk",
-  "headline": "32 items closed in the first 16 days, a pace of about 56 for the month against 42 last month. Unplanned work at 37.5% of everything closed.",
+  "headline": "34 items closed in the first 16 days, a pace of about 60 for the month against 42 last month. Unplanned work at 41.2% of everything closed.",
   "notes": [
-   "unplanned work at 37.5% of everything closed",
-   "cycle time median 4.3d and average 14.2d, both past the healthy band"
+   "unplanned work at 41.2% of everything closed",
+   "cycle time median 3.3d and average 13.2d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -136,11 +144,11 @@
    "DS-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   28,
-   12,
+   29,
+   14,
    44,
    56,
-   18,
+   20,
    27,
    [
     42.0,
@@ -151,7 +159,7 @@
     39.0,
     39.0,
     36.0,
-    38.0
+    36.0
    ],
    [
     42.0,
@@ -189,12 +197,12 @@
   },
   "DS-Sprint 26-26": {
    "done": [
-    12,
-    18
+    14,
+    20
    ],
    "open": [
-    16,
-    38
+    15,
+    36
    ],
    "out": [
     0,
@@ -215,9 +223,9 @@
    "pct": 20
   },
   "DS-Sprint 26-26": {
-   "react": 7,
+   "react": 8,
    "plan": 2,
-   "pct": 78
+   "pct": 80
   }
  },
  "TIS": {
@@ -257,6 +265,14 @@
   },
   "DS-Sprint 26-26": {
    "tis": {
+    "In Development": {
+     "n": 20,
+     "med": 1.58
+    },
+    "Closed": {
+     "n": 14,
+     "med": 11.51
+    },
     "Backlog": {
      "n": 6,
      "med": 5.68
@@ -265,30 +281,22 @@
      "n": 14,
      "med": 4.55
     },
-    "In Development": {
-     "n": 19,
-     "med": 1.98
-    },
     "Awaiting Review": {
      "n": 3,
      "med": 10.36
-    },
-    "Closed": {
-     "n": 12,
-     "med": 12.37
     }
    },
    "dist": {
+    "Closed": 14,
     "Ready for Development": 6,
-    "In Development": 6,
+    "In Development": 5,
     "Awaiting Review": 2,
-    "Closed": 12,
     "Backlog": 2
    },
-   "stalled": 16,
+   "stalled": 15,
    "worst": 10.36,
    "worstSt": "Awaiting Review",
-   "items": 28
+   "items": 29
   }
  },
  "GHOST": {
@@ -319,25 +327,25 @@
    39.0,
    39.0,
    36.0,
-   38.0
+   36.0
   ]
  },
  "CAP": {
   "9.10": [
-   32,
-   29,
-   53,
+   34,
+   30,
+   55,
    2
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 4.31,
-   "avg": 14.18,
-   "n": 26,
+   "med": 3.34,
+   "avg": 13.17,
+   "n": 28,
    "mx": 102.07,
    "nodev": 6,
-   "base": 32
+   "base": 34
   }
  },
  "complete": false,
