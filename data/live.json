@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T15:30:24Z",
+ "generated": "2026-11-16T15:43:27Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -159,8 +159,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 6,
-   "points": 21
+   "items": 5,
+   "points": 18
   },
   "misfiled": {
    "items": 14,
@@ -202,19 +202,19 @@
   "day": 8,
   "days": 14,
   "n": 21,
-  "done_now": 13,
+  "done_now": 18,
   "committed": 42,
-  "lo": 22,
-  "mid": 25,
-  "hi": 33,
-  "pct": 60,
-  "verdict": "well short of the commitment",
+  "lo": 31,
+  "mid": 35,
+  "hi": 46,
+  "pct": 83,
+  "verdict": "a little short of the commitment",
   "share_mid": 0.519
  },
  "admin": {
   "scope": {
    "ready": 10,
-   "sprint": 23,
+   "sprint": 24,
    "sprint_name": "DS-Sprint 26-26"
   },
   "blocking": [
@@ -259,12 +259,8 @@
    {
     "rule": "No assignee in the active sprint",
     "why": "work in the sprint that nobody owns.",
-    "n": 2,
+    "n": 1,
     "items": [
-     {
-      "key": "DS-826",
-      "summary": "[DB Access Request] Request for access to QA  Db analytics "
-     },
      {
       "key": "DS-823",
       "summary": "[DB Access Request] Request for access to QA Datafactory"
@@ -290,27 +286,31 @@
   "debt": [
    {
     "rule": "Fix version is not in use",
-    "why": "missing on 27 of 27 items. This reads as a field the team does not use rather than 27 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 27,
+    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 28,
     "items": []
    },
    {
     "rule": "Original estimate is not in use",
-    "why": "missing on 27 of 27 items. This reads as a field the team does not use rather than 27 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 27,
+    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 28,
     "items": []
    },
    {
     "rule": "Target end date is not in use",
-    "why": "missing on 27 of 27 items. This reads as a field the team does not use rather than 27 oversights. Worth deciding: adopt it or stop asking for it.",
-    "n": 27,
+    "why": "missing on 28 of 28 items. This reads as a field the team does not use rather than 28 oversights. Worth deciding: adopt it or stop asking for it.",
+    "n": 28,
     "items": []
    },
    {
     "rule": "Assignee is not on the roster",
     "why": "the capacity page lists the team; this work is assigned outside it.",
-    "n": 7,
+    "n": 8,
     "items": [
+     {
+      "key": "DS-827",
+      "summary": "Fix Master ETL in QA"
+     },
      {
       "key": "DS-814",
       "summary": "Reports for Smile Brands"
@@ -351,10 +351,6 @@
       "summary": "Plan alternative solution for long running SPs in platform"
      },
      {
-      "key": "DS-576",
-      "summary": "Mirror remaining tables for Platform"
-     },
-     {
       "key": "DS-756",
       "summary": "Data services-Set up and configure SFTP for CREG for report delivery"
      },
@@ -365,6 +361,10 @@
      {
       "key": "DS-682",
       "summary": "Troubleshoot and finish ETL for EDW in preprod"
+     },
+     {
+      "key": "DS-576",
+      "summary": "Mirror remaining tables for Platform"
      },
      {
       "key": "DS-448",
@@ -418,20 +418,20 @@
   "start": "2026-11-09",
   "end": "2026-11-23",
   "goal": "",
-  "items": 24,
-  "items_done": 10,
+  "items": 25,
+  "items_done": 12,
   "committed": 42,
-  "final": 50,
-  "completed": 13,
-  "scope_change": 19,
-  "vs_commitment": 31,
+  "final": 52,
+  "completed": 18,
+  "scope_change": 24,
+  "vs_commitment": 43,
   "time_elapsed": 51,
   "spill": {
-   "open_items": 14,
-   "open_pts": 37.0,
+   "open_items": 13,
+   "open_pts": 34.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 13.0
+   "done_pts": 18.0
   },
   "recv": {
    "items": 8,
@@ -441,11 +441,11 @@
   },
   "spill_rate": null,
   "dist": {
+   "In Development": 3,
    "Ready for Development": 6,
-   "Awaiting Review": 3,
-   "Closed": 10,
-   "Backlog": 2,
-   "In Development": 3
+   "Awaiting Review": 2,
+   "Closed": 12,
+   "Backlog": 2
   },
   "burn": [
    40.0,
@@ -455,7 +455,7 @@
    37.0,
    37.0,
    37.0,
-   37.0
+   34.0
   ],
   "scope": [
    40.0,
@@ -465,7 +465,7 @@
    50.0,
    50.0,
    50.0,
-   50.0
+   52.0
   ],
   "ghost": [
    40.0,
@@ -475,7 +475,7 @@
    37.0,
    37.0,
    37.0,
-   37.0
+   34.0
   ],
   "days": 14,
   "day": 8,
@@ -490,10 +490,10 @@
   "end": "2026-11-22",
   "day": 22,
   "days": 28,
-  "closed": 30,
-  "points": 48,
-  "unplanned": 11,
-  "unplanned_pct": 36.7,
+  "closed": 32,
+  "points": 53,
+  "unplanned": 12,
+  "unplanned_pct": 37.5,
   "access_requests": 1,
   "people_active": 2,
   "sprints": [
@@ -517,19 +517,7 @@
     "worst_who": "Carlos Parra",
     "over": 5,
     "clear_med": 4.0,
-    "clear_n": 108
-   },
-   {
-    "status": "In Development",
-    "open": 3,
-    "med_age": 5.0,
-    "max_age": 5.9,
-    "worst_key": "DS-814",
-    "worst_sum": "Reports for Smile Brands",
-    "worst_who": "Tharika Bairi",
-    "over": 0,
-    "clear_med": 2.9,
-    "clear_n": 103
+    "clear_n": 109
    },
    {
     "status": "On Hold",
@@ -544,6 +532,18 @@
     "clear_n": 6
    },
    {
+    "status": "In Development",
+    "open": 3,
+    "med_age": 0.0,
+    "max_age": 5.9,
+    "worst_key": "DS-814",
+    "worst_sum": "Reports for Smile Brands",
+    "worst_who": "Tharika Bairi",
+    "over": 0,
+    "clear_med": 2.9,
+    "clear_n": 106
+   },
+   {
     "status": "Awaiting Review",
     "open": 0,
     "med_age": 0,
@@ -552,8 +552,8 @@
     "worst_sum": "",
     "worst_who": "",
     "over": 0,
-    "clear_med": 2.6,
-    "clear_n": 15
+    "clear_med": 3.2,
+    "clear_n": 16
    }
   ],
   "parked": {

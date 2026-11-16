@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 30,
+  "closed": 32,
   "discarded": 0,
-  "resolved": 30,
-  "unplanned": 11,
-  "unp_pct": 36.7,
+  "resolved": 32,
+  "unplanned": 12,
+  "unp_pct": 37.5,
   "types": [
    [
     "Story",
-    30
+    32
    ]
   ],
   "sprints": [
@@ -32,6 +32,10 @@
    [
     "DS-822",
     "Pull Requests and prod support for 11/11/2026"
+   ],
+   [
+    "DS-821",
+    "Load Phase 3 ACH file from Careington"
    ],
    [
     "DS-820",
@@ -74,10 +78,10 @@
   "day": 16,
   "days": 28,
   "status": "risk",
-  "headline": "30 items closed in the first 16 days, a pace of about 52 for the month against 42 last month. Unplanned work at 36.7% of everything closed.",
+  "headline": "32 items closed in the first 16 days, a pace of about 56 for the month against 42 last month. Unplanned work at 37.5% of everything closed.",
   "notes": [
-   "unplanned work at 36.7% of everything closed",
-   "cycle time median 3.3d and average 10.9d, both past the healthy band"
+   "unplanned work at 37.5% of everything closed",
+   "cycle time median 4.3d and average 14.2d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -132,12 +136,12 @@
    "DS-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   24,
-   10,
+   25,
+   12,
    42,
-   50,
-   13,
-   19,
+   52,
+   18,
+   24,
    [
     40.0,
     36.0,
@@ -146,7 +150,7 @@
     37.0,
     37.0,
     37.0,
-    37.0
+    34.0
    ],
    [
     40.0,
@@ -156,7 +160,7 @@
     50.0,
     50.0,
     50.0,
-    50.0
+    52.0
    ]
   ]
  ],
@@ -183,12 +187,12 @@
   },
   "DS-Sprint 26-26": {
    "done": [
-    10,
-    13
+    12,
+    18
    ],
    "open": [
-    14,
-    37
+    13,
+    34
    ],
    "out": [
     0,
@@ -210,8 +214,8 @@
   },
   "DS-Sprint 26-26": {
    "react": 5,
-   "plan": 1,
-   "pct": 83
+   "plan": 2,
+   "pct": 71
   }
  },
  "TIS": {
@@ -239,10 +243,10 @@
     }
    },
    "dist": {
-    "In Development": 1,
     "Ready for Development": 5,
     "Closed": 20,
-    "Awaiting Review": 1
+    "Awaiting Review": 1,
+    "In Development": 1
    },
    "stalled": 10,
    "worst": 13.98,
@@ -251,38 +255,38 @@
   },
   "DS-Sprint 26-26": {
    "tis": {
+    "In Development": {
+     "n": 16,
+     "med": 1.58
+    },
     "Backlog": {
      "n": 5,
      "med": 4.18
     },
     "Ready for Development": {
-     "n": 12,
-     "med": 6.76
-    },
-    "In Development": {
-     "n": 14,
-     "med": 1.13
+     "n": 13,
+     "med": 5.0
     },
     "Awaiting Review": {
      "n": 3,
-     "med": 10.47
+     "med": 10.36
     },
     "Closed": {
-     "n": 10,
-     "med": 12.46
+     "n": 12,
+     "med": 12.37
     }
    },
    "dist": {
+    "In Development": 3,
     "Ready for Development": 6,
-    "Awaiting Review": 3,
-    "Closed": 10,
-    "Backlog": 2,
-    "In Development": 3
+    "Awaiting Review": 2,
+    "Closed": 12,
+    "Backlog": 2
    },
-   "stalled": 14,
-   "worst": 10.47,
+   "stalled": 13,
+   "worst": 10.36,
    "worstSt": "Awaiting Review",
-   "items": 24
+   "items": 25
   }
  },
  "GHOST": {
@@ -312,25 +316,25 @@
    37.0,
    37.0,
    37.0,
-   37.0
+   34.0
   ]
  },
  "CAP": {
   "9.10": [
-   30,
-   27,
-   48,
+   32,
+   29,
+   53,
    2
   ]
  },
  "CYC": {
   "9.10": {
-   "med": 3.34,
-   "avg": 10.9,
-   "n": 24,
-   "mx": 41.75,
+   "med": 4.31,
+   "avg": 14.18,
+   "n": 26,
+   "mx": 102.07,
    "nodev": 6,
-   "base": 30
+   "base": 32
   }
  },
  "complete": false,
