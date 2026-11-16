@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T20:15:19Z",
+ "generated": "2026-11-16T20:30:25Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -532,7 +532,7 @@
    },
    {
     "status": "In Development",
-    "open": 6,
+    "open": 7,
     "med_age": 0.2,
     "max_age": 6.1,
     "worst_key": "DS-814",
@@ -570,7 +570,7 @@
   "parked": {
    "Backlog": 38
   },
-  "open_total": 16,
+  "open_total": 17,
   "stale": 5,
   "worst": "Ready for Development"
  }
