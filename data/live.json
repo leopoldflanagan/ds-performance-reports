@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T16:00:29Z",
+ "generated": "2026-11-16T16:13:21Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -560,7 +560,7 @@
    }
   ],
   "parked": {
-   "Backlog": 38
+   "Backlog": 39
   },
   "open_total": 13,
   "stale": 5,
