@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T15:30:25Z",
+ "generated": "2026-11-17T15:36:35Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -202,13 +202,13 @@
   "day": 9,
   "days": 14,
   "n": 21,
-  "done_now": 20,
+  "done_now": 23,
   "committed": 44,
-  "lo": 30,
-  "mid": 34,
-  "hi": 40,
-  "pct": 77,
-  "verdict": "well short of the commitment",
+  "lo": 34,
+  "mid": 39,
+  "hi": 46,
+  "pct": 89,
+  "verdict": "a little short of the commitment",
   "share_mid": 0.588
  },
  "admin": {
@@ -431,19 +431,19 @@
   "end": "2026-11-23",
   "goal": "",
   "items": 29,
-  "items_done": 14,
+  "items_done": 15,
   "committed": 44,
   "final": 56,
-  "completed": 20,
+  "completed": 23,
   "scope_change": 27,
-  "vs_commitment": 45,
+  "vs_commitment": 52,
   "time_elapsed": 59,
   "spill": {
-   "open_items": 14,
-   "open_pts": 34.0,
+   "open_items": 13,
+   "open_pts": 31.0,
    "out_items": 0,
    "out_pts": 0,
-   "done_pts": 22.0
+   "done_pts": 25.0
   },
   "recv": {
    "items": 8,
@@ -453,9 +453,9 @@
   },
   "spill_rate": null,
   "dist": {
-   "Closed": 14,
+   "Closed": 15,
    "Won't Do": 1,
-   "In Development": 5,
+   "In Development": 4,
    "Awaiting Review": 2,
    "Backlog": 2,
    "Ready for Development": 5
@@ -469,7 +469,7 @@
    39.0,
    39.0,
    36.0,
-   36.0
+   33.0
   ],
   "scope": [
    42.0,
@@ -491,7 +491,7 @@
    39.0,
    39.0,
    36.0,
-   36.0
+   33.0
   ],
   "days": 14,
   "day": 9,
@@ -506,10 +506,10 @@
   "end": "2026-11-22",
   "day": 23,
   "days": 28,
-  "closed": 34,
-  "points": 55,
+  "closed": 35,
+  "points": 58,
   "unplanned": 14,
-  "unplanned_pct": 41.2,
+  "unplanned_pct": 40.0,
   "access_requests": 1,
   "people_active": 2,
   "sprints": [
@@ -537,27 +537,15 @@
    },
    {
     "status": "In Development",
-    "open": 5,
+    "open": 4,
     "med_age": 1.0,
     "max_age": 6.9,
     "worst_key": "DS-814",
     "worst_sum": "Reports for Smile Brands",
     "worst_who": "Tharika Bairi",
     "over": 0,
-    "clear_med": 2.8,
-    "clear_n": 108
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
+    "clear_med": 2.7,
+    "clear_n": 109
    },
    {
     "status": "Awaiting Review",
@@ -570,12 +558,24 @@
     "over": 0,
     "clear_med": 3.2,
     "clear_n": 16
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
    "Backlog": 38
   },
-  "open_total": 14,
+  "open_total": 13,
   "stale": 5,
   "worst": "Ready for Development"
  }
