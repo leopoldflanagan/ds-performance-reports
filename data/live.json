@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T16:45:20Z",
+ "generated": "2026-11-18T17:00:28Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -532,7 +532,7 @@
    {
     "status": "Ready for Development",
     "open": 8,
-    "med_age": 31.0,
+    "med_age": 31.1,
     "max_age": 197.9,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -545,7 +545,7 @@
     "status": "In Development",
     "open": 6,
     "med_age": 2.0,
-    "max_age": 7.9,
+    "max_age": 8.0,
     "worst_key": "DS-814",
     "worst_sum": "Reports for Smile Brands",
     "worst_who": "Tharika Bairi",
