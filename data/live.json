@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T15:15:21Z",
+ "generated": "2026-11-18T15:37:03Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -431,7 +431,7 @@
   "end": "2026-11-23",
   "goal": "",
   "items": 29,
-  "items_done": 15,
+  "items_done": 16,
   "committed": 44,
   "final": 56,
   "completed": 23,
@@ -439,7 +439,7 @@
   "vs_commitment": 52,
   "time_elapsed": 66,
   "spill": {
-   "open_items": 13,
+   "open_items": 12,
    "open_pts": 31.0,
    "out_items": 0,
    "out_pts": 0,
@@ -453,12 +453,12 @@
   },
   "spill_rate": null,
   "dist": {
-   "Closed": 15,
+   "Closed": 16,
    "Won't Do": 1,
    "In Development": 5,
-   "Awaiting Review": 2,
    "Backlog": 2,
-   "Ready for Development": 4
+   "Ready for Development": 4,
+   "Awaiting Review": 1
   },
   "burn": [
    42.0,
@@ -509,10 +509,10 @@
   "end": "2026-11-22",
   "day": 24,
   "days": 28,
-  "closed": 35,
+  "closed": 36,
   "points": 58,
-  "unplanned": 14,
-  "unplanned_pct": 40.0,
+  "unplanned": 15,
+  "unplanned_pct": 41.7,
   "access_requests": 1,
   "people_active": 2,
   "sprints": [
@@ -547,20 +547,8 @@
     "worst_sum": "Reports for Smile Brands",
     "worst_who": "Tharika Bairi",
     "over": 1,
-    "clear_med": 2.7,
-    "clear_n": 109
-   },
-   {
-    "status": "Awaiting Review",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 3.2,
-    "clear_n": 16
+    "clear_med": 2.4,
+    "clear_n": 110
    },
    {
     "status": "On Hold",
@@ -573,6 +561,18 @@
     "over": 0,
     "clear_med": 41.9,
     "clear_n": 6
+   },
+   {
+    "status": "Awaiting Review",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 3.8,
+    "clear_n": 17
    }
   ],
   "parked": {

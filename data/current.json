@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 35,
+  "closed": 36,
   "discarded": 1,
-  "resolved": 36,
-  "unplanned": 14,
-  "unp_pct": 40.0,
+  "resolved": 37,
+  "unplanned": 15,
+  "unp_pct": 41.7,
   "types": [
    [
     "Story",
-    35
+    36
    ]
   ],
   "sprints": [
@@ -32,6 +32,10 @@
    [
     "DS-829",
     "Decrypt/Encrypt file for WorldPay"
+   ],
+   [
+    "DS-824",
+    "Load Phase 4 ACH file from Careington"
    ],
    [
     "DS-823",
@@ -86,10 +90,10 @@
   "day": 18,
   "days": 28,
   "status": "risk",
-  "headline": "35 items closed in the first 18 days, a pace of about 54 for the month against 42 last month. Unplanned work at 40.0% of everything closed.",
+  "headline": "36 items closed in the first 18 days, a pace of about 56 for the month against 42 last month. Unplanned work at 41.7% of everything closed.",
   "notes": [
-   "unplanned work at 40.0% of everything closed",
-   "cycle time median 3.7d and average 16.5d, both past the healthy band"
+   "unplanned work at 41.7% of everything closed",
+   "cycle time median 4.3d and average 16.1d, both past the healthy band"
   ]
  },
  "SPRINTS": [
@@ -145,7 +149,7 @@
    "Nov 9",
    "Nov 23",
    29,
-   15,
+   16,
    44,
    56,
    23,
@@ -199,11 +203,11 @@
   },
   "DS-Sprint 26-26": {
    "done": [
-    15,
+    16,
     25
    ],
    "open": [
-    13,
+    12,
     31
    ],
    "out": [
@@ -272,8 +276,8 @@
      "med": 1.18
     },
     "Closed": {
-     "n": 15,
-     "med": 10.66
+     "n": 16,
+     "med": 10.59
     },
     "Backlog": {
      "n": 6,
@@ -289,19 +293,19 @@
     },
     "Awaiting Review": {
      "n": 3,
-     "med": 10.36
+     "med": 5.72
     }
    },
    "dist": {
-    "Closed": 15,
+    "Closed": 16,
     "Won't Do": 1,
     "In Development": 5,
-    "Awaiting Review": 2,
     "Backlog": 2,
-    "Ready for Development": 4
+    "Ready for Development": 4,
+    "Awaiting Review": 1
    },
-   "stalled": 13,
-   "worst": 10.36,
+   "stalled": 12,
+   "worst": 5.72,
    "worstSt": "Awaiting Review",
    "items": 29
   }
@@ -340,7 +344,7 @@
  },
  "CAP": {
   "9.10": [
-   35,
+   36,
    31,
    58,
    2
@@ -348,12 +352,12 @@
  },
  "CYC": {
   "9.10": {
-   "med": 3.67,
-   "avg": 16.51,
-   "n": 29,
+   "med": 4.31,
+   "avg": 16.15,
+   "n": 30,
    "mx": 110.04,
    "nodev": 6,
-   "base": 35
+   "base": 36
   }
  },
  "complete": false,
