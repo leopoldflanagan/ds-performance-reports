@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T23:45:18Z",
+ "generated": "2026-11-19T00:00:27Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 10,
+  "day": 11,
   "days": 14,
   "n": 21,
   "done_now": 25,
   "committed": 44,
-  "lo": 33,
-  "mid": 37,
-  "hi": 45,
-  "pct": 84,
+  "lo": 28,
+  "mid": 36,
+  "hi": 42,
+  "pct": 82,
   "verdict": "a little short of the commitment",
-  "share_mid": 0.679
+  "share_mid": 0.686
  },
  "admin": {
   "scope": {
@@ -392,7 +392,7 @@
    },
    {
     "rule": "The next sprint has not been created",
-    "why": "DS-Sprint 26-26 ends in 5 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
+    "why": "DS-Sprint 26-26 ends in 4 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
     "n": 1,
     "items": []
    },
@@ -429,7 +429,7 @@
   "completed": 25,
   "scope_change": 39,
   "vs_commitment": 57,
-  "time_elapsed": 68,
+  "time_elapsed": 69,
   "spill": {
    "open_items": 13,
    "open_pts": 34.0,
@@ -492,7 +492,7 @@
    36.0
   ],
   "days": 14,
-  "day": 10,
+  "day": 11,
   "capacity": null
  },
  "next": null,
@@ -502,7 +502,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 24,
+  "day": 25,
   "days": 28,
   "closed": 37,
   "points": 60,
@@ -525,7 +525,7 @@
     "status": "Ready for Development",
     "open": 7,
     "med_age": 55.3,
-    "max_age": 198.1,
+    "max_age": 198.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
@@ -537,7 +537,7 @@
     "status": "In Development",
     "open": 7,
     "med_age": 2.3,
-    "max_age": 8.2,
+    "max_age": 8.3,
     "worst_key": "DS-814",
     "worst_sum": "Reports for Smile Brands",
     "worst_who": "Tharika Bairi",
