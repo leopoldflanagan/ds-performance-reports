@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T05:36:55Z",
+ "generated": "2026-11-19T06:15:20Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -524,7 +524,7 @@
    {
     "status": "Ready for Development",
     "open": 7,
-    "med_age": 55.5,
+    "med_age": 55.6,
     "max_age": 198.4,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
@@ -536,7 +536,7 @@
    {
     "status": "In Development",
     "open": 7,
-    "med_age": 2.5,
+    "med_age": 2.6,
     "max_age": 8.5,
     "worst_key": "DS-814",
     "worst_sum": "Reports for Smile Brands",
