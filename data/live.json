@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T14:00:29Z",
+ "generated": "2026-11-19T14:12:45Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -159,8 +159,8 @@
    "fat": "> 2.5 sprints"
   },
   "ready": {
-   "items": 4,
-   "points": 14
+   "items": 5,
+   "points": 19
   },
   "misfiled": {
    "items": 14,
@@ -179,8 +179,8 @@
    },
    {
     "rule": "Idea/Draft sitting in Ready for Development",
-    "n": 2,
-    "points": 7,
+    "n": 1,
+    "points": 2,
     "why": "the guide: Idea/Draft cannot be Ready for Development. It counts as ready to pull when it is not defined."
    },
    {
@@ -244,12 +244,8 @@
    {
     "rule": "Idea/Draft in Ready for Development",
     "why": "the guide does not allow it: it counts as ready to pull when it is not defined.",
-    "n": 2,
+    "n": 1,
     "items": [
-     {
-      "key": "DS-754",
-      "summary": "1.4: CREG HR Report delivery - twice-monthly SFTP + email"
-     },
      {
       "key": "DS-724",
       "summary": "Plan alternative solution for long running SPs in platform"
