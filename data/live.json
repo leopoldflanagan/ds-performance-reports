@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T13:11:52Z",
+ "generated": "2026-11-20T13:30:24Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -539,7 +539,7 @@
    {
     "status": "In Development",
     "open": 6,
-    "med_age": 3.3,
+    "med_age": 3.4,
     "max_age": 9.8,
     "worst_key": "DS-814",
     "worst_sum": "Reports for Smile Brands",
@@ -547,18 +547,6 @@
     "over": 1,
     "clear_med": 2.4,
     "clear_n": 112
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -571,6 +559,18 @@
     "over": 0,
     "clear_med": 3.8,
     "clear_n": 17
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
