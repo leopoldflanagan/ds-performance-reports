@@ -9,15 +9,15 @@
   "end": "2026-11-22",
   "prev": "",
   "prev_closed": 42,
-  "closed": 38,
+  "closed": 39,
   "discarded": 1,
-  "resolved": 39,
+  "resolved": 40,
   "unplanned": 16,
-  "unp_pct": 42.1,
+  "unp_pct": 41.0,
   "types": [
    [
     "Story",
-    38
+    39
    ]
   ],
   "sprints": [
@@ -94,9 +94,9 @@
   "day": 20,
   "days": 28,
   "status": "risk",
-  "headline": "38 items closed in the first 20 days, a pace of about 53 for the month against 42 last month. Unplanned work at 42.1% of everything closed.",
+  "headline": "39 items closed in the first 20 days, a pace of about 55 for the month against 42 last month. Unplanned work at 41.0% of everything closed.",
   "notes": [
-   "unplanned work at 42.1% of everything closed",
+   "unplanned work at 41.0% of everything closed",
    "cycle time median 3.3d and average 15.2d, both past the healthy band"
   ]
  },
@@ -152,8 +152,8 @@
    "DS-Sprint 26-26",
    "Nov 9",
    "Nov 23",
-   32,
-   18,
+   33,
+   19,
    46,
    63,
    27,
@@ -211,7 +211,7 @@
   },
   "DS-Sprint 26-26": {
    "done": [
-    18,
+    19,
     29
    ],
    "open": [
@@ -280,20 +280,20 @@
   "DS-Sprint 26-26": {
    "tis": {
     "Backlog": {
-     "n": 7,
-     "med": 7.17
+     "n": 8,
+     "med": 8.64
     },
     "Ready for Development": {
-     "n": 16,
-     "med": 3.19
+     "n": 17,
+     "med": 2.85
+    },
+    "Closed": {
+     "n": 19,
+     "med": 10.12
     },
     "In Development": {
      "n": 23,
      "med": 1.18
-    },
-    "Closed": {
-     "n": 18,
-     "med": 10.32
     },
     "Won't Do": {
      "n": 1,
@@ -305,8 +305,8 @@
     }
    },
    "dist": {
+    "Closed": 19,
     "Ready for Development": 5,
-    "Closed": 18,
     "Won't Do": 1,
     "In Development": 5,
     "Backlog": 2,
@@ -315,7 +315,7 @@
    "stalled": 13,
    "worst": 5.72,
    "worstSt": "Awaiting Review",
-   "items": 32
+   "items": 33
   }
  },
  "GHOST": {
@@ -354,7 +354,7 @@
  },
  "CAP": {
   "9.10": [
-   38,
+   39,
    33,
    62,
    2
@@ -366,8 +366,8 @@
    "avg": 15.24,
    "n": 32,
    "mx": 110.04,
-   "nodev": 6,
-   "base": 38
+   "nodev": 7,
+   "base": 39
   }
  },
  "complete": false,
