@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T12:00:27Z",
+ "generated": "2026-11-21T12:15:20Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -546,7 +546,7 @@
    {
     "status": "In Development",
     "open": 7,
-    "med_age": 3.8,
+    "med_age": 3.9,
     "max_age": 10.8,
     "worst_key": "DS-814",
     "worst_sum": "Reports for Smile Brands",
