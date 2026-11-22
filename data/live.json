@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T23:30:26Z",
+ "generated": "2026-11-22T00:00:27Z",
  "team": "DS",
  "board": 257,
  "kind": "active",
@@ -199,17 +199,17 @@
  },
  "projection": {
   "too_early": false,
-  "day": 13,
+  "day": 14,
   "days": 14,
   "n": 21,
   "done_now": 27,
   "committed": 46,
-  "lo": 30,
-  "mid": 37,
-  "hi": 44,
-  "pct": 80,
-  "verdict": "a little short of the commitment",
-  "share_mid": 0.735
+  "lo": 27,
+  "mid": 27,
+  "hi": 27,
+  "pct": 59,
+  "verdict": "well short of the commitment",
+  "share_mid": 1.0
  },
  "admin": {
   "scope": {
@@ -396,7 +396,7 @@
    },
    {
     "rule": "The next sprint has not been created",
-    "why": "DS-Sprint 26-26 ends in 2 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
+    "why": "DS-Sprint 26-26 ends in 1 days and the board holds no future sprint after it. When this one closes the active sprint view has nothing to move on to.",
     "n": 1,
     "items": []
    },
@@ -433,7 +433,7 @@
   "completed": 27,
   "scope_change": 43,
   "vs_commitment": 59,
-  "time_elapsed": 90,
+  "time_elapsed": 91,
   "spill": {
    "open_items": 14,
    "open_pts": 37.0,
@@ -505,7 +505,7 @@
    39.0
   ],
   "days": 14,
-  "day": 13,
+  "day": 14,
   "capacity": null
  },
  "next": null,
@@ -515,7 +515,7 @@
   "kind": "release",
   "start": "2026-10-26",
   "end": "2026-11-22",
-  "day": 27,
+  "day": 28,
   "days": 28,
   "closed": 39,
   "points": 62,
@@ -537,8 +537,8 @@
    {
     "status": "Ready for Development",
     "open": 8,
-    "med_age": 34.3,
-    "max_age": 201.1,
+    "med_age": 34.4,
+    "max_age": 201.2,
     "worst_key": "DS-495",
     "worst_sum": "Inventory ETLs everywhere",
     "worst_who": "Carlos Parra",
@@ -550,25 +550,13 @@
     "status": "In Development",
     "open": 7,
     "med_age": 4.3,
-    "max_age": 11.2,
+    "max_age": 11.3,
     "worst_key": "DS-814",
     "worst_sum": "Reports for Smile Brands",
     "worst_who": "Tharika Bairi",
     "over": 1,
     "clear_med": 2.4,
     "clear_n": 112
-   },
-   {
-    "status": "On Hold",
-    "open": 0,
-    "med_age": 0,
-    "max_age": 0,
-    "worst_key": "",
-    "worst_sum": "",
-    "worst_who": "",
-    "over": 0,
-    "clear_med": 41.9,
-    "clear_n": 6
    },
    {
     "status": "Awaiting Review",
@@ -581,6 +569,18 @@
     "over": 0,
     "clear_med": 3.8,
     "clear_n": 17
+   },
+   {
+    "status": "On Hold",
+    "open": 0,
+    "med_age": 0,
+    "max_age": 0,
+    "worst_key": "",
+    "worst_sum": "",
+    "worst_who": "",
+    "over": 0,
+    "clear_med": 41.9,
+    "clear_n": 6
    }
   ],
   "parked": {
